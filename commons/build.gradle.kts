@@ -51,17 +51,11 @@ android {
 
     flavorDimensions += "distribution"
     productFlavors {
-        create("gplay") { dimension = "distribution" }
         create("foss") { dimension = "distribution" }
-        create("rustore") { dimension = "distribution" }
-        create("hms") { dimension = "distribution" }
     }
 
     publishing {
-        singleVariant("gplayRelease") {}
         singleVariant("fossRelease") {}
-        singleVariant("rustoreRelease") {}
-        singleVariant("hmsRelease") {}
     }
 
     buildFeatures {
@@ -107,17 +101,6 @@ android {
 afterEvaluate {
     publishing {
         publications {
-            create<MavenPublication>("gplayRelease") {
-                groupId = "com.github.goodwy.goodwy-commons"
-                artifactId = "commons-gplay"
-                version = project.version.toString()
-                from(components.getByName("gplayRelease"))
-                artifact(sourcesJar.get())
-                tasks.named("publishGplayReleasePublicationToMavenLocal") {
-                    dependsOn(tasks.named("assembleGplayRelease"))
-                }
-            }
-
             create<MavenPublication>("fossRelease") {
                 groupId = "com.github.goodwy.goodwy-commons"
                 artifactId = "commons-foss"
@@ -126,28 +109,6 @@ afterEvaluate {
                 artifact(sourcesJar.get())
                 tasks.named("publishFossReleasePublicationToMavenLocal") {
                     dependsOn(tasks.named("assembleFossRelease"))
-                }
-            }
-
-            create<MavenPublication>("rustoreRelease") {
-                groupId = "com.github.goodwy.goodwy-commons"
-                artifactId = "commons-rustore"
-                version = project.version.toString()
-                from(components.getByName("rustoreRelease"))
-                artifact(sourcesJar.get())
-                tasks.named("publishRustoreReleasePublicationToMavenLocal") {
-                    dependsOn(tasks.named("assembleRustoreRelease"))
-                }
-            }
-
-            create<MavenPublication>("hmsRelease") {
-                groupId = "com.github.goodwy.goodwy-commons"
-                artifactId = "commons-hms"
-                version = project.version.toString()
-                from(components.getByName("hmsRelease"))
-                artifact(sourcesJar.get())
-                tasks.named("publishHmsReleasePublicationToMavenLocal") {
-                    dependsOn(tasks.named("assembleHmsRelease"))
                 }
             }
         }
@@ -197,13 +158,6 @@ dependencies {
 
     //Goodwy
     api(projects.strings)
-    "gplayImplementation"(libs.billing.client)
-    "rustoreImplementation"(libs.rustore.client)
-    "rustoreImplementation"(platform(libs.rustore.bom))
-    "rustoreImplementation"(libs.rustore.pay)
-    "hmsImplementation"(libs.hms.client)
-    "hmsImplementation"(libs.hms.appservice)
-    "hmsImplementation"(libs.hms.agconnect)
     api(libs.persian.date)
     api(libs.zxing.core)
     implementation(libs.behavio.rule)

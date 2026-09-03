@@ -922,13 +922,6 @@ class CustomizationActivity : BaseSimpleActivity() {
     }
 
     private fun pickPrimaryColor() {
-        if (
-            !packageName.startsWith("com.goodwy.", true) && baseConfig.appRunCount > 50 && !isNewApp()
-        ) {
-            finish()
-            return
-        }
-
         if (!isNewApp()) {
             curPrimaryGridColorPicker = GridColorPickerDialog(
                 activity = this,

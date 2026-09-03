@@ -105,7 +105,7 @@ class ManageBlockedNumbersActivity : BaseSimpleActivity() {
             val prefix = appPrefix()
             val dialer = if (isNewApp()) "goodwy.phone" else "goodwy.dialer"
             val isDialer = remember {
-                config.appId.startsWith(prefix + dialer)
+                config.appId.startsWith(prefix + dialer) || config.appId.startsWith("dev.chadhao.phone")
             }
             val isDefaultDialer: Boolean = onEventValue {
                 context.isDefaultDialer()
@@ -283,7 +283,9 @@ class ManageBlockedNumbersActivity : BaseSimpleActivity() {
 
     private fun maybeSetDefaultCallerIdApp() {
         val prefix = appPrefix()
-        if (isQPlus() && baseConfig.appId.startsWith(prefix + "goodwy.dialer")) {
+        if (isQPlus() &&
+            (baseConfig.appId.startsWith(prefix + "goodwy.dialer") || baseConfig.appId.startsWith("dev.chadhao.phone"))
+        ) {
             setDefaultCallerIdApp()
         }
     }

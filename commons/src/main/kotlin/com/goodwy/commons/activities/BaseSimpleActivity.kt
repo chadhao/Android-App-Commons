@@ -119,12 +119,6 @@ abstract class BaseSimpleActivity : EdgeToEdgeActivity() {
 
         if (isAutoTheme()) changeAutoTheme()
 
-        if (!packageName.startsWith("com.goodwy.", true) && !isNewApp()) {
-            if ((0..50).random() == 10 || baseConfig.appRunCount % 100 == 0) {
-                showModdedAppWarning()
-            }
-        }
-
         if (baseConfig.needInit) {
             lifecycleScope.launch {
                 val miuiCheckJob = launch {
@@ -734,13 +728,6 @@ abstract class BaseSimpleActivity : EdgeToEdgeActivity() {
         subscriptionYearIdListRu: ArrayList<String> = arrayListOf("", "", ""),
         showAppIconColor: Boolean = false
     ) {
-        if (!packageName.contains("ywdoog".reversed(), true)) {
-            if (baseConfig.appRunCount > 100) {
-                showModdedAppWarning()
-                return
-            }
-        }
-
         Intent(applicationContext, CustomizationActivity::class.java).apply {
             putExtra(APP_ICON_IDS, getAppIconIDs())
             putExtra(APP_LAUNCHER_NAME, getAppLauncherName())
@@ -779,10 +766,7 @@ abstract class BaseSimpleActivity : EdgeToEdgeActivity() {
     // synchronous return value determines only if we are showing the SAF dialog, callback result tells if the SD or OTG permission has been granted
     fun handleSAFDialog(path: String, callback: (success: Boolean) -> Unit): Boolean {
         hideKeyboard()
-        return if (!packageName.startsWith("com.goodwy") && !isNewApp()) {
-            callback(true)
-            false
-        } else if (isShowingSAFDialog(path) || isShowingOTGDialog(path)) {
+        return if (isShowingSAFDialog(path) || isShowingOTGDialog(path)) {
             funAfterSAFPermission = callback
             true
         } else {
@@ -797,10 +781,7 @@ abstract class BaseSimpleActivity : EdgeToEdgeActivity() {
         callback: (success: Boolean) -> Unit
     ): Boolean {
         hideKeyboard()
-        return if (!packageName.startsWith("com.goodwy") && !isNewApp()) {
-            callback(true)
-            false
-        } else if (isShowingSAFDialogSdk30(path, showRationale)) {
+        return if (isShowingSAFDialogSdk30(path, showRationale)) {
             funAfterSdk30Action = callback
             true
         } else {
@@ -827,10 +808,7 @@ abstract class BaseSimpleActivity : EdgeToEdgeActivity() {
         callback: (success: Boolean) -> Unit
     ): Boolean {
         hideKeyboard()
-        return if (!packageName.startsWith("com.goodwy") && !isNewApp()) {
-            callback(true)
-            false
-        } else if (isShowingSAFCreateDocumentDialogSdk30(path)) {
+        return if (isShowingSAFCreateDocumentDialogSdk30(path)) {
             funAfterSdk30Action = callback
             true
         } else {
@@ -845,10 +823,7 @@ abstract class BaseSimpleActivity : EdgeToEdgeActivity() {
         callback: (success: Boolean) -> Unit
     ): Boolean {
         hideKeyboard()
-        return if (!packageName.startsWith("com.goodwy") && !isNewApp()) {
-            callback(true)
-            false
-        } else if (isShowingAndroidSAFDialog(path, openInSystemAppAllowed)) {
+        return if (isShowingAndroidSAFDialog(path, openInSystemAppAllowed)) {
             funAfterSAFPermission = callback
             true
         } else {

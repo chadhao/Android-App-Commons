@@ -8,7 +8,6 @@ import android.view.WindowManager
 import androidx.activity.ComponentActivity
 import androidx.core.view.WindowCompat
 import androidx.core.view.WindowInsetsCompat
-import com.goodwy.commons.R
 import com.goodwy.commons.extensions.*
 import com.goodwy.commons.helpers.APP_ICON_ORIGINAL
 import com.goodwy.commons.helpers.isOreoMr1Plus
@@ -51,13 +50,6 @@ fun ComponentActivity.appLaunchedCompose(
     }
 
     baseConfig.appRunCount++
-    if (!isTalkBackOn()) {
-        if (baseConfig.appRunCount % 40 == 0 && !baseConfig.wasAppRated) {
-            if (!resources.getBoolean(R.bool.hide_google_relations)) {
-                showRateUsDialog()
-            }
-        }
-    }
 }
 
 fun ComponentActivity.checkWhatsNewCompose(releases: List<Release>, currVersion: Int, showWhatsNewDialog: (List<Release>) -> Unit) {
@@ -86,12 +78,7 @@ const val FAKE_VERSION_APP_LABEL =
 fun Context.fakeVersionCheck(
     showConfirmationDialog: () -> Unit
 ) {
-    if (!packageName.startsWith("com.goodwy.", true) && !isNewApp()
-    ) {
-        if ((0..50).random() == 10 || baseConfig.appRunCount % 100 == 0) {
-            showConfirmationDialog()
-        }
-    }
+    // No-op for the personal Chad build: no anti-modding dialog.
 }
 
 fun ComponentActivity.appOnSdCardCheckCompose(

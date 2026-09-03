@@ -730,31 +730,31 @@ open class BaseConfig(val context: Context) {
         set(closeSearch) = prefs.edit { putBoolean(OPEN_SEARCH, closeSearch) }
 
     var isPro: Boolean
-        get() = prefs.getBoolean(IS_PRO_VERSION, false)
+        get() = prefs.getBoolean(IS_PRO_VERSION, true)
         set(isPro) = prefs.edit { putBoolean(IS_PRO_VERSION, isPro) }
 
     var isProSubs: Boolean
-        get() = prefs.getBoolean(IS_PRO_SUBS_VERSION, false)
+        get() = prefs.getBoolean(IS_PRO_SUBS_VERSION, true)
         set(isProSubs) = prefs.edit { putBoolean(IS_PRO_SUBS_VERSION, isProSubs) }
 
     var isProRuStore: Boolean
-        get() = prefs.getBoolean(IS_PRO_RUSTORE_VERSION, false)
+        get() = prefs.getBoolean(IS_PRO_RUSTORE_VERSION, true)
         set(isProRuStore) = prefs.edit { putBoolean(IS_PRO_RUSTORE_VERSION, isProRuStore) }
 
     var isProRuStoreOld: Boolean
-        get() = prefs.getBoolean(IS_PRO_RUSTORE_OLD_VERSION, false)
+        get() = prefs.getBoolean(IS_PRO_RUSTORE_OLD_VERSION, true)
         set(isProRuStoreOld) = prefs.edit { putBoolean(IS_PRO_RUSTORE_OLD_VERSION, isProRuStoreOld) }
 
     var isProHms: Boolean
-        get() = prefs.getBoolean(IS_PRO_HMS_VERSION, false)
+        get() = prefs.getBoolean(IS_PRO_HMS_VERSION, true)
         set(isProHms) = prefs.edit { putBoolean(IS_PRO_HMS_VERSION, isProHms) }
 
     var isProSubsHms: Boolean
-        get() = prefs.getBoolean(IS_PRO_SUBS_HMS_VERSION, false)
+        get() = prefs.getBoolean(IS_PRO_SUBS_HMS_VERSION, true)
         set(isProSubsHms) = prefs.edit { putBoolean(IS_PRO_SUBS_HMS_VERSION, isProSubsHms) }
 
     var isProNoGP: Boolean
-        get() = prefs.getBoolean(IS_PRO_NO_GP_VERSION, false)
+        get() = prefs.getBoolean(IS_PRO_NO_GP_VERSION, true)
         set(isProNoGP) = prefs.edit { putBoolean(IS_PRO_NO_GP_VERSION, isProNoGP) }
 
     var simIconsColors: LinkedList<Int>

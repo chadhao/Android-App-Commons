@@ -241,13 +241,6 @@ internal fun AboutNewSection(
             }
             Spacer(modifier = Modifier.size(18.dp))
             AboutItem(
-                cardColor = MaterialTheme.colorScheme.primaryContainer,
-                text = stringResource(stringsR.string.tip_jar),
-                imageVector = Icons.Rounded.Savings,
-                onClick = onTipJarClick,
-            )
-            Spacer(modifier = Modifier.size(18.dp))
-            AboutItem(
                 text = stringResource(stringsR.string.participants_title),
                 imageVector = Icons.Rounded.Diversity3,
                 onClick = onContributorsClick,
@@ -275,20 +268,6 @@ internal fun AboutNewSection(
                         text = stringResource(R.string.github),
                         painter = painterResource(id = R.drawable.ic_github_vector),
                         onClick = onGithubClick,
-                    )
-                    Spacer(modifier = Modifier.size(14.dp))
-                    MyButton(
-                        context= context,
-                        text = stringResource(R.string.patreon),
-                        painter = painterResource(id = R.drawable.ic_patreon),
-                        onClick = onPatreonClick,
-                    )
-                    Spacer(modifier = Modifier.size(14.dp))
-                    MyButton(
-                        context= context,
-                        text = stringResource(R.string.buymeacoffee),
-                        painter = painterResource(id = R.drawable.ic_bmc),
-                        onClick = onBuyMeaCoffeeClick,
                     )
                     Spacer(modifier = Modifier.size(14.dp))
                     MyButton(

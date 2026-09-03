@@ -89,14 +89,6 @@ fun Activity.appLaunched(appId: String) {
     }
 
     baseConfig.appRunCount++
-
-    if (!baseConfig.wasAppRated) {
-        if (!isTalkBackOn()) {
-            if (baseConfig.appRunCount % 40 == 0) {
-                if (isPlayStoreInstalled() || isRuStoreInstalled()) RateStarsDialog(this)
-            }
-        }
-    }
 }
 
 fun Activity.isAppInstalledOnSDCard(): Boolean = try {
@@ -622,15 +614,6 @@ fun BaseSimpleActivity.launchCallIntent(recipient: String, handle: PhoneAccountH
                 putExtra(TelecomManager.EXTRA_PHONE_ACCOUNT_HANDLE, handle)
             }
             putExtra(IS_RIGHT_APP, key)
-
-            if (isDefaultDialer()) {
-                val prefix = appPrefix()
-                val dialer = if (isNewApp()) "goodwy.phone" else "goodwy.dialer"
-                val dialerDebug = if (isNewApp()) "goodwy.phone.debug" else "goodwy.dialer.debug"
-                val packageName = if (baseConfig.appId.contains(".debug", true)) prefix + dialerDebug else prefix + dialer
-                val className = "$prefix$dialer.activities.DialerActivity"
-                setClassName(packageName, className)
-            }
 
             launchActivityIntent(this)
         }

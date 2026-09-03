@@ -561,21 +561,9 @@ fun Context.canAccessGlobalConfig(): Boolean {
     return isPro() && ContextCompat.checkSelfPermission(this, PERMISSION_WRITE_GLOBAL_SETTINGS) == PERMISSION_GRANTED
 }
 
+// Personal Chad build: no separate "Thank You"/paid companion app exists, so treat it as always satisfied.
 fun Context.isOrWasThankYouInstalled(allowPretend: Boolean = true): Boolean {
-    return when {
-        isPackageInstalled("com.goodwy.audiobook")
-            || isPackageInstalled("com.goodwy.voicerecorder")
-            || isPackageInstalled("com.goodwy.files") -> {
-            if (!baseConfig.hadThankYouInstalled) {
-                baseConfig.hadThankYouInstalled = true
-            }
-            true
-        }
-
-        baseConfig.hadThankYouInstalled -> true
-        /*resources.getBoolean(R.bool.pretend_thank_you_installed) && */allowPretend -> true
-        else -> false
-    }
+    return true
 }
 
 fun PackageManager.isAppInstalled(packageName: String): Boolean =
@@ -1071,15 +1059,11 @@ val Context.realScreenSize: Point
         return size
     }
 
-// we need the Default Dialer functionality only in Simple Dialer and in Simple Contacts for now
+// Real check: is this host the system default dialer? No longer keyed off a specific package prefix.
 fun Context.isDefaultDialer(): Boolean {
-    return if (!packageName.startsWith("com.goodwy.contacts") && !packageName.startsWith("com.goodwy.dialer") &&
-        !packageName.startsWith("dev.goodwy.contacts") && !packageName.startsWith("dev.goodwy.phone")) {
-        true
-    } else if ((packageName.startsWith("com.goodwy.contacts") || packageName.startsWith("com.goodwy.dialer") ||
-            packageName.startsWith("dev.goodwy.contacts") || packageName.startsWith("dev.goodwy.phone")) && isQPlus()) {
-        val roleManager = getSystemService(RoleManager::class.java)
-        roleManager!!.isRoleAvailable(RoleManager.ROLE_DIALER) && roleManager.isRoleHeld(RoleManager.ROLE_DIALER)
+    return if (isQPlus()) {
+        val roleManager = getSystemService(RoleManager::class.java) ?: return false
+        roleManager.isRoleAvailable(RoleManager.ROLE_DIALER) && roleManager.isRoleHeld(RoleManager.ROLE_DIALER)
     } else {
         telecomManager.defaultDialerPackage == packageName
     }
@@ -1622,18 +1606,8 @@ fun Context.isRuStoreInstalled(): Boolean {
     return isPackageInstalled("ru.vk.store")
 }
 
-fun Context.isPro() =
-    if (isNewApp()) {
-        if (resources.getBoolean(R.bool.is_foss)) baseConfig.isProNoGP
-        else baseConfig.isPro || baseConfig.isProSubs ||
-            baseConfig.isProRuStore || baseConfig.isProRuStoreOld ||
-            baseConfig.isProHms || baseConfig.isProSubsHms
-    } else {
-        baseConfig.isPro || baseConfig.isProSubs ||
-            baseConfig.isProRuStore || baseConfig.isProRuStoreOld ||
-            baseConfig.isProHms || baseConfig.isProSubsHms ||
-            (resources.getBoolean(R.bool.using_no_gp) && baseConfig.isProNoGP)
-    }
+// Personal Chad build: every app is a Pro build, no billing/entitlement checks.
+fun Context.isPro(): Boolean = true
 
 fun Context.isCollection(): Boolean {
     val prefix = appPrefix()
@@ -1679,11 +1653,7 @@ fun Context.sysLocale(): Locale? {
 private fun getSystemLocale(config: Configuration) = config.locales.get(0)
 
 fun Context.googlePlayDevUrlRes(): Int {
-    return when {
-        packageName.startsWith("dev.goodwy") -> R.string.google_play_dev_url
-        packageName.startsWith("com.goodwy") -> R.string.google_play_dev_url_old
-        else -> R.string.google_play_dev_url_fake
-    }
+    return R.string.google_play_dev_url
 }
 
 fun Context.googlePlayDevUrlString(): String {
@@ -1691,11 +1661,7 @@ fun Context.googlePlayDevUrlString(): String {
 }
 
 fun Context.myMailRes(): Int {
-    return when {
-        packageName.startsWith("dev.goodwy") -> R.string.my_email
-        packageName.startsWith("com.goodwy") -> R.string.my_email_old
-        else -> R.string.my_fake_email
-    }
+    return R.string.my_email
 }
 
 fun Context.getMyMailString(): String {
@@ -1710,4 +1676,5 @@ fun Context.getDividerColor(): Int {
     }
 }
 
-fun Context.isNewApp(): Boolean = packageName.startsWith("dev.goodwy.", true)
+// Personal Chad build: every consuming host is treated as a first-party "new" app, regardless of package prefix.
+fun Context.isNewApp(): Boolean = true
