@@ -102,8 +102,8 @@
     <string name="color">颜色</string>
     <string name="black">黑</string>
     <string name="black_locked">黑（锁定）</string>
-    <string name="show_dividers">顯示分隔線</string>
-    <string name="colored_contacts">聯繫人彩色圖示</string>
+    <string name="show_dividers">显示分隔线</string>
+    <string name="colored_contacts">联系人彩色图示</string>
     <string name="contact_color_list">联系人颜色列表</string>
     <string name="transparent_navigation_bar">Transparent bottom navigation bar</string>
     <string name="kids_mode">Kids mode</string>
@@ -155,20 +155,20 @@
     <string name="ripple_g">脉动</string>
     <string name="use_contact_colors">使用触点颜色</string>
 
-    <string name="accent_color">重音顏色</string>
+    <string name="accent_color">重音颜色</string>
     <string name="use_accent_color">使用主题色</string>
     <string name="system_theme_description">此主题不允许您手动调整颜色。颜色会根据系统设置动态变化。</string>
-    <string name="incoming_call">來電</string>
-    <string name="outgoing_call">傳出呼叫</string>
-    <string name="missed_call">未接來電</string>
-    <string name="unblock_number">解鎖號碼</string>
+    <string name="incoming_call">来电</string>
+    <string name="outgoing_call">传出呼叫</string>
+    <string name="missed_call">未接来电</string>
+    <string name="unblock_number">解锁号码</string>
     <string name="unblock_numbers">取消阻止号码</string>
     <string name="show_blocked_numbers">显示已阻止</string>
     <string name="hide_blocked_numbers">隐藏被阻止</string>
     <string name="paste_g">插入</string>
     <string name="recents">最近</string>
     <string name="blocked_call">阻止呼叫</string>
-    <string name="unblock_confirmation">你確定要疏通 \"%s\" 嗎？</string>
+    <string name="unblock_confirmation">你确定要疏通 \"%s\" 吗？</string>
 
     <!-- Other -->
     <string name="contact_thumbnails_size">联系人缩略图大小</string>
@@ -180,7 +180,7 @@
     <string name="swipe_width">滑动宽度</string>
     <string name="auto_scroll">自动滚动</string>
     <string name="hide_icons_in_menu">隐藏菜单中的图标</string>
-    <string name="purchase_simple_thank_you_g">購買Goodwy Thank You</string>
+    <string name="purchase_simple_thank_you_g">购买Goodwy Thank You</string>
     <string name="copyright_g">v %1$s\nCopyright © Goodwy %2$d</string>
     <string name="update_thank_you_g">请更新 Goodwy Thank You 到最新版本</string>
     <string name="faq_2_text_commons_g">是的，当然。 您可以传播有关应用程序的信息或提供良好的反馈和评分。 您还可以通过以新语言翻译应用程序，或仅更新一些现有翻译来提供帮助。 翻译指南位于 &lt;a href=https://github.com/Goodwy/Discussion&gt;this website&lt;/a&gt;, 或者如果你有任何问题，欢迎发送邮件到 &lt;a href=goodwy.dev@gmail.com&gt;goodwy.dev@gmail.com&lt;/a&gt; 。</string>
