@@ -76,7 +76,6 @@
     <string name="search">Chwilio</string>
     <string name="type_2_characters">Rho o leiaf dau nod i chwilio.</string>
     <string name="filter">Hidlo</string>
-    <string name="filter_pro">Hidlo (Pro)</string>
     <string name="no_items_found">Ni chanfuwyd eitemau.</string>
     <string name="change_filter">Newid hidlydd</string>
     <string name="no_storage_permissions">Rhaid cael caniatâd storfa</string>
@@ -214,10 +213,6 @@
     <string name="undo_changes">Dad-wneud newidiadau</string>
     <string name="undo_changes_confirmation">Wyt ti yn bendant eisiau dad-wneud a cholli dy newidiadau?</string>
     <string name="save_before_closing">Mae gennyt newidiadau heb eu cadw. Cadw cyn gadael?</string>
-    <string name="global_theme_success">Diweddarwyd y lliwiau yn llwyddiannus. Mae thema newydd o\'r enw \'Rhennir\' wedi ei ychwanegu. Defnyddia honno i ddiweddaru lliwiau pob ap yn y dyfodol.</string>
-    <string name="purchase_thank_you"><![CDATA[
-            Pryna <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> i ddatgloi’r nodwedd hon a chefnogi datblygiad, os gweli’n dda. Diolch!
-        ]]></string>
     <string name="light_theme">Golau</string>
     <string name="dark_theme">Tywyll</string>
     <string name="solarized">Solareiddiwyd</string>
@@ -244,7 +239,6 @@
     <string name="undo">Dad-wneud</string>
     <string name="redo">Ail-wneud</string>
     <string name="print">Argraffu</string>
-    <string name="print_pro">Argraffu (Pro)</string>
     <string name="sort_by">Trefnu yn ôl</string>
     <string name="name">Enw</string>
     <string name="size">Maint</string>
@@ -660,26 +654,15 @@
     <string name="sunday_short">Sul</string>
     <string name="it_is_free">Mae am ddim tan: %s. Os wyt yn ei lawrlwytho cyn hynny, bydd yn bosib ei ddefnydido am ddim am byth.</string>
     <string name="more_info">Mwy o wybodaeth</string>
-    <string name="upgrade">Uwchraddio</string>
     <string name="about">Ynghylch</string>
-    <string name="website_label">Am y ffynonellau, gweler</string>
     <string name="email_label">Anfona dy adborth neu awgrymiadau at</string>
-    <string name="upgrade_to_pro">Uwchraddio i Pro</string>
     <string name="invite_friends">Gwahodd ffrindiau</string>
     <string name="share_text">Hei, cymer olwg ar %1$s a %2$s</string>
     <string name="invite_via">Gwahodd trwy</string>
-    <string name="donate">Rhoddi</string>
     <string name="follow_us">Dilyn ni</string>
     <string name="additional_info">Gwybodaeth ychwanegol</string>
     <string name="app_version">Fersiwn ap: %s</string>
     <string name="device_os">System y ddyfais: %s</string>
-    <string name="donate_please">
-        <![CDATA[
-            S\'mae<br><br>
-            Gobeithio dy fod yn mwynhau\'r ap. Nid yw\'n cynnwys unrhyw hysbysebion, felly a fyddi di mor garedig â chefnogi ei ddatblygiad gan brynu ap <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a>. Mi fydd hefyd yn stopio\'r neges hon ymddangos eto.<br><br>
-            Diolch!
-        ]]>
-    </string>
     <string name="purchase">Prynu</string>
     <string name="before_asking_question_read_faq">Cyn gofyn cwestiwn, gwiria osodiadau\'r ap a\'r atebion i Gwestiynau Cyffredin yn gyntaf. Gall fod y datrysiad yno.</string>
     <string name="new_app">
@@ -702,7 +685,6 @@
     <string name="before_asking_question">Cyn ofyn cwestiwn, gweler y</string>
     <string name="faq_1_title_commons">Pam nad ydw i\'n gweld teclyn yr ap hwn yn y rhestr teclynnau?</string>
     <string name="faq_1_text_commons">Mwyaf debyg wyt wedi symud yr ap i gerdyn SD. Mae rhwystr yn system Android sy\'n cuddio teclynnau apiau sydd ar y cerdyn SD. Yr unig datrysiad yw mynd i osodiadau dy ddyfais a symud yr ap nôl i\'r storfa fewnol.</string>
-    <string name="faq_2_title_commons">Dw i eisiau cefnogi, ond dw i methu rhoi arian. Oes rhywbeth arall galla\'i wneud?</string>
     <string name="faq_3_title_commons">Dw i wedi dileu ffeiliau ar gam. Sut ydw i\'n eu hadfer nhw?</string>
     <string name="faq_3_text_commons">Yn anffodus, nid yw\'n bosib. Mae ffeiliau yn cael eu dileu ar unwaith ar ôl y deialog cadarnhau. Does dim bin sbwriel.</string>
     <string name="faq_4_title_commons">Dw i\'m yn hoffi lliwiau\'r teclyn. Ga\'i newid nhw?</string>

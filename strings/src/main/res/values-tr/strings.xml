@@ -17,68 +17,14 @@
     <string name="end">Bitir</string>
 
     <!-- Support project -->
-    <string name="rate_g">Oyla</string>
-    <string name="action_support_project">Proje desteği</string>
-    <string name="pref_pay_summary">Ücretli uygulamayı alarak ilerideki geliştirmeleri destekle ve ileride gelecek özellikleri kullan</string>
-    <string name="support_project_summary">Ücretli uygulamalarımızdan birini satın alarak ileri gelişimleri destekle ve ekstra özellikleri aç</string>
     <string name="learn_more">Daha fazla bilgi edinin</string>
     <string name="themes">Temalar</string>
     <string name="themes_summary">"Özenle seçilmiş uygulama temaları, otomatik tema değiştirici ve Android 12+ için sistem teması desteği "</string>
     <string name="color_title">Renkler</string>
     <string name="color_summary">Ana renk, vurgu, arka plan, metin ve gezinme çubuğunun manuel olarak ayarlanması</string>
-    <string name="plus_title">Bize destek olun</string>
-    <string name="plus_summary">Yardımınızla daha fazla özellik uygulayabilir ve uygulamayı daha da iyi hale getirebiliriz</string>
-    <string name="attention">Dikkat</string>
-    <string name="attention_summary">Eski sürümümüzden alışveriş yaptıysanız veya projeyi diğer platformlarda desteklediyseniz, lütfen bize e-posta yoluyla bir onay gönderin, biz de size bir promosyon kodu göndermeye çalışalım.</string>
-    <string name="attention_dialog_summary">Promosyon kodu almak için projeye desteğinizi kanıtlamanız gerekmektedir (Google Play veya başka bir platformdan alınmış bir ekran görüntüsü yeterlidir). Promosyon kodu sayısı sınırlıdır. Kanıt göndermek ister misiniz?</string>
-    <string name="about_summary">
-        <![CDATA[
-            <i>
-            Zamanınıza değer veriyoruz ve uygulamamızın reklamsız keyfini çıkarmanızı istiyoruz. Size zevk ve kullanışlılık getirdiyse, gelişimine bağış yapmayı düşünün. <br><br>
-            Sıkı çalışmamızı takdir edin ve izlenimlerinizi paylaşın, yeni fikirleri gerçekleştirmemize ve size daha da şaşırtıcı özellikler sunmamıza yardımcı olacaktır.
-            </i>
-        ]]></string>
-    <string name="lifebuoy_title">Sizi destekleyeceğiz</string>
-    <string name="lifebuoy_summary">Herhangi bir nedenle uygulamamızı karşılayamıyorsanız, ancak gerçekten tüm özellikleri kullanmak istiyorsanız, bize e-posta göndermeniz yeterlidir.</string>
     <string name="participants_title">Participants</string>
-    <string name="participants_subtitle"><![CDATA[
-Bu kişiler, GitHub\'daki açık kaynaklı Right projesine ve temel aldığımız Fossify ve Simple Mobile Tools\'a katkıda bulundular.<br><br>
-
-Tüm katkıda bulunanlara teşekkür ederiz, yardımlarınız için minnettarız &#10084;&#65039;
-]]></string>
-    <string name="special_thanks_to">Özel teşekkürler</string>
-    <string name="tip_kind">İyi destek</string>
-    <string name="tip_excellent">Mükemmel destek</string>
-    <string name="tip_incredible">Harika destek</string>
-    <string name="tip_jar">Destek</string>
-    <string name="any_support_unlock_all">Kullanabileceğiniz proje desteği düzeyini seçin (bir kerelik, aylık veya yıllık). Herhangi bir destek, uygulamanın tüm özelliklerinin kilidini açar</string>
-    <string name="one_time_purchase">Tek seferlik destek</string>
-    <string name="monthly">Aylık Destek</string>
-    <string name="yearly">Yıllık Destek</string>
-    <string name="unlock">Kilidi Aç</string>
-    <string name="donate_text_g">
-        <![CDATA[
-            Google Play kullanmayanlar için uygulamanın tüm fonksiyonlarının kilidini açmak mümkün. <br>
-            Çevrimdışı, müdahaleci olmayan ve reklam içermeyen uygulamalarımızı beğendiyseniz, lütfen bizi bir şekilde desteklemeyi düşünün.
-            Çok minnettar oluruz.<br><br>
-            Teşekkür ederim!
-        ]]>
-    </string>
-    <string name="donate_text_no_gp_g">
-        <![CDATA[
-            Sorunlar nedeniyle geçici olarak Google Play üzerinden ödeme yapamıyoruz,
-            Bu nedenle, bu dönem için tüm kullanıcılara uygulamanın tüm özelliklerinin kilidini manuel olarak açma seçeneği sunuyoruz. <br>
-            Çevrimdışı, müdahaleci olmayan ve reklam içermeyen uygulamalarımızı beğendiyseniz, lütfen bizi bir şekilde desteklemeyi düşünün.
-            Çok minnettar oluruz.<br><br>
-            Teşekkür ederim!
-        ]]>
-    </string>
 
     <!--Billing-->
-    <string name="restored_previous_purchase_please_restart">Satın alım geri yüklendi. Tüm özellikleri kullanmak için lütfen yeniden başlatın.</string>
-    <string name="no_purchase_found">Satın alım bulunamadı.</string>
-    <string name="restore_purchase">Satın alımı geri yükle.</string>
-    <string name="restoring_purchase">Satın alım geri yükleniyor…</string>
 
     <string name="no_connection">Bağlantı yok</string>
     <string name="per_month">%s/ay</string>
@@ -123,7 +69,7 @@ Tüm katkıda bulunanlara teşekkür ederiz, yardımlarınız için minnettarız
     <string name="open_search_when_open_contacts">Kişiler sekmesi açıkken aramayı aç</string>
     <string name="end_search_when_changing_tab">Sekmeleri değiştirirken aramayı sonlandırma</string>
     <string name="change_top_bar_colour_when_scrolling">Kaydırma sırasında üst çubuk rengini değiştirin</string>
-    <string name="global_theme_success_g">Geçerli tema tüm Doğru Uygulamalara başarıyla uygulandı. Bu temada gelecekte yapılacak tüm değişiklikler otomatik olarak senkronize edilecektir</string>
+    <string name="global_theme_success_g">Geçerli tema tüm Chad Uygulamalara başarıyla uygulandı. Bu temada gelecekte yapılacak tüm değişiklikler otomatik olarak senkronize edilecektir</string>
     <string name="enter_pattern">Deseni giriniz</string>
     <string name="call_screen_background">Çağrı ekranı arka planı</string>
     <string name="contact_photo">İletişim resmi</string>
@@ -182,54 +128,12 @@ Tüm katkıda bulunanlara teşekkür ederiz, yardımlarınız için minnettarız
     <string name="swipe_width">Kaydırma genişliği</string>
     <string name="auto_scroll">Otomatik Kaydırma</string>
     <string name="hide_icons_in_menu">Menüdeki simgeleri gizle</string>
-    <string name="purchase_simple_thank_you_g">Goodwy Teşekkürler\'i Satın Al</string>
-    <string name="copyright_g">v %1$s\nTelif hakkı © Goodwy %2$d</string>
-    <string name="update_thank_you_g">Lütfen Goodwy Teşekkürler\'i son sürüme güncelleyin</string>
-    <string name="faq_2_text_commons_g">
-        <![CDATA[
-        Evet, tabi ki. Uygulamalar hakkında tanıtım yapabilir veya iyi geribildirim ve derecelendirmeler verebilirsiniz.
-        Kılavuzu https://github.com/Goodwy/Discussion adresinde bulabilir, veya yardıma ihtiyacınız varsa bana goodwy.dev@gmail.com adresinden bir mesaj gönderebilirsiniz.
-        ]]>
-    </string>
-    <string name="faq_6_text_commons_g">Bu sorun, başlatıcınız simge özelleştirmesini tam olarak desteklemediğinde ortaya çıkar. Uygulamayı Google Play veya erişilebilir bir widget üzerinden başlatmayı deneyin.         Başlattıktan sonra, varsayılan uygulama simgesi rengini geri yükleyin. Aşırı durumlarda, uygulamayı yeniden yüklemek gerekebilir.</string>
-    <string name="faq_8_text_commons_g">Uygulama sürümünüz artık güncellenmediğinden, tespit ettiğiniz hatalar asla düzeltilmeyecektir. Ayrıca yeni işlevler eklenmeyecektir. Pro sürümünü Google Play\'den az miktarda para karşılığında satın alabilirsiniz.
-        Bir kerelik ödeme, yani bir kez satın aldığınızda, bir daha asla ödeme yapmanız gerekmeyeceği anlamına gelir. Yeni bir cihaz aldıktan sonra bile. Pro sürümünü beğenmediyseniz, birkaç saat içinde kaldırabilirsiniz ve paranızı otomatik olarak geri alırsınız.
-        Daha sonra istediğiniz zaman geri ödeme almak isterseniz, goodwy.dev@gmail.com adresinden bizimle iletişime geçmeniz yeterlidir.</string>
     <string name="faq_100_title_commons_g">Özel iletişim nedir?</string>
     <string name="faq_100_text_commons_g">Uygulama içinde kişisel bir kişi kaydı oluşturulur. Bu kişi kaydı, diğer uygulamalar tarafından görülemez (özel bir ayar etkinleştirilmiş uygulamalarımız hariç).\nUygulamayı silerseniz, tüm kişisel kişi kayıtlarınız da uygulama ile birlikte silinecektir; bu nedenle uygulamayı silmeden önce kişi kayıtlarınızı yedekleyin.</string>
     <string name="faq_101_title_commons_g">Nasıl özel Kişi-Kişiler oluşturulur?</string>
     <string name="faq_101_text_commons_g">Bir kişi oluşturduğunuzda o kişinin kaynağını belirlemeniz gerekir: %s</string>
-    <string name="contributors_label_g"><![CDATA[
-Bu liste, uygulamalarımıza gözle görülür şekilde yardımcı olan herkesi içerir. Çeviriler gönüllüler tarafından yapılmaktadır.
-Siz de yardımcı olmak isterseniz bize bildirin. Çeviri kılavuzuna <a href="https://github.com/Goodwy/Discussion">bu web sitesinde</a> ulaşabilirsiniz veya herhangi bir sorunuz varsa <a href="mailto:goodwy.dev@gmail.com">goodwy.dev@gmail.com</a> adresinden bize ulaşabilirsiniz.
-Tüm katkıda bulunanlara ve diğer destekçilere teşekkürler!
-]]></string>
-    <string name="deprecated_app_g">Kullanımdan kaldırıldı: Uygulamanın bu sürümü artık sağlanmıyor, Pro sürümünü şuradan indirin: https://play.google.com/store/apps/details?id=com.goodwy.xxx.pro (Eski link düzeltilmeli) </string>
-    <string name="pro_app_refund_g">Ücretli herhangi bir uygulamayı 2 saat içinde kaldırırsanız, otomatik olarak iade edileceğini unutmayın. İstediğiniz zaman geri ödeme almak isterseniz, goodwy.dev@gmail.com adresinden bizimle iletişime geçmeniz yeterli olacaktır. Bu denemeyi kolaylaştırır :)</string>
 
     <!-- Contacts -->
-    <string name="notification_of_new_application"><![CDATA[
-
-<b><big>Önemli haberler ve yeni bir başlangıç ​​🚀</big></b><br><br>
-
-Devam eden ödeme kısıtlamaları nedeniyle, uygulamanın geleceğini güvence altına almak için yeni bir geliştirici hesabına geçmek ve yeni bir sürüm yayınlamak zorunda kaldık.<br><br>
-
-Neden yeni sürüme yükseltmelisiniz?<br>
-
-✨ Tamamen özelleştirilebilir renk seçimi — istediğiniz rengi seçin!<br>
-
-🎨 Yeni, modern simgeler<br>
-
-❤️ Projeyi destekleme fırsatı — artık geliştirilmesi için çok önemli.<br><br>
-
-Mevcut uygulamanız çalışmaya ve güncellemeler almaya devam edecektir.<br><br>
-
-<b>Güveniniz ve desteğiniz için teşekkür ederiz.</b><br><br>
-
-<small><i>Erken dönem destekçilerimiz için:<br>
-Bu uygulamayı daha önce satın aldıysanız veya bağış yaptıysanız, teşekkür ederiz! Onayınızı help@goodwy.dev adresine gönderin, biz de yeni sürüm için bir promosyon kodu sağlamak için elimizden gelenin en iyisini yapacağız (stoklar sınırlı).
-
-]]></string>
     <string name="add_number">Numara ekle</string>
     <string name="add_email">E-posta ekle</string>
     <string name="add_address">Adres ekle</string>
@@ -376,10 +280,6 @@ Bu uygulamayı daha önce satın aldıysanız veya bağış yaptıysanız, teşe
     <string name="relation_sister_in_law_g">Baldız</string>
 
     <!-- RuStore -->
-    <string name="billing_purchase_confirm_in_progress">Satın alım onaylanıyor…</string>
-    <string name="billing_purchase_delete_in_progress">Satın alım siliniyor…</string>
-    <string name="billing_product_confirmed">Ürün onaylandı/tasdik edildi</string>
-    <string name="billing_product_deleted">Satın alım iptal edildi</string>
     <string name="billing_subscriptions">Abonelikler</string>
     <string name="billing_error_application_signature_not_correct">RuStore üzerinden ödeme yapmak için RuStore\'dan uygulama sürümünü yüklemeniz gerekir</string>
     <string name="date">Tarih</string>
@@ -394,7 +294,6 @@ Bu uygulamayı daha önce satın aldıysanız veya bağış yaptıysanız, teşe
     <string name="disagree">katılmıyorum</string>
     <string name="height">Yükseklik</string>
     <string name="select_color">Renk seçin</string>
-    <string name="more_apps_from_us_g">Diğer uygulamalarımız</string>
     <string name="text_alignment">Metin hizalaması</string>
     <string name="use_persian_calendar">Fars takvimini kullan</string>
     <string name="blocking_type">Engelleme türü</string>

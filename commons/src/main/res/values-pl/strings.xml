@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="website">Strona internetowa</string>
     <string name="cancel">Anuluj</string>
     <string name="close">Zamknij</string>
     <string name="back">Wstecz</string>
@@ -86,7 +87,6 @@
     <string name="no_phone_number_found">Nie znaleziono numeru telefonu</string>
     <string name="change_view_type">Zmień typ widoku</string>
     <string name="grid">Siatka</string>
-    <string name="grid_pro">Siatka (Pro)</string>
     <string name="uneven_grid">Nierówna siatka</string>
     <string name="list">Lista</string>
     <string name="increase_column_count">Zwiększ liczbę kolumn</string>
@@ -158,7 +158,6 @@
     <string name="search_conversations">Szukaj rozmów</string>
     <string name="search_recordings">Szukaj nagrań</string>
     <string name="filter">Filtruj</string>
-    <string name="filter_pro">Filtruj (Pro)</string>
     <string name="no_items_found">Nic nie znaleziono.</string>
     <string name="change_filter">Zmień filtr</string>
     <string name="no_storage_permissions">Wymagane jest uprawnienie „Pamięć”</string>
@@ -339,14 +338,9 @@
     <string name="undo_changes_confirmation">Czy cofnąć zmiany\?</string>
     <string name="cannot_be_undone">Tej akcji nie można cofnąć.</string>
     <string name="save_before_closing">Masz niezapisane zmiany. Czy zapisać je przed wyjściem?</string>
-    <string name="apply_to_all_apps">Zastosuj motyw we wszystkich aplikacjach Fossify</string>
+    <string name="apply_to_all_apps">Zastosuj motyw we wszystkich aplikacjach Chad</string>
     <string name="app_icon_color_warning">Uwaga: Pewne launchery mogą nie obsługiwać prawidłowo zmiany ikon aplikacji. Jeśli ikona zniknie, spróbuj uruchomić aplikację przez Google Play lub przez widżet, jeśli jest dostępny.
         Po uruchomieniu przywróć domyślny zielony kolor ikony (#106D1F). W wyjątkowych przypadkach konieczne może okazać się przeinstalowanie aplikacji.</string>
-    <string name="global_theme_success">Obecny motyw został zastosowany do wszystkich aplikacji Fossify. Wszelkie przyszłe zmiany tego motywu będą synchronizowane automatycznie.</string>
-    <string name="shared_theme_note">Pamiętaj, że nawet jeśli używasz wersji Pro aplikacji, nadal potrzebujesz aplikacji „Fossify Thank You” z powodów technicznych. Zajmuje się ona synchronizacją kolorów.</string>
-    <string name="purchase_thank_you"><![CDATA[
-            Kup aplikację <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a>, aby używać tej funkcji i wesprzeć rozwój. Dziękujemy!
-        ]]></string>
     <string name="light_theme">Jasny</string>
     <string name="dark_theme">Ciemny</string>
     <string name="auto_theme">Automatyczny</string>
@@ -380,10 +374,8 @@
     <string name="undo">Cofnij</string>
     <string name="redo">Ponów</string>
     <string name="print">Drukuj</string>
-    <string name="print_pro">Drukuj (Pro)</string>
     <string name="shortcut">Skrót</string>
     <string name="create_shortcut">Utwórz skrót</string>
-    <string name="create_shortcut_pro">Utwórz skrót (Pro)</string>
     <string name="add_number_to_contact">Dodaj numer do kontaktu</string>
     <string name="view_contact_details">Wyświetl szczegóły kontaktu</string>
     <string name="call_from_sim_1">Zadzwoń z karty SIM 1</string>
@@ -467,7 +459,6 @@
     <string name="protection_setup_successfully">Hasło zostało ustawione. Jeśli je zapomnisz, przeinstaluj aplikację.</string>
     <string name="fingerprint_setup_successfully">Zabezpieczenie zostało ustawione. W razie problemów z jego zresetowaniem przeinstaluj aplikację.</string>
     <string name="lock_folder">Zablokuj folder</string>
-    <string name="lock_folder_pro">Zablokuj folder (Pro)</string>
     <string name="unlock_folder">Odblokuj folder</string>
     <string name="lock_folder_notice">Ta ochrona działa tylko w tej aplikacji i nie ma zastępować prawdziwego szyfrowania folderów w całym systemie.</string>
     <string name="enter_password">Wprowadź hasło</string>
@@ -671,7 +662,6 @@
     <string name="during_day_at_hh_mm">W ciągu dnia o hh:mm</string>
     <string name="during_day_at">W ciągu dnia o %1$02d:%2$02d</string>
     <string name="settings">Ustawienia</string>
-    <string name="purchase_simple_thank_you">Kup aplikację „Fossify Thank You”</string>
     <string name="general_settings">Ogólne</string>
     <string name="color_customization">Wygląd i styl</string>
     <string name="customize_colors">Dostosuj wygląd</string>
@@ -843,59 +833,15 @@
     <string name="friday_short">pt.</string>
     <string name="saturday_short">sob.</string>
     <string name="sunday_short">niedz.</string>
-    <string name="upgrade_to_pro_long">Twoja wersja aplikacji nie będzie już aktualizowana. Uaktualnij do wersji Pro, aby otrzymywać nowe poprawki i inne ulepszenia.</string>
-    <string name="upgrade_to_pro_long_click">Twoja wersja aplikacji nie będzie już aktualizowana. Uaktualnij do wersji Pro, aby otrzymywać nowe poprawki i inne ulepszenia, naciskając tutaj.</string>
     <string name="it_is_free">Aplikacja jest darmowa do %s. Jeśli pobierzesz ją do tego czasu, będziesz mieć ją za darmo na zawsze.</string>
     <string name="more_info">Więcej informacji</string>
-    <string name="upgrade">Uaktualnij</string>
     <string name="upgrade_calendar">Musisz przenieść przechowywane lokalnie wydarzenia ręcznie przez wyeksportowanie ich do pliku .ics, a następnie ich zaimportowanie. Oba służące do tego przyciski znajdziesz w menu na ekranie głównym.</string>
-    <string name="upgraded_from_free_gallery">Witaj,
-\n
-\nWygląda na to, że właśnie uaktualniłeś(-aś) darmową aplikację do płatnej. Gdy będziesz z niej zadowolony(-a) i być może przeniesiesz swoje ustawienia i ulubione, możesz odinstalować starą darmową, aby uniknąć przypadkowego jej uruchomienia, ponieważ nie będziesz jej już potrzebować, i zapobiegnie to również wyświetlaniu tego komunikatu.
-\n
-\nDzięki!</string>
-    <string name="upgraded_to_pro_gallery">Witaj,
-\n
-\nWygląda na to, że masz już także wersję Pro aplikacji. Gdy będziesz z niej zadowolony(-a) i być może przeniesiesz swoje ustawienia i ulubione, możesz odinstalować tę, aby uniknąć przypadkowego uruchomienia, ponieważ nie będziesz jej już potrzebować.
-\n
-\nDzięki!</string>
-    <string name="upgraded_from_free">Witaj,
-\n
-\nWygląda na to, że właśnie uaktualniłeś(-aś) darmową aplikację do płatnej. Gdy będziesz z niej zadowolony(-a) i być może przeniesiesz swoje dane, możesz odinstalować starą darmową, aby uniknąć przypadkowego jej uruchomienia, ponieważ nie będziesz jej już potrzebować, i zapobiegnie to również wyświetlaniu tego komunikatu.
-\n
-\nDzięki!</string>
-    <string name="upgraded_to_pro">Witaj,
-\n
-\nWygląda na to, że masz już także wersję Pro aplikacji. Gdy będziesz z niej zadowolony(-a) i być może przeniesiesz swoje dane, możesz odinstalować tę, aby uniknąć przypadkowego uruchomienia, ponieważ nie będziesz jej już potrzebować.
-\n
-\nDzięki!</string>
-    <string name="upgraded_from_free_calendar">Witaj,
-\n
-\nWygląda na to, że właśnie uaktualniłeś(-aś) darmową aplikację do płatnej. Jeśli chcesz przenieść przechowywane lokalnie wydarzenia, musisz zrobić to ręcznie, eksportując je do pliku .ics w darmowej wersji aplikacji i importując tutaj przez górne menu.
-\n
-\nGdy będziesz zadowolony(-a) z konfiguracji w wersji Pro, możesz odinstalować starą darmową wersję, ponieważ nie będziesz jej już potrzebować i zapobiegnie to wyświetlaniu tego komunikatu.
-\n
-\nDzięki!</string>
-    <string name="upgraded_from_free_contacts">Witaj, \n \nWygląda na to, że właśnie uaktualniłeś(-aś) darmową aplikację do płatnej. Jeśli masz jakieś kontakty przechowywane w „%s”, musisz przenieść je ręcznie, eksportując do pliku .vcf w darmowej wersji aplikacji i importując tutaj przez górne menu. \n \nGdy będziesz zadowolony(-a) z konfiguracji w wersji Pro, możesz odinstalować starą darmową wersję, ponieważ nie będziesz jej już potrzebować i zapobiegnie to wyświetlaniu tego komunikatu. \n \nDzięki!</string>
-    <string name="upgraded_from_free_notes">Witaj,
-\n
-\nWygląda na to, że właśnie uaktualniłeś(-aś) darmową aplikację do płatnej. Jeśli chcesz przenieść swoje notatki, musisz zrobić to ręcznie, eksportując je do pliku w darmowej wersji aplikacji i importując tutaj przez górne menu.
-\n
-\nGdy będziesz zadowolony(-a) z konfiguracji w wersji Pro, możesz odinstalować starą darmową wersję, ponieważ nie będziesz jej już potrzebować i zapobiegnie to wyświetlaniu tego komunikatu.
-\n
-\nDzięki!</string>
     <string name="about">O aplikacji</string>
-    <string name="website">Strona internetowa</string>
-    <string name="website_label">Kod źródłowy można znaleźć na stronie</string>
     <string name="email_label">Wyślij swoje uwagi lub sugestie na:</string>
-    <string name="upgrade_to_pro">Uaktualnij do Pro</string>
     <string name="invite_friends">Zaproponuj aplikację znajomym</string>
     <string name="share_text">Hej! Sprawdź aplikację %1$s na %2$s</string>
     <string name="invite_via">Zaproś za pomocą:</string>
-    <string name="donate">Przekaż datek</string>
     <string name="follow_us">Śledź nas</string>
-    <string name="copyright">Wersja %1$s
-\nCopyright © Fossify %2$d</string>
     <string name="support">Wsparcie</string>
     <string name="help_us">Pomóż nam</string>
     <string name="social">Portale społecznościowe</string>
@@ -907,21 +853,11 @@
     <string name="additional_info">Dodatkowe informacje</string>
     <string name="app_version">Wersja aplikacji: %s</string>
     <string name="device_os">System: %s</string>
-    <string name="donate_please"><![CDATA[
-            Witaj,<br><br> Mamy nadzieję, że aplikacja przypadła Ci do gustu. Jak można zauważyć, nie zawiera reklam, prosimy więc o wsparcie jej rozwoju przez zakup specjalnej aplikacji <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Thank You</a>, co poskutkuje również wyłączeniem tego komunikatu.<br><br> Dziękujemy!
-        ]]></string>
-    <string name="donate_new">Witaj,&lt;br&gt;&lt;br&gt;Mamy nadzieję, że aplikacja przypadła Ci do gustu. Nie zawiera reklam oraz nie zbieramy Twoich danych, dlatego wesprzyj jej rozwój, kupując &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;. Będziesz także mieć odblokowane wszystkie funkcje aplikacji, w tym dostosowywanie kolorów.&lt;br&gt;&lt;br&gt;Dziękujemy!</string>
-    <string name="donate_short">Wesprzyj nas, kupując &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;, co również odblokuje wszystkie funkcje aplikacji, w tym dostosowywanie kolorów.</string>
     <string name="purchase">Kup</string>
-    <string name="update_thank_you">Zaktualizuj aplikację Fossify Thank You do najnowszej wersji</string>
     <string name="before_asking_question_read_faq">Zanim zadasz pytanie, najpierw sprawdź ustawienia aplikacji i przeczytaj często zadawane pytania. Może znajduje się tam rozwiązanie.</string>
     <string name="make_sure_latest">Upewnij się też, że używasz najnowszej wersji aplikacji.</string>
-    <string name="make_sure_upgrade">Pamiętaj również, że ta wersja aplikacji nie jest już rozwijana. Pobierz wersję Pro, aby uzyskać wiele ulepszeń.</string>
     <string name="read_it">Przeczytaj to</string>
     <string name="read_faq">Przeczytaj FAQ</string>
-    <string name="thank_you">Dziękujemy</string>
-    <string name="widget_locked_pro">Widżet jest zablokowany.\nUaktualnij do wersji Pro, aby go odblokować.</string>
-    <string name="features_locked">Ta funkcja jest zablokowana. Kup &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;, aby odblokować pełną wersję aplikacji.&lt;br&gt;&lt;br&gt;Jest to płatność jednorazowa, a jeśli nie będziesz zadowolony(-a), możemy Ci zwrócić pieniądze.</string>
     <string name="new_app"><![CDATA[
             Cześć!<br><br> Dajemy Ci znać, że ostatnio zostało wydanych kilka nowych aplikacji:<br><br> <a href=%1$s>%2$s</a><br><br> <a href=%3$s>%4$s</a><br><br> <a href=%5$s>%6$s</a><br><br> Możesz je pobrać, naciskając ich nazwy lub ikony.<br><br> Dzięki!
         ]]></string>
@@ -940,7 +876,6 @@
     <string name="music_player_short">Odtwarzacz muzyki</string>
     <string name="notes_short">Notatki</string>
     <string name="sms_messenger_short">Wiadomości SMS</string>
-    <string name="thank_you_short">Podziękowanie</string>
     <string name="voice_recorder_short">Rejestrator głosu</string>
     <string name="sideloaded_app">
         <![CDATA[
@@ -951,13 +886,6 @@
     <string name="before_asking_question">Zanim zadasz pytanie, przeczytaj najpierw</string>
     <string name="faq_1_title_commons">Dlaczego nie widzę widżetu tej aplikacji na liście widżetów\?</string>
     <string name="faq_1_text_commons">Jest to najprawdopodobniej spowodowane przeniesieniem aplikacji na kartę pamięci. Istnieje ograniczenie systemu Android, które w takim przypadku ukrywa widżety danej aplikacji. Jedynym rozwiązaniem jest przeniesienie aplikacji z powrotem do pamięci wewnętrznej za pomocą ustawień urządzenia.</string>
-    <string name="faq_2_title_commons">Chcę Was wesprzeć, ale nie mam jak wpłacić pieniędzy. Czy mogę zrobić coś innego?</string>
-    <string name="faq_2_text_commons">
-        <![CDATA[
-            Oczywiście. Możesz powiedzieć światu o naszych aplikacjach lub podzielić się opinią i oceną w Sklepie Google Play. Możesz też pomóc, tłumacząc aplikacje na nowy język lub po prostu zaktualizować istniejące tłumaczenia.
-            Instrukcja jak tłumaczyć znajduje się na <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">tej stronie</a>, albo po prostu skontaktuj się z nami pod adresem <a href="mailto:hello@fossify.org">hello@fossify.org</a>, jeśli masz jakiekolwiek pytania.
-        ]]>
-    </string>
     <string name="faq_3_title_commons">Przypadkowo usunąłem kilka plików. Mogę je jakoś odzyskać?</string>
     <string name="faq_3_text_commons">Niestety, nie możesz. Pliki są usuwane natychmiast po potwierdzeniu w oknie dialogowym. System Android nie ma wbudowanego kosza.</string>
     <string name="faq_4_title_commons">Nie podobają mi się kolory widżetów. Czy mogę je zmienić\?</string>
@@ -965,12 +893,8 @@
     <string name="faq_5_title_commons">Czy mogę jakoś odzyskać usunięte pliki?</string>
     <string name="faq_5_text_commons">Jeśli faktycznie zostały usunięte, to już nie możesz ich odzyskać. Jednakże domyślnie jest włączony kosz, dzięki czemu pliki zostaną przeniesione do niego zamiast zostać usunięte natychmiast.</string>
     <string name="faq_6_title_commons">Z launchera zniknęła ikona aplikacji. Co mogę zrobić?</string>
-    <string name="faq_6_text_commons">Ten problem się pojawia, gdy Twój launcher nie obsługuje w pełni zmiany ikon aplikacji. Spróbuj uruchomić aplikację przez Google Play lub przez widżet, jeśli jest dostępny.
-        Po uruchomieniu przywróć domyślny zielony kolor ikony (#106D1F). W wyjątkowych przypadkach konieczne może okazać się przeinstalowanie aplikacji.</string>
     <string name="faq_7_title_commons">Pieniądze zostały odjęte z mojego konta bankowego, ale nie mogę pobrać aplikacji. Co mogę zrobić?</string>
     <string name="faq_7_text_commons">Płatności są w pełni obsługiwane przez Google, ich system szwankuje od czasu do czasu. Wystarczy wyczyścić pamięć podręczną aplikacji Google Play i zrestartować urządzenie, a następnie ponowić próbę pobrania.</string>
-    <string name="faq_8_title_commons">Dlaczego powinienem uaktualnić do wersji Pro?</string>
-    <string name="faq_8_text_commons">Ponieważ Twoja wersja aplikacji nie jest już aktualizowana, błędy, które być może zauważyłeś(-aś), nigdy nie zostaną naprawione. Nie zostaną również dodane żadne nowe funkcje. Możesz kupić wersję Pro w Google Play za niewielką sumę pieniędzy. Jest to jednorazowa płatność, co oznacza, że po zakupie nigdy nie będziesz musiał(a) płacić ponownie, nawet po wymianie urządzenia. Jeśli nie spodoba Ci się wersja Pro, możesz ją po prostu odinstalować w ciągu kilku godzin, a automatycznie otrzymasz swoje pieniądze z powrotem. Jeśli chcesz zwrotu pieniędzy w dowolnym momencie, po prostu skontaktuj się z nami na hello@fossify.org, a go otrzymasz.</string>
     <string name="faq_9_title_commons">Jak mogę wybrać wiele elementów jednocześnie?</string>
     <string name="faq_9_text_commons">Można to zrobić na wiele sposobów. Pierwszym z nich jest uruchomienie trybu wyboru przez długie naciśnięcie jednego elementu, a następnie krótkie naciśnięcie innych, aby je wybrać. Drugi sposób jest podobny do wybierania elementów na komputerach PC za pomocą myszy. Wystarczy uruchomić tryb zaznaczania przez długie naciśnięcie jednego elementu, a następnie z przyciśniętym palcem przeciągnąć go przez inne elementy do zaznaczenia. Trzeci sposób zaznaczania wielu elementów to długie naciśnięcie jednego elementu, a następnie długie naciśnięcie innego, żeby wszystko pomiędzy zostało zaznaczone. Jeśli chcesz zaznaczyć wszystkie elementy, naciśnij długo jeden element, a następnie naciśnij licznik wybranych elementów w lewym górnym rogu. To zaznaczy lub odznaczy wszystko.</string>
     <string name="faq_10_title_commons">Zakupiłem aplikację, ale nie mogę jej pobrać na inne urządzenie.</string>
@@ -979,13 +903,6 @@
     <string name="translation">Tłumaczenie</string>
     <string name="development">Rozwój</string>
     <string name="other_help">Inna pomoc</string>
-    <string name="contributors_label">
-        <![CDATA[
-            Ta lista zawiera wszystkich, którzy zauważalnie pomogli przy którejkolwiek z prostych aplikacji od Fossify, nie tylko przy tej. Tłumaczeniami zajmują się wolontariusze;
-            daj nam znać, jeśli też chcesz pomóc. Instrukcja jak tłumaczyć znajduje się na <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">tej stronie</a>, albo po prostu skontaktuj się z nami pod adresem <a href="mailto:hello@fossify.org">hello@fossify.org</a>, jeśli masz jakiekolwiek pytania.
-            Dziękuję wszystkim współtwórcom i innym wspierającym!
-        ]]>
-    </string>
     <string name="translation_arabic">arabski</string>
     <string name="translation_azerbaijani">azerski</string>
     <string name="translation_bengali">bengalski</string>
@@ -1030,11 +947,6 @@
     <string name="translation_chinese_hk">chiński (Hongkong)</string>
     <string name="translation_chinese_cn">chiński (uproszczony)</string>
     <string name="translation_chinese_tw">chiński (tradycyjny)</string>
-    <string name="why_upgrade">Pobierz wersję Pro już teraz!</string>
-    <string name="why_upgrade_basic_version">Podstawowa</string>
-    <string name="why_upgrade_no_ads">Brak reklam</string>
-    <string name="why_upgrade_no_internet_access">Bez dostępu do Internetu</string>
-    <string name="why_upgrade_footer">100% gwarancja zwrotu pieniędzy</string>
     <string name="why_upgrade_footer_one_time_payment">Jednorazowa płatność</string>
     <string name="why_upgrade_improved_design">Udoskonalony wygląd</string>
     <string name="why_upgrade_many_other_improvements">Wiele innych ulepszeń</string>
@@ -1115,8 +1027,6 @@
         <item quantity="many">Twój okres próbny wygasa za %d dni.</item>
         <item quantity="other">Twój okres próbny wygasa za %d dni.</item>
     </plurals>
-    <string name="deprecated_app">PRZESTARZAŁA: Ta wersja aplikacji nie jest już utrzymywana. Pobierz wersję Pro z https://play.google.com/store/apps/details\?id=org.fossify..xxx.pro</string>
-    <string name="pro_app_refund">Pamiętaj, że jeśli odinstalujesz którąkolwiek z płatnych aplikacji w ciągu 2 godzin, automatycznie otrzymasz zwrot pieniędzy. Jeśli chcesz zwrotu pieniędzy w dowolnym momencie później, wystarczy skontaktować się z nami na hello@fossify.org, a go otrzymasz. To sprawia, że aplikacje są łatwe do wypróbowania :)</string>
     <string name="developer_description">Zestaw prostych, otwartoźródłowych aplikacji na Androida z konfigurowalnymi widżetami, bez reklam i zbędnych uprawnień.</string>
     <string name="alarm">Alarm</string>
     <string name="translation_hindi">hindi</string>
@@ -1135,19 +1045,16 @@
     <string name="march_short">mar</string>
     <string name="saturday_letter">S</string>
     <string name="launcher_short">Launcher</string>
-    <string name="why_upgrade_pro_version">Pro</string>
     <string name="translation_esperanto">esperanto</string>
     <string name="translation_chuvash">czuwaski</string>
     <string name="translation_gujarati">gudźarati</string>
     <string name="format_phone_numbers">Formatuj numery telefonów</string>
-    <string name="donate_to_fossify">Wesprzyj Fossify</string>
     <string name="platforms">Platformy</string>
     <string name="little_to_no_fee">Niewielka prowizja</string>
     <string name="fee_up_to_pct">Do %1$d%% prowizji</string>
     <string name="cryptocurrency">Kryptowaluta</string>
     <string name="translation_belarusian">białoruski</string>
     <string name="translation_central_kurdish">środkowokurdyjski</string>
-    <string name="all_fossify_apps">Wszystkie aplikacje Fossify</string>
     <string name="theme_and_colors">Motyw i kolory</string>
     <string name="known_issues">Znane problemy</string>
     <string name="translation_kabyle">kabylski</string>
@@ -1157,10 +1064,7 @@
     <string name="confirm_storage_access_restricted_text">Ze względu na ograniczenia systemowe ten folder jest niedostępny.</string>
     <string name="confirm_storage_access_restricted_text_open_system">Otwórz w aplikacji systemowej</string>
     <string name="confirm_storage_access_restricted_text_not_found">Nie znaleziono systemowej aplikacji menedżera plików</string>
-    <string name="more_fossify_apps">Więcej aplikacji Fossify</string>
-    <string name="rate_this_app">Oceń tę aplikację</string>
     <string name="evalex_title">EvalEx (obliczanie wyrażeń matematycznych)</string>
-    <string name="requires_fossify_thank_you">Wymaga aplikacji „Fossify Thank You”</string>
     <string name="enables_more_customization">Umożliwia większą personalizację</string>
     <string name="translation_latvian">łotewski</string>
     <plurals name="files_saved">

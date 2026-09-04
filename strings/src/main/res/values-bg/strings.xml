@@ -35,68 +35,14 @@
     <string name="end">Краят</string>
 
     <!-- Support project -->
-    <string name="rate_g">Оценяване</string>
-    <string name="action_support_project">Подкрепа по проекта</string>
-    <string name="pref_pay_summary">Get the paid app to support future developments and extra features</string>
-    <string name="support_project_summary">Get one of our paid apps to support future development and unlock extra features</string>
     <string name="learn_more">Научете повече</string>
     <string name="themes">Теми</string>
     <string name="themes_summary">Внимателно подбрани теми за приложения, автоматична промяна на темата и поддръжка на системни теми за Android 12+</string>
     <string name="color_title">Цветове</string>
     <string name="color_summary">Ръчно регулиране на основния цвят, акцент, фон, текст и навигационна лента</string>
-    <string name="plus_title">Подкрепете ни</string>
-    <string name="plus_summary">С ваша помощ можем да внедрим повече функции и да направим приложението още по-добро</string>
-    <string name="attention">Внимание</string>
-    <string name="attention_summary">Ако сте правили покупки в старата ни версия или сте подкрепили проекта на други платформи, моля, изпратете ни потвърждение по имейл и ние ще се опитаме да ви изпратим промоционален код.</string>
-    <string name="attention_dialog_summary">За да получите промоционален код, трябва да изпратите доказателство за подкрепа на проекта (достатъчна е екранна снимка от Google Play или друга платформа). Броят на промоционалните кодове е ограничен. Да се ​​изпрати доказателство?</string>
-    <string name="about_summary">
-        <![CDATA[
-            <i>
-            Ние ценим вашето време и искаме да се наслаждавате на нашето приложение без реклами. Ако ви е донесло удоволствие и полза, помислете за дарение за развитието му.<br><br>
-            Оценете упоритата ни работа и споделете впечатленията си, това ще ни помогне да реализираме нови идеи и ще ви предложим още по-невероятни функции.
-            </i>
-        ]]></string>
-    <string name="lifebuoy_title">Ние ще ви подкрепим</string>
-    <string name="lifebuoy_summary">Ако по някаква причина не можете да си позволите нашето приложение, но наистина искате да използвате всички функции, просто ни пишете</string>
     <string name="participants_title">Participants</string>
-    <string name="participants_subtitle"><![CDATA[
-Тези хора са допринесли за проекта с отворен код Right в GitHub,
-както и за Fossify и Simple Mobile Tools, на които сме базирани.<br><br>
-
-Благодарим на всички наши сътрудници, ние високо ценим вашата помощ &#10084;&#65039;
-]]></string>
-    <string name="special_thanks_to">Special thanks to</string>
-    <string name="tip_kind">Добра подкрепа</string>
-    <string name="tip_excellent">Отлична поддръжка</string>
-    <string name="tip_incredible">Страхотна поддръжка</string>
-    <string name="tip_jar">Поддръжка</string>
-    <string name="any_support_unlock_all">Изберете нивото на поддръжка на проекта (еднократно, месечно или годишно). Всяка поддръжка отключва всички функции на приложението</string>
-    <string name="one_time_purchase">Еднократна поддръжка</string>
-    <string name="monthly">Месечна поддръжка</string>
-    <string name="yearly">Годишна подкрепа</string>
-    <string name="unlock">Unlock</string>
-    <string name="donate_text_g">
-        <![CDATA[
-            За тези, които не използват Google Play, има възможност за отключване на всички функции на приложението. <br>
- Ако харесвате нашите приложения, които са офлайн, ненатрапчиви и нямат реклами, моля, помислете дали да ни подкрепите по някакъв начин. Ще бъдем много благодарни.<br><br>
- Благодаря ви!
-        ]]>
-    </string>
-    <string name="donate_text_no_gp_g">
-        <![CDATA[
-            Поради възникнали проблеми временно не можем да обработваме плащания през Google Play.
- Затова през този период предоставяме на всички потребители възможност ръчно да отключат всички функции на приложението. <br>
- Ако харесвате нашите приложения, които работят офлайн, не са натрапчиви и не съдържат реклами, моля
- моля, помислете дали да ни подкрепите по някакъв начин. Ще бъдем много благодарни.<br><br>
- Благодаря ви!
-        ]]>
-    </string>
 
     <!--Billing-->
-    <string name="restored_previous_purchase_please_restart">Restored previous purchase. Please restart the app to make use of all features.</string>
-    <string name="no_purchase_found">No purchase found.</string>
-    <string name="restore_purchase">Restore purchase</string>
-    <string name="restoring_purchase">Restoring purchase…</string>
 
     <string name="no_connection">Няма връзка</string>
     <string name="per_month">%s/месец</string>
@@ -140,7 +86,7 @@
     <string name="open_search_when_open_contacts">Отваряне на търсенето, когато отворите раздела \"Контакти\"</string>
     <string name="end_search_when_changing_tab">Прекратяване на търсене при смяна на раздели</string>
     <string name="change_top_bar_colour_when_scrolling">Промяна на цвета на горната лента при превъртане</string>
-    <string name="global_theme_success_g">Текущата тема е успешно приложена към всички правилни приложения. Всички бъдещи промени в тази тема ще бъдат синхронизирани автоматично</string>
+    <string name="global_theme_success_g">Текущата тема е успешно приложена към всички приложенията на Chad. Всички бъдещи промени в тази тема ще бъдат синхронизирани автоматично</string>
     <string name="enter_pattern">Въведете шаблона</string>
     <string name="call_screen_background">Фон на екрана за повиквания</string>
     <string name="contact_photo">Снимка на контакта</string>
@@ -184,48 +130,12 @@
     <string name="swipe_width">Ширина на плъзгане</string>
     <string name="auto_scroll">Автоматично превъртане</string>
     <string name="hide_icons_in_menu">Скриване на иконите в менюто</string>
-    <string name="purchase_simple_thank_you_g">Purchase Goodwy Thank You</string>
-    <string name="copyright_g">v %1$s\nCopyright © Goodwy %2$d</string>
-    <string name="update_thank_you_g">Please update Goodwy Thank You to the latest version</string>
-    <string name="faq_2_text_commons_g">
-        <![CDATA[
-            Yes, of course. You can spread the word about the apps or give good feedback and ratings. You can also help by translating the apps in a new language, or just update some existing translations.
-        You can find the guide at <a href="https://github.com/Goodwy/Discussion">this website</a>, or just shoot me a message at <a href="mailto:goodwy.dev@gmail.com">goodwy.dev@gmail.com</a> if you need help.
-        ]]>
-    </string>
-    <string name="faq_6_text_commons_g">Този проблем възниква, когато вашият стартов панел не поддържа напълно персонализиране на икони. Опитайте да стартирате приложението чрез Google Play или джаджа, ако е достъпна.         След стартиране възстановете цвета на иконата на приложението по подразбиране. В крайни случаи може да се наложи преинсталиране на приложението.</string>
-    <string name="faq_8_text_commons_g">As your app version is no longer updated, the bugs you have maybe spotted will never be fixed. There will also be no new functions added. You can purchase the Pro version on Google Play for a small sum of money.
-        It is a one time payment, which means that once you purchase it, you will never have to pay again. Not even after getting a new device. If you won\'t like the Pro version, you can just uninstall it within a few hours and you will automatically get your money back.
-        If you want a refund anytime later, just contact us at goodwy.dev@gmail.com and you will get it.</string>
     <string name="faq_100_title_commons_g">Какво е личен контакт?</string>
     <string name="faq_100_text_commons_g">В приложението се създава личен контакт. Този контакт няма да бъде видим за други приложения (с изключение на нашите приложения със специална активирана настройка).\nАко изтриете приложението, всички лични контакти ще бъдат изтрити заедно с него, така че направете резервно копие на контактите си, преди да изтриете приложението.</string>
     <string name="faq_101_title_commons_g">How to create a private contact?</string>
     <string name="faq_101_text_commons_g">When you create a contact, you must select the source of the contact: %s</string>
-    <string name="contributors_label_g"><![CDATA[
-Този списък съдържа всички, които са помогнали осезаемо на някое от нашите приложения. Преводите се извършват от доброволци, уведомете ни, ако и вие искате да помогнете. Ръководството за превод е на <a href="https://github.com/Goodwy/Discussion">този уебсайт</a> или просто се свържете с нас на <a href="mailto:goodwy.dev@gmail.com">goodwy.dev@gmail.com</a>, ако имате въпроси.
-Благодарим на всички участници и други поддръжници!
-]]></string>
-    <string name="deprecated_app_g">DEPRECATED: This version of the app is no longer maintained, get the Pro version at https://play.google.com/store/apps/details?id=com.goodwy.xxx.pro</string>
-    <string name="pro_app_refund_g">Don\'t forget that if you uninstall any paid app within 2 hours, you will automatically be refunded. If you want a refund anytime later, just contact us at goodwy.dev@gmail.com and you will get it. That makes it easy to try it out :)</string>
 
     <!-- Contacts -->
-    <string name="notification_of_new_application"><![CDATA[
-<b><big>Важни новини и ново начало 🚀</big></b><br><br>
-
-Поради текущите ограничения за плащания, трябваше да преминем към нов акаунт на разработчик и да пуснем нова версия, за да осигурим бъдещето на приложението.<br><br>
-
-Защо да надстроите до новата версия?<br>
-✨ Напълно персонализируем избор на цвят — изберете всеки цвят, който ви харесва!<br>
-🎨 Свежи, модерни икони<br>
-❤️ Възможност да подкрепите проекта — сега е от съществено значение за неговото развитие.<br><br>
-
-Вашето текущо приложение ще продължи да функционира и да получава актуализации.<br><br>
-
-<b>Благодарим ви за доверието и подкрепата.</b><br><br>
-
-<small><i>За нашите ранни поддръжници:<br>
-Ако вече сте закупили това приложение или сте направили дарение, благодарим ви! Изпратете потвърждението си на help@goodwy.dev и ние ще направим всичко възможно да ви предоставим промоционален код за новата версия (до изчерпване на количествата).</i></small>
-]]></string>
     <string name="add_number">Добавяне на номер</string>
     <string name="add_email">Добавете имейл</string>
     <string name="add_address">Добавяне на адрес</string>
@@ -372,10 +282,6 @@
     <string name="relation_sister_in_law_g">Sister-in-law</string>
 
     <!-- RuStore -->
-    <string name="billing_purchase_confirm_in_progress">Confirming the purchase…</string>
-    <string name="billing_purchase_delete_in_progress">Deleting the purchase…</string>
-    <string name="billing_product_confirmed">Product confirmed/substantiated</string>
-    <string name="billing_product_deleted">Purchase canceled</string>
     <string name="billing_subscriptions">Абонаменти</string>
     <string name="billing_error_application_signature_not_correct">За да платите чрез RuStore, трябва да инсталирате версията на приложението от RuStore</string>
     <string name="date">Дата</string>
@@ -390,7 +296,6 @@
     <string name="disagree">Не съм съгласен/а</string>
     <string name="height">Височина</string>
     <string name="select_color">Изберете цвят</string>
-    <string name="more_apps_from_us_g">Други наши приложения</string>
     <string name="text_alignment">Подравняване на текст</string>
     <string name="use_persian_calendar">Използвайте персийския календар</string>
     <string name="blocking_type">Тип блокиране</string>

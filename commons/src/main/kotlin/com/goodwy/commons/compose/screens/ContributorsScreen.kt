@@ -18,7 +18,6 @@ import androidx.compose.ui.unit.sp
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.collections.immutable.toImmutableList
 import com.goodwy.commons.R
-import com.goodwy.commons.compose.components.LinkifyTextComponent
 import com.goodwy.commons.compose.extensions.MyDevices
 import com.goodwy.commons.compose.lists.SimpleLazyListScaffold
 import com.goodwy.commons.compose.settings.SettingsGroup
@@ -26,7 +25,6 @@ import com.goodwy.commons.compose.settings.SettingsListItem
 import com.goodwy.commons.compose.settings.SettingsTitleTextComponent
 import com.goodwy.commons.compose.theme.AppThemeSurface
 import com.goodwy.commons.compose.theme.SimpleTheme
-import com.goodwy.commons.extensions.fromHtml
 import com.goodwy.commons.models.LanguageContributor
 
 private val titleStartPadding = Modifier.padding(start = 36.dp)
@@ -48,13 +46,6 @@ internal fun ContributorsScreen(
         },
         goBack = goBack
     ) {
-        item {
-            val text = stringResource(id = com.goodwy.strings.R.string.participants_subtitle)
-            LinkifyTextComponent(
-                modifier = Modifier.padding(horizontal = 36.dp, vertical = 12.dp),
-                text = { text.fromHtml() },
-            )
-        }
         item {
             SettingsTitleTextComponent(
                 text = stringResource(id = R.string.development),
@@ -84,21 +75,6 @@ internal fun ContributorsScreen(
             SettingsGroup (modifier = Modifier.fillMaxWidth().padding(top = 0.dp)) {
                 ContributorItem(
                     languageContributor = it
-                )
-            }
-        }
-
-        item {
-            SettingsGroup {
-                SettingsListItem(
-                    icon = R.drawable.ic_heart_vector,
-                    text = {
-                        val source = stringResource(id = com.goodwy.strings.R.string.contributors_label_g)
-                        LinkifyTextComponent {
-                            source.fromHtml()
-                        }
-                    },
-                    tint = SimpleTheme.colorScheme.onSurface
                 )
             }
         }

@@ -35,66 +35,14 @@
     <string name="end">结束</string>
 
     <!-- Support project -->
-    <string name="rate_g">评分</string>
-    <string name="action_support_project">项目支持</string>
-    <string name="pref_pay_summary">Get the paid app to support future developments and extra features</string>
-    <string name="support_project_summary">Get one of our paid apps to support future development and unlock extra features</string>
     <string name="learn_more">了解更多信息</string>
     <string name="themes">主题</string>
     <string name="themes_summary">精心挑选的应用程序主题，自动主题更换器和Android 12+的系统主题支持</string>
     <string name="color_title">颜色</string>
     <string name="color_summary">手动调整原色、强调色、背景、文本和导航栏</string>
-    <string name="plus_title">支持我们</string>
-    <string name="plus_summary">在您的帮助下，我们可以实现更多功能并使应用程序变得更好</string>
-    <string name="attention">注意力</string>
-    <string name="attention_summary">如果您曾在我们的旧版本中进行过购买或在其他平台上支援过该项目，请透过电子邮件向我们发送一些确认讯息，我们将尝试向您发送促销代码。</string>
-    <string name="attention_dialog_summary">要获得优惠码，您必须提供支持该专案的证明（Google Play 或其他平台的截图即可）。优惠码数量有限。请提供证明。</string>
-    <string name="about_summary">
-        <![CDATA[
-            <i>
-            我们重视您的时间，并希望您在没有广告的情况下享受我们的应用程序。如果它给你带来了快乐和有用性，请考虑捐赠给它的发展。<br><br>
-            感谢我们的辛勤工作并分享您的印象，它将帮助我们实现新的想法并为您提供更多令人惊叹的功能。
-            </i>
-        ]]></string>
-    <string name="lifebuoy_title">我们将为您提供支持</string>
-    <string name="lifebuoy_summary">如果由于某种原因您买不起我们的应用程序，但真的想使用所有功能，只需给我们发电子邮件</string>
     <string name="participants_title">Participants</string>
-    <string name="participants_subtitle"><![CDATA[
-这些人为 GitHub 上的开源 Right 专案做出了贡献，
-也为我们赖以生存的 Fossify 和 Simple Mobile Tools 做出了贡献。 <br><br>
-
-感谢所有贡献者，我们非常感谢你们的帮助 &#10084;&#65039;
-]]></string>
-    <string name="special_thanks_to">Special thanks to</string>
-    <string name="tip_kind">Kind tip of</string>
-    <string name="tip_excellent">Excellent tip of</string>
-    <string name="tip_incredible">Incredible tip of</string>
-    <string name="tip_jar">Tip Jar</string>
-    <string name="any_support_unlock_all">Choose the level of project support available to you (one-time, monthly or yearly). Any support unlocks all features of the application. You can cancel your subscription at any time.</string>
-    <string name="one_time_purchase">One-time support</string>
-    <string name="monthly">Monthly support</string>
-    <string name="yearly">Yearly support</string>
-    <string name="unlock">Unlock</string>
-    <string name="donate_text_g">
-        <![CDATA[
-            For those who do not use Google Play, it is possible to unlock all functions of the application. <br>
-            If you like our apps which are offline, non-intrusive and have no ads, please consider supporting us in some way. We would be very grateful.<br><br>
-            Thank you!
-        ]]>
-    </string>
 
     <!--Billing-->
-    <string name="donate_text_no_gp_g"><![CDATA[
-由于一些问题，我们暂时无法透过 Google Play 付款，
-因此在此期间，我们为所有用户提供手动解锁应用程序所有功能的选项。 <br>
-如果您喜欢我们离线、无干扰且无广告的应用程序，
-请考虑以某种方式支持我们。我们将不胜感激。 <br><br>
-谢谢！
-]]></string>
-    <string name="restored_previous_purchase_please_restart">Restored previous purchase. Please restart the app to make use of all features.</string>
-    <string name="no_purchase_found">No purchase found.</string>
-    <string name="restore_purchase">Restore purchase</string>
-    <string name="restoring_purchase">Restoring purchase…</string>
 
     <string name="no_connection">No connection</string>
     <string name="per_month">%s/month</string>
@@ -138,7 +86,7 @@
     <string name="open_search_when_open_contacts">Open a search when you open the contacts tab</string>
     <string name="end_search_when_changing_tab">更改选项卡时结束搜索</string>
     <string name="change_top_bar_colour_when_scrolling">滚动时更改顶部列的颜色</string>
-    <string name="global_theme_success_g">当前主题已成功应用于所有 Right Apps。将来对此主题所做的任何更改都将自动同步</string>
+    <string name="global_theme_success_g">当前主题已成功应用于所有 Chad Apps。将来对此主题所做的任何更改都将自动同步</string>
     <string name="enter_pattern">进入模式</string>
     <string name="call_screen_background">Call screen background</string>
     <string name="contact_photo">Contact photo</string>
@@ -182,55 +130,12 @@
     <string name="swipe_width">滑动宽度</string>
     <string name="auto_scroll">自动卷动</string>
     <string name="hide_icons_in_menu">隐藏选单中的图标</string>
-    <string name="purchase_simple_thank_you_g">Purchase Goodwy Thank You</string>
-    <string name="copyright_g">v %1$s\nCopyright © Goodwy %2$d</string>
-    <string name="update_thank_you_g">Please update Goodwy Thank You to the latest version</string>
-    <string name="faq_2_text_commons_g">
-        <![CDATA[
-            Yes, of course. You can spread the word about the apps or give good feedback and ratings. You can also help by translating the apps in a new language, or just update some existing translations.
-        You can find the guide at <a href="https://github.com/Goodwy/Discussion">this website</a>, or just shoot me a message at <a href="mailto:goodwy.dev@gmail.com">goodwy.dev@gmail.com</a> if you need help.
-        ]]>
-    </string>
-    <string name="faq_6_text_commons_g">当您的启动器不完全支援图示自定义时，会出现此问题。尝试通过Google Play或小组件（如果可存取）启动应用程序。        启动后，恢复预设应用程序图示颜色。在极端情况下，可能需要重新安装应用程序。</string>
-    <string name="faq_8_text_commons_g">As your app version is no longer updated, the bugs you have maybe spotted will never be fixed. There will also be no new functions added. You can purchase the Pro version on Google Play for a small sum of money.
-        It is a one time payment, which means that once you purchase it, you will never have to pay again. Not even after getting a new device. If you won\'t like the Pro version, you can just uninstall it within a few hours and you will automatically get your money back.
-        If you want a refund anytime later, just contact us at goodwy.dev@gmail.com and you will get it.</string>
     <string name="faq_100_title_commons_g">什么是私人联系？</string>
     <string name="faq_100_text_commons_g">应用程序内会建立一个个人联络人。其他应用程序将无法看到此联络人（除非是已启用特殊设定的应用程序）。\n\n如果您删除此应用程序，所有个人联络人也会随之删除，因此请在删除应用程序前备份您的联络人。</string>
     <string name="faq_101_title_commons_g">How to create a private contact?</string>
     <string name="faq_101_text_commons_g">When you create a contact, you must select the source of the contact: %s</string>
-    <string name="contributors_label_g"><![CDATA[
-此列表包含所有为我们的应用程序提供过显著帮助的人员。翻译工作由志工负责，
-如果您也想提供协助，请告诉我们。翻译指南位于<a href="https://github.com/Goodwy/Discussion">本网站</a>，或如果您有任何疑问，请发送电子邮件至<a href="mailto:goodwy.dev@gmail.com">goodwy.dev@gmail.com</a>联系我们。
-感谢所有贡献者和其他支持者！
-]]></string>
-    <string name="deprecated_app_g">DEPRECATED: This version of the app is no longer maintained, get the Pro version at https://play.google.com/store/apps/details?id=com.goodwy.xxx.pro</string>
-    <string name="pro_app_refund_g">Don\'t forget that if you uninstall any paid app within 2 hours, you will automatically be refunded. If you want a refund anytime later, just contact us at goodwy.dev@gmail.com and you will get it. That makes it easy to try it out :)</string>
 
     <!-- Contacts -->
-    <string name="notification_of_new_application"><![CDATA[
-
-<b><big>重要消息与全新开始🚀</big></b><br><br>
-
-由于持续的支付限制，我们不得不切换到新的开发者账号并发布新版本，以确保应用程序的未来发展。 <br><br>
-
-为什么要升级到新版本？ <br>
-
-✨ 完全自订颜色选择——选择您喜欢的任何颜色！ <br>
-
-🎨 全新现代图示<br>
-
-❤️ 支持专案的机会—这对专案的发展至关重要。 <br><br>
-
-您目前的应用程序将继续运行并接收更新。 <br><br>
-
-<b>感谢您的信任与支持。 </b><br><br>
-
-<small><i>致我们的早期支持者：<br>
-
-如果您之前购买过此应用程序或进行过捐赠，非常感谢！请将您的确认讯息发送至 help@goodwy.dev，我们将尽力为您提供新版本的优惠码（数量有限，先到先得）。 </i></small>
-
-]]></string>
     <string name="add_number">添加号码</string>
     <string name="add_email">添加邮箱</string>
     <string name="add_address">添加地址</string>
@@ -377,10 +282,6 @@
     <string name="relation_sister_in_law_g">Sister-in-law</string>
 
     <!-- RuStore -->
-    <string name="billing_purchase_confirm_in_progress">Confirming the purchase…</string>
-    <string name="billing_purchase_delete_in_progress">Deleting the purchase…</string>
-    <string name="billing_product_confirmed">Product confirmed/substantiated</string>
-    <string name="billing_product_deleted">Purchase canceled</string>
     <string name="billing_subscriptions">订阅</string>
     <string name="billing_error_application_signature_not_correct">要透过 RuStore 付款，您需要安装 RuStore 的应用程序版本</string>
     <string name="date">日期</string>
@@ -395,7 +296,6 @@
     <string name="disagree">我不同意</string>
     <string name="height">高度</string>
     <string name="select_color">选择颜色</string>
-    <string name="more_apps_from_us_g">我们的其他应用</string>
     <string name="text_alignment">文字对齐</string>
     <string name="use_persian_calendar">使用波斯历</string>
     <string name="blocking_type">阻塞类型</string>

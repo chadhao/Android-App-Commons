@@ -31,7 +31,6 @@ import com.goodwy.commons.compose.menus.OverflowMode
 import com.goodwy.commons.compose.settings.SettingsGroup
 import com.goodwy.commons.compose.settings.SettingsHorizontalDivider
 import com.goodwy.commons.compose.settings.SettingsPreferenceComponent
-import com.goodwy.commons.compose.settings.SettingsPurchaseComponent
 import com.goodwy.commons.compose.theme.AppThemeSurface
 import com.goodwy.commons.compose.theme.LocalTheme
 import com.goodwy.commons.compose.theme.SimpleTheme
@@ -49,9 +48,7 @@ fun MainScreen(
     manageBlockedNumbers: () -> Unit,
     showComposeDialogs: () -> Unit,
     openTestButton: () -> Unit,
-    showMoreApps: Boolean,
     openAbout: () -> Unit,
-    moreAppsFromUs: () -> Unit,
     startPurchaseActivity: () -> Unit,
     startTestActivity: () -> Unit,
     isTopAppBarColorIcon: Boolean = false,
@@ -68,11 +65,7 @@ fun MainScreen(
                 title = {},
                 actions = {
                     val actionMenus = remember {
-                        buildActionMenuItems(
-                            showMoreApps = showMoreApps,
-                            openAbout = openAbout,
-                            moreAppsFromUs = moreAppsFromUs
-                        )
+                        buildActionMenuItems(openAbout = openAbout)
                     }
                     var isMenuVisible by remember { mutableStateOf(false) }
                     ActionMenu(
@@ -96,14 +89,6 @@ fun MainScreen(
             //verticalArrangement = Arrangement.Center
         ) {
             Spacer(modifier = Modifier.size(8.dp))
-            var shouldShake by remember { mutableStateOf(false) }
-            SettingsPurchaseComponent(
-                onPurchaseClick = startPurchaseActivity,
-                enabledShake = shouldShake,
-                onShakeFinished = {
-                    shouldShake = false
-                }
-            )
             SettingsGroup(
                 title = { Text(text = "Test settings".uppercase()) }
             ) {
@@ -139,12 +124,6 @@ fun MainScreen(
                 )
                 SettingsHorizontalDivider(thickness = 2.dp)
                 SettingsPreferenceComponent(
-                    label = "Purchase",
-                    showChevron = true,
-                    doOnPreferenceClick = { shouldShake = true }
-                )
-                SettingsHorizontalDivider(thickness = 2.dp)
-                SettingsPreferenceComponent(
                     label = "Activity",
                     showChevron = true,
                     doOnPreferenceClick = startTestActivity
@@ -174,9 +153,7 @@ fun MainScreen(
 }
 
 private fun buildActionMenuItems(
-    showMoreApps: Boolean,
-    openAbout: () -> Unit,
-    moreAppsFromUs: () -> Unit
+    openAbout: () -> Unit
 ): ImmutableList<ActionItem> {
     val list = mutableListOf<ActionItem>()
     list += ActionItem(
@@ -185,13 +162,6 @@ private fun buildActionMenuItems(
         doAction = openAbout,
         overflowMode = OverflowMode.NEVER_OVERFLOW,
     )
-    if (showMoreApps) {
-        list += ActionItem(
-            com.goodwy.strings.R.string.more_apps_from_us_g,
-            doAction = moreAppsFromUs,
-            overflowMode = OverflowMode.ALWAYS_OVERFLOW,
-        )
-    }
     return list.toImmutableList()
 }
 
@@ -204,9 +174,7 @@ private fun MainScreenPreview() {
             manageBlockedNumbers = {},
             showComposeDialogs = {},
             openTestButton = {},
-            showMoreApps = true,
             openAbout = {},
-            moreAppsFromUs = {},
             startPurchaseActivity = {},
             startTestActivity = {},
             openDateButton = {},

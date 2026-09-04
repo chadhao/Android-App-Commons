@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="website">Website</string>
     <!--TODO Edit-->
     <string name="cancel">Annuleren</string>
     <string name="close">Sluiten</string>
@@ -84,7 +85,6 @@
     <string name="no_phone_number_found">Geen telefoonnummer gevonden</string>
     <string name="change_view_type">Weergave wijzigen</string>
     <string name="grid">Raster</string>
-    <string name="grid_pro">Raster (Pro)</string>
     <string name="uneven_grid">Ongelijk raster</string>
     <string name="list">Lijst</string>
     <string name="increase_column_count">Meer kolommen</string>
@@ -151,7 +151,6 @@
     <string name="search_text">Tekst zoeken</string>
     <string name="search_conversations">Gesprek zoeken</string>
     <string name="search_recordings">Opname zoeken</string>
-    <string name="filter_pro">Filteren (Pro)</string>
     <string name="no_items_found">Geen items gevonden.</string>
     <string name="change_filter">Filter wijzigen</string>
     <string name="no_storage_permissions">Recht voor opslag is vereist</string>
@@ -315,7 +314,6 @@
     <string name="undo_changes_confirmation">Wijzigingen inderdaad ongedaan maken\?</string>
     <string name="cannot_be_undone">Deze bewerking kan niet ongedaan worden gemaakt.</string>
     <string name="save_before_closing">Er zijn niet opgeslagen wijzigingen. Opslaan voor het afsluiten\?</string>
-    <string name="global_theme_success">Het huidige thema is toegepast op alle Fossify apps. Toekomstige aanpassingen zullen automatisch worden doorgevoerd in alle apps.</string>
     <string name="light_theme">Licht</string>
     <string name="dark_theme">Donker</string>
     <string name="auto_theme">Automatisch</string>
@@ -348,10 +346,8 @@
     <string name="undo">Ongedaan maken</string>
     <string name="redo">Opnieuw</string>
     <string name="print">Afdrukken</string>
-    <string name="print_pro">Afdrukken (Pro)</string>
     <string name="shortcut">Snelkoppeling</string>
     <string name="create_shortcut">Snelkoppeling maken</string>
-    <string name="create_shortcut_pro">Snelkoppeling maken (Pro)</string>
     <string name="add_number_to_contact">Nummer toevoegen aan contact</string>
     <string name="view_contact_details">Contactgegevens bekijken</string>
     <string name="call_from_sim_1">Met SIM 1 bellen</string>
@@ -432,7 +428,6 @@
     <string name="protection_setup_successfully">Wachtwoord succesvol ingesteld. App opnieuw installeren als het wachtwoord kwijt is.</string>
     <string name="fingerprint_setup_successfully">Bescherming instellen is gelukt. Installeer de app opnieuw bij problemen met het resetten van de bescherming.</string>
     <string name="lock_folder">Map vergrendelen</string>
-    <string name="lock_folder_pro">Map vergrendelen (Pro)</string>
     <string name="unlock_folder">Map ontgrendelen</string>
     <string name="lock_folder_notice">Deze bescherming werkt alleen in deze app, het is niet de bedoeling dat het een echte systeembrede mapversleuteling vervangt.</string>
     <string name="enter_password">Wachtwoord invoeren</string>
@@ -730,33 +725,14 @@
     <string name="friday_short">Vr</string>
     <string name="saturday_short">Za</string>
     <string name="sunday_short">Zo</string>
-    <string name="upgrade_to_pro_long">Deze app zal niet langer worden bijgewerkt. Upgrade naar de Pro-versie om gebruik te kunnen maken van nieuwe functies en verbeteringen.</string>
-    <string name="upgrade_to_pro_long_click">Deze app zal niet langer worden bijgewerkt. Klik hier om te upgraden naar de Pro-versie en gebruik te maken van nieuwe functies en verbeteringen.</string>
     <string name="it_is_free">Het is gratis tot: %s. Als het voordien is gedownload, is het voor altijd gratis te gebruiken.</string>
     <string name="more_info">Meer informatie</string>
-    <string name="upgrade">Upgraden</string>
     <string name="upgrade_calendar">Lokaal opgeslagen agenda\'s migreren kan alleen door exporteren naar een .ics bestand, en dan weer importeren. Deze functies zijn te vinden in het menu van de app.</string>
-    <string name="upgraded_from_free_gallery">De gratis versie van deze app is ook (nog) geïnstalleerd. Als de Pro-versie bevalt en de instellingen en favorieten zijn overgezet, dan kan de gratis versie worden verwijderd. Deze melding zal dan niet meer worden getoond.</string>
-    <string name="upgraded_to_pro_gallery">De Pro-versie van deze app is ook al geïnstalleerd. Als de Pro-versie bevalt en de instellingen en favorieten (indien gewenst) zijn overgezet vanuit deze versie, dan kan deze app worden verwijderd.</string>
-    <string name="upgraded_from_free">De gratis versie van deze app is ook (nog) geïnstalleerd. Als de Pro-versie bevalt en de gegevens zijn overgezet, dan kan de gratis versie worden verwijderd zodat die niet per abuis wordt gestart. Ook zal deze melding dan niet meer worden getoond.</string>
-    <string name="upgraded_to_pro">De Pro-versie van deze app is ook al geïnstalleerd. Als de Pro-versie bevalt en de app-gegevens (indien gewenst) zijn overgezet vanuit deze versie, dan kan deze app worden verwijderd.</string>
-    <string name="upgraded_from_free_calendar">De gratis versie van deze app is ook (nog) geïnstalleerd. Lokaal opgeslagen afspraken uit de gratis versie zullen handmatig moeten worden overgezet door ze eerst te exporteren naar een .ics-bestand en ze vervolgens weer te importeren in de Pro-versie. Beide functies zijn te vinden in het menu.
-\n
-\nAls de Pro-versie bevalt, kan de gratis versie worden verwijderd. Deze melding zal dan niet meer worden getoond.</string>
-    <string name="upgraded_from_free_contacts">De gratis versie van deze app is ook (nog) geïnstalleerd. Eventueel opgeslagen contacten in \"%s\" zullen handmatig moeten worden overgezet door ze eerst te exporteren naar een .vcf-bestand en ze vervolgens weer te importeren in de Pro-versie. Beide functies zijn te vinden in het menu.
-\n
-\nAls de Pro-versie bevalt, kan de gratis versie worden verwijderd. Deze melding zal dan niet meer worden getoond.</string>
-    <string name="upgraded_from_free_notes">De gratis versie van deze app is ook (nog) geïnstalleerd. De notities uit de gratis versie zullen handmatig moeten worden overgezet door ze eerst te exporteren naar een bestand en ze vervolgens weer te importeren in de Pro-versie. Beide functies zijn te vinden in het menu.
-\n
-\nAls de Pro-versie bevalt, kan de gratis versie worden verwijderd. Deze melding zal dan niet meer worden getoond.</string>
     <string name="about">Over</string>
-    <string name="website_label">Bezoek voor de broncodes</string>
     <string name="email_label">Stuur reacties of suggesties naar</string>
-    <string name="upgrade_to_pro">Upgraden naar Pro-versie</string>
     <string name="invite_friends">Vrienden uitnodigen</string>
     <string name="share_text">Hé, bekijk %1$s eens op %2$s</string>
     <string name="invite_via">Uitnodigen via</string>
-    <string name="donate">Doneren</string>
     <string name="follow_us">Volg ons</string>
     <string name="support">Ondersteuning</string>
     <string name="help_us">Help ons</string>
@@ -769,19 +745,11 @@
     <string name="additional_info">Extra informatie</string>
     <string name="app_version">Versie: %s</string>
     <string name="device_os">Besturingssysteem: %s</string>
-    <string name="donate_please"><![CDATA[
-            Hallo,<br><br>
-            Hopelijk vind je dit een fijne app. Het bevat geen advertenties, maar je kunt de verdere ontwikkeling wel ondersteunen door de app <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Bedankje</a> aan te schaffen. Het voorkomt ook dat dit venster nog eens verschijnt.<br><br>
-             Dankjewel!
-        ]]></string>
     <string name="purchase">Kopen</string>
     <string name="before_asking_question_read_faq">Controleer bij problemen eerst de instellingen van de app en neem de Veelgestelde vragen door. Misschien staat de oplossing daar.</string>
     <string name="make_sure_latest">Zorg er ook voor dat de laatste versie van de app is geïnstalleerd.</string>
-    <string name="make_sure_upgrade">Let erop dat deze app niet meer wordt doorontwikkeld. Installeer de Pro-versie voor nieuwe functies en verbeteringen.</string>
     <string name="read_it">Nu lezen</string>
     <string name="read_faq">Veelgestelde vragen</string>
-    <string name="thank_you">Bedankt!</string>
-    <string name="widget_locked_pro">De widget is vergrendeld.\nUpgrade naar de Pro-versie om te ontgrendelen.</string>
     <string name="new_app">
         <![CDATA[
             Hallo,<br><br>
@@ -807,7 +775,6 @@
     <string name="music_player_short">Muziek</string>
     <string name="notes_short">Notities</string>
     <string name="sms_messenger_short">Berichten</string>
-    <string name="thank_you_short">Bedankt!</string>
     <string name="voice_recorder_short">Geluidsrecorder</string>
     <string name="sideloaded_app"><![CDATA[
             Het lijkt erop dat deze versie van de app corrupt is. Download de originele versie <a href="%s">hier</a>
@@ -816,13 +783,6 @@
     <string name="before_asking_question">Lees vóór het insturen van een vraag eerst de</string>
     <string name="faq_1_title_commons">Waarom zie ik de widget van deze app niet in de lijst met widgets?</string>
     <string name="faq_1_text_commons">Waarschijnlijk is de app verplaatst naar de SD-kaart. Android verbergt widgets van apps die zich bevinden op de SD-kaart. De enige oplossing is het verplaatsen van de app naar de Interne Opslag via de instellingen van Android.</string>
-    <string name="faq_2_title_commons">Ik wil een bijdrage leveren, maar ik kan geen geld doneren. Kan ik iets anders doen?</string>
-    <string name="faq_2_text_commons">
-        <![CDATA[
-            Maar natuurlijk! Vertel anderen over deze apps of geef feedback en beoordelingen. Ook het vertalen van de apps in een nieuwe taal of het bijwerken van bestaande vertalingen wordt gewaardeerd.
-            Een handleiding voor vertaling is te vinden op <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">deze website</a>, of stuur een bericht naar <a href="mailto:hello@fossify.org">hello@fossify.org</a> voor hulp.
-        ]]>
-    </string>
     <string name="faq_3_title_commons">Ik heb per ongeluk bestanden verwijderd, hoe kan ik deze herstellen?</string>
     <string name="faq_3_text_commons">Helaas kan dat niet. Bestanden worden onmiddellijk na het bevestigingen verwijderd, er is geen prullenbak beschikbaar.</string>
     <string name="faq_4_title_commons">Ik vind de kleuren van de widgets niet mooi, kan ik ze veranderen?</string>
@@ -832,8 +792,6 @@
     <string name="faq_6_title_commons">Het icoon voor de app is verdwenen uit mijn launcher. Wat moet ik doen\?</string>
     <string name="faq_7_title_commons">Het geld is afgeschreven van mijn rekening, maar ik kan de app nog niet downloaden. Wat moet ik doen?</string>
     <string name="faq_7_text_commons">Betalingen worden verwerkt door Google, maar dit systeem vertoont soms wat problemen. Leeg de cache van de Google Play Store app en start daarna het apparaat opnieuw. Probeer vervolgens nogmaals de app te downloaden.</string>
-    <string name="faq_8_title_commons">Waarom zou ik upgraden naar de Pro-versie?</string>
-    <string name="faq_8_text_commons">Omdat deze versie van de app niet meer zal worden bijgewerkt, zullen eventuele fouten nooit meer worden opgelost. Ook zullen er geen nieuwe functies meer worden toegevoegd. De Pro-versie is voor een bescheiden bedrag te vinden in de Google Play Store. Dit bedrag hoeft maar een keer te worden betaald, daarna nooit meer. Ook niet voor nieuwe apparaten. Als de Pro-versie toch niet bevalt, verwijder de app dan binnen enkele uren en het bedrag zal worden teruggestort. Ook een latere restitutie is nog mogelijk. Neem hiervoor contact op via hello@fossify.org en het geld zal alsnog worden teruggestort.</string>
     <string name="faq_9_title_commons">Hoe kan ik meerdere items tegelijk selecteren?</string>
     <string name="faq_9_text_commons">Dit kan op verschillende manieren. De eerste is door met een lange druk op een enkel item de selectiemodus in te schakelen, waarna kort klikken op andere items de selectie zal uitbreiden. De tweede manier is vergelijkbaar met het selecteren van items op een PC met de muis:
         druk lang op een item en sleep vervolgens over andere items om ook die te selecteren. De derde manier is door lang te drukken op het eerste item en vervolgens ook lang te drukken op het laatste item, waarna alle items ertussen zullen worden geselecteerd. Om alle
@@ -886,11 +844,6 @@
     <string name="translation_chinese_hk">Chinees (Hong Kong)</string>
     <string name="translation_chinese_cn">Chinees (Vereenvoudigd)</string>
     <string name="translation_chinese_tw">Chinees (Traditioneel)</string>
-    <string name="why_upgrade">Stap nu over naar de Pro-versie!</string>
-    <string name="why_upgrade_basic_version">Standaard</string>
-    <string name="why_upgrade_no_ads">Geen advertenties</string>
-    <string name="why_upgrade_no_internet_access">Geen internettoegang</string>
-    <string name="why_upgrade_footer">100% Niet-goed-geld-teruggarantie</string>
     <string name="why_upgrade_footer_one_time_payment">Eenmalige betaling</string>
     <string name="why_upgrade_improved_design">Verbeterd ontwerp</string>
     <string name="why_upgrade_many_other_improvements">Nog vele andere verbeteringen</string>
@@ -937,8 +890,6 @@
         <item quantity="one">Deze proefversie verloopt over %d dag.</item>
         <item quantity="other">Deze proefversie verloopt over %d dagen.</item>
     </plurals>
-    <string name="deprecated_app">VEROUDERD: Deze versie van de app wordt niet meer onderhouden. De Pro-versie is te vinden op https://play.google.com/store/apps/details\?id=org.fossify..xxx.pro</string>
-    <string name="pro_app_refund">Bij het verwijderen van de app binnen 2 uur na aanschaf wordt het aankoopbedrag automatisch teruggestort. Wilt u op een later tijdstip een terugbetaling, neem dan contact op via hello@fossify.org en het wordt geregeld. Zodoende blijft het gemakkelijk om de app uit te proberen :)</string>
     <string name="developer_description">Een verzameling eenvoudige opensource Android-apps met widgets, zonder advertenties of onnodige rechten.</string>
     <string name="ok">OK</string>
     <string name="later">Later</string>
@@ -960,21 +911,11 @@
     <string name="genre">Genre</string>
     <string name="camera">Camera</string>
     <string name="exif">EXIF</string>
-    <string name="apply_to_all_apps">Thema toepassen op alle Fossify apps</string>
-    <string name="shared_theme_note">Ook bij gebruik van de Pro-versie van deze app komt Fossify Bedankje nog van pas, omdat het de synchronisatie van het gemeenschappelijke thema verzorgt.</string>
-    <string name="purchase_thank_you"><![CDATA[
-            Overweeg om <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Bedankje</a> aan te schaffen om deze functie te kunnen gebruiken en om verdere ontwikkeling te ondersteunen. Alvast bedankt!
-        ]]></string>
+    <string name="apply_to_all_apps">Thema toepassen op alle Chad apps</string>
     <string name="system_default">Systeeminstelling</string>
     <string name="show_line_numbers">Regelnummers tonen</string>
     <string name="hide_line_numbers">Regelnummers verbergen</string>
-    <string name="purchase_simple_thank_you">Fossify Bedankje aanschaffen</string>
-    <string name="donate_new">Hallo,&lt;br&gt;&lt;br&gt;Hopelijk gebruik je deze app met veel plezier. Het bevat geen advertenties en we verzamelen totaal geen gegevens. Je kunt de ontwikkeling ondersteunen door &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Bedankje&lt;/a&gt; aan te schaffen. Hiermee ontgrendel je alle functies in onze apps en kun je de kleuren voor alle apps tegelijk aanpassen.&lt;br&gt;&lt;br&gt;Dankjewel!</string>
-    <string name="donate_short">Ondersteun ons door de app &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Bedankje&lt;/a&gt; aan te schaffen. Dit zal alle functionaliteit in de apps ontgrendelen.</string>
-    <string name="update_thank_you">Update Fossify Bedankje naar de nieuwste versie</string>
     <string name="app_icon_color_warning">Let op: Sommige launchers verwerken het aanpassen van het icoon mogelijk niet goed. Als het icoon verdwijnt, probeer dan de app te starten via Google Play, F-Droid of een widget. Herstel na het starten de groene standaardkleur #106D1F. In extreme gevallen kan het zijn dat de app opnieuw geïnstalleerd moet worden.</string>
-    <string name="copyright">v %1$s
-\nCopyright © Fossify %2$d</string>
     <string name="seconds_letter">%ds</string>
     <string name="minutes_letter">%dm</string>
     <string name="week_number_short">wk.</string>
@@ -999,21 +940,12 @@
     <string name="in_december">in December</string>
     <string name="monday_letter">M</string>
     <string name="wednesday_letter">W</string>
-    <string name="website">Website</string>
     <string name="camera_short">Camera</string>
-    <string name="why_upgrade_pro_version">Pro</string>
-    <string name="contributors_label"><![CDATA[
-            Deze lijst bevat de namen van iedereen die aan een app binnen de Fossify suite heeft bijgedragen. Vertalingen worden gedaan door vrijwilligers,
-            dus laat het ons weten als je ook wilt helpen. Lees de instructies <a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file>op deze website</a>, of stuur bij vragen een bericht naar <a href=mailto:hello@fossify.org>hello@fossify.org</a>. Bedankt voor alle bijdragen en andere ondersteuning!
-        ]]></string>
-    <string name="features_locked">Deze functie is vergrendeld. Overweeg het aanschaffen van &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Bedankje&lt;/a&gt; om alle functies in deze app te kunnen gebruiken.&lt;br&gt;&lt;br&gt;Dit is een eenmalige aanschaf met een niet-goed-geld-teruggarantie.</string>
     <string name="launcher_short">Launcher</string>
-    <string name="faq_6_text_commons">Dit probleem doet zich voor wanneer je launcher het aanpassen van pictogrammen niet volledig ondersteunt. Probeer de app te starten via Google Play of een widget, indien mogelijk. Herstel na het starten de standaard groene icoonkleur #106D1F. In extreme gevallen kan het nodig zijn om de app opnieuw te installeren.</string>
     <string name="translation_tamil">Tamil</string>
     <string name="format_phone_numbers">Telefoonnummers automatisch opmaken</string>
     <string name="little_to_no_fee">Weinig tot geen kosten</string>
     <string name="platforms">Platformen</string>
-    <string name="donate_to_fossify">Doneer aan Fossify</string>
     <string name="cryptocurrency">Cryptocurrency</string>
     <string name="fee_up_to_pct">Kosten tot %1$d%%</string>
     <string name="translation_hindi">Hindi</string>
@@ -1025,7 +957,6 @@
     <string name="gson_title">Gson (JSON-parser)</string>
     <string name="translation_belarusian">Wit-Russisch</string>
     <string name="translation_central_kurdish">Centraal Koerdisch</string>
-    <string name="all_fossify_apps">Alle Fossify apps</string>
     <string name="theme_and_colors">Thema &amp; kleuren</string>
     <string name="known_issues">Bekende problemen</string>
     <string name="during_day_at">Overdag om %1$02d.%2$02du</string>
@@ -1036,9 +967,6 @@
     <string name="confirm_storage_access_restricted_text_not_found">Er kon geen systeemapp voor bestandsbeheer worden gevonden.</string>
     <string name="confirm_storage_access_restricted_text_open_system">Openen in systeemapp</string>
     <string name="confirm_storage_access_restricted_text">Deze map is door systeembeperkingen niet beschikbaar.</string>
-    <string name="rate_this_app">Beoordeel deze app</string>
-    <string name="more_fossify_apps">Meer Fossify-apps</string>
-    <string name="requires_fossify_thank_you">Vereist Fossify Bedankje</string>
     <string name="enables_more_customization">Maakt meer aanpassingen mogelijk</string>
     <string name="translation_latvian">Lets</string>
     <string name="exoplayer_title">ExoPlayer (videospeler)</string>

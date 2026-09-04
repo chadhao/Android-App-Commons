@@ -11,14 +11,11 @@ import androidx.compose.runtime.getValue
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.goodwy.commons.activities.BaseSimpleActivity
 import com.goodwy.commons.activities.ManageBlockedNumbersActivity
-import com.goodwy.commons.compose.alert_dialog.AlertDialogState
-import com.goodwy.commons.compose.alert_dialog.rememberAlertDialogState
 import com.goodwy.commons.compose.extensions.*
 import com.goodwy.commons.compose.theme.AppThemeSurface
 import com.goodwy.commons.dialogs.ChangeDateTimeFormatDialog
 import com.goodwy.commons.dialogs.NewAppDialog
 import com.goodwy.commons.dialogs.QrCodeDialog
-import com.goodwy.commons.dialogs.RateStarsAlertDialog
 import com.goodwy.commons.dialogs.SecurityDialog
 import com.goodwy.commons.extensions.*
 import com.goodwy.commons.helpers.LICENSE_AUTOFITTEXTVIEW
@@ -42,8 +39,6 @@ class MainActivity : BaseSimpleActivity() {
             val isTimeFormat = if (isUse24HourFormat) TIME_FORMAT_24 else TIME_FORMAT_12
             val useShamsi by config.isUseShamsi.collectAsStateWithLifecycle(initialValue = config.useShamsi)
             AppThemeSurface {
-                val showMoreApps = onEventValue { !resources.getBoolean(com.goodwy.commons.R.bool.hide_google_relations) }
-
                 MainScreen(
                     openColorCustomization = ::startCustomizationActivity,
                     manageBlockedNumbers = {
@@ -52,10 +47,8 @@ class MainActivity : BaseSimpleActivity() {
                     showComposeDialogs = {
                         startActivity(Intent(this@MainActivity, TestDialogActivity::class.java))
                     },
-                    openTestButton = ::qrDialog, //::newAppDialog, //::securityDialog,//::setupStartDate,
-                    showMoreApps = showMoreApps,
+                    openTestButton = ::qrDialog, //::securityDialog,//::setupStartDate,
                     openAbout = ::launchAbout,
-                    moreAppsFromUs = ::launchMoreAppsFromUs,
                     startPurchaseActivity = ::launchPurchase,
                     startTestActivity = {
                         startActivity(Intent(this@MainActivity, TestActivity::class.java))
@@ -72,21 +65,9 @@ class MainActivity : BaseSimpleActivity() {
     }
 
     @Composable
-    private fun AppLaunched(
-        rateStarsAlertDialogState: AlertDialogState = getRateStarsAlertDialogState(),
-    ) {
+    private fun AppLaunched() {
         LaunchedEffect(Unit) {
-            appLaunchedCompose(
-                appId = BuildConfig.APPLICATION_ID,
-                showRateUsDialog = rateStarsAlertDialogState::show,
-            )
-        }
-    }
-
-    @Composable
-    private fun getRateStarsAlertDialogState() = rememberAlertDialogState().apply {
-        DialogMember {
-            RateStarsAlertDialog(alertDialogState = this, onRating = ::rateStarsRedirectAndThankYou)
+            appLaunchedCompose(appId = BuildConfig.APPLICATION_ID)
         }
     }
 
@@ -153,13 +134,9 @@ class MainActivity : BaseSimpleActivity() {
 
         val faqItems = arrayListOf(
             FAQItem(com.goodwy.commons.R.string.faq_1_title_commons, com.goodwy.commons.R.string.faq_1_text_commons),
-            FAQItem(com.goodwy.commons.R.string.faq_4_title_commons, com.goodwy.commons.R.string.faq_4_text_commons)
+            FAQItem(com.goodwy.commons.R.string.faq_4_title_commons, com.goodwy.commons.R.string.faq_4_text_commons),
+            FAQItem(com.goodwy.commons.R.string.faq_9_title_commons, com.goodwy.commons.R.string.faq_9_text_commons)
         )
-
-        if (!resources.getBoolean(com.goodwy.commons.R.bool.hide_google_relations)) {
-            faqItems.add(FAQItem(com.goodwy.commons.R.string.faq_2_title_commons, com.goodwy.commons.R.string.faq_2_text_commons))
-            faqItems.add(FAQItem(com.goodwy.commons.R.string.faq_6_title_commons, com.goodwy.commons.R.string.faq_6_text_commons))
-        }
 
         val flavorName = BuildConfig.FLAVOR
         val storeDisplayName = when (flavorName) {
@@ -186,11 +163,7 @@ class MainActivity : BaseSimpleActivity() {
             )
     }
 
-    fun launchMoreAppsFromUs() {
-        launchMoreAppsFromUsIntent(BuildConfig.FLAVOR)
-    }
-
-    private fun securityDialog() {
+    fun securityDialog() {
         val tabToShow = if (config.isAppPasswordProtectionOn) config.appProtectionType else SHOW_ALL_TABS
         SecurityDialog(this@MainActivity, config.appPasswordHash, tabToShow) { hash, type, success ->
             if (success) {
@@ -209,18 +182,6 @@ class MainActivity : BaseSimpleActivity() {
             content = "Contact",
             dialogTitle = "Qr Code",
         ) {}
-    }
-
-    private fun newAppDialog() {
-        NewAppDialog(
-            this,
-            "dev.goodwy.messages",
-            resources.getString(com.goodwy.strings.R.string.notification_of_new_application),
-            "AlRight Message",
-            AppCompatResources.getDrawable(this@MainActivity, com.goodwy.commons.R.drawable.ic_calendar_app),
-            showSubtitle = true
-        ) {
-        }
     }
 
     private fun setupStartDate() {

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="website">Ιστοσελίδα</string>
     <string name="cancel">Ακύρωση</string>
     <string name="close">Κλείσιμο</string>
     <string name="back">Πίσω</string>
@@ -87,7 +88,6 @@
     <string name="no_phone_number_found">Δεν βρέθηκε τηλεφωνικός αριθμός</string>
     <string name="change_view_type">Αλλαγή τύπου εμφάνισης</string>
     <string name="grid">Πλέγμα</string>
-    <string name="grid_pro">Πλέγμα (Pro)</string>
     <string name="uneven_grid">Ανισομερές πλέγμα</string>
     <string name="list">Λίστα</string>
     <string name="increase_column_count">Αύξηση αριθμού στηλών</string>
@@ -155,7 +155,6 @@
     <string name="search_conversations">Αναζήτηση συνομιλιών</string>
     <string name="search_recordings">Αναζήτηση ηχογραφήσεων</string>
     <string name="filter">Φίλτρο</string>
-    <string name="filter_pro">Φίλτρο (Pro)</string>
     <string name="no_items_found">Δεν βρέθηκαν στοιχεία.</string>
     <string name="change_filter">Αλλαγή φίλτρου</string>
     <string name="no_storage_permissions">Απαιτείται άδεια Αποθήκευσης</string>
@@ -330,10 +329,6 @@
     <string name="undo_changes_confirmation">Είστε βέβαιοι ότι θέλετε να αναιρέσετε τις αλλαγές σας;</string>
     <string name="cannot_be_undone">Αυτή η ενέργεια δεν μπορεί να αναιρεθεί.</string>
     <string name="save_before_closing">Έχετε αλλαγές που δεν έχουν αποθηκευτεί. Αποθήκευση πριν από την έξοδο?</string>
-    <string name="global_theme_success">Τα χρώματα ενημερώθηκαν με επιτυχία. Ένα νέο θέμα που ονομάζεται  \"Κοινόχρηστο\" έχει προστεθεί, παρακαλούμε να χρησιμοποιήστε το για την ενημέρωση των χρωμάτων όλων των εφαρμ. στο μέλλον.</string>
-    <string name="purchase_thank_you"><![CDATA[
-            Παρακαλώ αγοράστε την <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> για να ξεκλειδώσετε αυτή τη λειτουργία για να υποστηρίξετε την ανάπτυξη. Ευχαριστώ!
-        ]]></string>
     <string name="light_theme">Φωτεινό</string>
     <string name="dark_theme">Σκοτεινό</string>
     <string name="auto_theme">Αυτόματο</string>
@@ -366,10 +361,8 @@
     <string name="undo">Αναίρεση</string>
     <string name="redo">Επανάληψη</string>
     <string name="print">Εκτύπωση</string>
-    <string name="print_pro">Εκτύπωση (Pro)</string>
     <string name="shortcut">Συντόμευση</string>
     <string name="create_shortcut">Δημιουργία συντόμευσης</string>
-    <string name="create_shortcut_pro">Δημιουργία συντόμευσης (Pro)</string>
     <string name="add_number_to_contact">Προσθήκη αριθμού στις επαφές</string>
     <string name="view_contact_details">Προβολή λεπτομερειών επαφής</string>
     <string name="call_from_sim_1">Κλήση απο SIM 1</string>
@@ -450,7 +443,6 @@
     <string name="protection_setup_successfully">Ο κωδικός πρόσβασης ολοκληρώθηκε με επιτυχία. Εγκαταστήστε ξανά την εφαρμογή σε περίπτωση που τον ξεχάσετε.</string>
     <string name="fingerprint_setup_successfully">Η ρύθμιση προστασίας ολοκληρώθηκε με επιτυχία. Εγκαταστήστε ξανά την εφαρμογή σε περίπτωση προβλημάτων με την επαναφορά της.</string>
     <string name="lock_folder">Κλείδωμα Φακέλου</string>
-    <string name="lock_folder_pro">Κλείδωμα Φακέλου (Pro)</string>
     <string name="unlock_folder">Ξεκλείδωμα Φακέλου</string>
     <string name="lock_folder_notice">Αυτή η προστασία λειτουργεί μόνο για αυτήν την εφαρμογή, δεν πρόκειται να αντικαταστήσει την πραγματική κρυπτογράφηση του Συστήματος.</string>
     <string name="enter_password">Εισαγωγή κωδικού</string>
@@ -766,28 +758,14 @@
     <string name="friday_short">Παρ</string>
     <string name="saturday_short">Σαβ</string>
     <string name="sunday_short">Κυρ</string>
-    <string name="upgrade_to_pro_long">Η έκδοση της εφαρμογής σας δεν θα ενημερώνεται πλέον. Παρακαλώ αναβαθμίστε την στην έκδοση Pro για να λάβετε νέες επιδιορθώσεις και βελτιώσεις.</string>
-    <string name="upgrade_to_pro_long_click">Η έκδοση της εφαρμογής σας δεν θα ενημερώνεται πλέον. Παρακαλώ αναβαθμίστε την στην έκδοση Pro για να λάβετε νέες επιδιορθώσεις και βελτιώσεις πατώντας εδώ.</string>
     <string name="it_is_free">Είναι δωρεάν μέχρι: %s. Εάν κάνετε λήψη μέχρι τότε, θα μπορείτε να την χρησιμοποιείτε δωρεάν για πάντα.</string>
     <string name="more_info">Περισσότερα</string>
-    <string name="upgrade">Αναβάθμιση</string>
     <string name="upgrade_calendar">Πρέπει να μεταφέρετε τα αποθηκευμένα τοπικά συμβάντα χειροκίνητα, μέσω Εξαγωγής σε αρχείο .ics και στη συνέχεια Εισαγωγή. Μπορείτε να βρείτε τις επιλογές Εξαγωγής/Εισαγωγής, στο μενού της κύριας οθόνης.</string>
-    <string name="upgraded_from_free_gallery">Γεια σας,\n\nφαίνεται ότι μόλις αναβαθμίσατε από την δωρεάν έκδοση. Μόλις μείνετε ευχαριστημένοι με αυτή και ίσως μεταφέρετε τις ρυθμίσεις και τα αγαπημένα σας, μπορείτε να απεγκαταστήσετε την παλιά δωρεάν έκδοση για να αποφύγετε την τυχαία εκκίνησή της, καθώς δεν θα την χρειάζεστε πλέον.\n\nΕυχαριστούμε!</string>
-    <string name="upgraded_to_pro_gallery">Γεια σας,\n\nφαίνεται ότι έχετε ήδη την έκδοση της εφαρμογής Pro. Μόλις μείνετε ευχαριστημένοι με αυτήν και ίσως μεταφέρατε τις ρυθμίσεις και τα αγαπημένα σας, μπορείτε να την απεγκαταστήσετε για να αποφύγετε την τυχαία εκκίνησή της, καθώς δεν θα τη χρειάζεστε πλέον.\n\nΕυχαριστούμε!</string>
-    <string name="upgraded_from_free">Γεια σας,\n\nφαίνεται ότι μόλις αναβαθμίσατε από την δωρεάν έκδοση. Μόλις μείνετε ευχαριστημένοι με αυτή και ίσως μεταφέρετε τα δεδομένα σας, μπορείτε να απεγκαταστήσετε την παλιά δωρεάν έκδοση για να αποφύγετε τυχαία εκκίνησή της, καθώς δεν θα την χρειάζεστε πλέον.\n\nΕυχαριστώ!</string>
-    <string name="upgraded_to_pro">Γεια σας,\n\nφαίνεται ότι έχετε ήδη την έκδοση της εφαρμογής Pro επίσης. Μόλις μείνετε ευχαριστημένοι με αυτήν και ίσως μεταφέρατε τα δεδομένα σας, μπορείτε να την απεγκαταστήσετε για να αποφύγετε την τυχαία εκκίνησή της, καθώς δεν θα την χρειάζεστε πια.\n\nΕυχαριστούμε!</string>
-    <string name="upgraded_from_free_calendar">Γεια σας,\n\nφαίνεται ότι μόλις αναβαθμίσατε από την δωρεάν έκδοση. Αν θέλετε να μεταφέρετε τα τοπικά αποθηκευμένα συμβάντα σας, θα πρέπει να το κάνετε χειροκίνητα, εξάγοντάς τα σε αρχείο .ics στην έκδοση της δωρεάν εφαρμογής και εισάγοντας τα εδώ μέσω του μενού επάνω. \n\nΜόλις μείνετε ικανοποιημένοι με την εγκατάστασή σας στην έκδοση Pro, μπορείτε να απεγκαταστήσετε την παλιά δωρεάν έκδοση, καθώς δεν την χρειάζεστε πλέον.\n\nΕυχαριστούμε!</string>
-    <string name="upgraded_from_free_contacts">Γεια σας,\n\nφαίνεται ότι μόλις αναβαθμίσατε από την δωρεάν έκδοση. Αν είχατε αποθηκεύσει επαφές στο \"%s\", θα πρέπει να τις μεταφέρετε χειροκίνητα, εξάγοντας σε αρχείο .vcf από την έκδοση της δωρεάν εφαρμογής και εισάγοντας εδώ μέσω του επάνω μενού.\n\nΜόλις είστε ικανοποιημένοι με τη ρύθμιση στην έκδοση Pro, μπορείτε να απεγκαταστήσετε την παλιά δωρεάν έκδοση, καθώς δεν τη χρειάζεστε πλέον.\n\n Ευχαριστούμε!</string>
-    <string name="upgraded_from_free_notes">Γεια σας,\n\nφαίνεται ότι μόλις αναβαθμίσατε από την δωρεάν έκδοση. Αν θέλετε να μεταφέρετε τις σημειώσεις σας, θα πρέπει να το κάνετε χειροκίνητα εξάγοντας τις σε ένα αρχείο στην έκδοση της δωρεάν εφαρμογής και εισάγοντας τις εδώ μέσω του επάνω μενού. \n\nΜόλις μείνετε ικανοποιημένοι με την εγκατάστασή σας στην έκδοση Pro, μπορείτε να απεγκαταστήσετε την παλιά δωρεάν έκδοση, καθώς δεν θα την χρειάζεστε πλέον.\n\nΕυχαριστούμε!</string>
     <string name="about">Σχετικά</string>
-    <string name="website">Ιστοσελίδα</string>
-    <string name="website_label">Για τον κώδικα επισκεφθείτε</string>
     <string name="email_label">Στείλτε τα σχόλιά σας ή τις προτάσεις σας</string>
-    <string name="upgrade_to_pro">Αναβάθμιση στην Pro</string>
     <string name="invite_friends">Πρόσκληση φίλων</string>
     <string name="share_text">Έι, έλα να δεις %1$s στο %2$s</string>
     <string name="invite_via">Πρόσκληση μέσω</string>
-    <string name="donate">Δωρεά</string>
     <string name="follow_us">Ακολουθήστε μας</string>
     <string name="support">Υποστήριξη</string>
     <string name="help_us">Βοηθήστε μας</string>
@@ -800,21 +778,11 @@
     <string name="additional_info">Πρόσθετες πληροφορίες</string>
     <string name="app_version">Έκδοση εφαρμογής: %s</string>
     <string name="device_os">OS Συσκευής: %s</string>
-    <string name="donate_please">
-        <![CDATA[
-            Γειά σας,<br><br>
-            Ελπίζω να απολαμβάνετε την εφαρμογή. Δεν περιέχει διαφημίσεις, παρακαλώ υποστηρίξτε την ανάπτυξή της με την αγορά στο <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Απλά Σας Ευχαριστούμε</a>, θα αποτρέψει επίσης την εμφάνιση αυτού του διαλόγου.<br><br>
-            Ευχαριστούμε!
-        ]]>
-    </string>
     <string name="purchase">Αγορά</string>
     <string name="before_asking_question_read_faq">Πριν κάνετε μια ερώτηση, ελέγξτε τις ρυθμίσεις της εφαρμογής και διαβάστε πρώτα τις Συχνές Ερωτήσεις. Ίσως η λύση υπάρχει εκεί.</string>
     <string name="make_sure_latest">Επίσης, βεβαιωθείτε ότι χρησιμοποιείτε την τελευταία έκδοση της εφαρμογής.</string>
-    <string name="make_sure_upgrade">Σημειώστε επίσης ότι αυτή η έκδοση της εφαρμογής δεν αναπτύσσεται πλέον, αποκτήστε την έκδοση Pro για πολλές βελτιώσεις.</string>
     <string name="read_it">Διαβάστε τις</string>
     <string name="read_faq">Συχνές Ερωτήσεις</string>
-    <string name="thank_you">Σας Ευχαριστούμε</string>
-    <string name="widget_locked_pro">Το widget είναι κλειδωμένο.\nΠαρακαλώ αναβαθμίστε σε Pro έκδοση, για να το ξεκλειδώσετε.</string>
     <string name="new_app">
         <![CDATA[
             Γειά σας,<br><br>
@@ -842,7 +810,6 @@
     <string name="music_player_short">Μουσική</string>
     <string name="notes_short">Σημειώσεις</string>
     <string name="sms_messenger_short">Μηνύματα SMS</string>
-    <string name="thank_you_short">Σας Ευχαριστούμε</string>
     <string name="voice_recorder_short">Εγγραφή φωνής</string>
     <string name="sideloaded_app">
         <![CDATA[
@@ -854,13 +821,6 @@
     <string name="faq_1_title_commons">Γιατί δεν βλέπω αυτό το Γραφικό στοιχείο εφαρμογής στη λίστα;</string>
     <string name="faq_1_text_commons">Είναι πολύ πιθανό επειδή μετακινήσατε την εφαρμογή σε μια κάρτα SD. Υπάρχει ένας περιορισμός του συστήματος Android που αποκρύπτει τα συγκεκριμένα Γραφικά στοιχεία εφαρμογών
        σε αυτή την περίπτωση. Η μόνη λύση είναι να μετακινήσετε την εφαρμογή πίσω στην εσωτερική αποθήκευση μέσω των ρυθμίσεων της συσκευής σας.</string>
-    <string name="faq_2_title_commons">Θέλω να σας υποστηρίξω, αλλά δεν μπορώ να δωρίσω χρήματα. Υπάρχει κάτι άλλο που μπορώ να κάνω;</string>
-    <string name="faq_2_text_commons">
-        <![CDATA[
-            Ναι, φυσικά. Μπορείτε να διαδώσετε τις εφαρμογές ή να δώσετε καλά σχόλια και αξιολογήσεις. Μπορείτε επίσης να βοηθήσετε με τη μετάφραση των εφαρμογών σε μια νέα γλώσσα ή απλώς να ενημερώστε κάποιες υπάρχουσες μεταφράσεις..
-            Ο οδηγός μετάφρασης βρίσκεται στον <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">ιστότοπο</a>, ή απλά επικοινωνήστε μαζί μας στο <a href="mailto:hello@fossify.org">hello@fossify.org</a> αν έχετε οποιεσδήποτε ερωτήσεις.
-        ]]>
-    </string>
     <string name="faq_3_title_commons">Διαγραφή κάποιων αρχείων κατά λάθος, πώς μπορώ να τα ανακτήσω;</string>
     <string name="faq_3_text_commons">Δυστυχώς, δεν μπορείτε. Τα αρχεία διαγράφονται αμέσως μετά το παράθυρο διαλόγου επιβεβαίωσης, δεν υπάρχει διαθέσιμος Κάδος ανακύκλωσης.</string>
     <string name="faq_4_title_commons">Δεν μου αρέσουν τα χρώματα του Γραφικού στοιχείου, μπορώ να τα αλλάξω;</string>
@@ -870,10 +830,6 @@
     <string name="faq_6_title_commons">Το εικονίδιο εκκίνησης εφαρμογών εξαφανίστηκε. Τι μπορώ να κάνω?</string>
     <string name="faq_7_title_commons">Τα χρήματα αφαιρέθηκαν από τον τραπεζικό μου λογαριασμό, αλλά δεν μπορώ να κατεβάσω την εφαρμογή. Τι μπορώ να κάνω?</string>
     <string name="faq_7_text_commons">Οι πληρωμές διαχειρίζονται πλήρως από την Google, το σύστημα της δυσλειτουργεί περιστασιακά. Απλώς καθαρίστε την προσωρινή μνήμη εφαρμογών του Google Play, επανεκκινήστε τη συσκευή σας, και προσπαθήστε ξανά να την κατεβάσετε.</string>
-    <string name="faq_8_title_commons">Γιατί πρέπει να αναβαθμίσω σε έκδοση Pro;</string>
-    <string name="faq_8_text_commons">Καθώς η έκδοση της εφαρμογής σας δεν ενημερώνεται πλέον, τα σφάλματα που εντοπίσατε ίσως δεν θα διορθωθούν ποτέ. Επίσης, δεν θα προστεθούν νέες λειτουργίες. Μπορείτε να αγοράσετε την έκδοση Pro στο Google Play με ένα μικρό χρηματικό ποσό.
-        Πρόκειται για εφάπαξ πληρωμή, πράγμα που σημαίνει ότι μόλις την αγοράσετε, δεν θα χρειαστεί να την πληρώσετε ξανά. Ούτε καν μετά τη λήψη μιας νέας συσκευής. Εάν δεν σας αρέσει η έκδοση Pro, μπορείτε να την απεγκαταστήσετε μέσα σε λίγες ώρες και θα λάβετε αυτόματα τα χρήματά σας πίσω.
-        Αν θέλετε επιστροφή χρημάτων οποιαδήποτε στιγμή αργότερα, απλά επικοινωνήστε μαζί μας στη διεύθυνση hello@fossify.org και θα τα λάβετε.</string>
     <string name="faq_9_title_commons">Πώς μπορώ να επιλέξω πολλά στοιχεία ταυτόχρονα;</string>
     <string name="faq_9_text_commons">Υπάρχουν πολλοί τρόποι για να γίνει αυτό. Το πρώτο είναι η εκκίνηση της λειτουργίας επιλογής πατώντας παρατεταμένα ένα στοιχείο και κατόπιν κάνοντας σύντομο κλικ σε άλλα για να τα επιλέξετε. Ο δεύτερος τρόπος είναι παρόμοιος με την επιλογή στοιχείων σε υπολογιστές με ποντίκι.
         απλά ξεκινήστε τη λειτουργία επιλογής πατώντας παρατεταμένα ένα στοιχείο και, στη συνέχεια, κρατώντας πατημένο το δάχτυλό σας, σύρετέ το σε άλλα στοιχεία για επιλογή. Ο τρίτος τρόπος επιλογής πολλών στοιχείων είναι η μεγάλη διάρκεια πίεσης ενός στοιχείου και κατόπιν η μεγάλη διάρκεια πίεσης ενός άλλου και όλων των ενδιάμεσων γίνεται επιλεγμένη. Εάν
@@ -884,18 +840,6 @@
     <string name="translation">Μετάφραση</string>
     <string name="development">Ανάπτυξη</string>
     <string name="other_help">Άλλη Βοήθεια</string>
-    <string name="contributors_label">
-        <![CDATA[
-            Αυτή η λίστα περιέχει όλους όσους βοήθησαν αισθητά οποιαδήποτε εφαρμογή της σουίτας Fossify, όχι μόνο αυτή. Οι μεταφράσεις γίνονται από εθελοντές,
-            πείτε μας αν θέλετε να βοηθήσετε κι εσείς. Ο οδηγός για τη μετάφραση βρίσκεται στον <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">ιστότοπο</a>, ή επικοινωνήστε μαζί μας στο <a href="mailto:hello@fossify.org">hello@fossify.org</a> αν έχετε οποιεσδήποτε ερωτήσεις.
-            Ευχαριστούμε όλους τους συνεισφέροντες και υποστηρικτές!
-        ]]>
-    </string>
-    <string name="why_upgrade">Λάβετε την Pro έκδοση τώρα!</string>
-    <string name="why_upgrade_basic_version">Βασική</string>
-    <string name="why_upgrade_no_ads">Χωρίς διαφ/σεις</string>
-    <string name="why_upgrade_no_internet_access">Χωρίς πρόσβαση στο internet</string>
-    <string name="why_upgrade_footer">100% Εγγύηση επιστροφής χρημάτων</string>
     <string name="why_upgrade_footer_one_time_payment">Εφάπαξ πληρωμή</string>
     <string name="why_upgrade_improved_design">Βελτιωμένος σχεδιασμός</string>
     <string name="why_upgrade_many_other_improvements">Πολλές άλλες βελτιώσεις</string>
@@ -939,26 +883,14 @@
         <item quantity="one">Η δοκιμή σας λήγει σε %d ημέρα.</item>
         <item quantity="other">Η δοκιμή σας λήγει σε %d ημέρες.</item>
     </plurals>
-    <string name="deprecated_app">ΑΠΑΡΧΑΙΩΜΕΝΗ: Αυτή η έκδοση της εφαρμογής δεν υποστηρίζεται πλέον, λάβετε την έκδοση Pro εδώ https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
-    <string name="pro_app_refund">Μην ξεχνάτε οτι αν απεγκατασταθεί εντός 2 ωρών, θα επιστραφούν αυτόματα τα χρήματα σας. Αν θέλετε επιστροφή χρημάτων οποιαδήποτε στιγμή αργότερα, απλά επικοινωνήστε μαζί μας στο hello@fossify.org και θα τα λάβετε. Αυτό το κάνει εύκολότερο για να την δοκιμάσετε :)</string>
     <string name="developer_description">Μια ομάδα Απλών εφαρμογών Android ανοιχτού κώδικα με προσαρμόσιμα γραφικά στοιχεία, χωρίς διαφημίσεις και περιττές Άδειες.</string>
     <string name="ok">Εντάξει</string>
     <string name="email">Ηλεκτρονικό ταχυδρομείο</string>
     <string name="format_phone_numbers">Μορφοποίηση αριθμών τηλεφώνου</string>
     <string name="known_issues">Γνωστά προβλήματα</string>
-    <string name="rate_this_app">Αξιολόγηση</string>
-    <string name="donate_to_fossify">Δωρεά στο Fossify</string>
-    <string name="more_fossify_apps">Περισσότερες εφαρμογές Fossify</string>
-    <string name="faq_6_text_commons">Αυτό το πρόβλημα προκύπτει όταν το πρόγραμμα εκκίνησης δεν υποστηρίζει πλήρως την προσαρμογή εικονιδίων. Δοκιμάστε να εκκινήσετε την εφαρμογή μέσω του Google Play ή ενός γραφικού στοιχείου, εάν είναι προσβάσιμο. Μετά την εκκίνηση, επαναφέρετε το προεπιλεγμένο πράσινο χρώμα εικονιδίου #106D1F. Σε ακραίες περιπτώσεις, ενδέχεται να χρειαστεί επανεγκατάσταση της εφαρμογής.</string>
     <string name="theme_and_colors">Χρώματα θέματος</string>
     <string name="app_icon_color_warning">Προσοχή: Ορισμένα προγράμματα εκκίνησης ενδέχεται να μην χειρίζονται σωστά την προσαρμογή εικονιδίων εφαρμογών. Εάν το εικονίδιο εξαφανιστεί, δοκιμάστε να εκκινήσετε την εφαρμογή μέσω του Google Play ή ενός γραφικού στοιχείου, εάν είναι προσβάσιμο. Μετά την εκκίνηση, επαναφέρετε το προεπιλεγμένο πράσινο χρώμα εικονιδίου #106D1F. Σε ακραίες περιπτώσεις, ενδέχεται να χρειαστεί επανεγκατάσταση της εφαρμογής.</string>
-    <string name="apply_to_all_apps">Εφαρμογή θέματος σε όλες τις εφαρμογές Fossify</string>
-    <string name="donate_new">Γεια σας,&lt;br&gt;&lt;br&gt;Ελπίζω να απολαμβάνετε την εφαρμογή. Δεν περιέχει διαφημίσεις και δεν συλλέγουμε τα δεδομένα σας. Παρακαλούμε υποστηρίξτε την ανάπτυξή της αγοράζοντας το &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Ευχαριστώ&lt;/a&gt;. Θα έχετε επίσης όλες τις λειτουργίες της εφαρμογής, συμπεριλαμβανομένης της προσαρμογής χρωμάτων, ξεκλειδωμένες.&lt;br&gt;&lt;br&gt;Ευχαριστούμε!</string>
-    <string name="donate_short">Υποστηρίξτε μας αγοράζοντας το &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Ευχαριστώ&lt;/a&gt;. Θα ξεκλειδώσει επίσης όλες τις λειτουργίες της εφαρμογής, συμπεριλαμβανομένης της προσαρμογής χρωμάτων.</string>
-    <string name="all_fossify_apps">Όλες οι εφαρμογές Fossify</string>
-    <string name="requires_fossify_thank_you">Χρειάζεται την Fossify Thank You</string>
-    <string name="purchase_simple_thank_you">Αγορά Fossify Thank You</string>
-    <string name="features_locked">Αυτή η λειτουργία είναι κλειδωμένη, αγοράστε το &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; που ξεκλειδώνει ολόκληρη την εφαρμογή.&lt;br&gt;&lt;br&gt;Πρόκειται για μια εφάπαξ πληρωμή και εάν δεν είστε ικανοποιημένοι, μπορούμε να σας επιστρέψουμε τα χρήματά σας.</string>
+    <string name="apply_to_all_apps">Εφαρμογή θέματος σε όλες τις εφαρμογές Chad</string>
     <string name="enables_more_customization">Ενεργοποιεί περισσότερη προσαρμογή</string>
     <string name="badge_deprecated">(απαρχαιωμένο)</string>
     <string name="platforms">Πλατφόρμες</string>

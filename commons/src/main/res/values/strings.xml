@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="website">Website</string>
     <string name="ok">OK</string>
     <string name="cancel">Cancel</string>
     <string name="close">Close</string>
@@ -102,7 +103,6 @@
     <!-- View types -->
     <string name="change_view_type">Change view type</string>
     <string name="grid">Grid</string>
-    <string name="grid_pro">Grid (Pro)</string>
     <string name="uneven_grid">Uneven Grid</string>
     <string name="list">List</string>
     <string name="increase_column_count">Increase column count</string>
@@ -178,7 +178,6 @@
 
     <!-- Filters -->
     <string name="filter">Filter</string>
-    <string name="filter_pro">Filter (Pro)</string>
     <string name="no_items_found">No items found.</string>
     <string name="change_filter">Change filter</string>
 
@@ -382,16 +381,9 @@
     <string name="undo_changes_confirmation">Are you sure you want to undo your changes?</string>
     <string name="cannot_be_undone">This action cannot be undone.</string>
     <string name="save_before_closing">You have unsaved changes. Save before exit?</string>
-    <string name="apply_to_all_apps">Apply theme to all Fossify Apps</string>
+    <string name="apply_to_all_apps">Apply theme to all Chad Apps</string>
     <string name="app_icon_color_warning">Caution: Certain launchers may not handle app icon customization correctly. If the icon disappears, attempt launching the app through Google Play or a widget, if accessible.
         After launching, restore the default green icon color #106D1F. In extreme cases, reinstalling the app may be necessary.</string>
-    <string name="global_theme_success">The current theme has been successfully applied to all Fossify apps. Any future changes to this theme will be synced automatically.</string>
-    <string name="shared_theme_note">Note that even though you are using the Pro app version, you still need Fossify Thank You for technical reasons. It takes care of the color synchronization.</string>
-    <string name="purchase_thank_you">
-        <![CDATA[
-            Please purchase <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> to use this feature and support development. Thank you!
-        ]]>
-    </string>
 
     <!-- Themes -->
     <string name="light_theme">Light</string>
@@ -431,10 +423,8 @@
     <string name="undo">Undo</string>
     <string name="redo">Redo</string>
     <string name="print">Print</string>
-    <string name="print_pro">Print (Pro)</string>
     <string name="shortcut">Shortcut</string>
     <string name="create_shortcut">Create shortcut</string>
-    <string name="create_shortcut_pro">Create shortcut (Pro)</string>
     <string name="add_number_to_contact">Add number to contact</string>
     <string name="view_contact_details">View contact details</string>
     <string name="call_from_sim_1">Call from SIM 1</string>
@@ -525,7 +515,6 @@
     <string name="protection_setup_successfully">Password setup successfully. Please reinstall the app in case you forget it.</string>
     <string name="fingerprint_setup_successfully">Protection setup successfully. Please reinstall the app in case of problems with resetting it.</string>
     <string name="lock_folder">Lock folder</string>
-    <string name="lock_folder_pro">Lock folder (Pro)</string>
     <string name="unlock_folder">Unlock folder</string>
     <string name="lock_folder_notice">This protection works in this app only, it is not supposed to replace a real systemwide folder encryption.</string>
     <string name="enter_password">Enter password</string>
@@ -693,8 +682,6 @@
 
     <!-- Settings -->
     <string name="settings">Settings</string>
-    <string name="purchase_simple_thank_you">Purchase Fossify Thank You</string>
-    <string name="requires_fossify_thank_you">Requires Fossify Thank You</string>
     <string name="enables_more_customization">Enables more customization</string>
     <string name="general_settings">General</string>
     <string name="color_customization">Look &amp; feel</string>
@@ -895,35 +882,18 @@
     <string name="sunday_short">Sun</string>
 
     <!-- Pro version -->
-    <string name="upgrade_to_pro_long">Your app version will not be updated anymore. Please upgrade to the Pro version to receive new fixes and other improvements.</string>
-    <string name="upgrade_to_pro_long_click">Your app version will not be updated anymore. Please upgrade to the Pro version to receive new fixes and other improvements by clicking here.</string>
     <string name="it_is_free">It is free till: %s. If you download it till then, you will be able to use it for free forever.</string>
     <string name="more_info">More info</string>
-    <string name="upgrade">Upgrade</string>
     <string name="upgrade_calendar">You have to migrate locally stored events manually via exporting in an .ics file, then importing. You can find both export/import buttons at the main screen menu.</string>
-    <string name="upgraded_from_free_gallery">Hello,\n\nseems like you just upgraded from the free version. Once you are happy with this one and maybe migrated your settings and favorites over, you can uninstall the old free one to avoid launching it accidentally as you will not need it anymore, it will also prevent this dialog from showing up.\n\nThanks!</string>
-    <string name="upgraded_to_pro_gallery">Hello,\n\nseems like you already have the Pro app version too. Once you are happy with it and maybe migrated your settings and favorites over, you can uninstall this one to avoid launching it accidentally as you will not need it anymore.\n\nThanks!</string>
-    <string name="upgraded_from_free">Hello,\n\nseems like you just upgraded from the free version. Once you are happy with this one and maybe migrated your data over, you can uninstall the old free one to avoid launching it accidentally as you will not need it anymore, it will also prevent this dialog from showing up.\n\nThanks!</string>
-    <string name="upgraded_to_pro">Hello,\n\nseems like you already have the Pro app version too. Once you are happy with it and maybe migrated your data over, you can uninstall this one to avoid launching it accidentally as you will not need it anymore.\n\nThanks!</string>
-    <string name="upgraded_from_free_calendar">Hello,\n\nseems like you just upgraded from the free version. If you want to migrate your locally stored events over, you have to do it manually by exporting them into an .ics file in the free app version and importing here through the top menu. \n\nOnce you are satisfied with your setup in the Pro version, you can uninstall the old free one as you won\'t need it anymore, it will also prevent this dialog from showing up.\n\nThanks!</string>
-    <string name="upgraded_from_free_contacts">Hello,\n\nseems like you just upgraded from the free version. If you had any contacts stored under \"%s\", you have to migrate them manually by exporting in a .vcf file from the free app version and importing here through the top menu.\n\nOnce you are satisfied with your setup in the Pro version, you can uninstall the old free one as you won\'t need it anymore, it will also prevent this dialog from showing up.\n\nThanks!</string>
-    <string name="upgraded_from_free_notes">Hello,\n\nseems like you just upgraded from the free version. If you want to migrate your notes over, you have to do it manually by exporting them into a file in the free app version and importing here through the top menu. \n\nOnce you are satisfied with your setup in the Pro version, you can uninstall the old free one as you won\'t need it anymore, it will also prevent this dialog from showing up.\n\nThanks!</string>
 
     <!-- About -->
     <string name="about">About</string>
-    <string name="website">Website</string>
-    <string name="website_label">For the source codes visit</string>
     <string name="email_label">Send your feedback or suggestions to</string>
     <string name="known_issues">Known issues</string>
-    <string name="upgrade_to_pro">Upgrade to Pro</string>
-    <string name="more_fossify_apps">More Fossify apps</string>
     <string name="invite_friends">Invite friends</string>
     <string name="share_text">Hey, come check out %1$s at %2$s</string>
     <string name="invite_via">Invite via</string>
-    <string name="rate_this_app">Rate this app</string>
-    <string name="donate">Donate</string>
     <string name="follow_us">Follow us</string>
-    <string name="copyright">v %1$s\nCopyright © Fossify %2$d</string>
     <string name="support">Support</string>
     <string name="help_us">Help us</string>
     <string name="social">Social</string>
@@ -935,26 +905,11 @@
     <string name="additional_info">Additional info</string>
     <string name="app_version">App version: %s</string>
     <string name="device_os">Device OS: %s</string>
-    <string name="donate_please">
-        <![CDATA[
-            Hello,<br><br>
-            hope you are enjoying the app. It contains no ads, please support its development by purchasing the <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> app, it will also prevent this dialog from showing up again.<br><br>
-            Thank you!
-        ]]>
-    </string>
-    <string name="donate_new">Hello,&lt;br&gt;&lt;br&gt;hope you are enjoying the app. It contains no ads and we aren\'t collecting your data either, please support its development by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;. You will also have all app features including color customization unlocked.&lt;br&gt;&lt;br&gt;Thank you!</string>
-    <string name="donate_short">Support us by purchasing &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; please, it will also unlock all app features including color customization.</string>
     <string name="purchase">Purchase</string>
-    <string name="update_thank_you">Please update Fossify Thank You to the latest version</string>
     <string name="before_asking_question_read_faq">Before you ask a question, please check the app settings and read the Frequently Asked Questions first. Maybe the solution is there.</string>
     <string name="make_sure_latest">Also make sure that you are using the latest app version.</string>
-    <string name="make_sure_upgrade">Also note that this app version is no longer being developed, get the Pro one for many improvements.</string>
     <string name="read_it">Read it</string>
     <string name="read_faq">Read FAQ</string>
-    <string name="thank_you">Thank you</string>
-    <string name="widget_locked_pro">The widget is locked.\nPlease upgrade to the Pro version to unlock it.</string>
-    <string name="features_locked">This feature is locked, please purchase &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; for unlocking the full app.&lt;br&gt;&lt;br&gt;It is a one time payment only and if you won\'t be satisfied, we can refund you.</string>
-    <string name="all_fossify_apps">All Fossify apps</string>
 
     <!-- New app (do not translate anything on the 4th line) -->
     <string name="new_app">
@@ -985,7 +940,6 @@
     <string name="music_player_short">Music Player</string>
     <string name="notes_short">Notes</string>
     <string name="sms_messenger_short">SMS Messenger</string>
-    <string name="thank_you_short">Thank You</string>
     <string name="voice_recorder_short">Voice Recorder</string>
     <string name="sideloaded_app">
         <![CDATA[
@@ -994,7 +948,6 @@
     </string>
 
     <!-- Donations -->
-    <string name="donate_to_fossify">Donate to Fossify</string>
     <string name="platforms">Platforms</string>
     <string name="little_to_no_fee">Little to no fee</string>
     <string name="fee_up_to_pct">Up to %1$d%% fee</string>
@@ -1010,13 +963,6 @@
     <string name="faq_1_title_commons">How come I don\'t see this apps widget on the list of widgets?</string>
     <string name="faq_1_text_commons">It is most likely because you moved the app on an SD card. There is an Android system limitation which hides the given app widgets
         in that case. The only solution is to move the app back onto the Internal Storage via your device settings.</string>
-    <string name="faq_2_title_commons">I want to support you, but I cannot donate money. Is there anything else I can do?</string>
-    <string name="faq_2_text_commons">
-        <![CDATA[
-            Yes, of course. You can spread the word about the apps or give good feedback and ratings. You can also help by translating the apps in a new language, or just update some existing translations.
-            The guide to translating is at <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">this website</a>, or just contact us at <a href="mailto:hello@fossify.org">hello@fossify.org</a> if you have any questions.
-        ]]>
-    </string>
     <string name="faq_3_title_commons">I deleted some files by mistake, how can I recover them?</string>
     <string name="faq_3_text_commons">Sadly, you cannot. Files are deleted instantly after the confirmation dialog, there is no trashbin available.</string>
     <string name="faq_4_title_commons">I don\'t like the widget colors, can I change them?</string>
@@ -1024,14 +970,8 @@
     <string name="faq_5_title_commons">Can I somehow restore deleted files?</string>
     <string name="faq_5_text_commons">If they were really deleted, you cannot recover them. However, the recycle bin is enabled by default and moves files into the bin instead of deleting them immediately.</string>
     <string name="faq_6_title_commons">The app launcher icon disappeared. What can I do?</string>
-    <string name="faq_6_text_commons">This issue arises when your launcher does not fully support icon customization. Attempt launching the app through Google Play or a widget, if accessible.
-        After launching, restore the default green icon color #106D1F. In extreme cases, reinstalling the app may be necessary.</string>
     <string name="faq_7_title_commons">The money has been deducted from my bank account, but I cannot download the app. What can I do?</string>
     <string name="faq_7_text_commons">Payments are fully handled by Google, their system glitches from time to time. Just clear your Google Play app cache and restart your device, then retry downloading it.</string>
-    <string name="faq_8_title_commons">Why should I upgrade to the Pro version?</string>
-    <string name="faq_8_text_commons">As your app version is no longer updated, the bugs you have maybe spotted will never be fixed. There will also be no new functions added. You can purchase the Pro version on Google Play for a small sum of money.
-        It is a one time payment, which means that once you purchase it, you will never have to pay again. Not even after getting a new device. If you won\'t like the Pro version, you can just uninstall it within a few hours and you will automatically get your money back.
-        If you want a refund anytime later, just contact us at hello@fossify.org and you will get it.</string>
     <string name="faq_9_title_commons">How can I select multiple items at once?</string>
     <string name="faq_9_text_commons">There are multiple ways of doing that. The first one is starting the selection mode by long pressing one item, then short clicking on others to select them. The second way is similar to selecting items on PCs with a mouse,
         just start the selection mode by long pressing one item, then with your finger still down drag it across other items for selecting. The third way of selecting multiple items is long pressing one item, then long pressing another one and everything in between gets selected. If you
@@ -1044,13 +984,6 @@
     <string name="translation">Translation</string>
     <string name="development">Development</string>
     <string name="other_help">Other help</string>
-    <string name="contributors_label">
-        <![CDATA[
-            This list contains everyone that noticeably helped any app within the Fossify suite, not only this one. Translations are handled by volunteers,
-            let us know if you want to help too. The guide to translating is at <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">this website</a>, or just contact us at <a href="mailto:hello@fossify.org">hello@fossify.org</a> if you have any questions.
-            Thanks to all contributors and other supporters!
-        ]]>
-    </string>
 
     <string name="translation_arabic">Arabic</string>
     <string name="translation_azerbaijani">Azerbaijani</string>
@@ -1107,12 +1040,6 @@
     <string name="translation_chinese_tw">Chinese (Traditional)</string>
 
     <!-- Pro comparison (shown in the deprecated free apps) -->
-    <string name="why_upgrade">Get the Pro version now!</string>
-    <string name="why_upgrade_basic_version">Basic</string>
-    <string name="why_upgrade_pro_version">Pro</string>
-    <string name="why_upgrade_no_ads">No ads</string>
-    <string name="why_upgrade_no_internet_access">No internet access</string>
-    <string name="why_upgrade_footer">100% Money Back Guarantee</string>
     <string name="why_upgrade_footer_one_time_payment">One time payment</string>
     <string name="why_upgrade_improved_design">Improved design</string>
     <string name="why_upgrade_many_other_improvements">Many other improvements</string>
@@ -1208,8 +1135,6 @@
     </plurals>
 
     <!-- Google Play listing -->
-    <string name="deprecated_app">DEPRECATED: This version of the app is no longer maintained, get the Pro version at https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
-    <string name="pro_app_refund">Don\'t forget that if you uninstall any paid app within 2 hours, you will automatically be refunded. If you want a refund anytime later, just contact us at hello@fossify.org and you will get it. That makes it easy to try it out :)</string>
 
     <!-- Description of our developer profile on Google Play, it can have max 140 characters -->
     <string name="developer_description">A group of simple, open source Android apps with customizable widgets, without ads and unnecessary permissions.</string>

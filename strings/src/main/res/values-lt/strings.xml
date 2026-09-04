@@ -17,66 +17,14 @@
     <string name="end">Pabaiga</string>
 
     <!-- Support project -->
-    <string name="rate_g">Įvertinti</string>
-    <string name="action_support_project">Projekto palaikymas</string>
-    <string name="pref_pay_summary">Get the paid app to support future developments and extra features</string>
-    <string name="support_project_summary">Get one of our paid apps to support future development and unlock extra features</string>
     <string name="learn_more">Sužinoti daugiau</string>
     <string name="themes">Temos</string>
     <string name="themes_summary">"Kruopščiai atrinktos programų temos, automatinis temų keitiklis ir sistemos temų palaikymas, skirtas \"Android 12+\". "</string>
     <string name="color_title">Spalvų</string>
     <string name="color_summary">Rankinis pagrindinės spalvos, akcento, fono, teksto ir naršymo juostos reguliavimas</string>
-    <string name="plus_title">Paremkite mus</string>
-    <string name="plus_summary">Su jūsų pagalba galime įdiegti daugiau funkcijų ir padaryti programą dar geresnę</string>
-    <string name="attention">Dėmesys</string>
-    <string name="attention_summary">Jei pirkote naudodami senąją versiją arba rėmėte projektą kitose platformose, atsiųskite mums patvirtinimą el. paštu ir mes pasistengsime atsiųsti jums reklamos kodą.</string>
-    <string name="attention_dialog_summary">Norėdami gauti reklamos kodą, turite atsiųsti projekto palaikymo įrodymą (pakanka ekrano kopijos iš „Google Play“ ar kitos platformos). Reklamos kodų skaičius ribotas. Atsiųsti įrodymą?</string>
-    <string name="about_summary">
-        <![CDATA[
-            <i>
-            Mes vertiname jūsų laiką ir norime, kad galėtumėte mėgautis mūsų programa be skelbimų. Jei tai suteikė jums malonumą ir naudingumą, apsvarstykite galimybę paaukoti jo plėtrai. <br><br>
-            Įvertinkite mūsų sunkų darbą ir pasidalykite savo įspūdžiais, tai padės mums įgyvendinti naujas idėjas ir pasiūlyti jums dar daugiau nuostabių funkcijų.
-            </i>
-        ]]></string>
-    <string name="lifebuoy_title">Mes jums padėsime</string>
-    <string name="lifebuoy_summary">Jei dėl kokių nors priežasčių negalite sau leisti mūsų programos, bet tikrai norite naudotis visomis funkcijomis, tiesiog atsiųskite mums el. laišką</string>
     <string name="participants_title">Participants</string>
-    <string name="participants_subtitle"><![CDATA[
-Šie žmonės prisidėjo prie atvirojo kodo „Right“ projekto „GitHub“ platformoje,
-taip pat prie „Fossify“ ir „Simple Mobile Tools“, kuriais mes esame paremti.<br><br>
-
-Dėkojame visiems mūsų prisidėjusiems, labai vertiname jūsų pagalbą &10084;&#65039;
-]]></string>
-    <string name="special_thanks_to">Special thanks to</string>
-    <string name="tip_kind">Geras palaikymas</string>
-    <string name="tip_excellent">Puikus palaikymas</string>
-    <string name="tip_incredible">Nuostabus palaikymas</string>
-    <string name="tip_jar">Parama</string>
-    <string name="any_support_unlock_all">Pasirinkite jums prieinamo projekto palaikymo lygį (vienkartinį, mėnesinį ar metinį). Bet koks palaikymas atrakina visas programos funkcijas</string>
-    <string name="one_time_purchase">Vienkartinis palaikymas</string>
-    <string name="monthly">Mėnesinis palaikymas</string>
-    <string name="yearly">Metinė parama</string>
-    <string name="unlock">Unlock</string>
-    <string name="donate_text_g">
-        <![CDATA[
-            For those who do not use Google Play, it is possible to unlock all functions of the application. <br>
-            If you like our apps which are offline, non-intrusive and have no ads, please consider supporting us in some way. We would be very grateful.<br><br>
-            Thank you!
-        ]]>
-    </string>
 
     <!--Billing-->
-    <string name="donate_text_no_gp_g"><![CDATA[
-            Dėl problemų laikinai negalime atlikti mokėjimų per Google Play,
-            todėl šiuo laikotarpiu visiems vartotojams suteikiame galimybę rankiniu būdu atrakinti visas programos funkcijas. <br>
-            Jei jums patinka mūsų programos, kurios yra neprisijungusios, neįkyrios ir kuriose nėra skelbimų,
-            apsvarstykite galimybę kaip nors mus paremti. Būtume labai dėkingi.<br><br>
-            Ačiū!
-        ]]></string>
-    <string name="restored_previous_purchase_please_restart">Restored previous purchase. Please restart the app to make use of all features.</string>
-    <string name="no_purchase_found">No purchase found.</string>
-    <string name="restore_purchase">Restore purchase</string>
-    <string name="restoring_purchase">Restoring purchase…</string>
 
     <string name="no_connection">Nėra ryšio</string>
     <string name="per_month">%s per mėnesį</string>
@@ -121,7 +69,7 @@ Dėkojame visiems mūsų prisidėjusiems, labai vertiname jūsų pagalbą &10084
     <string name="open_search_when_open_contacts">Atidarykite iešką, kai atidarote skirtuką Kontaktai</string>
     <string name="end_search_when_changing_tab">Paieškos užbaigimas keičiant skirtukus</string>
     <string name="change_top_bar_colour_when_scrolling">Pakeiskite viršutinės juostos spalvą slinkdami</string>
-    <string name="global_theme_success_g">Dabartinė tema sėkmingai pritaikyta visoms tinkamoms programoms. Visi būsimi šios temos pakeitimai bus sinchronizuojami automatiškai</string>
+    <string name="global_theme_success_g">Dabartinė tema sėkmingai pritaikyta visoms Chad programoms. Visi būsimi šios temos pakeitimai bus sinchronizuojami automatiškai</string>
     <string name="enter_pattern">Įveskite šabloną</string>
     <string name="call_screen_background">Skambučių ekrano fonas</string>
     <string name="contact_photo">Kontaktų nuotrauka</string>
@@ -180,49 +128,12 @@ Dėkojame visiems mūsų prisidėjusiems, labai vertiname jūsų pagalbą &10084
     <string name="swipe_width">Braukite plotį</string>
     <string name="auto_scroll">Automatinis slinkimas</string>
     <string name="hide_icons_in_menu">Slėpti piktogramas meniu</string>
-    <string name="purchase_simple_thank_you_g">Purchase Goodwy Thank You</string>
-    <string name="copyright_g">v %1$s\nVisos teisės saugomos © Goodwy %2$d</string>
-    <string name="update_thank_you_g">Please update Goodwy Thank You to the latest version</string>
-    <string name="faq_2_text_commons_g">
-        <![CDATA[
-        Taip, žinoma. Galite skleisti žodį apie programėles arba pateikti gerus atsiliepimus ir įvertinimus. Taip pat galite padėti verčiant programėles nauja kalba arba tiesiog atnaujinkite keletą esamų vertimų.Vadovą galite rasti adresu https://github.com/Goodwy/Discussion, arba tiesiog rašykite man žinutę goodwy.dev@gmail.com, jei jums reikia pagalbos.
-        ]]>
-    </string>
-    <string name="faq_6_text_commons_g">Ši problema kyla, kai paleidimo priemonė visiškai nepalaiko piktogramų tinkinimo. Pabandykite paleisti programą naudodami \"Google Play\" arba valdiklį, jei jis pasiekiamas.         Paleidę atkurkite numatytąją programos piktogramos spalvą. Kraštutiniais atvejais gali tekti iš naujo įdiegti programą.</string>
-    <string name="faq_8_text_commons_g">As your app version is no longer updated, the bugs you have maybe spotted will never be fixed. There will also be no new functions added. You can purchase the Pro version on Google Play for a small sum of money.
-        It is a one time payment, which means that once you purchase it, you will never have to pay again. Not even after getting a new device. If you won\'t like the Pro version, you can just uninstall it within a few hours and you will automatically get your money back.
-        If you want a refund anytime later, just contact us at goodwy.dev@gmail.com and you will get it.</string>
     <string name="faq_100_title_commons_g">Kas yra privatus kontaktas?</string>
     <string name="faq_100_text_commons_g">Asmeninis kontaktas sukuriamas programėlėje. Šis kontaktas nebus matomas kitose programėlėse (išskyrus mūsų programėles, kuriose įjungtas specialus nustatymas).\n\nJei ištrinsite programėlę, kartu su ja bus ištrinti visi asmeniniai kontaktai, todėl prieš ištrindami programėlę, sukurkite atsarginę kontaktų kopiją.</string>
     <string name="faq_101_title_commons_g">How to create a private contact?</string>
     <string name="faq_101_text_commons_g">When you create a contact, you must select the source of the contact: %s</string>
-    <string name="contributors_label_g"><![CDATA[
-Šiame sąraše yra visi, kurie pastebimai padėjo kuriai nors mūsų programėlei. Vertimus atlieka savanoriai,
-praneškite mums, jei taip pat norite padėti. Vertimo vadovas yra <a href="https://github.com/Goodwy/Discussion">šioje svetainėje</a> arba tiesiog susisiekite su mumis adresu <a href="mailto:goodwy.dev@gmail.com">goodwy.dev@gmail.com</a>, jei turite klausimų.
-
-Dėkojame visiems prisidėjusiems ir kitiems rėmėjams!
-]]></string>
-    <string name="deprecated_app_g">DEPRECATED: This version of the app is no longer maintained, get the Pro version at https://play.google.com/store/apps/details?id=com.goodwy.xxx.pro</string>
-    <string name="pro_app_refund_g">Don\'t forget that if you uninstall any paid app within 2 hours, you will automatically be refunded. If you want a refund anytime later, just contact us at goodwy.dev@gmail.com and you will get it. That makes it easy to try it out :)</string>
 
     <!-- Contacts -->
-    <string name="notification_of_new_application"><![CDATA[
-<b><big>Svarbios naujienos ir nauja pradžia 🚀</big></b><br><br>
-
-Dėl nuolatinių mokėjimo apribojimų turėjome pereiti prie naujos kūrėjo paskyros ir išleisti naują versiją, kad užtikrintume programėlės ateitį.<br><br>
-
-Kodėl verta atnaujinti į naują versiją?<br>
-✨ Visiškai pritaikomas spalvų pasirinkimas – pasirinkite bet kurią jums patinkančią spalvą!<br>
-🎨 Šviežios, modernios piktogramos<br>
-❤️ Galimybė paremti projektą – dabar būtina jo plėtrai.<br><br>
-
-Jūsų dabartinė programėlė ir toliau veiks ir gaus atnaujinimus.<br><br>
-
-<b>Dėkojame už pasitikėjimą ir paramą.</b><br><br>
-
-<small><i>Mūsų ankstyviesiems rėmėjams:<br>
-Jei anksčiau įsigijote šią programėlę arba paaukojote, ačiū! Patvirtinimą siųskite adresu help@goodwy.dev ir mes pasistengsime pateikti jums reklamos kodą naujai versijai (kol yra atsargų).</i></small>
-]]></string>
     <string name="add_number">Pridėti numerį</string>
     <string name="add_email">Pridėti el. paštą</string>
     <string name="add_address">Pridėti adresą</string>
@@ -369,10 +280,6 @@ Jei anksčiau įsigijote šią programėlę arba paaukojote, ačiū! Patvirtinim
     <string name="relation_sister_in_law_g">Sister-in-law</string>
 
     <!-- RuStore -->
-    <string name="billing_purchase_confirm_in_progress">Confirming the purchase…</string>
-    <string name="billing_purchase_delete_in_progress">Deleting the purchase…</string>
-    <string name="billing_product_confirmed">Product confirmed/substantiated</string>
-    <string name="billing_product_deleted">Purchase canceled</string>
     <string name="billing_subscriptions">Prenumeratos</string>
     <string name="billing_error_application_signature_not_correct">Norėdami mokėti per RuStore, turite įdiegti programos versiją iš RuStore.</string>
     <string name="date">Data</string>
@@ -387,7 +294,6 @@ Jei anksčiau įsigijote šią programėlę arba paaukojote, ačiū! Patvirtinim
     <string name="disagree">Nesutinku</string>
     <string name="height">Ūgis</string>
     <string name="select_color">Pasirinkite spalvą</string>
-    <string name="more_apps_from_us_g">Kitos mūsų programėlės</string>
     <string name="text_alignment">Teksto lygiavimas</string>
     <string name="use_persian_calendar">Naudokite persų kalendorių</string>
     <string name="blocking_type">Blokavimo tipas</string>

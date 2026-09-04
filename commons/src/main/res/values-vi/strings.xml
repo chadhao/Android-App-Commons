@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="website">Trang chủ</string>
     <string name="cancel">Hủy</string>
     <string name="close">Đóng</string>
     <string name="back">Quay lại</string>
@@ -78,7 +79,6 @@
     <string name="no_phone_number_found">Không tìm thấy số điện thoại nào</string>
     <string name="change_view_type">Kiểu xem</string>
     <string name="grid">Lưới</string>
-    <string name="grid_pro">Lưới (Pro)</string>
     <string name="uneven_grid">Lưới không đều</string>
     <string name="list">Danh sách</string>
     <string name="increase_column_count">Tăng số lượng cột</string>
@@ -135,7 +135,6 @@
     <string name="search_conversations">Tìm kiếm cuộc trò chuyện</string>
     <string name="search_recordings">Tìm kiếm bản ghi âm</string>
     <string name="filter">Bộ lọc</string>
-    <string name="filter_pro">Bộ lọc (Pro)</string>
     <string name="no_items_found">Không có mục nào.</string>
     <string name="change_filter">Thay đổi bộ lọc</string>
     <string name="no_storage_permissions">Cần quyền lưu trữ</string>
@@ -291,10 +290,6 @@
     <string name="undo_changes_confirmation">Hoàn tác các thay đổi?</string>
     <string name="cannot_be_undone">Hành động này không thể hoàn tác.</string>
     <string name="save_before_closing">Bạn có các thay đổi chưa lưu. Lưu trước khi thoát?</string>
-    <string name="global_theme_success">Chủ đề hiện tại đã được áp dụng thành công cho tất cả các app Fossify. Bất kỳ thay đổi nào trong tương lai đối với chủ đề này sẽ được đồng bộ hóa tự động.</string>
-    <string name="purchase_thank_you"><![CDATA[
-            Hãy mua ứng dụng <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Thank You</a> để dùng tính năng này và hỗ trợ nhà phát triển. Cảm ơn!
-        ]]></string>
     <string name="light_theme">Sáng</string>
     <string name="dark_theme">Tối</string>
     <string name="auto_light_dark_theme">Tự động</string>
@@ -324,10 +319,8 @@
     <string name="undo">Hoàn tác</string>
     <string name="redo">Khôi phục</string>
     <string name="print">In</string>
-    <string name="print_pro">In (Pro)</string>
     <string name="shortcut">Phím tắt</string>
     <string name="create_shortcut">Tạo lối tắt</string>
-    <string name="create_shortcut_pro">Tạo lối tắt (Pro)</string>
     <string name="add_number_to_contact">Thêm số vào liên hệ</string>
     <string name="call_from_sim_1">Gọi bằng SIM 1</string>
     <string name="call_from_sim_2">Gọi bằng SIM 2</string>
@@ -396,7 +389,6 @@
     <string name="protection_setup_successfully">Thiết lập mật khẩu thành công. Vui lòng cài đặt lại ứng dụng trong trường hợp bạn quên nó.</string>
     <string name="fingerprint_setup_successfully">Thiết lập bảo vệ thành công. Vui lòng cài đặt lại ứng dụng trong trường hợp có vấn đề với việc thiết lập lại.</string>
     <string name="lock_folder">Khóa thư mục</string>
-    <string name="lock_folder_pro">Khóa thư mục (Pro)</string>
     <string name="unlock_folder">Mở khóa thư mục</string>
     <string name="lock_folder_notice">Tính năng chỉ hoạt động trong ứng dụng này, nó không thể thay thế việc mã hóa thư mục trên toàn hệ thống.</string>
     <string name="empty_password_new">Vui lòng nhập mật khẩu</string>
@@ -570,29 +562,11 @@
     <string name="friday_short">T.Sáu</string>
     <string name="saturday_short">T.Bảy</string>
     <string name="sunday_short">CN</string>
-    <string name="upgrade_to_pro_long">Ứng dụng của bạn sẽ không được cập nhật nữa. Vui lòng nâng cấp lên phiên bản Pro để nhận bản sửa lỗi mới và các cải tiến khác.</string>
-    <string name="upgrade_to_pro_long_click">Ứng dụng của bạn sẽ không được cập nhật nữa. Vui lòng nâng cấp lên phiên bản Pro để nhận các bản sửa lỗi mới và các cải tiến khác bằng cách nhấn vào đây.</string>
     <string name="it_is_free">Miễn phí đến hết: %s. Nếu bạn tải xuống trước thời gian này, bạn có thể sử dụng miễn phí vĩnh viễn.</string>
     <string name="more_info">Thêm thông tin</string>
-    <string name="upgrade">Nâng cấp</string>
     <string name="upgrade_calendar">Bạn phải di chuyển thủ công các sự kiện được lưu trữ cục bộ thông qua xuất trong tệp .ics, sau đó nhập. Bạn có thể tìm thấy cả hai nút xuất / nhập ở menu màn hình chính.</string>
-    <string name="upgraded_from_free_gallery">Xin chào
-\n
-\ncó vẻ như bạn mới nâng cấp từ phiên bản miễn phí. Một khi bạn cảm thấy hài lòng với ứng dụng này và có lẽ đã di chuyển thông tin cài đặt và yêu thích qua, bạn có thể gỡ cài đặt phiên bản miễn phí để tránh mở nó lên, vì bạn không còn cần nó nữa. Việc đó cũng sẽ ngăn hộp thoại này xuất hiện.
-\n
-\nCám ơn!</string>
-    <string name="upgraded_from_free">Xin chào
-\n
-\ncó vẻ như bạn mới nâng cấp từ phiên bản miễn phí. Một khi bạn đã hài lòng với ứng dụng này và có lẽ cũng đã di chuyển dữ liệu qua, bạn có thể gỡ cài đặt phiên bản miễn phí để tránh việc mở nó lên, vì bạn không còn cần nó nữa. Việc đó cũng sẽ ngăn hộp thoại này xuất hiện.
-\n
-\nCám ơn!</string>
-    <string name="upgraded_from_free_calendar">Xin chào, \n \ncó vẻ như bạn vừa mới nâng cấp lên từ phiên bản miễn phí. Nếu như bạn muốn di chuyển các sự kiện được lưu trữ nội bộ của bạn qua, bạn phải làm việc đó một cách thủ công bằng cách xuất chúng sang một tệp .ics trong phiên bản miễn phí và nhập chúng tại đây thông qua menu ở trên cùng. \n \nMột khi bạn hài lòng với các thiết lập của mình ở bản Pro, bạn có thể gỡ cài đặt phiên bản miễn phí bởi bạn không còn cần nó nữa, việc đó cũng sẽ ngăn hộp thoại này xuất hiện. \n \nCám ơn!</string>
-    <string name="upgraded_from_free_contacts">Xin chào, \n \ncó vẻ như bạn vừa mới nâng cấp từ phiên bản miễn phí. Nếu như bạn có bất kỳ liên hệ vào được lưu trữ dưới \"%s\", bạn cần phải di chuyển chúng thủ công bằng cách xuất sang tệp .vcf từ phiên bản miễn phí và nhập chúng tại đây thông qua menu ở trên cùng. \n \nSau khi bạn hài lòng với thiết lập của mình tại phiên bản Pro, bạn có thể gỡ cài đặt phiên bản miễn phí bởi bạn không còn cần nó nữa, việc này cũng sẽ ngăn cho hộp thoại này xuất hiện. \n \nCám ơn!</string>
-    <string name="upgraded_from_free_notes">Xin chào, \n \ncó vẻ như bạn vừa mới nâng cấp từ phiên bản miễn phí. Nếu như bạn muốn di chuyển ghi chú qua, bạn cần phải làm thủ công bằng cách xuất chúng thành một tệp trong phiên bản miễn phí và nhập chúng tại đây thông qua menu trên cùng. \n \nSau khi bạn hài lòng với thiết lập của mình, bạn có thể gỡ cài đặt phiên bản miễn phí bởi bạn không còn cần đến nó nữa, việc đó cũng sẽ ngăn cho hộp thoại này xuất hiện. \n \nCám ơn!</string>
     <string name="about">Giới thiệu</string>
-    <string name="website_label">Mã nguồn</string>
     <string name="email_label">Góp ý hoặc đề xuất</string>
-    <string name="upgrade_to_pro">Nâng cấp Pro</string>
     <string name="invite_friends">Mời bạn bè</string>
     <string name="share_text">Êy, hãy dùng thử %1$s trên %2$s</string>
     <string name="invite_via">Mời qua</string>
@@ -600,11 +574,6 @@
     <string name="additional_info">Thông tin bổ sung</string>
     <string name="app_version">Phiên bản ứng dụng: %s</string>
     <string name="device_os">Phiên bản Android %s</string>
-    <string name="donate_please"><![CDATA[
-            Xin chào,<br><br>
-            hy vọng bạn thích ứng dụng. Nó không chứa quảng cáo, vui lòng hỗ trợ sự nhà phát triển bằng cách mua ứng dụng<a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a>  nó cũng sẽ ngăn hộp thoại này hiển thị lại.<br><br>
-            Thank you!
-        ]]></string>
     <string name="purchase">Mua</string>
     <string name="before_asking_question_read_faq">Trước khi đặt câu hỏi, vui lòng kiểm tra cài đặt và đọc Câu hỏi thường gặp trước. Có thể giải pháp ở đó.</string>
     <string name="make_sure_latest">Hãy đảm bảo rằng bạn đang sử dụng phiên bản ứng dụng mới nhất.</string>
@@ -628,7 +597,6 @@
     <string name="before_asking_question">Trước khi bạn đặt câu hỏi, hãy đọc</string>
     <string name="faq_1_title_commons">Tại sao tôi không thấy widget ứng dụng này trong danh sách widget?</string>
     <string name="faq_1_text_commons">Có thể là do bạn đã di chuyển ứng dụng vào thẻ SD. Có một giới hạn hệ thống Android ẩn các widget ứng dụng đã cho trong trường hợp đó. Cách duy nhất là chuyển ứng dụng trở lại bộ nhớ điện thoại thông qua cài đặt thiết bị của bạn.</string>
-    <string name="faq_2_title_commons">Tôi muốn ủng hộ nhưng không có tiền. Tôi có thể làm gì khác không?</string>
     <string name="faq_3_title_commons">Làm sao để khôi phục các tệp bị xóa nhầm?</string>
     <string name="faq_3_text_commons">Bạn không thể. Các tệp sẽ bị xóa ngay lập tức sau khi xác nhận, không có sẵn thùng rác.</string>
     <string name="faq_4_title_commons">Tôi không thích màu của widget, tôi có thể thay đổi chúng không?</string>
@@ -638,10 +606,6 @@
     <string name="faq_6_title_commons">Làm sao khi biểu tượng ứng dụng biến mất?</string>
     <string name="faq_7_title_commons">Làm sao khi đã bị trừ tiền trong tài khoản ngân hàng, nhưng không thể tải xuống ứng dụng?</string>
     <string name="faq_7_text_commons">Thanh toán được xử lý hoàn toàn bởi Google, hệ thống của họ thỉnh thoảng bị trục trặc. Chỉ cần xóa bộ nhớ cache ứng dụng Google Play của bạn và khởi động lại thiết bị, sau đó thử tải xuống lại.</string>
-    <string name="faq_8_title_commons">Vì sao tôi nên nâng cấp lên phiên bản Pro?</string>
-    <string name="faq_8_text_commons">Vì phiên bản ứng dụng của bạn không còn được cập nhật, các lỗi bạn có thể phát hiện sẽ không bao giờ được sửa. Cũng sẽ không có chức năng mới được thêm vào. Bạn có thể mua phiên bản Pro trên Google Play với một khoản tiền nhỏ.
-        Đó là thanh toán một lần, có nghĩa là một khi bạn mua nó, bạn sẽ không bao giờ phải mua lại. Ngay cả sau khi nhận được một thiết bị mới. Nếu bạn không thích phiên bản Pro, bạn có thể gỡ cài đặt trong vòng vài giờ và bạn sẽ tự động lấy lại tiền.
-        Nếu bạn muốn hoàn lại tiền bất cứ lúc nào sau đó, chỉ cần liên hệ với chúng tôi tại hello@fossify.org và bạn sẽ nhận được nó.</string>
     <string name="third_party_licences">Giấy phép bên thứ ba</string>
     <string name="kotlin_title">Kotlin (ngôn ngữ lập trình)</string>
     <string name="subsampling_title">Lấy mẫu tỷ lệ xem hình ảnh (phóng to hình ảnh)</string>
@@ -665,8 +629,6 @@
     <string name="sanselan_title">Apache Sanselan (đọc siêu dữ liệu hình ảnh)</string>
     <string name="filters_title">Android Photo Filters (bộ lọc hình ảnh)</string>
     <string name="gesture_views_title">Gesture Views (thu phóng hình ảnh)</string>
-    <string name="deprecated_app">THÔNG BÁO: Phiên bản của ứng dụng này không còn được bảo trì, hãy tải phiên bản Pro tại https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
-    <string name="pro_app_refund">Đừng quên rằng nếu bạn gỡ cài đặt bất kỳ ứng dụng trả phí nào trong vòng 2 giờ, bạn sẽ tự động được hoàn lại tiền. Nếu bạn muốn hoàn lại tiền bất cứ lúc nào sau đó, chỉ cần liên hệ với chúng tôi qua hello@fossify.org và bạn sẽ nhận được nó. Thật dễ đúng không :)</string>
     <string name="developer_description">Một bộ sưu tập ứng dụng Android đơn giản, mã nguồn mở, với các tiện ích có thể tùy chỉnh, không quảng cáo và không yêu cầu quyền không cần thiết.</string>
     <string name="faq_9_title_commons">Làm sao chọn nhiều mục cùng lúc?</string>
     <string name="error">Lỗi: %s</string>
@@ -705,7 +667,6 @@
     <string name="theme_and_colors">Chủ đề &amp; màu</string>
     <string name="widgets">Widget</string>
     <string name="list_view">Danh sách</string>
-    <string name="copyright">v %1$s\nBản quyền © Fossify %2$d</string>
     <string name="root">Root</string>
     <string name="exif">EXIF</string>
     <string name="system_default">Theo hệ thống</string>
@@ -772,17 +733,13 @@
     </plurals>
     <string name="general_settings">Chung</string>
     <string name="notification_sound">Âm báo</string>
-    <string name="website">Trang chủ</string>
     <string name="files_tab">Tệp</string>
     <string name="recent_files_tab">Tệp gần đây</string>
     <string name="usb">USB</string>
-    <string name="donate">Ủng hộ</string>
     <string name="platforms">Nền tảng</string>
     <string name="file_manager_short">Quản lý Tệp</string>
-    <string name="donate_to_fossify">Ủng hộ Fossify</string>
     <string name="contributors">Những người đóng góp</string>
     <string name="translation">Biên dịch</string>
-    <string name="purchase_simple_thank_you">Fossify Thank You</string>
     <string name="known_issues">Báo lỗi</string>
     <string name="support">Hỗ trợ</string>
     <string name="help_us">Ủng hộ</string>
@@ -792,7 +749,6 @@
     <string name="version_placeholder">Phiên bản %s</string>
     <string name="hello">Xin chào :)</string>
     <string name="about_footer">Lập trình bằng ❤️ từ Slovakia</string>
-    <string name="all_fossify_apps">Tất cả app Fossify</string>
     <string name="translation_vietnamese">Tiếng Việt</string>
     <string name="little_to_no_fee">Ít hoặc không tốn phí</string>
     <string name="fee_up_to_pct">Phí tối đa %1$d%%</string>
@@ -804,28 +760,15 @@
     </plurals>
     <string name="confirm_storage_access_restricted_text_not_found">Không tìm thấy ứng dụng quản lý tệp hệ thống.</string>
     <string name="date_time_pattern_info">Bạn có thể sử dụng các mẫu sau để đặt tên tệp tự động.:\n\n%Y - năm\n%M - tháng\n%D - ngày\n%h - giờ\n%m - phút\n%s - giây</string>
-    <string name="faq_2_text_commons"><![CDATA[
-            Tất nhiên rồi. Bạn có thể chia sẻ thông tin về ứng dụng hoặc đưa ra phản hồi và đánh giá tích cực. Bạn cũng có thể giúp đỡ bằng cách dịch ứng dụng sang ngôn ngữ mới, hoặc chỉ cần cập nhật một số bản dịch hiện có.
-            Hướng dẫn dịch thuật có tại <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">this website</a>, hoặc liên hệ <a href="mailto:hello@fossify.org">hello@fossify.org</a> nếu bạn có câu hỏi khác.
-        ]]></string>
-    <string name="contributors_label"><![CDATA[
-            Danh sách này bao gồm tất cả những người đã đóng góp đáng kể cho bất kỳ ứng dụng nào trong bộ ứng dụng Fossify, không chỉ riêng ứng dụng này. Việc dịch thuật được thực hiện bởi các tình nguyện viên.
-            Hãy cho chúng tôi biết nếu bạn cũng muốn ủng hộ. Hướng dẫn dịch thuật có tại <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">this website</a>, hoặc liên hệ <a href="mailto:hello@fossify.org">hello@fossify.org</a> nếu bạn có câu hỏi khác.
-            Xin cảm ơn tất cả những người đóng góp và ủng hộ khác!
-        ]]></string>
     <string name="why_upgrade_heic_support">Hỗ trợ định dạng HEIC/HEIF</string>
     <string name="why_upgrade_batch_renaming">Đổi tên tệp hàng loạt</string>
     <string name="why_upgrade_file_compression">Hỗ trợ tệp nén</string>
     <string name="why_upgrade_recents_tab">Tab với các tệp gần đây</string>
     <string name="why_upgrade_file_importing">Hỗ trợ nhập tệp</string>
     <string name="m3u_parser_title">M3U Parser (xử lý tệp danh sách phát m3u)</string>
-    <string name="more_fossify_apps">App Fossify khác</string>
-    <string name="faq_6_text_commons">Sự cố này xảy ra khi trình launcher của bạn không hỗ trợ việc tùy chỉnh biểu tượng. Hãy thử mở ứng dụng thông qua Google Play hoặc widget (nếu có). Sau khi mở được, hãy khôi phục màu biểu tượng xanh lá cây mặc định #106D1F. Trong trường hợp nghiêm trọng, có thể cần phải cài đặt lại ứng dụng.</string>
     <string name="faq_10_title_commons">Làm sao khi đã mua ứng dụng nhưng không thể tải trên thiết bị khác?</string>
     <string name="faq_10_text_commons">Chỉ cần xóa bộ nhớ cache ứng dụng Google Play của bạn và khởi động lại thiết bị. Đây là lỗi do Google Play.</string>
-    <string name="rate_this_app">Đánh giá app</string>
-    <string name="requires_fossify_thank_you">Cần mua Fossify Thank You trước</string>
-    <string name="apply_to_all_apps">Áp dụng màu cho tất cả app Fossify</string>
+    <string name="apply_to_all_apps">Áp dụng màu cho tất cả app Chad</string>
     <string name="enables_more_customization">Cho phép tùy chỉnh nhiều hơn</string>
     <string name="number_of_items">Số lượng mục</string>
     <string name="format_phone_numbers">Định dạng số điện thoại</string>
@@ -838,7 +781,6 @@
     </plurals>
     <string name="genre">Thể loại</string>
     <string name="f_number">Khẩu độ</string>
-    <string name="shared_theme_note">Lưu ý rằng ngay cả khi bạn đang sử dụng phiên bản ứng dụng Pro, bạn vẫn cần Fossify Thank You vì lý do kỹ thuật. Ứng dụng này đảm nhiệm việc đồng bộ hóa màu sắc.</string>
     <string name="solarized">Phơi sáng</string>
     <string name="view_contact_details">Xem chi tiết liên hệ</string>
     <string name="send_sms">Gửi SMS</string>
@@ -908,15 +850,6 @@
     <string name="october_short">Th10</string>
     <string name="november_short">Th11</string>
     <string name="december_short">Th12</string>
-    <string name="upgraded_to_pro_gallery">Xin chào,\n\ncó vẻ như bạn đã có phiên bản ứng dụng Pro rồi. Sau khi bạn hài lòng với nó và có thể đã chuyển các cài đặt và mục yêu thích của mình sang, bạn có thể gỡ cài đặt ứng dụng này để tránh vô tình mở nó vì bạn sẽ không cần đến nó nữa.\n\nCảm ơn!</string>
-    <string name="upgraded_to_pro">Xin chào,\n\ncó vẻ như bạn đã có phiên bản ứng dụng Pro rồi. Sau khi bạn hài lòng với nó và có thể đã chuyển dữ liệu sang phiên bản mới, bạn có thể gỡ cài đặt ứng dụng này để tránh vô tình mở nó vì bạn sẽ không cần đến nó nữa.\n\nCảm ơn!</string>
-    <string name="donate_new">Xin chào,&lt;br&gt;&lt;br&gt;hi vọng bạn thích ứng dụng này. Ứng dụng không có quảng cáo và chúng tôi cũng không thu thập dữ liệu của bạn, vui lòng ủng hộ việc phát triển ứng dụng bằng cách mua &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;. Bạn sẽ mở khóa được tất cả tính năng của ứng dụng, bao gồm cả tùy chỉnh màu sắc.&lt;br&gt;&lt;br&gt;Cảm ơn!</string>
-    <string name="donate_short">Ủng hộ bằng cách mua &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;, điều này sẽ mở khóa tất cả tính năng của ứng dụng, bao gồm cả tùy chỉnh màu sắc.</string>
-    <string name="update_thank_you">Vui lòng cập nhật Fossify Thank You lên phiên bản mới nhất</string>
-    <string name="make_sure_upgrade">Cũng cần lưu ý rằng phiên bản ứng dụng này hiện không còn được phát triển nữa, hãy tải phiên bản Pro để có nhiều cải tiến hơn.</string>
-    <string name="thank_you">Cảm ơn bạn</string>
-    <string name="widget_locked_pro">Widget này bị khóa.\nVui lòng nâng cấp lên phiên bản Pro để mở khóa tính năng này.</string>
-    <string name="features_locked">Tính năng này bị khóa, vui lòng mua &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; để mở khóa toàn bộ ứng dụng.&lt;br&gt;&lt;br&gt;Thanh toán một lần duy nhất và nếu bạn không hài lòng, chúng tôi sẽ hoàn tiền cho bạn.</string>
     <string name="app_launcher_short">Trình khởi động app</string>
     <string name="calculator_short">Máy tính</string>
     <string name="calendar_short">Lịch</string>
@@ -932,7 +865,6 @@
     <string name="music_player_short">Trình phát nhạc</string>
     <string name="notes_short">Ghi chú</string>
     <string name="sms_messenger_short">Nhắn tin SMS</string>
-    <string name="thank_you_short">Thank You</string>
     <string name="voice_recorder_short">Ghi âm</string>
     <string name="badge_deprecated">(lỗi thời)</string>
     <string name="label_with_badge">%1$s %2$s</string>
@@ -987,12 +919,6 @@
     <string name="translation_chinese_hk">Trung Quốc (Hồng Kông)</string>
     <string name="translation_chinese_cn">Trung Quốc (Giản Thể)</string>
     <string name="translation_chinese_tw">Trung Quốc (Phồn Thể)</string>
-    <string name="why_upgrade">Tải phiên bản Pro ngay!</string>
-    <string name="why_upgrade_basic_version">Cơ bản</string>
-    <string name="why_upgrade_pro_version">Pro</string>
-    <string name="why_upgrade_no_ads">Không có quảng cáo</string>
-    <string name="why_upgrade_no_internet_access">Không cần kết nối mạng</string>
-    <string name="why_upgrade_footer">100%% hoàn tiền</string>
     <string name="why_upgrade_footer_one_time_payment">Thanh toán một lần</string>
     <string name="why_upgrade_improved_design">Cải thiện thiết kế</string>
     <string name="why_upgrade_many_other_improvements">Nhiều cải tiến khác</string>

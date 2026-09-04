@@ -17,66 +17,14 @@
     <string name="end">Amaiera</string>
 
     <!-- Support project -->
-    <string name="rate_g">Baloratu</string>
-    <string name="action_support_project">Proiektuaren laguntza</string>
-    <string name="pref_pay_summary">Get the paid app to support future developments and extra features</string>
-    <string name="support_project_summary">Get one of our paid apps to support future development and unlock extra features</string>
     <string name="learn_more">Gehiago ikasi</string>
     <string name="themes">Gaiak</string>
     <string name="themes_summary">Arretaz hautatutako aplikazio-gaiak, gai-aldaketa automatikoa eta sistema-gaien euskarria Android 12+erako</string>
     <string name="color_title">Koloreak</string>
     <string name="color_summary">Kolore nagusia, azentua, atzeko planoa, testua eta nabigazio-barra eskuz doitzea</string>
-    <string name="plus_title">Lagundu gaitzazu</string>
-    <string name="plus_summary">Zure laguntzarekin eginbide gehiago inplementa ditzakegu eta aplikazioa are hobea egin</string>
-    <string name="attention">Arreta</string>
-    <string name="attention_summary">Gure bertsio zaharrean erosketak egin badituzu edo proiektua beste plataforma batzuetan babestu baduzu, bidali iezaguzu baieztapen bat posta elektronikoz eta promozio-kode bat bidaltzen saiatuko gara.</string>
-    <string name="attention_dialog_summary">Promozio-kode bat jasotzeko, proiektua babesten duzula frogatu behar duzu (Google Play-tik edo beste plataforma batetik ateratako pantaila-argazki bat nahikoa da). Promozio-kodeen kopurua mugatua da. Froga bidali?</string>
-    <string name="about_summary">
-        <![CDATA[
-            <i>
-            Zure denbora baloratzen dugu eta gure aplikazioa iragarkirik gabe goza dezazun nahi dugu. Plazerra eta erabilgarritasuna ekarri badizu, kontuan hartu haren garapenerako dohaintza ematea.<br><br>
-            Estimatu gure lana eta partekatu zure inpresioak, ideia berriak gauzatzen lagunduko digu eta ezaugarri are harrigarriagoak eskaintzen dizkizu.
-            </i>
-        ]]></string>
-    <string name="lifebuoy_title">Lagunduko zaitugu</string>
-    <string name="lifebuoy_summary">Arrazoiren batengatik ezin baduzu gure aplikazioa ordaindu, baina benetan eginbide guztiak erabili nahi badituzu, bidali mezu elektroniko bat</string>
     <string name="participants_title">Participants</string>
-    <string name="participants_subtitle"><![CDATA[
-Pertsona hauek GitHub-eko Right proiektu irekian lagundu dute,
-baita Fossify eta Simple Mobile Tools-en ere, zeinetan oinarritzen garen.<br><br>
-
-Eskerrik asko gure laguntzaile guztiei, oso eskertzen dugu zuen laguntza &#10084;&#65039;
-]]></string>
-    <string name="special_thanks_to">Special thanks to</string>
-    <string name="tip_kind">laguntza ona</string>
-    <string name="tip_excellent">Laguntza bikaina</string>
-    <string name="tip_incredible">Laguntza harrigarria</string>
-    <string name="tip_jar">Laguntza</string>
-    <string name="any_support_unlock_all">Hautatu eskuragarri duzun proiektuaren laguntza-maila (aldi bakarrekoa, hilerokoa edo urtekoa). Edozein laguntzak aplikazioaren funtzio guztiak desblokeatuko ditu</string>
-    <string name="one_time_purchase">Behin-behineko laguntza</string>
-    <string name="monthly">Hileroko laguntza</string>
-    <string name="yearly">Urteko laguntza</string>
-    <string name="unlock">Unlock</string>
-    <string name="donate_text_g">
-        <![CDATA[
-            For those who do not use Google Play, it is possible to unlock all functions of the application. <br>
-            If you like our apps which are offline, non-intrusive and have no ads, please consider supporting us in some way. We would be very grateful.<br><br>
-            Thank you!
-        ]]>
-    </string>
 
     <!--Billing-->
-    <string name="donate_text_no_gp_g"><![CDATA[
-            Arazoak direla eta, aldi baterako ezin dugu ordainketa egin Google Play bidez,
-            beraz, epe honetarako erabiltzaile guztiei aplikazioaren eginbide guztiak eskuz desblokeatzeko aukera ematen diegu. <br>
-            Lineaz kanpo dauden gure aplikazioak gustatzen bazaizkizu, intrusiboak ez direnak eta iragarkirik ez dutenak,
-            mesedez kontuan hartu gurekin nolabait laguntzea. Asko eskertuko genuke.<br><br>
-            Eskerrik asko!
-        ]]></string>
-    <string name="restored_previous_purchase_please_restart">Restored previous purchase. Please restart the app to make use of all features.</string>
-    <string name="no_purchase_found">No purchase found.</string>
-    <string name="restore_purchase">Restore purchase</string>
-    <string name="restoring_purchase">Restoring purchase…</string>
 
     <string name="no_connection">Ez dago konexiorik</string>
     <string name="per_month">%s/hilean</string>
@@ -121,7 +69,7 @@ Eskerrik asko gure laguntzaile guztiei, oso eskertzen dugu zuen laguntza &#10084
     <string name="open_search_when_open_contacts">Ireki bilaketa kontaktuak fitxa irekitzean</string>
     <string name="end_search_when_changing_tab">End search when changing tab</string>
     <string name="change_top_bar_colour_when_scrolling">Change top bar colour when scrolling</string>
-    <string name="global_theme_success_g">The current theme has been successfully applied to all Right apps. Any future changes to this theme will be synced automatically.</string>
+    <string name="global_theme_success_g">The current theme has been successfully applied to all Chad apps. Any future changes to this theme will be synced automatically.</string>
     <string name="enter_pattern">Sartu zure eredua</string>
     <string name="call_screen_background">Deien pantailaren atzeko planoa</string>
     <string name="contact_photo">Harremanetarako argazkia</string>
@@ -179,49 +127,12 @@ Eskerrik asko gure laguntzaile guztiei, oso eskertzen dugu zuen laguntza &#10084
     <string name="swipe_width">Irristailuaren zabalera</string>
     <string name="auto_scroll">Korritze automatikoa</string>
     <string name="hide_icons_in_menu">Ezkutatu ikonoak menuan</string>
-    <string name="purchase_simple_thank_you_g">Erosi Goodwy Thank You</string>
-    <string name="copyright_g">v %1$s\nCopyright © Goodwy %2$d</string>
-    <string name="update_thank_you_g">Eguneratu Goodwy Thank You azken bertsiora</string>
-    <string name="faq_2_text_commons_g">
-        <![CDATA[
-            Yes, of course. You can spread the word about the apps or give good feedback and ratings. You can also help by translating the apps in a new language, or just update some existing translations.
-        You can find the guide at https://github.com/Goodwy/Discussion , or just shoot me a message at goodwy.dev@gmail.com if you need help.
-        ]]>
-    </string>
-    <string name="faq_6_text_commons_g">Arazo hau zure abiarazleak ikonoen pertsonalizazioa guztiz onartzen ez duenean sortzen da. Saiatu aplikazioa abiarazten Google Play edo widget baten bidez, eskuragarri badago.\n        Abiarazi ondoren, leheneratu aplikazioaren ikonoaren kolore lehenetsia. Muturreko kasuetan, baliteke aplikazioa berriro instalatzea beharrezkoa izatea.</string>
-    <string name="faq_8_text_commons_g">As your app version is no longer updated, the bugs you have maybe spotted will never be fixed. There will also be no new functions added. You can purchase the Pro version on Google Play for a small sum of money.
-        It is a one time payment, which means that once you purchase it, you will never have to pay again. Not even after getting a new device. If you won\'t like the Pro version, you can just uninstall it within a few hours and you will automatically get your money back.
-        If you want a refund anytime later, just contact us at goodwy.dev@gmail.com and you will get it.</string>
     <string name="faq_100_title_commons_g">Zer da kontaktu pribatu bat?</string>
     <string name="faq_100_text_commons_g">Kontaktu pertsonal bat sortzen da aplikazioan. Kontaktu hau ez da beste aplikazioentzat ikusgai egongo (ezarpen berezi bat gaituta duten gure aplikazioak izan ezik).\n\nAplikazioa ezabatzen baduzu, kontaktu pertsonal guztiak aplikazioarekin batera ezabatuko dira, beraz, egin zure kontaktuen babeskopia aplikazioa ezabatu aurretik.</string>
     <string name="faq_101_title_commons_g">How to create a private contact?</string>
     <string name="faq_101_text_commons_g">When you create a contact, you must select the source of the contact: %s</string>
-    <string name="contributors_label_g"><![CDATA[
-Zerrenda honek gure aplikazioetan nabarmen lagundu duten guztiak ditu. Itzulpenak boluntarioek egiten dituzte,
-jakinarazi iezaguzu zuk ere lagundu nahi baduzu. Itzulpenen gida <a href="https://github.com/Goodwy/Discussion">webgune honetan</a> dago, edo jar zaitez gurekin harremanetan <a href="mailto:goodwy.dev@gmail.com">goodwy.dev@gmail.com</a> helbidean galderarik baduzu.
-Eskerrik asko laguntzaile eta gainerako babesle guztiei!
-]]></string>
-    <string name="deprecated_app_g">DEPRECATED: This version of the app is no longer maintained, get the Pro version at https://play.google.com/store/apps/details?id=com.goodwy.xxx.pro</string>
-    <string name="pro_app_refund_g">Don\'t forget that if you uninstall any paid app within 2 hours, you will automatically be refunded. If you want a refund anytime later, just contact us at goodwy.dev@gmail.com and you will get it. That makes it easy to try it out :)</string>
 
     <!-- Contacts -->
-    <string name="notification_of_new_application"><![CDATA[
-<b><big>Berri garrantzitsuak eta hasiera berri bat 🚀</big></b><br><br>
-
-Ordainketa-murrizketen ondorioz, garatzaile-kontu berri batera aldatu eta bertsio berri bat kaleratu behar izan dugu aplikazioaren etorkizuna bermatzeko.<br><br>
-
-Zergatik eguneratu bertsio berrira?<br>
-✨ Kolore-hautaketa guztiz pertsonalizagarria — aukeratu nahi duzun kolorea!<br>
-🎨 Ikono fresko eta modernoak<br>
-❤️ Proiektua babesteko aukera — orain ezinbestekoa da bere garapenerako.<br><br>
-
-Zure uneko aplikazioak funtzionatzen jarraituko du eta eguneraketak jasotzen.<br><br>
-
-<b>Eskerrik asko zure konfiantzagatik eta laguntzagatik.</b><br><br>
-
-<small><i>Gure lehen jarraitzaileentzat:<br>
-Aplikazio hau lehenago erosi baduzu edo dohaintza bat egin baduzu, eskerrik asko! Bidali zure baieztapena help@goodwy.dev helbidera, eta ahal dugun guztia egingo dugu bertsio berrirako promozio-kode bat emateko (hornidurak agortu arte).</i></small>
-]]></string>
     <string name="add_number">Add number</string>
     <string name="add_email">Add email</string>
     <string name="add_address">Add address</string>
@@ -368,16 +279,11 @@ Aplikazio hau lehenago erosi baduzu edo dohaintza bat egin baduzu, eskerrik asko
     <string name="relation_sister_in_law_g">Sister-in-law</string>
 
     <!-- RuStore -->
-    <string name="billing_purchase_confirm_in_progress">Confirming the purchase…</string>
-    <string name="billing_purchase_delete_in_progress">Deleting the purchase…</string>
-    <string name="billing_product_confirmed">Product confirmed/substantiated</string>
-    <string name="billing_product_deleted">Purchase canceled</string>
     <string name="billing_subscriptions">Harpidetzak</string>
     <string name="minus">Minus</string>
     <string name="disagree">Ez nago ados</string>
     <string name="height">Altuera</string>
     <string name="select_color">Aukeratu kolorea</string>
-    <string name="more_apps_from_us_g">Gure aplikazio gehiago</string>
     <string name="text_alignment">Testuaren lerrokatzea</string>
     <string name="typeface">Letra tipoa</string>
     <string name="long_click_g">Egin klik luzea %s</string>

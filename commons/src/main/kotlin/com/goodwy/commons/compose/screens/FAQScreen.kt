@@ -25,7 +25,6 @@ import com.goodwy.commons.compose.theme.AppThemeSurface
 import com.goodwy.commons.compose.theme.SimpleTheme
 import com.goodwy.commons.extensions.fromHtml
 import com.goodwy.commons.models.FAQItem
-import com.goodwy.strings.R as stringsR
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.collections.immutable.toImmutableList
 
@@ -106,11 +105,9 @@ private fun FAQScreenPreview() {
         FAQScreen(
             goBack = {},
             faqItems = listOf(
-                FAQItem(stringsR.string.app_name_g, R.string.welcome_to_app_name, stringsR.string.app_name_g),
                 FAQItem(R.string.faq_1_title_commons, R.string.faq_1_text_commons),
                 FAQItem(R.string.faq_4_title_commons, R.string.faq_4_text_commons),
-                FAQItem(R.string.faq_2_title_commons, R.string.faq_2_text_commons),
-                FAQItem(R.string.faq_6_title_commons, R.string.faq_6_text_commons)
+                FAQItem(R.string.faq_9_title_commons, R.string.faq_9_text_commons)
             ).toImmutableList(),
             isTopAppBarColorIcon = true,
             isTopAppBarColorTitle = true,

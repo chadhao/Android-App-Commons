@@ -18,66 +18,14 @@
     <string name="end">Fin</string>
 
     <!-- Support project -->
-    <string name="rate_g">Valora</string>
-    <string name="action_support_project">Apoio ao proxecto</string>
-    <string name="pref_pay_summary">Get the paid app to support future developments and extra features</string>
-    <string name="support_project_summary">Get one of our paid apps to support future development and unlock extra features</string>
     <string name="learn_more">Aprender máis</string>
     <string name="themes">Temas</string>
     <string name="themes_summary">Temas de aplicacións coidadosamente seleccionados, cambiador automático de temas e soporte de temas do sistema para Android 12+</string>
     <string name="color_title">Cores</string>
     <string name="color_summary">Axuste manual da cor principal, acento, fondo, texto e barra de navegación</string>
-    <string name="plus_title">Acompáñanos</string>
-    <string name="plus_summary">Coa túa axuda podemos implementar máis funcións e mellorar aínda máis a aplicación</string>
-    <string name="attention">Atención</string>
-    <string name="attention_summary">Se fixeches compras na nosa versión antiga ou apoiaches o proxecto noutras plataformas, envíanos unha confirmación por correo electrónico e tentaremos enviarche un código promocional.</string>
-    <string name="attention_dialog_summary">Para recibir un código promocional, debes enviar unha proba de apoio ao proxecto (abonda cunha captura de pantalla de Google Play ou doutra plataforma). O número de códigos promocionais é limitado. Queres enviar unha proba?</string>
-    <string name="about_summary">
-        <![CDATA[
-            <i>
-            Valoramos o teu tempo e queremos que goces da nosa aplicación sen anuncios. Se che trouxo pracer e utilidade, considera doar para o seu desenvolvemento.<br><br>
-            Aprecia o noso traballo duro e comparte as túas impresións, axudaranos a realizar novas ideas e ofrecerche funcións aínda máis sorprendentes.
-            </i>
-        ]]></string>
-    <string name="lifebuoy_title">Apoiarémoste</string>
-    <string name="lifebuoy_summary">Se por algún motivo non podes pagar a nosa aplicación, pero realmente queres usar todas as funcións, envíanos un correo electrónico</string>
     <string name="participants_title">Participants</string>
-    <string name="participants_subtitle"><![CDATA[
-Estas persoas contribuíron ao proxecto de código aberto Right en GitHub,
-así como a Fossify e Simple Mobile Tools, nos que nos baseamos.<br><br>
-
-Grazas a todos os nosos colaboradores, agradecemos moito a vosa axuda &#10084;&#65039;
-]]></string>
-    <string name="special_thanks_to">Special thanks to</string>
-    <string name="tip_kind">Bo apoio</string>
-    <string name="tip_excellent">Excelente apoio</string>
-    <string name="tip_incredible">Apoio incrible</string>
-    <string name="tip_jar">Apoiar</string>
-    <string name="any_support_unlock_all">Seleccione o nivel de apoio ao proxecto dispoñible para vostede (unha vez, mensual ou anual). Calquera soporte desbloqueará todas as funcións da aplicación</string>
-    <string name="one_time_purchase">Apoio único</string>
-    <string name="monthly">Apoio mensual</string>
-    <string name="yearly">Apoio anual</string>
-    <string name="unlock">Unlock</string>
-    <string name="donate_text_g">
-        <![CDATA[
-            For those who do not use Google Play, it is possible to unlock all functions of the application. <br>
-            If you like our apps which are offline, non-intrusive and have no ads, please consider supporting us in some way. We would be very grateful.<br><br>
-            Thank you!
-        ]]>
-    </string>
 
     <!--Billing-->
-    <string name="donate_text_no_gp_g"><![CDATA[
-            Debido a problemas, non podemos realizar pagos temporalmente a través de Google Play,
-            polo que durante este período estamos dando a todos os usuarios a opción de desbloquear manualmente todas as funcións da aplicación. <br>
-            Se che gustan as nosas aplicacións sen conexión, non intrusivas e sen anuncios,
-            por favor, considere apoiarnos dalgún xeito. Estaríamos moi agradecidos.<br><br>
-            Grazas!
-        ]]></string>
-    <string name="restored_previous_purchase_please_restart">Restored previous purchase. Please restart the app to make use of all features.</string>
-    <string name="no_purchase_found">No purchase found.</string>
-    <string name="restore_purchase">Restore purchase</string>
-    <string name="restoring_purchase">Restoring purchase…</string>
 
     <string name="no_connection">Sen conexión</string>
     <string name="per_month">%s/mes</string>
@@ -122,7 +70,7 @@ Grazas a todos os nosos colaboradores, agradecemos moito a vosa axuda &#10084;&#
     <string name="open_search_when_open_contacts">Abre a busca ao abrir a pestana de contactos</string>
     <string name="end_search_when_changing_tab">Finalizando unha busca ao cambiar de pestana</string>
     <string name="change_top_bar_colour_when_scrolling">Cambia a cor da barra superior ao desprazarse</string>
-    <string name="global_theme_success_g">O tema actual aplicouse correctamente a todas as aplicacións correctas. Calquera cambio futuro a este tema sincronizarase automaticamente</string>
+    <string name="global_theme_success_g">O tema actual aplicouse correctamente a todas as aplicacións de Chad. Calquera cambio futuro a este tema sincronizarase automaticamente</string>
     <string name="enter_pattern">Introduza a clave de patrón</string>
     <string name="call_screen_background">Fondo da pantalla de chamada</string>
     <string name="contact_photo">Foto de contacto</string>
@@ -181,48 +129,12 @@ Grazas a todos os nosos colaboradores, agradecemos moito a vosa axuda &#10084;&#
     <string name="swipe_width">Largura do deslizamento</string>
     <string name="auto_scroll">Desprazamento automático</string>
     <string name="hide_icons_in_menu">Ocultar iconas no menú</string>
-    <string name="purchase_simple_thank_you_g">Comprar Goodwy Thank You</string>
-    <string name="copyright_g">v %1$s\nCopyright © Goodwy %2$d</string>
-    <string name="update_thank_you_g">Actualiza Goodwy Thank You á última versión</string>
-    <string name="faq_2_text_commons_g">
-        <![CDATA[
-        Si, por suposto. Pode correr a voz sobre os aplicativos ou dar bos comentarios e valoracións. Tamén pode axudar traducindo os aplicativos nun novo idioma ou simplemente actualizar algunhas traducións existentes.
-        Puede encontrar la guía en https://github.com/Goodwy/Discussion, ou simplemente envíame unha mensaxe a goodwy.dev@gmail.com se necesitas axuda.
-        ]]>
-    </string>
-    <string name="faq_6_text_commons_g">Este problema xorde cando o teu iniciador non admite totalmente a personalización de iconas. Tenta lanzar a aplicación a través de Google Play ou un widget, se é accesible.</string>
-    <string name="faq_8_text_commons_g">Como non se vai actualizar máis o teu aplicativo, os bugs que teñas non serán corrixidos. Tampouco se engadirán novas funcións. Podes comprar a versión Pro en Google Play por unha cantidade pequena de cartos. É un pagamento que se fai só unha vez, é dicir, non volves pagar por isto.
-        Nin tan sequera ao cambiar de móbil. Se non che gusta a versión Pro, podes simplemente desinstalala e devolveráseche os cartos  automaticamente.Se queres que che devolvamos os cartos máis tarde, envíanos un correo electrónico a goodwy.dev@gmail.com e darémoscho.</string>
     <string name="faq_100_title_commons_g">Que é un contacto privado?</string>
     <string name="faq_100_text_commons_g">Créase un contacto persoal dentro da aplicación. Este contacto non será visible para outras aplicacións (agás as nosas aplicacións cunha configuración especial activada).\nSe eliminas a aplicación, todos os contactos persoais eliminaranse xunto coa aplicación, polo que debes facer unha copia de seguridade dos teus contactos antes de eliminar a aplicación.</string>
     <string name="faq_101_title_commons_g">How to create a private contact?</string>
     <string name="faq_101_text_commons_g">When you create a contact, you must select the source of the contact: %s</string>
-    <string name="contributors_label_g"><![CDATA[
-Esta lista contén a todas as persoas que axudaron notablemente en calquera das nosas aplicacións. As traducións son realizadas por voluntarios,
-avísanos se ti tamén queres axudar. A guía para traducir está en <a href="https://github.com/Goodwy/Discussion">este sitio web</a> ou simplemente ponte en contacto connosco en <a href="mailto:goodwy.dev@gmail.com">goodwy.dev@gmail.com</a> se tes algunha pregunta.
-Grazas a todos os colaboradores e demais apoiadores!
-]]></string>
-    <string name="deprecated_app_g">OBSOLETA: Esta versión do app xa non se está mantendo, obtén a versión Pro en https://play.google.com/store/apps/details?id=com.goodwy.xxx.pro</string>
-    <string name="pro_app_refund_g">Non esquezas que se desinstalas calquera app de pago antes de 2 horas, devolveránseche os cartos automáticamente. Se queres unha devolución máis tarde, contáctanos en goodwy.dev@gmail.com e terala. Isto fai que sexa fácil probala :)</string>
 
     <!-- Contacts -->
-    <string name="notification_of_new_application"><![CDATA[
-<b><big>Noticias importantes e un novo comezo 🚀</big></b><br><br>
-
-Debido ás restricións de pagamento en curso, tivemos que cambiar a unha nova conta de desenvolvedor e lanzar unha nova versión para garantir o futuro da aplicación.<br><br>
-
-Por que actualizar á nova versión?<br>
-✨ Selección de cores totalmente personalizable: escolle a cor que queiras!<br>
-🎨 Iconas frescas e modernas<br>
-❤️ Oportunidade de apoiar o proxecto, agora esencial para o seu desenvolvemento.<br><br>
-
-A túa aplicación actual seguirá funcionando e recibindo actualizacións.<br><br>
-
-<b>Grazas pola túa confianza e apoio.</b><br><br>
-
-<small><i>Para os nosos primeiros seguidores:<br>
-Se xa compraches esta aplicación ou fixeches unha doazón, grazas! Envía a túa confirmación a help@goodwy.dev e faremos todo o posible para proporcionar un código promocional para a nova versión (ata fin de existencias).</i></small>
-]]></string>
     <string name="add_number">Engadir número</string>
     <string name="add_email">Engadir correo electrónico</string>
     <string name="add_address">Engadir enderezo</string>
@@ -369,10 +281,6 @@ Se xa compraches esta aplicación ou fixeches unha doazón, grazas! Envía a tú
     <string name="relation_sister_in_law_g">Sister-in-law</string>
 
     <!-- RuStore -->
-    <string name="billing_purchase_confirm_in_progress">Confirming the purchase…</string>
-    <string name="billing_purchase_delete_in_progress">Deleting the purchase…</string>
-    <string name="billing_product_confirmed">Product confirmed/substantiated</string>
-    <string name="billing_product_deleted">Purchase canceled</string>
     <string name="billing_subscriptions">Subscricións</string>
     <string name="billing_error_application_signature_not_correct">Para pagar a través de RuStore cómpre instalar a versión da aplicación de RuStore</string>
     <string name="date">Data</string>
@@ -387,7 +295,6 @@ Se xa compraches esta aplicación ou fixeches unha doazón, grazas! Envía a tú
     <string name="disagree">Non estou de acordo</string>
     <string name="height">Altura</string>
     <string name="select_color">Seleccionar cor</string>
-    <string name="more_apps_from_us_g">Máis aplicativos nosos</string>
     <string name="text_alignment">Aliñación do texto</string>
     <string name="use_persian_calendar">Usa o calendario persa</string>
     <string name="blocking_type">Tipo de bloqueo</string>

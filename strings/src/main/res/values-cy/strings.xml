@@ -17,66 +17,14 @@
     <string name="end">Diwedd</string>
 
     <!-- Support project -->
-    <string name="rate_g">Cyfradd</string>
-    <string name="action_support_project">Cymorth prosiect</string>
-    <string name="pref_pay_summary">Get the paid app to support future developments and extra features</string>
-    <string name="support_project_summary">Get one of our paid apps to support future development and unlock extra features</string>
     <string name="learn_more">Dysgu mwy</string>
     <string name="themes">Themâu</string>
     <string name="themes_summary">Themâu ceisiadau a ddewiswyd yn ofalus, newidydd thema awtomatig a chymorth thema\'r system ar gyfer Android 12+</string>
     <string name="color_title">Màu sắc</string>
     <string name="color_summary">Addasiad â llaw o\'r prif liw, acen, cefndir, testun a bar llywio</string>
-    <string name="plus_title">Cefnogwch ni</string>
-    <string name="plus_summary">Gyda\'ch help chi, gallwn weithredu mwy o nodweddion a gwneud y cais hyd yn oed yn well</string>
-    <string name="attention">Sylw</string>
-    <string name="attention_summary">Os gwnaethoch chi brynu yn ein hen fersiwn neu gefnogi\'r prosiect ar lwyfannau eraill, anfonwch gadarnhad atom drwy e-bost a byddwn yn ceisio anfon cod hyrwyddo atoch.</string>
-    <string name="attention_dialog_summary">I dderbyn cod hyrwyddo, rhaid i chi anfon prawf o gefnogaeth i\'r prosiect (mae sgrinlun o Google Play neu blatfform arall yn ddigonol). Mae nifer y codau hyrwyddo yn gyfyngedig. Anfon prawf?</string>
-    <string name="about_summary">
-        <![CDATA[
-            <i>
-            Rydym yn gwerthfawrogi eich amser ac eisiau i chi fwynhau ein app heb hysbysebion. Os yw wedi dod â phleser a defnyddioldeb i chi, ystyriwch gyfrannu at ei ddatblygiad. <br><br>
-            Gwerthfawrogi ein gwaith caled a rhannu eich argraffiadau, bydd yn ein helpu i wireddu syniadau newydd a chynnig nodweddion hyd yn oed yn fwy anhygoel i chi.
-            </i>
-        ]]></string>
-    <string name="lifebuoy_title">Byddwn yn eich cefnogi</string>
-    <string name="lifebuoy_summary">Os nad ydych chi\'n gallu fforddio ein ap am ryw reswm, ond wir eisiau defnyddio\'r holl nodweddion, dim ond anfon e-bost atom</string>
     <string name="participants_title">Participants</string>
-    <string name="participants_subtitle"><![CDATA[
-Mae\'r bobl hyn wedi cyfrannu at y prosiect ffynhonnell agored Right ar GitHub,
-yn ogystal ag at Fossify a Simple Mobile Tools, yr ydym wedi\'n seilio arnynt.<br><br>
-
-Diolch i\'n holl gyfranwyr, rydym yn gwerthfawrogi eich cymorth yn fawr &#10084;&#65039;
-]]></string>
-    <string name="special_thanks_to">Special thanks to</string>
-    <string name="tip_kind">Cefnogaeth dda</string>
-    <string name="tip_excellent">Cefnogaeth ardderchog</string>
-    <string name="tip_incredible">Cefnogaeth anhygoel</string>
-    <string name="tip_jar">Cefnogi</string>
-    <string name="any_support_unlock_all">Dewiswch lefel y cymorth prosiect sydd ar gael i chi (un-amser, misol neu flynyddol). Mae unrhyw gefnogaeth ddatgloi holl nodweddion yr app</string>
-    <string name="one_time_purchase">Cefnogaeth un-amser</string>
-    <string name="monthly">Cefnogaeth Fisol</string>
-    <string name="yearly">Cefnogaeth Flynyddol</string>
-    <string name="unlock">Unlock</string>
-    <string name="donate_text_g">
-        <![CDATA[
-            For those who do not use Google Play, it is possible to unlock all functions of the application. <br>
-            If you like our apps which are offline, non-intrusive and have no ads, please consider supporting us in some way. We would be very grateful.<br><br>
-            Thank you!
-        ]]>
-    </string>
 
     <!--Billing-->
-    <string name="donate_text_no_gp_g"><![CDATA[
-            Oherwydd problemau ni allwn wneud taliadau dros dro trwy Google Play,
-            felly am y cyfnod hwn rydym yn rhoi\'r opsiwn i bob defnyddiwr ddatgloi holl nodweddion yr app â llaw. <br>
-            Os ydych chi\'n hoffi ein apps all-lein, nad ydynt yn ymwthiol a heb unrhyw hysbysebion,
-            ystyriwch ein cefnogi mewn rhyw ffordd. Byddem yn ddiolchgar iawn.<br><br>
-            Diolch!
-        ]]></string>
-    <string name="restored_previous_purchase_please_restart">Restored previous purchase. Please restart the app to make use of all features.</string>
-    <string name="no_purchase_found">No purchase found.</string>
-    <string name="restore_purchase">Restore purchase</string>
-    <string name="restoring_purchase">Restoring purchase…</string>
 
     <string name="no_connection">Dim cysylltiad</string>
     <string name="per_month">%s/mis</string>
@@ -121,7 +69,7 @@ Diolch i\'n holl gyfranwyr, rydym yn gwerthfawrogi eich cymorth yn fawr &#10084;
     <string name="open_search_when_open_contacts">Agor Chwilio pan fyddwch yn agor y tab Cysylltiadau</string>
     <string name="end_search_when_changing_tab">Diweddu chwiliad wrth newid tabiau</string>
     <string name="change_top_bar_colour_when_scrolling">Newid lliw bar uchaf wrth sgrolio</string>
-    <string name="global_theme_success_g">Mae\'r thema gyfredol wedi\'i chymhwyso\'n llwyddiannus i bob Ap Cywir. Bydd unrhyw newidiadau i\'r thema hon yn y dyfodol yn cael eu cysoni\'n awtomatig</string>
+    <string name="global_theme_success_g">Mae\'r thema gyfredol wedi\'i chymhwyso\'n llwyddiannus i bob Ap Chad. Bydd unrhyw newidiadau i\'r thema hon yn y dyfodol yn cael eu cysoni\'n awtomatig</string>
     <string name="enter_pattern">Rhowch y patrwm</string>
     <string name="call_screen_background">Cefndir sgrin galwadau</string>
     <string name="contact_photo">Llun cyswllt</string>
@@ -180,48 +128,12 @@ Diolch i\'n holl gyfranwyr, rydym yn gwerthfawrogi eich cymorth yn fawr &#10084;
     <string name="swipe_width">Lled swipe</string>
     <string name="auto_scroll">Sgrolio Awtomatig</string>
     <string name="hide_icons_in_menu">Cuddio eiconau yn y ddewislen</string>
-    <string name="purchase_simple_thank_you_g">Prynu Goodwy Thank You</string>
-    <string name="copyright_g">f %1$s\nHawlfraint © Goodwy %2$d</string>
-    <string name="update_thank_you_g">Diweddara Goodwy Thank You i\'r fersiwn diweddaraf</string>
-    <string name="faq_2_text_commons_g">
-        <![CDATA[
-        Oes, wrth gwrs. Gallet ddweud wrth eraill mor dda yw\'r apiau neu roi adborth a sgôr da. Gallet hefyd helpu ehangu a chywiro cyfieithiadau i\'r Gymraeg a ieithoedd eraill.
-        Mae canllaw yma <a href="https://github.com/Goodwy/Discussion">https://github.com/Goodwy/Discussion</a>, neu anfona ebost ata\'i (yn Saesneg) <a href="mailto:goodwy.dev@gmail.com">goodwy.dev@gmail.com</a> os oes angen help.
-        ]]>
-    </string>
-    <string name="faq_6_text_commons_g">Mae\'r mater hwn yn codi pan nad yw eich lansiwr yn cefnogi addasu eicon yn llawn. Ceisiwch lansio\'r ap trwy Google Play neu widget, os yw\'n hygyrch.         Ar ôl ei lansio, adfer y lliw eicon app diofyn. Mewn achosion eithafol, efallai y bydd angen ailosod yr app.</string>
-    <string name="faq_8_text_commons_g">As your app version is no longer updated, the bugs you have maybe spotted will never be fixed. There will also be no new functions added. You can purchase the Pro version on Google Play for a small sum of money.
-        It is a one time payment, which means that once you purchase it, you will never have to pay again. Not even after getting a new device. If you won\'t like the Pro version, you can just uninstall it within a few hours and you will automatically get your money back.
-        If you want a refund anytime later, just contact us at goodwy.dev@gmail.com and you will get it.</string>
     <string name="faq_100_title_commons_g">Beth yw cyswllt preifat?</string>
     <string name="faq_100_text_commons_g">Crëir cyswllt personol o fewn yr ap. Ni fydd y cyswllt hwn yn weladwy i apiau eraill (ac eithrio ein apiau ni sydd â gosodiad arbennig wedi\'i alluogi).\nOs byddwch chi\'n dileu\'r ap, bydd yr holl gysylltiadau personol yn cael eu dileu ynghyd â\'r ap, felly gwnewch gopi wrth gefn o\'ch cysylltiadau cyn dileu\'r ap.</string>
     <string name="faq_101_title_commons_g">How to create a private contact?</string>
     <string name="faq_101_text_commons_g">When you create a contact, you must select the source of the contact: %s</string>
-    <string name="contributors_label_g"><![CDATA[
-Mae\'r rhestr hon yn cynnwys pawb a gynorthwyodd yn sylweddol unrhyw un o\'n rhaglenni. Gwirfoddolwyr sy\'n delio â chyfieithiadau, rhowch wybod i ni os ydych chi eisiau helpu hefyd. Mae\'r canllaw i gyfieithu ar <a href="https://github.com/Goodwy/Discussion">y wefan hon</a>, neu cysylltwch â ni yn <a href="mailto:goodwy.dev@gmail.com">goodwy.dev@gmail.com</a> os oes gennych unrhyw gwestiynau.
-Diolch i\'r holl gyfranwyr a chefnogwyr eraill!
-]]></string>
-    <string name="deprecated_app_g">DEPRECATED: This version of the app is no longer maintained, get the Pro version at https://play.google.com/store/apps/details?id=com.goodwy.xxx.pro</string>
-    <string name="pro_app_refund_g">Don\'t forget that if you uninstall any paid app within 2 hours, you will automatically be refunded. If you want a refund anytime later, just contact us at goodwy.dev@gmail.com and you will get it. That makes it easy to try it out :)</string>
 
     <!-- Contacts -->
-    <string name="notification_of_new_application"><![CDATA[
-<b><big>Newyddion pwysig a dechrau newydd 🚀</big></b><br><br>
-
-Oherwydd cyfyngiadau talu parhaus, bu’n rhaid i ni newid i gyfrif datblygwr newydd a rhyddhau fersiwn newydd i sicrhau dyfodol yr ap.<br><br>
-
-Pam uwchraddio i’r fersiwn newydd?<br>
-✨ Dewis lliw cwbl addasadwy — dewiswch unrhyw liw rydych chi’n ei hoffi!<br>
-🎨 Eiconau ffres, modern<br>
-❤️ Cyfle i gefnogi’r prosiect — bellach yn hanfodol ar gyfer ei ddatblygiad.<br><br>
-
-Bydd eich ap presennol yn parhau i weithredu a derbyn diweddariadau.<br><br>
-
-<b>Diolch am eich ymddiriedaeth a’ch cefnogaeth.</b><br><br>
-
-<small><i>I’n cefnogwyr cynnar:<br>
-Os gwnaethoch chi brynu’r ap hwn o’r blaen neu wneud rhodd, diolch! Anfonwch eich cadarnhad i help@goodwy.dev, a byddwn yn gwneud ein gorau i ddarparu cod hyrwyddo ar gyfer y fersiwn newydd (tra bo cyflenwadau ar gael).</i></small>
-]]></string>
     <string name="add_number">Ychwanegu rhif</string>
     <string name="add_email">Ychwanegu e-bost</string>
     <string name="add_address">Ychwanegu cyfeiriad</string>
@@ -368,10 +280,6 @@ Os gwnaethoch chi brynu’r ap hwn o’r blaen neu wneud rhodd, diolch! Anfonwch
     <string name="relation_sister_in_law_g">Sister-in-law</string>
 
     <!-- RuStore -->
-    <string name="billing_purchase_confirm_in_progress">Confirming the purchase…</string>
-    <string name="billing_purchase_delete_in_progress">Deleting the purchase…</string>
-    <string name="billing_product_confirmed">Product confirmed/substantiated</string>
-    <string name="billing_product_deleted">Purchase canceled</string>
     <string name="billing_subscriptions">Tanysgrifiadau</string>
     <string name="billing_error_application_signature_not_correct">I dalu trwy RuStore mae angen i chi osod y fersiwn app o RuStore</string>
     <string name="date">Dyddiad</string>
@@ -387,7 +295,6 @@ Os gwnaethoch chi brynu’r ap hwn o’r blaen neu wneud rhodd, diolch! Anfonwch
     <string name="disagree">Rwy\'n anghytuno</string>
     <string name="height">Uchder</string>
     <string name="select_color">Dewiswch liw</string>
-    <string name="more_apps_from_us_g">Mwy o apiau gennym ni</string>
     <string name="use_persian_calendar">Defnyddiwch galendr Perseg</string>
     <string name="blocking_type">Math blocio</string>
     <string name="blocking_type_do_not_reject">Peidiwch â gwrthod</string>

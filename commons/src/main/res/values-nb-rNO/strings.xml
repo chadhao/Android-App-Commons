@@ -62,7 +62,6 @@
     <string name="no_phone_number_found">Fant ikke noe telefonnummer</string>
     <string name="change_view_type">Endre visningstype</string>
     <string name="grid">Rutenett</string>
-    <string name="grid_pro">Rutenett (Pro)</string>
     <string name="list">Liste</string>
     <string name="increase_column_count">Øk antall kolonner</string>
     <string name="reduce_column_count">Reduser antall kolonner</string>
@@ -185,7 +184,6 @@
     <string name="undo_changes_confirmation">Er du sikker på at du vil angre dine endringer?</string>
     <string name="cannot_be_undone">Denne handlingen kan ikke angres.</string>
     <string name="save_before_closing">Du har endringer som ikke er lagret. Lagre før du avslutter?</string>
-    <string name="global_theme_success">Fargene er vellykket oppdatert. Et nytt tema kalt \'Delt\' er lagt til, bruk det for å oppdatere alle appenes farger i fremtiden.</string>
     <string name="light_theme">Lyst</string>
     <string name="dark_theme">Mørkt</string>
     <string name="auto_theme">Automatisk</string>
@@ -215,9 +213,7 @@
     <string name="undo">Angre</string>
     <string name="redo">Annuler angre</string>
     <string name="print">Skriv ut</string>
-    <string name="print_pro">Skriv ut (Pro)</string>
     <string name="create_shortcut">Opprett snarvei</string>
-    <string name="create_shortcut_pro">Opprett snarvei (Pro)</string>
     <string name="add_number_to_contact">Legg til nummer i kontakt</string>
     <string name="view_contact_details">Vis kontaktdetaljer</string>
     <string name="toggle_filename">Vis/skjul filnavn</string>
@@ -274,7 +270,6 @@
     <string name="protection_setup_successfully">Passord er stilt inn. Installer appen på nytt hvis du glemmer det.</string>
     <string name="fingerprint_setup_successfully">Beskyttelse er stilt inn. Installer appen på nytt i tilfelle problemer med å tilbakestille.</string>
     <string name="lock_folder">Lås mappe</string>
-    <string name="lock_folder_pro">Lås mappe (Pro)</string>
     <string name="unlock_folder">Lås opp mappe</string>
     <string name="yesterday">I går</string>
     <string name="today">I dag</string>
@@ -525,11 +520,9 @@
     <string name="saturday_short">Lør</string>
     <string name="sunday_short">Søn</string>
     <string name="about">Om</string>
-    <string name="website_label">For kildekoden besøk</string>
     <string name="email_label">Send tilbakemelding eller forslag til</string>
     <string name="invite_friends">Inviter venner</string>
     <string name="invite_via">Inviter via</string>
-    <string name="donate">Gi et bidrag</string>
     <string name="follow_us">Følg oss</string>
     <string name="other">Annet</string>
     <string name="additional_info">Tilleggsinformasjon</string>

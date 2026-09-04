@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="website">Webbplats</string>
     <string name="cancel">Avbryt</string>
     <string name="close">Stäng</string>
     <string name="back">Tillbaka</string>
@@ -89,7 +90,6 @@
     <string name="no_phone_number_found">Inget telefonnummer hittades</string>
     <string name="change_view_type">Ändra vy</string>
     <string name="grid">Rutnät</string>
-    <string name="grid_pro">Rutnät (Pro)</string>
     <string name="uneven_grid">Ojämnt rutnät</string>
     <string name="list">Lista</string>
     <string name="increase_column_count">Öka antalet kolumner</string>
@@ -157,7 +157,6 @@
     <string name="search_conversations">Sök efter konversationer</string>
     <string name="search_recordings">Sök efter inspelningar</string>
     <string name="filter">Filtrera</string>
-    <string name="filter_pro">Filtrera (Pro)</string>
     <string name="no_items_found">Inga objekt hittades.</string>
     <string name="change_filter">Ändra filter</string>
     <string name="no_storage_permissions">Lagringsbehörighet krävs</string>
@@ -329,10 +328,6 @@
     <string name="undo_changes_confirmation">Är du säker på att du vill ångra dina ändringar?</string>
     <string name="cannot_be_undone">Denna åtgärd kan inte ångras.</string>
     <string name="save_before_closing">Du har ändringar som inte är sparade. Spara innan du lämnar?</string>
-    <string name="global_theme_success">Färgerna har uppdaterats. Ett nytt Tema som heter \'Delat\' har lagts till, använd det för att uppdatera alla apparnas färger i framtiden.</string>
-    <string name="purchase_thank_you"><![CDATA[
-            Köp <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> för att låsa upp den här funktionen och stödja utvecklingen. Tack!
-        ]]></string>
     <string name="light_theme">Ljust</string>
     <string name="dark_theme">Mörkt</string>
     <string name="auto_theme">Automatiskt</string>
@@ -366,10 +361,8 @@
     <string name="undo">Ångra</string>
     <string name="redo">Gör om</string>
     <string name="print">Skriv ut</string>
-    <string name="print_pro">Skriv ut (Pro)</string>
     <string name="shortcut">Genväg</string>
     <string name="create_shortcut">Skapa genväg</string>
-    <string name="create_shortcut_pro">Skapa genväg (Pro)</string>
     <string name="add_number_to_contact">Lägg till nummer i kontakt</string>
     <string name="view_contact_details">Visa kontaktuppgifter</string>
     <string name="call_from_sim_1">Ring med SIM-kort 1</string>
@@ -452,7 +445,6 @@
     <string name="protection_setup_successfully">Lösenordet har ställts in. Installera om appen om du glömmer bort det.</string>
     <string name="fingerprint_setup_successfully">Skyddet har ställts in. Installera om appen om du inte kan ta bort skyddet.</string>
     <string name="lock_folder">Lås mapp</string>
-    <string name="lock_folder_pro">Lås mapp (Pro)</string>
     <string name="unlock_folder">Lås upp mapp</string>
     <string name="lock_folder_notice">Detta skydd fungerar bara i den här appen, det är inte tänkt att ersätta en riktig systemomfattande mappkryptering.</string>
     <string name="enter_password">Ange lösenord</string>
@@ -749,62 +741,14 @@
     <string name="friday_short">Fre</string>
     <string name="saturday_short">Lör</string>
     <string name="sunday_short">Sön</string>
-    <string name="upgrade_to_pro_long">Din appversion uppdateras inte längre. Uppgradera till Pro-versionen för att få nya korrigeringar och andra förbättringar.</string>
-    <string name="upgrade_to_pro_long_click">Din appversion uppdateras inte längre. Uppgradera till Pro-versionen för att få nya korrigeringar och andra förbättringar genom att klicka här.</string>
     <string name="it_is_free">Den är gratis fram till: %s. Om du hämtar den innan dess, kan du använda den kostnadsfritt för all framtid.</string>
     <string name="more_info">Mer information</string>
-    <string name="upgrade">Uppgradera</string>
     <string name="upgrade_calendar">Lokalt sparade händelser kan bara migreras manuellt genom att exportera och importera dem till och från en .ics-fil. Du hittar knappar för både export och import i huvudvymenyn.</string>
-    <string name="upgraded_from_free_gallery">Hallå,
-\n
-\nDet verkar som att du precis har uppgraderat från gratisversionen. När du är nöjd med den här och kanske migrerat dina inställningar och favoriter över, kan du avinstallera den gamla gratis för att undvika att starta den av misstag eftersom du inte behöver den längre, det kommer också att förhindra att den här dialogrutan visas.
-\n
-\nTack!</string>
-    <string name="upgraded_to_pro_gallery">Hejsan,
-\n
-\nDet verkar som att du redan har Pro-appversionen också. När du är nöjd med det och kanske migrerat dina inställningar och favoriter över, kan du avinstallera den här för att undvika att starta den av misstag eftersom du inte behöver den längre.
-\n
-\nTack!</string>
-    <string name="upgraded_from_free">Hallå,
-\n
-\nDet verkar som att du precis har uppgraderat från gratisversionen. När du är nöjd med den här och kanske migrerat dina data över, kan du avinstallera den gamla gratis för att undvika att starta den av misstag eftersom du inte behöver den längre, det kommer också att förhindra att den här dialogrutan visas.
-\n
-\nTack!</string>
-    <string name="upgraded_to_pro">Hejsan,
-\n
-\nDet verkar som att du redan har Pro-appversionen också. När du är nöjd med det och kanske migrerat dina data över, kan du avinstallera den här för att undvika att starta den av misstag eftersom du inte behöver den längre.
-\n
-\nTack!</string>
-    <string name="upgraded_from_free_calendar">Hallå,
-\n
-\nDet verkar som att du precis har uppgraderat från gratisversionen. Om du vill migrera dina lokalt lagrade händelser över måste du göra det manuellt genom att exportera dem till en .ics-fil i gratisappversionen och importera hit via toppmenyn.
-\n
-\nNär du är nöjd med din installation i Pro-versionen kan du avinstallera den gamla gratis eftersom du inte behöver den längre, det kommer också att förhindra att den här dialogrutan visas.
-\n
-\nTack!</string>
-    <string name="upgraded_from_free_contacts">Hallå,
-\n
-\nDet verkar som att du precis har uppgraderat från gratisversionen. Om du hade några kontakter lagrade under \"%s\" måste du migrera dem manuellt genom att exportera i en .vcf-fil från gratisappversionen och importera hit via toppmenyn.
-\n
-\nNär du är nöjd med din installation i Pro-versionen kan du avinstallera den gamla gratis eftersom du inte behöver den längre, det kommer också att förhindra att den här dialogrutan visas.
-\n
-\nTack!</string>
-    <string name="upgraded_from_free_notes">Hallå,
-\n
-\nDet verkar som att du precis har uppgraderat från gratisversionen. Om du vill migrera dina anteckningar över måste du göra det manuellt genom att exportera dem till en fil i gratisappversionen och importera hit via toppmenyn.
-\n
-\nNär du är nöjd med din installation i Pro-versionen kan du avinstallera den gamla gratis eftersom du inte behöver den längre, det kommer också att förhindra att den här dialogrutan visas.
-\n
-\nTack!</string>
     <string name="about">Om</string>
-    <string name="website">Webbplats</string>
-    <string name="website_label">Du hittar källkoden på</string>
     <string name="email_label">Skicka dina synpunkter och förslag till</string>
-    <string name="upgrade_to_pro">Uppgradera till Pro</string>
     <string name="invite_friends">Bjud in vänner</string>
     <string name="share_text">Hej, läs om %1$s på %2$s</string>
     <string name="invite_via">Bjud in via</string>
-    <string name="donate">Donera</string>
     <string name="follow_us">Följ oss</string>
     <string name="help_us">Hjälp oss</string>
     <string name="social">Socialt</string>
@@ -815,21 +759,11 @@
     <string name="additional_info">Ytterligare information</string>
     <string name="app_version">Appversion: %s</string>
     <string name="device_os">Enhetens operativsystem: %s</string>
-    <string name="donate_please">
-        <![CDATA[
-            Hej,<br><br>
-            jag hoppas att du gillar appen. Den innehåller ingen reklam. Stöd dess utveckling genom att köpa appen <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a>, som även hindrar den här dialogrutan från att visas igen.<br><br>
-            Tack!
-        ]]>
-    </string>
     <string name="purchase">Köp</string>
     <string name="before_asking_question_read_faq">Innan du frågar, vänligen kolla appens inställningar och läs FAQ:en först. Kanske finns lösningen där.</string>
     <string name="make_sure_latest">Dubbelkolla så du har den senaste versionen av appen.</string>
-    <string name="make_sure_upgrade">Notera att denna appversionen inte utvecklas längre, skaffa Pro-versionen för förbättringar istället.</string>
     <string name="read_it">Läs</string>
     <string name="read_faq">Läs FAQ</string>
-    <string name="thank_you">Tack</string>
-    <string name="widget_locked_pro">Widgeten är låst.\nUppgradera till Pro-versionen för att låsa upp den.</string>
     <string name="new_app">
         <![CDATA[
             Hej,<br><br>
@@ -857,7 +791,6 @@
     <string name="music_player_short">Musikspelare</string>
     <string name="notes_short">Anteckningar</string>
     <string name="sms_messenger_short">Meddelanden</string>
-    <string name="thank_you_short">Tack</string>
     <string name="voice_recorder_short">Röstinspelare</string>
     <string name="sideloaded_app"><![CDATA[
             Det verkar som om din appversion är skadad. Ladda ner originalversionen <a href="%s">här</a>.
@@ -866,7 +799,6 @@
     <string name="before_asking_question">Innan du ställer en fråga, läs först</string>
     <string name="faq_1_title_commons">Hur kommer det sig att jag inte ser den här appwidgeten på listan över widgets\?</string>
     <string name="faq_1_text_commons">Det beror mest troligt på att du flyttade appen på ett SD-kort. Det finns en Android-systembegränsning som döljer de givna appwidgetarna i så fall. Den enda lösningen är att flytta appen tillbaka till den interna lagringen via dina enhetsinställningar.</string>
-    <string name="faq_2_title_commons">Jag vill stödja dig, men jag kan inte donera pengar. Finns det något annat jag kan göra\?</string>
     <string name="faq_3_title_commons">Jag raderade några filer av misstag, hur kan jag återställa dem\?</string>
     <string name="faq_3_text_commons">Tyvärr kan du inte. Filer raderas direkt efter bekräftelsedialogrutan, det finns ingen papperskorg tillgänglig.</string>
     <string name="faq_4_title_commons">Jag gillar inte widgetfärgerna, kan jag ändra dem\?</string>
@@ -876,8 +808,6 @@
     <string name="faq_6_title_commons">Appstartikonen försvann. Vad kan jag göra\?</string>
     <string name="faq_7_title_commons">Pengarna har dragits från mitt bankkonto, men jag kan inte ladda ner appen. Vad kan jag göra\?</string>
     <string name="faq_7_text_commons">Betalningar hanteras till fullo av Google, deras system har fel då och då. Rensa bara Google Play-appens cache och starta om enheten och försök sedan ladda ner den igen.</string>
-    <string name="faq_8_title_commons">Varför ska jag uppgradera till Pro-versionen\?</string>
-    <string name="faq_8_text_commons">Eftersom din appversion inte längre är uppdaterad kommer de buggar du kanske har upptäckt aldrig att fixas. Det kommer inte heller att läggas till några nya funktioner. Du kan köpa Pro-versionen på Google Play för en liten summa pengar. Det är en engångsbetalning, vilket innebär att när du väl köpt den behöver du aldrig betala igen. Inte ens efter att ha skaffat en ny enhet. Om du inte gillar Pro-versionen kan du bara avinstallera den inom några timmar så får du automatiskt tillbaka dina pengar. Om du vill ha en återbetalning när som helst senare, kontakta oss bara på hello@fossify.org så får du det.</string>
     <string name="faq_9_title_commons">Hur kan jag välja flera objekt samtidigt\?</string>
     <string name="faq_9_text_commons">Det finns flera sätt att göra det på. Den första är att starta valläget genom att trycka länge på ett objekt, sedan kortklicka på andra för att välja dem. Det andra sättet liknar att välja objekt på datorer med en mus, starta bara valläget genom att trycka länge på ett objekt, och sedan med fingret nedåt och dra det över andra objekt för att välja. Det tredje sättet att välja flera objekt är att länge trycka på ett objekt, sedan länge på ett annat och allt däremellan väljs. Om du vill markera alla objekt, tryck bara länge på ett objekt och klicka sedan på den valda objekträknaren i det övre vänstra hörnet. Det kommer att välja eller avmarkera allt.</string>
     <string name="faq_10_title_commons">Jag har köpt appen, men jag kan inte ladda ner den på en annan enhet.</string>
@@ -926,11 +856,6 @@
     <string name="translation_chinese_hk">Kinesiska (Hongkong)</string>
     <string name="translation_chinese_cn">Kinesiska (förenklad)</string>
     <string name="translation_chinese_tw">Kinesiska (traditionell)</string>
-    <string name="why_upgrade">Skaffa Pro-versionen nu!</string>
-    <string name="why_upgrade_basic_version">Enkel</string>
-    <string name="why_upgrade_no_ads">Ingen reklam</string>
-    <string name="why_upgrade_no_internet_access">Ingen internetuppkoppling</string>
-    <string name="why_upgrade_footer">100 % pengarna tillbaka-garanti</string>
     <string name="why_upgrade_footer_one_time_payment">Engångsbetalning</string>
     <string name="why_upgrade_improved_design">Förbättrad design</string>
     <string name="why_upgrade_many_other_improvements">Många andra förbättringar</string>
@@ -1008,31 +933,25 @@
         <item quantity="one">Din prövotid tar slut om %d dag.</item>
         <item quantity="other">Din prövotid tar slut om %d dagar.</item>
     </plurals>
-    <string name="deprecated_app">UTGÅNGEN: Denna version av appen underhålls inte längre, hämta Pro-versionen på https://play.google.com/store/apps/details\?id=org.fossify..xxx.pro</string>
-    <string name="pro_app_refund">Glöm inte att om du avinstallerar någon betalapp inom 2 timmar kommer du automatiskt att få en återbetalning. Om du vill ha en återbetalning när som helst senare, kontakta oss bara på hello@fossify.org så får du det. Det gör det enkelt att testa :)</string>
     <string name="developer_description">En mängd enkla, öppen källkod Android appar med anpassningsbara widgets, inga annonser eller onödiga behörigheter.</string>
-    <string name="purchase_simple_thank_you">Köp Fossify Thank You</string>
     <string name="translation_bengali">Bengali</string>
     <string name="translation_bulgarian">Bulgariska</string>
     <string name="translation_tamil">Tamil</string>
-    <string name="update_thank_you">Uppdatera Fossify Thank You till den senaste versionen</string>
     <string name="translation_hindi">Hindi</string>
     <string name="translation_nepali">Nepali</string>
-    <string name="why_upgrade_pro_version">Pro</string>
     <string name="format_phone_numbers">Formatera telefonnummer</string>
     <string name="translation_belarusian">Belarusiska</string>
     <string name="translation_central_kurdish">Centralkurdiska</string>
     <string name="theme_and_colors">Tema och färger</string>
     <string name="april">April</string>
     <string name="friday_letter">F</string>
-    <string name="all_fossify_apps">Alla Fossify-appar</string>
     <string name="platforms">Plattformar</string>
     <string name="why_upgrade_recents_tab">Flik med de senaste filerna</string>
     <string name="known_issues">Kända problem</string>
     <string name="tuesday_letter">T</string>
     <string name="thursday_letter">T</string>
     <string name="ok">OK</string>
-    <string name="apply_to_all_apps">Använd tema på alla Fossify-appar</string>
+    <string name="apply_to_all_apps">Använd tema på alla Chad-appar</string>
     <string name="alarm">Alarm</string>
     <string name="text">Text</string>
     <string name="usb">USB</string>
@@ -1041,7 +960,6 @@
     <string name="december">December</string>
     <string name="sunday_letter">S</string>
     <string name="monday_letter">M</string>
-    <string name="donate_to_fossify">Donera till Fossify</string>
     <string name="little_to_no_fee">Liten eller ingen avgift</string>
     <string name="fee_up_to_pct">Upp till %1$d%% avgift</string>
     <string name="cryptocurrency">Kryptovaluta</string>
@@ -1051,7 +969,6 @@
     <string name="reorder_items_by_dragging">Ordna om objekt genom att dra</string>
     <string name="number_of_items">Antal objekt</string>
     <string name="translation_kabyle">Kabyliska</string>
-    <string name="copyright">v %1$s\n\nUpphovsrätt © Fossify %2$d</string>
     <string name="confirm_storage_access_restricted_text">På grund av systemrestriktioner så är inte denna mapp tillgänglig.</string>
     <string name="confirm_storage_access_restricted_text_open_system">Öppna med systemapp</string>
     <string name="seconds_letter">%ds</string>
@@ -1073,32 +990,15 @@
     <string name="days_letter">%dd</string>
     <string name="july_short">Jul</string>
     <string name="august_short">Aug</string>
-    <string name="more_fossify_apps">Fler Fossify-appar</string>
-    <string name="rate_this_app">Betygsätt denna app</string>
     <string name="artist">Artist</string>
     <string name="hours_letter">%dh</string>
     <string name="support">Support</string>
     <string name="confirm_storage_access_restricted_text_not_found">Det gick inte att hitta någon systemapp för filhantering.</string>
     <string name="evalex_title">EvalEx (utvärdering av matematiska uttryck)</string>
-    <string name="requires_fossify_thank_you">Kräver Fossify Thank You</string>
     <string name="string_to_add">Text som ska läggas till</string>
-    <string name="donate_short">Stöd oss genom att köpa &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;, detta låser också upp alla appfunktioner inklusive färganpassning.</string>
-    <string name="shared_theme_note">Observera att även om du använder Pro-versionen av appen, behöver du fortfarande Fossify Thank You av tekniska skäl. Den tar hand om färgsynkroniseringen.</string>
-    <string name="features_locked">Den här funktionen är låst, köp &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; för att låsa upp hela appen.&lt;br&gt;&lt;br&gt;Det är en engångsbetalning och om du inte är nöjd kan vi återbetala dig.</string>
-    <string name="donate_new">Hej,&lt;br&gt;&lt;br&gt;hoppas du gillar appen. Den innehåller ingen reklam och vi samlar inte heller in din data, stöd utvecklingen genom att köpa &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;. Du får också tillgång till alla appfunktioner, inklusive färganpassning.&lt;br&gt;&lt;br&gt;Tack!</string>
     <string name="app_icon_color_warning">Varning! Vissa startprogram hanterar kanske inte anpassning av appikoner korrekt. Om ikonen försvinner kan du, om det är möjligt, prova att starta appen via Google Play eller en widget. När du har startat appen återställer du ikonens gröna standardfärg #106D1F. I extrema fall kan det vara nödvändigt att installera om appen.</string>
-    <string name="faq_6_text_commons">Det här problemet uppstår när startprogrammet inte har fullt stöd för ikonanpassning. Prova att starta appen via Google Play eller en widget, om det är möjligt. När du har startat appen återställer du ikonens gröna standardfärg #106D1F. I extrema fall kan det vara nödvändigt att installera om appen.</string>
-    <string name="contributors_label"><![CDATA[
-            Den här listan innehåller alla som på ett märkbart sätt har bidragit till någon Fossify-app, inte bara den här. Översättningarna hanteras av volontärer,
-            kontakta oss om du också vill hjälpa till. Översättningsguiden finns på <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">den här webbplatsen</a>, kontakta oss på <a href="mailto:hello@fossify.org">hello@fossify.org</a> om du har några frågor.
-            Tack till alla bidragsgivare och andra supportrar!
-        ]]></string>
     <string name="enables_more_customization">Möjliggör mer anpassning</string>
     <string name="translation_latvian">Lettiska</string>
-    <string name="faq_2_text_commons"><![CDATA[
-            Ja, naturligtvis. Du kan sprida information om apparna eller ge bra feedback och betyg. Du kan också hjälpa till genom att översätta apparna till ett nytt språk eller bara uppdatera några befintliga översättningar.
-            Översättningsguiden finns på <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">den här webbplatsen</a>, kontakta oss på <a href="mailto:hello@fossify.org">hello@fossify.org</a> om du har några frågor.
-        ]]></string>
     <plurals name="files_saved">
         <item quantity="one">Filen har sparats</item>
         <item quantity="other">Filerna har sparats</item>

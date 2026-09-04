@@ -17,69 +17,14 @@
     <string name="end">Koniec</string>
 
     <!-- Support project -->
-    <string name="rate_g">Ohodnotiť</string>
-    <string name="action_support_project">Podpora projektov</string>
-    <string name="pref_pay_summary">Get the paid app to support future developments and extra features</string>
-    <string name="support_project_summary">Get one of our paid apps to support future development and unlock extra features</string>
     <string name="learn_more">Zistiť viac</string>
     <string name="themes">Témy</string>
     <string name="themes_summary">Starostlivo vybrané aplikačné témy, automatický menič tém a podpora systémových tém pre Android 12+</string>
     <string name="color_title">Farby</string>
     <string name="color_summary">Manuálna úprava primárnej farby, zvýraznenia, pozadia, textu a navigačného panela</string>
-    <string name="plus_title">Podporte nás</string>
-    <string name="plus_summary">S vašou pomocou môžeme implementovať viac funkcií a aplikáciu ešte vylepšiť</string>
-    <string name="attention">Pozornosť</string>
-    <string name="attention_summary">Ak ste nakupovali v našej starej verzii alebo ste podporili projekt na iných platformách, pošlite nám prosím potvrdenie e-mailom a my sa vám pokúsime poslať promo kód.</string>
-    <string name="attention_dialog_summary">Ak chcete získať promo kód, musíte poslať dôkaz o podpore projektu (stačí snímka obrazovky z Google Play alebo inej platformy). Počet promo kódov je obmedzený. Poslať dôkaz?</string>
-    <string name="about_summary">
-        <![CDATA[
-            <i>
-            Vážime si váš čas a chceme, aby ste si našu aplikáciu užívali bez reklám. Ak vám priniesol potešenie a užitočnosť, zvážte darovanie na jeho rozvoj. <br><br>
-            Oceňte našu tvrdú prácu a podeľte sa o svoje dojmy, pomôže nám to realizovať nové nápady a ponúknuť vám ešte úžasnejšie funkcie.
-            </i>
-        ]]></string>
-    <string name="lifebuoy_title">Podporíme vás</string>
-    <string name="lifebuoy_summary">Ak si z nejakého dôvodu nemôžete dovoliť našu aplikáciu, ale naozaj chcete používať všetky funkcie, stačí nám poslať e-mail</string>
     <string name="participants_title">Participants</string>
-    <string name="participants_subtitle"><![CDATA[
-Títo ľudia prispeli k projektu Right s otvoreným zdrojovým kódom na GitHub,
-ako aj k Fossify a Simple Mobile Tools, na ktorých sme založení.<br><br>
-
-Ďakujeme všetkým našim prispievateľom, veľmi si vážime vašu pomoc &#10084;&#65039;
-]]></string>
-    <string name="special_thanks_to">Special thanks to</string>
-    <string name="tip_kind">Dobrá podpora</string>
-    <string name="tip_excellent">Vynikajúca podpora</string>
-    <string name="tip_incredible">Úžasná podpora</string>
-    <string name="tip_jar">Podporovať</string>
-    <string name="any_support_unlock_all">Vyberte si úroveň projektovej podpory, ktorú máte k dispozícii (jednorazovou, mesačnú alebo ročnú). Akákoľvek podpora odomkne všetky funkcie aplikácie</string>
-    <string name="one_time_purchase">Jednorazová podpora</string>
-    <string name="monthly">Mesačná podpora</string>
-    <string name="yearly">Ročná podpora</string>
-    <string name="unlock">Unlock</string>
-    <string name="donate_text_g">
-        <![CDATA[
-            Pre tých, ktorí nepoužívajú službu Google Play, je možné odomknúť všetky funkcie aplikácie. <br>
-            Ak sa vám páčia naše aplikácie, ktoré sú offline, nie sú rušivé a neobsahujú reklamy, zvážte, či nás nejakým spôsobom nepodporíte.
-            Budeme vám veľmi vďační.<br><br>
-            Ďakujeme!
-        ]]>
-    </string>
-    <string name="donate_text_no_gp_g">
-        <![CDATA[
-            Z dôvodu problémov dočasne nemôžeme vykonávať platby prostredníctvom služby Google Play,
-            preto v tomto období poskytujeme všetkým používateľom možnosť manuálneho odomknutia všetkých funkcií aplikácie. <br>
-            Ak sa vám páčia naše aplikácie, ktoré sú offline, nie sú rušivé a neobsahujú reklamy, zvážte, či nás nejakým spôsobom nepodporíte.
-            Budeme vám veľmi vďační.<br><br>
-            Ďakujeme!
-        ]]>
-    </string>
 
     <!--Billing-->
-    <string name="restored_previous_purchase_please_restart">Restored previous purchase. Please restart the app to make use of all features.</string>
-    <string name="no_purchase_found">No purchase found.</string>
-    <string name="restore_purchase">Restore purchase</string>
-    <string name="restoring_purchase">Restoring purchase…</string>
 
     <string name="no_connection">Žiadne pripojenie</string>
     <string name="per_month">%s/mesiac</string>
@@ -124,7 +69,7 @@ ako aj k Fossify a Simple Mobile Tools, na ktorých sme založení.<br><br>
     <string name="open_search_when_open_contacts">Po otvorení karty Kontakty otvorte vyhľadávanie</string>
     <string name="end_search_when_changing_tab">Ukončenie vyhľadávania pri zmene kariet</string>
     <string name="change_top_bar_colour_when_scrolling">Zmena farby hornej lišty pri posúvaní</string>
-    <string name="global_theme_success_g">Aktuálna téma bola úspešne použitá na všetky správne aplikácie. Všetky budúce zmeny tejto témy sa synchronizujú automaticky</string>
+    <string name="global_theme_success_g">Aktuálna téma bola úspešne použitá na všetky aplikácie Chad. Všetky budúce zmeny tejto témy sa synchronizujú automaticky</string>
     <string name="enter_pattern">Zadajte vzor</string>
     <string name="call_screen_background">Pozadie obrazovky hovoru</string>
     <string name="contact_photo">Obrázok kontaktu</string>
@@ -183,48 +128,12 @@ ako aj k Fossify a Simple Mobile Tools, na ktorých sme založení.<br><br>
     <string name="swipe_width">Šírka potiahnutia</string>
     <string name="auto_scroll">Automatické posúvanie</string>
     <string name="hide_icons_in_menu">Skryť ikony v ponuke</string>
-    <string name="purchase_simple_thank_you_g">Kúpiť Goodwy Ďakujem</string>
-    <string name="copyright_g">v %1$s\nCopyright © Goodwy %2$d</string>
-    <string name="update_thank_you_g">Prosím aktualizujte Goodwy Ďakujem na najnovšiu verziu</string>
-    <string name="faq_2_text_commons_g">
-        <![CDATA[
-        Áno, samozrejme. Môžete napr. šíriť apky medzi známymi, alebo nám poslať užitočnú odozvu a hodnotenia. Viete pomôcť aj preložením apiek do nových jazykov, alebo upraviť existujúce preklady.
-        Návod nájdete na https://github.com/Goodwy/Discussion , alebo mi v prípade potreby pošlite email na goodwy.dev@gmail.com.
-        ]]>
-    </string>
-    <string name="faq_6_text_commons_g">Tento problém nastáva, keď spúšťač plne nepodporuje prispôsobenie ikon. Skúste spustiť aplikáciu cez Google Play alebo miniaplikáciu, ak je k dispozícii.         Po spustení obnovte predvolenú farbu ikony aplikácie. V extrémnych prípadoch môže byť potrebná preinštalovanie aplikácie.</string>
-    <string name="faq_8_text_commons_g">Keďže táto verzia aplikácie už nebude aktualizovaná, chyby, ktoré ste možno našli, nebudú nikdy opravené. Taktiež už nepribudnú žiadne nové funkcie. Pro verziu si viete kúpiť lacno na Google Play.
-        Ide o jednorázovú platbu, čo znamená, že ak ju raz zaplatíte, už nikdy nebudete musieť platiť nič. Ani vtedy, ak si kúpite nové zariadenie. Ak sa vám Pro verzia nebude páčiť, môžete ju do pár hodín odinštalovať a peniaze vám budú automaticky vrátené.
-        Ak budete chcieť vrátiť apku kedykoľvek neskôr, stačí, ak nám napíšete na goodwy.dev@gmail.com a peniaze vám vrátime.</string>
     <string name="faq_100_title_commons_g">Čo je to súkromný kontakt?</string>
     <string name="faq_100_text_commons_g">V aplikácii sa vytvorí osobný kontakt. Tento kontakt nebude viditeľný pre iné aplikácie (okrem našich aplikácií so zapnutým špeciálnym nastavením).\nAk aplikáciu odstránite, všetky osobné kontakty sa s ňou odstránia, preto si pred odstránením aplikácie zálohujte kontakty.</string>
     <string name="faq_101_title_commons_g">How to create a private contact?</string>
     <string name="faq_101_text_commons_g">When you create a contact, you must select the source of the contact: %s</string>
-    <string name="contributors_label_g"><![CDATA[
-Tento zoznam obsahuje všetkých, ktorí citeľne pomohli s niektorou z našich aplikácií. Preklady zabezpečujú dobrovoľníci, dajte nám vedieť, ak chcete pomôcť aj vy. Sprievodca prekladom nájdete na <a href="https://github.com/Goodwy/Discussion">tejto webovej stránke</a> alebo nás kontaktujte na adrese <a href="mailto:goodwy.dev@gmail.com">goodwy.dev@gmail.com</a>, ak máte akékoľvek otázky.
-Ďakujeme všetkým prispievateľom a ostatným podporovateľom!
-]]></string>
-    <string name="deprecated_app_g">ZASTARALÁ: Táto verzia aplikácie už nie je podporovaná. Stiahnite si Pro verziu na https://play.google.com/store/apps/details?id=com.goodwy.xxx.pro</string>
-    <string name="pro_app_refund_g">Nezabudnite, že ak odinštalujete platenú verziu do 2 hodín, peniaze vám budú automaticky vrátené. Ak ich budete chcieť späť hocikedy neskôr, len nám dajte vedieť na goodwy.dev@gmail.com. To vám zabezpečí jednoduchý spôsob na ich vyskúšanie :)</string>
 
     <!-- Contacts -->
-    <string name="notification_of_new_application"><![CDATA[
-<b><big>Dôležité správy a nový začiatok 🚀</big></b><br><br>
-
-Kvôli pretrvávajúcim obmedzeniam platieb sme museli prejsť na nový vývojársky účet a vydať novú verziu, aby sme zabezpečili budúcnosť aplikácie.<br><br>
-
-Prečo prejsť na novú verziu?<br>
-✨ Plne prispôsobiteľný výber farieb – vyberte si ľubovoľnú farbu, ktorá sa vám páči!<br>
-🎨 Svieže, moderné ikony<br>
-❤️ Možnosť podporiť projekt – teraz nevyhnutná pre jeho vývoj.<br><br>
-
-Vaša súčasná aplikácia bude naďalej fungovať a dostávať aktualizácie.<br><br>
-
-<b>Ďakujeme za vašu dôveru a podporu.</b><br><br>
-
-<small><i>Pre našich prvých podporovateľov:<br>
-Ak ste si túto aplikáciu už predtým zakúpili alebo ste prispeli darom, ďakujeme! Pošlite svoje potvrdenie na adresu help@goodwy.dev a my sa budeme snažiť poskytnúť vám promo kód na novú verziu (do vypredania zásob).</i></small>
-]]></string>
     <string name="add_number">Pridanie čísla</string>
     <string name="add_email">Pridanie e-mailu</string>
     <string name="add_address">Pridanie adresy</string>
@@ -371,10 +280,6 @@ Ak ste si túto aplikáciu už predtým zakúpili alebo ste prispeli darom, ďak
     <string name="relation_sister_in_law_g">Sister-in-law</string>
 
     <!-- RuStore -->
-    <string name="billing_purchase_confirm_in_progress">Confirming the purchase…</string>
-    <string name="billing_purchase_delete_in_progress">Deleting the purchase…</string>
-    <string name="billing_product_confirmed">Product confirmed/substantiated</string>
-    <string name="billing_product_deleted">Purchase canceled</string>
     <string name="billing_subscriptions">Predplatné</string>
     <string name="billing_error_application_signature_not_correct">Ak chcete platiť cez RuStore, musíte si nainštalovať verziu aplikácie z RuStore</string>
     <string name="date">Dátum</string>
@@ -389,7 +294,6 @@ Ak ste si túto aplikáciu už predtým zakúpili alebo ste prispeli darom, ďak
     <string name="disagree">Nesúhlasím</string>
     <string name="height">Výška</string>
     <string name="select_color">Vyberte farbu</string>
-    <string name="more_apps_from_us_g">Viac aplikácií od nás</string>
     <string name="text_alignment">Zarovnanie textu</string>
     <string name="use_persian_calendar">Použite perzský kalendár</string>
     <string name="blocking_type">Typ blokovania</string>

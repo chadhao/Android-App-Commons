@@ -17,65 +17,14 @@
     <string name="end">Einde</string>
 
     <!-- Support project -->
-    <string name="rate_g">Beoordelen</string>
-    <string name="action_support_project">Projectondersteuning</string>
-    <string name="pref_pay_summary">Download de betaalde app om toekomstige ontwikkelingen en extra functies te ondersteunen</string>
-    <string name="support_project_summary">Koop een van onze betaalde apps om toekomstige ontwikkeling te ondersteunen en extra functies te ontgrendelen</string>
     <string name="learn_more">Meer informatie</string>
     <string name="themes">Thema \'s</string>
     <string name="themes_summary">Zorgvuldig geselecteerde toepassingsthema\'s, automatische themawisselaar en systeemthema-ondersteuning voor Android 12+</string>
     <string name="color_title">Kleuren</string>
     <string name="color_summary">Handmatige aanpassing van de primaire kleur, accent, achtergrond, tekst en navigatiebalk</string>
-    <string name="plus_title">Steun ons</string>
-    <string name="plus_summary">Met uw hulp kunnen we meer functies implementeren en de applicatie nog beter maken</string>
-    <string name="attention">Aandacht</string>
-    <string name="attention_summary">Als je aankopen hebt gedaan in onze oude versie of het project op andere platforms hebt gesteund, stuur ons dan een bevestiging per e-mail en we zullen proberen je een promotiecode te sturen.</string>
-    <string name="attention_dialog_summary">Om een ​​promotiecode te ontvangen, moet u bewijs van uw steun voor het project opsturen (een screenshot van Google Play of een ander platform is voldoende). Het aantal promotiecodes is beperkt. Bewijs opsturen?</string>
-    <string name="about_summary">
-        <![CDATA[
-            <i>
-            We waarderen uw tijd en willen dat u zonder advertenties van onze app kunt genieten. Als het je plezier en nut heeft gebracht, overweeg dan om te doneren aan de ontwikkeling ervan. <br><br>
-            Waardeer ons harde werk en deel uw indrukken, het zal ons helpen om nieuwe ideeën te realiseren en u nog meer geweldige functies te bieden.
-            </i>
-        ]]></string>
-    <string name="lifebuoy_title">Wij ondersteunen u</string>
-    <string name="lifebuoy_summary">Als u om wat voor reden dan ook onze app niet kunt betalen, maar echt alle functies wilt gebruiken, stuur ons dan een e-mail</string>
     <string name="participants_title">Participants</string>
-    <string name="participants_subtitle"><![CDATA[
-Deze mensen hebben bijgedragen aan het open-source Right-project op GitHub,
-en ook aan Fossify en Simple Mobile Tools, waarop wij gebaseerd zijn.<br><br>
-
-Bedankt aan al onze bijdragers, we stellen jullie hulp zeer op prijs.
-]]></string>
-    <string name="special_thanks_to">Special thanks to</string>
-    <string name="tip_kind">Goede ondersteuning</string>
-    <string name="tip_excellent">Uitstekende ondersteuning</string>
-    <string name="tip_incredible">Geweldige ondersteuning</string>
-    <string name="tip_jar">Steunen</string>
-    <string name="any_support_unlock_all">Kies het niveau van projectondersteuning dat voor u beschikbaar is (eenmalig, maandelijks of jaarlijks). Elke ondersteuning ontgrendelt alle functies van de app</string>
-    <string name="one_time_purchase">Eenmalige ondersteuning</string>
-    <string name="monthly">Maandelijkse ondersteuning</string>
-    <string name="yearly">Jaarlijkse ondersteuning</string>
-    <string name="unlock">Unlock</string>
-    <string name="donate_text_g">
-        <![CDATA[
-            For those who do not use Google Play, it is possible to unlock all functions of the application. <br>
-            If you like our apps which are offline, non-intrusive and have no ads, please consider supporting us in some way. We would be very grateful.<br><br>
-            Thank you!
-        ]]>
-    </string>
 
     <!--Billing-->
-    <string name="donate_text_no_gp_g"><![CDATA[
-Vanwege problemen kunnen we tijdelijk geen betalingen doen via Google Play. Daarom bieden we alle gebruikers gedurende deze periode de mogelijkheid om alle functies van de app handmatig te ontgrendelen. <br>
-Als je onze apps leuk vindt, die offline, niet-opdringerig en advertentievrij zijn,
-overweeg dan om ons op de een of andere manier te steunen. We zouden je zeer dankbaar zijn.<br><br>
-Bedankt!
-]]></string>
-    <string name="restored_previous_purchase_please_restart">Vorige aankoop hersteld. Start de app opnieuw op om gebruik te maken van alle functies.</string>
-    <string name="no_purchase_found">Geen aankoop gevonden.</string>
-    <string name="restore_purchase">Aankoop herstellen</string>
-    <string name="restoring_purchase">Herstellen van je aankoop…</string>
 
     <string name="no_connection">Geen verbinding</string>
     <string name="per_month">%s/maand</string>
@@ -120,7 +69,7 @@ Bedankt!
     <string name="open_search_when_open_contacts">Toetsenbord openen wanneer u het tabblad Contactpersonen opent</string>
     <string name="end_search_when_changing_tab">Een zoekopdracht beëindigen bij het wijzigen van tabbladen</string>
     <string name="change_top_bar_colour_when_scrolling">Verander de kleur van de bovenste balk tijdens het scrollen</string>
-    <string name="global_theme_success_g">Het huidige thema is met succes toegepast op alle Right Apps. Eventuele toekomstige wijzigingen in dit thema worden automatisch gesynchroniseerd</string>
+    <string name="global_theme_success_g">Het huidige thema is met succes toegepast op alle Chad Apps. Eventuele toekomstige wijzigingen in dit thema worden automatisch gesynchroniseerd</string>
     <string name="enter_pattern">Voer het patroon in</string>
     <string name="call_screen_background">Belschermachtergrond</string>
     <string name="contact_photo">Contactfoto</string>
@@ -179,54 +128,12 @@ Bedankt!
     <string name="swipe_width">Veegbreedte</string>
     <string name="auto_scroll">Automatisch scrollen</string>
     <string name="hide_icons_in_menu">Pictogrammen in het menu verbergen</string>
-    <string name="purchase_simple_thank_you_g">Goodwy Bedankje kopen</string>
-    <string name="copyright_g">v %1$s\nCopyright © Goodwy %2$d</string>
-    <string name="update_thank_you_g">Er is een nieuwe versie van Goodwy Bedankje</string>
-    <string name="faq_2_text_commons_g">
-        <![CDATA[
-        Maar natuurlijk! Vertel anderen over deze apps of geef feedback en positieve beoordelingen. Ook het vertalen van de apps in een nieuwe taal of het bijwerken van bestaande vertalingen wordt gewaardeerd.
-        Een handleiding is te vinden op https://github.com/Goodwy/Discussion , of stuur me een bericht via goodwy.dev@gmail.com voor hulp.
-        ]]>
-    </string>
-    <string name="faq_6_text_commons_g">Dit probleem doet zich voor wanneer uw launcher het aanpassen van pictogrammen niet volledig ondersteunt. Probeer de app te starten via Google Play of een widget, indien toegankelijk.         Herstel na het starten de standaard app-pictogramkleur. In extreme gevallen kan het nodig zijn om de app opnieuw te installeren.</string>
-    <string name="faq_8_text_commons_g">Omdat deze versie van de app niet meer zal worden bijgewerkt, zullen eventuele fouten nooit meer worden opgelost. Ook zullen er geen nieuwe functies meer worden toegevoegd. De Pro-versie is voor een bescheiden bedrag te vinden in de Google Play Store.
-        Dit bedrag hoeft maar een keer te worden betaald, daarna nooit meer. Ook niet voor nieuwe apparaten. Als de Pro-versie toch niet bevalt, deïnstalleer de app dan binnen enkele uren en het bedrag zal worden teruggestort.
-        Ook een latere restitutie is nog mogelijk. Neem hiervoor contact op via goodwy.dev@gmail.com en het geld zal alsnog worden teruggestort.</string>
     <string name="faq_100_title_commons_g">Wat is een privécontact?</string>
     <string name="faq_100_text_commons_g">Binnen de app wordt een persoonlijk contact aangemaakt. Dit contact is niet zichtbaar voor andere apps (behalve voor onze apps met een speciale instelling ingeschakeld).\n\nAls u de app verwijdert, worden al uw persoonlijke contacten samen met de app verwijderd. Maak daarom een ​​back-up van uw contacten voordat u de app verwijdert.</string>
     <string name="faq_101_title_commons_g">How to create a private contact?</string>
     <string name="faq_101_text_commons_g">When you create a contact, you must select the source of the contact: %s</string>
-    <string name="contributors_label_g"><![CDATA[
-Deze lijst bevat iedereen die merkbaar heeft bijgedragen aan een van onze applicaties. Vertalingen worden verzorgd door vrijwilligers.
-Laat het ons weten als je ook wilt helpen. De handleiding voor vertalen vind je op <a href="https://github.com/Goodwy/Discussion">deze website</a>, of neem contact met ons op via <a href="mailto:goodwy.dev@gmail.com">goodwy.dev@gmail.com</a> als je vragen hebt.
-Bedankt aan alle bijdragers en andere supporters!
-]]></string>
-    <string name="deprecated_app_g">VEROUDERD: Deze versie van de app wordt niet langer doorontwikkeld. De Pro-versie is de vinden op https://play.google.com/store/apps/details?id=com.goodwy.xxx.pro</string>
-    <string name="pro_app_refund_g">Bij het deïnstalleren van de app binnen 2 uur na aanschaf wordt het aankoopbedrag automatisch teruggestort. Wilt u op een later tijdstip een terugbetaling, neem dan contact op via goodwy.dev@gmail.com en het wordt geregeld. Zodoende blijft het gemakkelijk om de app uit te proberen :)</string>
 
     <!-- Contacts -->
-    <string name="notification_of_new_application"><![CDATA[
-
-<b><big>Belangrijk nieuws en een nieuwe start 🚀</big></b><br><br>
-
-Vanwege aanhoudende betalingsbeperkingen moesten we overstappen naar een nieuw ontwikkelaarsaccount en een nieuwe versie uitbrengen om de toekomst van de app te garanderen.<br><br>
-
-Waarom upgraden naar de nieuwe versie?<br>
-
-✨ Volledig aanpasbare kleurselectie — kies elke kleur die je wilt!<br>
-
-🎨 Frisse, moderne pictogrammen<br>
-
-❤️ Mogelijkheid om het project te ondersteunen — nu essentieel voor de ontwikkeling ervan.<br><br>
-
-Je huidige app blijft functioneren en updates ontvangen.<br><br>
-
-<b>Bedankt voor je vertrouwen en steun.</b><br><br>
-
-<small><i>Voor onze vroege supporters:<br>
-
-Als je deze app eerder hebt gekocht of een donatie hebt gedaan, bedankt! Stuur je bevestiging naar help@goodwy.dev, en we zullen ons best doen om je een promotiecode voor de nieuwe versie te geven (zolang de voorraad strekt).</i></small>
-]]></string>
     <string name="add_number">Nummer toevoegen</string>
     <string name="add_email">E-mail toevoegen</string>
     <string name="add_address">Adres toevoegen</string>
@@ -373,10 +280,6 @@ Als je deze app eerder hebt gekocht of een donatie hebt gedaan, bedankt! Stuur j
     <string name="relation_sister_in_law_g">Sister-in-law</string>
 
     <!-- RuStore -->
-    <string name="billing_purchase_confirm_in_progress">Confirming the purchase…</string>
-    <string name="billing_purchase_delete_in_progress">Deleting the purchase…</string>
-    <string name="billing_product_confirmed">Product confirmed/substantiated</string>
-    <string name="billing_product_deleted">Purchase canceled</string>
     <string name="billing_subscriptions">Abonnementen</string>
     <string name="billing_error_application_signature_not_correct">Om via RuStore te betalen, moet u de app-versie van RuStore installeren</string>
     <string name="date">Datum</string>
@@ -391,7 +294,6 @@ Als je deze app eerder hebt gekocht of een donatie hebt gedaan, bedankt! Stuur j
     <string name="disagree">Ik ben het daar niet mee eens.</string>
     <string name="height">Hoogte</string>
     <string name="select_color">Selecteer een kleur</string>
-    <string name="more_apps_from_us_g">Meer apps van ons</string>
     <string name="text_alignment">Tekstuitlijning</string>
     <string name="use_persian_calendar">Gebruik de Perzische kalender</string>
     <string name="blocking_type">Blokkeringstype</string>

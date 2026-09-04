@@ -35,67 +35,14 @@
     <string name="end">Канец</string>
 
     <!-- Support project -->
-    <string name="rate_g">Стаўка</string>
-    <string name="action_support_project">Падтрымка праекта</string>
-    <string name="pref_pay_summary">Набудзьце прыкладанне для падтрымкі будучых распрацовак і атрымання дадатковых функцый</string>
-    <string name="support_project_summary">Набудзьце адно з нашых платных прыкладанняў для падтрымкі будучых распрацовак і разблакіроўкі дадатковых функцый</string>
     <string name="learn_more">Больш падрабязна</string>
     <string name="themes">Тэмы</string>
     <string name="themes_summary">Старанна падабраныя тэмы прыкладання, аўтаматычнае змяненне тэм і падтрымка сістэмных тэм для Андроід 12+</string>
     <string name="color_title">Колеры</string>
     <string name="color_summary">Ручная настройка асноўнага колеру, акцэнту, фону, тэксту і панэль навігацыі</string>
-    <string name="plus_title">Падтрымайце нас</string>
-    <string name="plus_summary">З вашай дапамогай мы можам рэалізаваць больш функцый і зрабіць дадатак яшчэ лепш</string>
-    <string name="attention">Увага</string>
-    <string name="attention_summary">Калі Вы рабілі пакупкі ў нашай старой версіі або падтрымлівалі праект на іншых пляцоўках, дашліце нам нейкае пацвярджэнне на пошту і мы пастараемся выслаць вам промакод</string>
-    <string name="attention_dialog_summary">Для атрымання прома кода неабходна адправіць пацвярджэнне падтрымкі праекта (дастаткова скрыншота з Google Play або іншай платформы). Колькасць прома кодаў абмежавана. Адправіць пацверджанне?</string>
-    <string name="about_summary">
-        <![CDATA[
-            <i>
-            Мы цэнім ваш час і хочам, каб вы атрымлівалі асалоду ад нашым дадаткам без рэкламы. Калі яно прынесла вам задавальненне і карысць, разгледзьце магчымасць ахвяравання на яго развіццё.<br><br>
-            Ацаніце нашу працу і падзяліцеся ўражаннямі, гэта дапаможаце нам увасабляць новыя ідэі і прапаноўваць вам яшчэ больш дзіўныя магчымасці.
-            </i>
-        ]]></string>
-    <string name="lifebuoy_title">Мы падтрымаем Вас</string>
-    <string name="lifebuoy_summary">Калі па нейкай прычыне Вы не можаце дазволіць сабе наша дадатак, але вельмі хочаце выкарыстоўваць усе функцыі, проста напішыце нам</string>
     <string name="participants_title">Удзельнікі</string>
-    <string name="participants_subtitle"><![CDATA[
-            Гэтыя людзі ўнеслі свой уклад у праект Right з адкрытым зыходным кодам на GitHub,
-            а таксама ў Fossify і Simple Mobile Tools на якім мы заснаваны.
-
-            Дзякуем усім нашым удзельнікам, мы вельмі цэнім вашу дапамогу &#10084;&#65039;
-        ]]></string>
-    <string name="special_thanks_to">Асаблівая падзяка</string>
-    <string name="tip_kind">Добрая падтрымка</string>
-    <string name="tip_excellent">Выдатная падтрымка</string>
-    <string name="tip_incredible">Узрушаючая падтрымка</string>
-    <string name="tip_jar">Падтрымаць</string>
-    <string name="any_support_unlock_all">Абярыце даступны Вам узровень падтрымкі праекта (аднаразовы, штомесячны або штогадовы). Любая падтрымка разблакуе ўсе функцыі прыкладання</string>
-    <string name="one_time_purchase">Разавая падтрымка</string>
-    <string name="monthly">Штомесячная падтрымка</string>
-    <string name="yearly">Штогадовая падтрымка</string>
-    <string name="unlock">Разблакаваць</string>
-    <string name="donate_text_g">
-        <![CDATA[
-            Для тых, хто не карыстаецца Google Play, ёсць магчымасць разблакаваць усе функцыі прыкладання. <br>
-            Калі вам падабаюцца нашы прыкладанні, якія працуюць аўтаномна, не дакучлівыя і не ўтрымліваюць рэкламы, калі ласка, падумайце аб тым, каб падтрымаць нас якім-небудзь чынам. Мы будзем вельмі ўдзячныя.<br><br>
-            Дзякуй!
-        ]]>
-    </string>
-    <string name="donate_text_no_gp_g">
-        <![CDATA[
-            У сувязі з узніклымі праблемамі мы часова не можам праводзіць плацяжы праз Google Play,
- таму на гэты перыяд мы даем усім карыстальнікам магчымасць уручную разблакаваць усе функцыі прыкладання. <br>
-            Калі вам падабаюцца нашы прыкладанні, якія працуюць аўтаномна, не дакучлівыя і не ўтрымліваюць рэкламы, калі ласка, падумайце аб тым, каб падтрымаць нас якім-небудзь чынам. Мы будзем вельмі ўдзячныя.<br><br>
-            Дзякуй!
-        ]]>
-    </string>
 
     <!--Billing-->
-    <string name="restored_previous_purchase_please_restart">Папярэднія пакупкі адноўлены. Перазагрузіце дадатак, каб выкарыстоўваць усе функцыі.</string>
-    <string name="no_purchase_found">Пакупкі не знойдзены.</string>
-    <string name="restore_purchase">Аднавіць пакупкі</string>
-    <string name="restoring_purchase">Аднаўленне пакупак…</string>
 
     <string name="no_connection">Няма сувязі</string>
     <string name="per_month">%s/месяц</string>
@@ -185,48 +132,12 @@
     <string name="swipe_width">Шырыня свайпа</string>
     <string name="auto_scroll">Аўтаматычная пракрутка</string>
     <string name="hide_icons_in_menu">Хаваць абразкі ў меню</string>
-    <string name="purchase_simple_thank_you_g">Купіць Goodwy Thank You</string>
-    <string name="copyright_g">v %1$s\nАўтарскія правы © Goodwy %2$d</string>
-    <string name="update_thank_you_g">Абнавіце \"Goodwy Thank You\" да апошняй версіі.</string>
-    <string name="faq_2_text_commons_g">
-        <![CDATA[
-        Так, вядома. Вы можаце распаўсюджваць інфармацыю аб прыкладаннях або даваць добрыя водгукі і адзнакі. Таксама вы можаце дапамагчы, пераклаўшы прыкладанні на новую мову або проста абнавіўшы існуючыя пераклады.
-         Кіраўніцтва можна знайсці па адрасе <a href="https://github.com/Goodwy/Discussion">тут</a> ці проста напісаць мне кароткае паведамленне на <a href="goodwy.dev@gmail.com">goodwy.dev@gmail.com</a>, калі вам патрэбна дапамога.
-        ]]>
-    </string>
-    <string name="faq_6_text_commons_g">Гэтая праблема ўзнікае, калі праграма запуску не цалкам падтрымлівае наладжванне значкоў. Паспрабуйце запусціць праграму праз Google Play або віджэт, калі ён даступны.</string>
-    <string name="faq_8_text_commons_g">Паколькі версія прыкладання больш не абнаўляецца, памылкі, якія вы, магчыма, заўважылі, ніколі не будуць выпраўлены. Таксама не будзе дададзена ніякіх новых функцый. Вы можаце набыць Pro-версію на Google Play за вельмі невялікую суму.
-        Гэта разавая пакупка, якая азначае, што вам ніколі не прыйдзецца плаціць зноў. Нават пасля змены прылады. Калі вам не спадабаецца версія Pro, вы можаце проста выдаліць яе на працягу некалькіх гадзін, пасля чаго аўтаматычна атрымаеце свае грошы назад.
-        Калі вы захочаце вярнуць грошы ў любы час пазней, проста звяжыцеся з намі па адрасе goodwy.dev@gmail.com і мы вернем іх.</string>
     <string name="faq_100_title_commons_g">Што такое прыватны кантакт?</string>
     <string name="faq_100_text_commons_g">Асабісты кантакт ствараецца ўнутры прыкладання. Гэты кантакт не будзе бачны іншым прыкладанням (акрамя нашых прыкладанняў пры ўключэнні спецыяльнай наладкі).\n        Калі вы выдаліце ​​прыкладанне, то ўсе асабістыя кантакты выдаляцца разам з дадаткам, таму перад выдаленнем прыкладання зрабіце рэзервовую копію кантактаў.</string>
     <string name="faq_101_title_commons_g">Як стварыць асабісты кантакт?</string>
     <string name="faq_101_text_commons_g">Пры стварэнні кантакту неабходна абраць крыніцу кантакту: %s</string>
-    <string name="contributors_label_g"><![CDATA[
-У гэтым спісе ёсць усе, хто прыкметна дапамог любому з нашых прыкладанняў. Перакладамі займаюцца валанцёры, паведаміце нам, калі вы таксама хочаце дапамагчы. Кіраўніцтва па перакладзе знаходзіцца на <a href="https://github.com/Goodwy/Discussion">гэтым вэб-сайце</a>, або проста звяжыцеся з намі па адрасе <a href="mailto:goodwy.dev@gmail.com">goodwy.dev@gmail.com</a>, калі ў вас ёсць якія-небудзь пытанні.
-Дзякуй усім удзельнікам і іншым прыхільнікам!
-]]></string>
-    <string name="deprecated_app_g">Састарэлае: дадзеная версія прыкладання больш не падтрымліваецца, пераходзіце на версію Pro https://play.google.com/store/apps/details?id=com.goodwy.xxx.pro</string>
-    <string name="pro_app_refund_g">Не забывайце, што калі вы выдаліце любое платнае прыкладанне на працягу 2 гадзін, вам будзе аўтаматычна вернутая сума пакупкі. Калі вы захочаце вярнуць грошы пазней, проста зьвяжыцеся з намі па адрасе goodwy.dev@gmail.com і вы іх атрымаеце. Так што можна лёгка апрабаваць гэта дадатак :)</string>
 
     <!-- Contacts -->
-    <string name="notification_of_new_application"><![CDATA[
-<b><big>Важныя навіны і новы пачатак 🚀</big></b><br><br>
-
-З-за бягучых абмежаванняў на плацяжы нам давялося перайсці на новы ўліковы запіс распрацоўшчыка і выпусціць новую версію, каб забяспечыць будучыню праграмы.<br><br>
-
-Навошта абнаўляцца да новай версіі?<br>
-✨ Цалкам наладжвальны выбар колеру — выберыце любы колер, які вам падабаецца!<br>
-🎨 Свежыя, сучасныя значкі<br>
-❤️ Магчымасць падтрымаць праект — цяпер неабходная для яго развіцця.<br><br>
-
-Ваша бягучая праграма будзе працягваць працаваць і атрымліваць абнаўленні.<br><br>
-
-<b>Дзякуй за ваш давер і падтрымку.</b><br><br>
-
-<small><i>Для нашых першых прыхільнікаў:<br>
-Калі вы раней набылі гэтую праграму або зрабілі ахвяраванне, дзякуй! Дашліце сваё пацверджанне на help@goodwy.dev, і мы зробім усё магчымае, каб прадаставіць промокод для новай версіі (пакуль ёсць у наяўнасці).</i></small>
-]]></string>
     <string name="add_number">Дадаць нумар</string>
     <string name="add_email">Дадаць email</string>
     <string name="add_address">Дадаць адрас</string>
@@ -373,10 +284,6 @@
     <string name="relation_sister_in_law_g">Залоўка</string>
 
     <!-- RuStore -->
-    <string name="billing_purchase_confirm_in_progress">Пацвярджаем пакупку…</string>
-    <string name="billing_purchase_delete_in_progress">Выдаляем куплю…</string>
-    <string name="billing_product_confirmed">Прадукт пацверджаны/папатрабаваны</string>
-    <string name="billing_product_deleted">Купля адменена</string>
     <string name="billing_subscriptions">Падпіскі</string>
     <string name="billing_error_application_signature_not_correct">Для аплаты праз RuStore неабходна ўсталяваць версію праграмы з RuStore</string>
 
@@ -392,7 +299,6 @@
     <string name="disagree">Я не згодны</string>
     <string name="height">Вышыня</string>
     <string name="select_color">Выбраць колер</string>
-    <string name="more_apps_from_us_g">Больш праграм ад нас</string>
     <string name="text_alignment">Выраўноўванне тэксту</string>
     <string name="use_persian_calendar">Карыстайцеся персідскім календаром</string>
     <string name="blocking_type">Тып блакіроўкі</string>

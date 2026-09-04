@@ -1,9 +1,7 @@
 package com.goodwy.commons.compose.screens
 
-import android.content.Context
 import android.widget.TextView
 import androidx.compose.foundation.clickable
-import androidx.compose.foundation.combinedClickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -15,8 +13,6 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.alpha
-import androidx.compose.ui.draw.clip
-import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.painter.Painter
 import androidx.compose.ui.graphics.toArgb
@@ -34,12 +30,9 @@ import androidx.compose.ui.viewinterop.AndroidView
 import androidx.core.text.HtmlCompat
 import com.goodwy.commons.R
 import com.goodwy.commons.compose.extensions.MyDevices
-import com.goodwy.commons.compose.extensions.rememberMutableInteractionSource
 import com.goodwy.commons.compose.lists.SimpleColumnScaffold
-import com.goodwy.commons.compose.menus.ActionIconButton
 import com.goodwy.commons.compose.theme.AppThemeSurface
 import com.goodwy.commons.compose.theme.SimpleTheme
-import com.goodwy.commons.extensions.toast
 import com.goodwy.commons.helpers.FontHelper
 import java.util.Calendar
 import com.goodwy.strings.R as stringsR
@@ -47,8 +40,6 @@ import com.goodwy.strings.R as stringsR
 @Composable
 internal fun AboutScreen(
     goBack: () -> Unit,
-    onInviteClick: () -> Unit,
-    onKnownIssuesClick: () -> Unit,
     aboutSection: @Composable () -> Unit,
     isTopAppBarColorIcon: Boolean,
     isTopAppBarColorTitle: Boolean,
@@ -56,30 +47,6 @@ internal fun AboutScreen(
     SimpleColumnScaffold(
         title = stringResource(id = R.string.about),
         goBack = goBack,
-        actions = {
-            val iconColor =
-                if (isTopAppBarColorIcon) MaterialTheme.colorScheme.primary
-                else LocalContentColor.current
-            ActionIconButton(
-                onClick = onKnownIssuesClick,
-                contentColor = iconColor,
-            ) {
-                Icon(
-                    imageVector = Icons.Rounded.BugReport,
-                    contentDescription = stringResource(id = R.string.known_issues)
-                )
-            }
-            ActionIconButton(
-                onClick = onInviteClick,
-                contentColor = iconColor,
-            ) {
-                Icon(
-                    imageVector = Icons.Rounded.Share,
-                    contentDescription = stringResource(id = R.string.invite_friends)
-                )
-            }
-            Spacer(modifier = Modifier.size(4.dp))
-        },
         isTopAppBarColorIcon = isTopAppBarColorIcon,
         isTopAppBarColorTitle = isTopAppBarColorTitle,
     ) {
@@ -100,23 +67,12 @@ private fun AboutScreenPreview() {
                     appVersion = "1.0",
                     appFlavor = "foss",
                     packageName = "com.goodwy.common",
-                    onRateUsClick = {},
-                    onMoreAppsClick = {},
-                    onPrivacyPolicyClick = {},
                     onFAQClick = {},
-                    onTipJarClick = {},
-                    onGithubClick = {},
-                    onPatreonClick = {},
-                    onBuyMeaCoffeeClick = {},
-                    onWebsiteClick = {},
-                    showGithub = true,
                     onLicenseClick = {},
                     onContributorsClick = {},
                     onVersionClick = {},
                 )
             },
-            onInviteClick = {},
-            onKnownIssuesClick = {},
             isTopAppBarColorIcon = true,
             isTopAppBarColorTitle = true,
         )
@@ -130,16 +86,7 @@ internal fun AboutNewSection(
     appVersion: String,
     appFlavor: String,
     packageName: String,
-    onRateUsClick: () -> Unit,
-    onMoreAppsClick: () -> Unit,
-    onPrivacyPolicyClick: () -> Unit,
     onFAQClick: () -> Unit,
-    onTipJarClick: () -> Unit,
-    onGithubClick: () -> Unit,
-    onPatreonClick: () -> Unit,
-    onBuyMeaCoffeeClick: () -> Unit,
-    onWebsiteClick: () -> Unit,
-    showGithub: Boolean = true,
     onLicenseClick: () -> Unit,
     onContributorsClick: () -> Unit,
     onVersionClick: () -> Unit,
@@ -147,7 +94,6 @@ internal fun AboutNewSection(
     Box(
         modifier = Modifier.padding(horizontal = dimensionResource(id = R.dimen.about_margin))
     ) {
-        val context = LocalContext.current
         val textColor = MaterialTheme.colorScheme.onSurface
         Column(Modifier.padding(start = 6.dp, end = 6.dp, bottom = 26.dp)) {
             Card(shape = RoundedCornerShape(16.dp)) {
@@ -201,36 +147,6 @@ internal fun AboutNewSection(
                     },
                 )
             }
-            Spacer(modifier = Modifier.size(8.dp))
-            HtmlText(stringResource(stringsR.string.about_summary), textColor = textColor)
-            Spacer(modifier = Modifier.size(24.dp))
-            if (appFlavor == "gplay" || appFlavor == "rustore") {
-                AboutItem(
-                    text = stringResource(stringsR.string.rate_g),
-                    imageVector = Icons.Rounded.Star,
-                    onClick = onRateUsClick,
-                )
-                Spacer(modifier = Modifier.size(18.dp))
-            }
-            AboutItem(
-                modifierIcon = when (appFlavor) {
-                    "gplay" -> {
-                        Modifier
-                            .size(42.dp)
-                            .padding(start = 10.dp, end = 6.dp, top = 8.dp, bottom = 8.dp)
-                    }
-                    else -> Modifier.size(42.dp).padding(9.dp)
-                },
-                text = stringResource(stringsR.string.more_apps_from_us_g),
-                painter = painterResource(
-                    id = when (appFlavor) {
-                        "foss" -> R.drawable.ic_github_vector
-                        "rustore" -> R.drawable.ic_rustore
-                        else -> R.drawable.ic_google_play_vector
-                    }
-                ),
-                onClick = onMoreAppsClick,
-            )
             if (setupFAQ) {
                 Spacer(modifier = Modifier.size(18.dp))
                 AboutItem(
@@ -251,33 +167,6 @@ internal fun AboutNewSection(
                 imageVector = Icons.AutoMirrored.Outlined.Article,
                 onClick = onLicenseClick,
             )
-            Spacer(modifier = Modifier.size(18.dp))
-            AboutItem(
-                text = stringResource(R.string.privacy_policy),
-                imageVector = Icons.Rounded.Policy,
-                onClick = onPrivacyPolicyClick,
-            )
-            Spacer(modifier = Modifier.size(18.dp))
-            if (showGithub) {
-                Row(
-                    modifier = Modifier.fillMaxSize(),
-                    horizontalArrangement = Arrangement.Center,
-                ) {
-                    MyButton(
-                        context= context,
-                        text = stringResource(R.string.github),
-                        painter = painterResource(id = R.drawable.ic_github_vector),
-                        onClick = onGithubClick,
-                    )
-                    Spacer(modifier = Modifier.size(14.dp))
-                    MyButton(
-                        context= context,
-                        text = "goodwy.dev",
-                        painter = painterResource(id = R.drawable.ic_goodwy),
-                        onClick = onWebsiteClick,
-                    )
-                }
-            }
             Spacer(modifier = Modifier.size(20.dp))
             val currentYear = Calendar.getInstance().get(Calendar.YEAR)
             Text(
@@ -288,41 +177,6 @@ internal fun AboutNewSection(
             )
             Spacer(modifier = Modifier.size(18.dp))
         }
-    }
-}
-
-@Composable
-private fun MyButton(
-    context: Context,
-    text: String,
-    painter: Painter,
-    onClick: () -> Unit,
-) {
-    val navigationIconInteractionSource = rememberMutableInteractionSource()
-    Box(
-        modifier = Modifier
-            .size(62.dp)
-            .padding(SimpleTheme.dimens.padding.small)
-            .clip(RoundedCornerShape(50))
-            .combinedClickable(
-                interactionSource = navigationIconInteractionSource,
-                indication = ripple(
-                    color = SimpleTheme.colorScheme.onSurface,
-                    bounded = true
-                ),
-                onClick = onClick,
-                onLongClick = {
-                    context.toast(text)
-                }
-            ),
-        contentAlignment = Alignment.Center
-    ) {
-        Icon(
-            modifier = Modifier.fillMaxSize().padding(8.dp),
-            painter = painter,
-            contentDescription = text,
-            tint = MaterialTheme.colorScheme.onSurface
-        )
     }
 }
 

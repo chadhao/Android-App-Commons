@@ -42,7 +42,6 @@
     <string name="insert_text_here">உரையை இங்கே சேர்க்கவும்</string>
     <string name="change_view_type">காட்சி வகையை மாற்று</string>
     <string name="grid">கட்டம்</string>
-    <string name="grid_pro">கட்டம் (Pro)</string>
     <string name="list">பட்டியல்</string>
     <string name="increase_column_count">நெடுவரிசை அதிகரி</string>
     <string name="reduce_column_count">நெடுவரிசை குறை</string>
@@ -64,7 +63,6 @@
     <string name="search">தேடல்</string>
     <string name="type_2_characters">தேடலைத் தொடங்க குறைந்தது 2 எழுத்துக்களைத் தட்டச்சு செய்க.</string>
     <string name="filter">வடிகட்டி</string>
-    <string name="filter_pro">வடிகட்டி (Pro)</string>
     <string name="no_items_found">உருப்படிகள் எதுவும் கிடைக்கவில்லை.</string>
     <string name="change_filter">வடிப்பானை மாற்றவும்</string>
     <string name="no_storage_permissions">சேமிப்பு அனுமதி தேவை</string>
@@ -181,9 +179,7 @@
     <string name="temporarily_show_hidden">மறைத்தவையை தற்காலிகமாக காட்டு</string>
     <string name="undo">செயல்தவிர்</string>
     <string name="print">அச்சிடு</string>
-    <string name="print_pro">அச்சிடு (Pro)</string>
     <string name="create_shortcut">குறுக்குவழி உருவாக்கு</string>
-    <string name="create_shortcut_pro">குறுக்குவழி உருவாக்கு (Pro)</string>
     <string name="add_number_to_contact">எண்ணைத் தொடர்புக்குச் சேர்</string>
     <string name="view_contact_details">தொடர்பு விவரங்களைப் பார்</string>
     <string name="move_to_top">உச்சிக்கு நகர்த்து</string>
@@ -217,7 +213,6 @@
     <string name="place_finger">கைரேகை உணர்வியில் உமது விரலை வைக்கவும்</string>
     <string name="go_to_settings">அமைப்புகளுக்கு செல்</string>
     <string name="lock_folder">கோப்புறையை பூட்டு</string>
-    <string name="lock_folder_pro">கோப்புறையை பூட்டு (Pro)</string>
     <string name="unlock_folder">கோப்புறையை பூட்டவிழ்</string>
     <string name="yesterday">நேற்று</string>
     <string name="today">இன்று</string>
@@ -362,10 +357,8 @@
     <string name="saturday_short">ச</string>
     <string name="sunday_short">ஞா</string>
     <string name="more_info">மேலும் தகவல்</string>
-    <string name="upgrade">தரமுயர்த்து</string>
     <string name="about">பற்றி</string>
     <string name="invite_friends">நன்பர்களை அழைப்பிடு</string>
-    <string name="donate">நன்கொடையளி</string>
     <string name="follow_us">எம்மை பின்தொடர்</string>
     <string name="app_version">செயலி பதிப்பு: %s</string>
     <string name="app_launcher_short">செயலி ஏவி</string>
@@ -380,9 +373,7 @@
     <string name="music_player_short">இசை இயக்கி</string>
     <string name="notes_short">குறிப்புகள்</string>
     <string name="sms_messenger_short">குறுஞ்செய்தி தூதர்</string>
-    <string name="thank_you_short">நன்றி</string>
     <string name="voice_recorder_short">குரல் பதிவான்</string>
-    <string name="why_upgrade_no_internet_access">இணைய அணுகல் இல்லை</string>
     <string name="why_upgrade_advanced_photo_editor">மேம்பட்ட புகைப்பட திருத்தி</string>
     <string name="why_upgrade_heic_support">HEIC/HEIF கோப்பு ஆதரவு</string>
     <string name="why_upgrade_printing_support">அச்சிடுதல் ஆதரவு</string>

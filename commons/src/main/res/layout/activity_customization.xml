@@ -34,17 +34,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <com.goodwy.commons.views.PurchaseThankYouItem
-                android:id="@+id/settings_purchase_thank_you_holder"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/medium_margin"/>
-
             <androidx.cardview.widget.CardView
                 android:id="@+id/themeHolder"
                 style="@style/SettingsSectionHolder"
                 android:layout_marginTop="@dimen/activity_margin"
-                android:layout_below="@+id/settings_purchase_thank_you_holder"
                 app:cardCornerRadius="@dimen/activity_margin"
                 app:cardElevation="0dp">
 

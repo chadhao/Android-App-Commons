@@ -17,65 +17,14 @@
     <string name="end">پایان</string>
 
     <!-- Support project -->
-    <string name="rate_g">امتیاز</string>
-    <string name="action_support_project">پشتیبانی پروژه</string>
-    <string name="pref_pay_summary">برنامه پولی را برای پشتیبانی از پیشرفت‌ها و ویژگی‌های اضافی دریافت کنید</string>
-    <string name="support_project_summary">یکی از برنامه های پولی ما را برای پشتیبانی از توسعه آینده و باز کردن قفل ویژگی های اضافی دریافت کنید</string>
     <string name="learn_more">بیشتر بدانید</string>
     <string name="themes">تم</string>
     <string name="themes_summary">"با دقت انتخاب تم های نرم افزار ، تغییر خودکار تم و پشتیبانی از تم سیستم برای آندروید 12+ "</string>
     <string name="color_title">رنگ</string>
     <string name="color_summary">تنظیم دستی رنگ اولیه، لهجه، پس زمینه، متن و نوار ناوبری</string>
-    <string name="plus_title">از ما حمایت کنید</string>
-    <string name="plus_summary">با کمک شما می توانیم ویژگی های بیشتری را پیاده سازی کنیم و برنامه را حتی بهتر کنیم</string>
-    <string name="attention">توجه</string>
-    <string name="attention_summary">اگر در نسخه قدیمی ما خریدهایی انجام داده‌اید یا از پروژه در پلتفرم‌های دیگر پشتیبانی کرده‌اید، لطفاً از طریق ایمیل تأییدیه برای ما ارسال کنید تا سعی کنیم یک کد تخفیف برای شما ارسال کنیم.</string>
-    <string name="attention_dialog_summary">برای دریافت کد تخفیف، باید مدرکی دال بر حمایت از پروژه ارسال کنید (یک اسکرین شات از گوگل پلی یا پلتفرم دیگر کافی است). تعداد کدهای تخفیف محدود است. مدرکی ارسال کنید؟</string>
-    <string name="about_summary">
-        <![CDATA[
-            <i>
-            ما برای زمان شما ارزش قائل هستیم و می خواهیم بدون تبلیغات از برنامه ما لذت ببرید. اگر برای شما لذت و سودمندی به ارمغان اورده است، در نظر بگیرید که به توسعه ان کمک کنید. <br><br>
-             قدردانی از کار سخت ما و به اشتراک گذاشتن برداشت خود را، ان را به ما کمک خواهد کرد برای تحقق بخشیدن به ایده های جدید و به شما ارائه ویژگی های شگفت انگیز حتی بیشتر.
-            </i>
-        ]]></string>
-    <string name="lifebuoy_title">ما از شما حمایت خواهیم کرد</string>
-    <string name="lifebuoy_summary">اگر به دلایلی شما می توانید برنامه ما استطاعت نیست، اما واقعا می خواهید به استفاده از تمام ویژگی ها، فقط به ما ایمیل</string>
     <string name="participants_title">شرکت‌کنندگان</string>
-    <string name="participants_subtitle"><![CDATA[
-این افراد در پروژه متن‌باز Right در گیت‌هاب، و همچنین در Fossify و Simple Mobile Tools که ما بر اساس آنها فعالیت می‌کنیم، مشارکت داشته‌اند.<br><br>
-
-از همه مشارکت‌کنندگانمان متشکریم، از کمک شما بسیار سپاسگزاریم &#10084;&#65039;
-]]></string>
-    <string name="special_thanks_to">تشکر ویژه از</string>
-    <string name="tip_kind">پشتیبانی خوب</string>
-    <string name="tip_excellent">پشتیبانی عالی</string>
-    <string name="tip_incredible">پشتیبانی عالی</string>
-    <string name="tip_jar">پشتیبانی</string>
-    <string name="any_support_unlock_all">سطح پشتیبانی پروژه موجود برای شما (یک باره، ماهانه یا سالانه) را انتخاب کنید. هر گونه پشتیبانی تمام ویژگی های برنامه را باز می کند</string>
-    <string name="one_time_purchase">پشتیبانی یکبار مصرف</string>
-    <string name="monthly">پشتیبانی ماهانه</string>
-    <string name="yearly">پشتیبانی سالانه</string>
-    <string name="unlock">Unlock</string>
-    <string name="donate_text_g">
-        <![CDATA[
-            برای کسانی که از گوگل پلی استفاده نمی‌کنند، امکان باز کردن قفل همه عملکردهای برنامه وجود دارد. <br>
-اگر برنامه‌های ما را که آفلاین، بدون مزاحمت و بدون تبلیغات هستند دوست دارید، لطفاً به نوعی از ما حمایت کنید. ما بسیار سپاسگزار خواهیم بود. <br><br>
-متشکرم!
-        ]]>
-    </string>
 
     <!--Billing-->
-    <string name="donate_text_no_gp_g"><![CDATA[
-            به دلیل مشکلاتی که موقتاً قادر به پرداخت از طریق Google Play نیستیم،
-            بنابراین برای این مدت به همه کاربران این امکان را می دهیم که به صورت دستی تمام ویژگی های برنامه را باز کنند. <br>
-            اگر برنامه های ما را که آفلاین، غیر مزاحم و بدون تبلیغات هستند دوست دارید،
-            لطفا به نوعی از ما حمایت کنید. ما بسیار سپاسگزار خواهیم بود.<br><br>
-            متشکرم
-        ]]></string>
-    <string name="restored_previous_purchase_please_restart">Restored previous purchase. Please restart the app to make use of all features.</string>
-    <string name="no_purchase_found">No purchase found.</string>
-    <string name="restore_purchase">Restore purchase</string>
-    <string name="restoring_purchase">Restoring purchase…</string>
 
     <string name="no_connection">بدون اتصال</string>
     <string name="per_month">%s/ماه</string>
@@ -120,7 +69,7 @@
     <string name="open_search_when_open_contacts">باز کردن جستجو هنگام باز کردن زبانه اشناها</string>
     <string name="end_search_when_changing_tab">پایان دادن به جستجو هنگام تغییر برگه ها</string>
     <string name="change_top_bar_colour_when_scrolling">تغییر رنگ نوار بالا هنگام پیمایش</string>
-    <string name="global_theme_success_g">تم فعلی با موفقیت برای همه برنامه های مناسب اعمال شده است. هر گونه تغییر در آینده در این قالب به طور خودکار همگام سازی می شود</string>
+    <string name="global_theme_success_g">تم فعلی با موفقیت برای همه برنامه های Chad اعمال شده است. هر گونه تغییر در آینده در این قالب به طور خودکار همگام سازی می شود</string>
     <string name="enter_pattern">الگو را وارد کنید</string>
     <string name="call_screen_background">پس‌زمینه صفحه تماس</string>
     <string name="contact_photo">عکس تماس</string>
@@ -181,50 +130,12 @@
     <string name="swipe_width">عرض کشیدن انگشت</string>
     <string name="auto_scroll">اسکرول خودکار</string>
     <string name="hide_icons_in_menu">پنهان کردن آیکون‌ها در منو</string>
-    <string name="purchase_simple_thank_you_g">Purchase Goodwy Thank You</string>
-    <string name="copyright_g">v %1$s\nCopyright © Goodwy %2$d</string>
-    <string name="update_thank_you_g">Please update Goodwy Thank You to the latest version</string>
-    <string name="faq_2_text_commons_g">
-        <![CDATA[
-            Yes, of course. You can spread the word about the apps or give good feedback and ratings. You can also help by translating the apps in a new language, or just update some existing translations.
-        You can find the guide at https://github.com/Goodwy/Discussion , or just shoot me a message at goodwy.dev@gmail.com if you need help.
-        ]]>
-    </string>
-    <string name="faq_6_text_commons_g">این مشکل زمانی ایجاد می شود که لانچر شما به طور کامل از سفارشی سازی آیکون پشتیبانی نمی کند. در صورت دسترسی، برنامه را از طریق Google Play یا ویجت راه اندازی کنید.         پس از راه اندازی، رنگ نماد برنامه پیش فرض را بازیابی کنید. در موارد شدید، ممکن است نصب مجدد برنامه ضروری باشد.</string>
-    <string name="faq_8_text_commons_g">As your app version is no longer updated, the bugs you have maybe spotted will never be fixed. There will also be no new functions added. You can purchase the Pro version on Google Play for a small sum of money.
-        It is a one time payment, which means that once you purchase it, you will never have to pay again. Not even after getting a new device. If you won\'t like the Pro version, you can just uninstall it within a few hours and you will automatically get your money back.
-        If you want a refund anytime later, just contact us at goodwy.dev@gmail.com and you will get it.</string>
     <string name="faq_100_title_commons_g">مخاطب خصوصی چیست؟</string>
     <string name="faq_100_text_commons_g">یک مخاطب شخصی درون برنامه ایجاد می‌شود. این مخاطب برای سایر برنامه‌ها قابل مشاهده نخواهد بود (به جز برنامه‌های ما که تنظیمات ویژه‌ای روی آنها فعال است).\n\nاگر برنامه را حذف کنید، تمام مخاطبین شخصی به همراه برنامه حذف می‌شوند، بنابراین قبل از حذف برنامه، از مخاطبین خود نسخه پشتیبان تهیه کنید.</string>
     <string name="faq_101_title_commons_g">How to create a private contact?</string>
     <string name="faq_101_text_commons_g">When you create a contact, you must select the source of the contact: %s</string>
-    <string name="contributors_label_g"><![CDATA[
-این لیست شامل تمام کسانی است که به طور قابل توجهی به هر یک از برنامه‌های ما کمک کرده‌اند. ترجمه‌ها توسط داوطلبان انجام می‌شود،
-اگر شما هم می‌خواهید کمک کنید، به ما اطلاع دهید. راهنمای ترجمه در <a href="https://github.com/Goodwy/Discussion">این وب‌سایت</a> موجود است، یا در صورت داشتن هرگونه سؤالی، فقط با ما از طریق <a href="mailto:goodwy.dev@gmail.com">goodwy.dev@gmail.com</a> تماس بگیرید.
-
-از همه مشارکت‌کنندگان و سایر حامیان متشکریم!
-]]></string>
-    <string name="deprecated_app_g">DEPRECATED: This version of the app is no longer maintained, get the Pro version at https://play.google.com/store/apps/details?id=com.goodwy.xxx.pro</string>
-    <string name="pro_app_refund_g">Don\'t forget that if you uninstall any paid app within 2 hours, you will automatically be refunded. If you want a refund anytime later, just contact us at goodwy.dev@gmail.com and you will get it. That makes it easy to try it out :)</string>
 
     <!-- Contacts -->
-    <string name="notification_of_new_application"><![CDATA[
-<b><big>خبر مهم و یک شروع جدید 🚀</big></b><br><br>
-
-به دلیل محدودیت‌های پرداخت مداوم، مجبور شدیم به یک حساب توسعه‌دهنده جدید برویم و نسخه جدیدی را منتشر کنیم تا آینده برنامه را تضمین کنیم.<br><br>
-
-چرا به نسخه جدید ارتقا دهیم؟<br>
-✨ انتخاب رنگ کاملاً قابل تنظیم - هر رنگی را که دوست دارید انتخاب کنید!<br>
-🎨 آیکون‌های جدید و مدرن<br>
-❤️ فرصتی برای حمایت از پروژه - اکنون برای توسعه آن ضروری است.<br><br>
-
-برنامه فعلی شما به کار خود ادامه خواهد داد و به‌روزرسانی‌ها را دریافت خواهد کرد.<br><br>
-
-<b>از اعتماد و حمایت شما متشکریم.</b><br><br>
-
-<small><i>برای حامیان اولیه ما:<br>
-اگر قبلاً این برنامه را خریداری کرده‌اید یا کمک مالی کرده‌اید، از شما متشکریم! تأیید خود را به help@goodwy.dev ارسال کنید، و ما تمام تلاش خود را خواهیم کرد تا یک کد تخفیف برای نسخه جدید ارائه دهیم (تا زمانی که موجودی ادامه داشته باشد).</i></small>
-]]></string>
     <string name="add_number">افزودن شماره</string>
     <string name="add_email">افزودن ایمیل</string>
     <string name="add_address">افزودن آدرس</string>
@@ -371,10 +282,6 @@
     <string name="relation_sister_in_law_g">Sister-in-law</string>
 
     <!-- RuStore -->
-    <string name="billing_purchase_confirm_in_progress">تایید خرید…</string>
-    <string name="billing_purchase_delete_in_progress">حذف خرید…</string>
-    <string name="billing_product_confirmed">محصول تأیید/اثبات شد</string>
-    <string name="billing_product_deleted">خرید لغو شد</string>
     <string name="billing_subscriptions">اشتراک‌ها</string>
     <string name="billing_error_application_signature_not_correct">برای پرداخت از طریق RuStore باید نسخه برنامه را از RuStore نصب کنید</string>
     <string name="date">تاریخ</string>
@@ -388,7 +295,6 @@
     <string name="disagree">من مخالفم</string>
     <string name="height">ارتفاع</string>
     <string name="select_color">انتخاب رنگ</string>
-    <string name="more_apps_from_us_g">برنامه‌های دیگر ما</string>
     <string name="text_alignment">تراز کردن متن</string>
     <string name="blocking_type">نوع مسدود کردن</string>
     <string name="blocking_type_do_not_reject">رد نکنید</string>

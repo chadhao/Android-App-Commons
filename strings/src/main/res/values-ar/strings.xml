@@ -17,63 +17,14 @@
     <string name="end">النهاية</string>
 
     <!-- Support project -->
-    <string name="rate_g">تقييم</string>
-    <string name="action_support_project">دعم المشروع</string>
-    <string name="pref_pay_summary">Get the paid app to support future developments and extra features</string>
-    <string name="support_project_summary">Get one of our paid apps to support future development and unlock extra features</string>
     <string name="learn_more">التعرف على المزيد</string>
     <string name="themes">المواضيع</string>
     <string name="themes_summary">سمات التطبيق المختارة بعناية ، ومغير السمات التلقائي ودعم سمة النظام لنظام Android 12+</string>
     <string name="color_title">الوان</string>
     <string name="color_summary">الضبط اليدوي للون الأساسي واللكنة والخلفية والنص وشريط التنقل</string>
-    <string name="plus_title">ادعمنا</string>
-    <string name="plus_summary">بمساعدتكم يمكننا تنفيذ المزيد من الميزات وجعل التطبيق أفضل</string>
-    <string name="attention">انتباه</string>
-    <string name="attention_summary">إذا قمت بعمليات شراء في إصدارنا القديم أو دعمت المشروع على منصات أخرى، فيرجى إرسال تأكيد إلينا عبر البريد الإلكتروني وسنحاول إرسال رمز ترويجي إليك.</string>
-    <string name="attention_dialog_summary">للحصول على رمز ترويجي، يجب عليك إرسال ما يثبت دعمك للمشروع (يكفي إرسال لقطة شاشة من متجر جوجل بلاي أو أي منصة أخرى). عدد الرموز الترويجية محدود. هل تريد إرسال إثبات؟</string>
-    <string name="about_summary">
-        <![CDATA[
-            <i>
-            نحن نقدر وقتك ونريدك أن تستمتع بتطبيقنا بدون إعلانات. إذا جلبت لك المتعة والفائدة، فكر في التبرع لتطويرها.<br><br>
-             قدّر عملنا الشاق وشارك انطباعاتك، فهذا سيساعدنا على تحقيق أفكار جديدة ونقدم لك المزيد من الميزات الرائعة.
-            </i>
-        ]]></string>
-    <string name="lifebuoy_title">سوف ندعمك</string>
-    <string name="lifebuoy_summary">إذا كنت لا تستطيع تحمل تكاليف تطبيقنا لسبب ما ، ولكنك تريد حقا استخدام جميع الميزات ، فما عليك سوى مراسلتنا عبر البريد الإلكتروني</string>
     <string name="participants_title">Participants</string>
-    <string name="participants_subtitle"><![CDATA[
-ساهم هؤلاء الأشخاص في مشروع Right مفتوح المصدر على GitHub، بالإضافة إلى Fossify وSimple Mobile Tools، التي نعتمد عليها.<br><br>
-
-شكرًا جزيلاً لجميع مساهمينا، ونقدر مساعدتكم كثيرًا &#10084;&#65039;
-]]></string>
-    <string name="special_thanks_to">Special thanks to</string>
-    <string name="tip_kind">دعم جيد</string>
-    <string name="tip_excellent">دعم ممتاز</string>
-    <string name="tip_incredible">دعم رائع</string>
-    <string name="tip_jar">دعم</string>
-    <string name="any_support_unlock_all">اختر مستوى دعم المشروع المتاح لك (لمرة واحدة أو شهريا أو سنويا). أي دعم يفتح جميع ميزات التطبيق</string>
-    <string name="one_time_purchase">دعم لمرة واحدة</string>
-    <string name="monthly">الدعم الشهري</string>
-    <string name="yearly">الدعم السنوي</string>
-    <string name="unlock">Unlock</string>
-    <string name="donate_text_g">
-        <![CDATA[
-            For those who do not use Google Play, it is possible to unlock all functions of the application. <br>
-            If you like our apps which are offline, non-intrusive and have no ads, please consider supporting us in some way. We would be very grateful.<br><br>
-            Thank you!
-        ]]>
-    </string>
 
     <!--Billing-->
-    <string name="donate_text_no_gp_g"><![CDATA[
-بسبب بعض المشاكل، لا يمكننا الدفع عبر جوجل بلاي مؤقتًا، لذلك نتيح لجميع المستخدمين خلال هذه الفترة خيار إلغاء قفل جميع ميزات التطبيق يدويًا. <br>
-إذا أعجبتك تطبيقاتنا، فهي تعمل دون اتصال بالإنترنت، وغير مزعجة، وخالية من الإعلانات، فيرجى دعمنا بأي شكل من الأشكال. سنكون ممتنين للغاية. <br><br>
-شكرًا لك!
-]]></string>
-    <string name="restored_previous_purchase_please_restart">Restored previous purchase. Please restart the app to make use of all features.</string>
-    <string name="no_purchase_found">No purchase found.</string>
-    <string name="restore_purchase">Restore purchase</string>
-    <string name="restoring_purchase">Restoring purchase…</string>
 
     <string name="no_connection">لا يوجد اتصال</string>
     <string name="per_month">شهر/%s</string>
@@ -119,7 +70,7 @@
     <string name="open_search_when_open_contacts">افتح البحث عند فتح علامة التبويب جهات الاتصال</string>
     <string name="end_search_when_changing_tab">إنهاء البحث عند تغيير علامات التبويب</string>
     <string name="change_top_bar_colour_when_scrolling">تغيير لون الشريط العلوي عند التمرير</string>
-    <string name="global_theme_success_g">تم تطبيق السمة الحالية بنجاح على جميع التطبيقات الصحيحة. ستتم مزامنة أي تغييرات مستقبلية على هذا المظهر تلقائيا</string>
+    <string name="global_theme_success_g">تم تطبيق السمة الحالية بنجاح على جميع تطبيقات Chad. ستتم مزامنة أي تغييرات مستقبلية على هذا المظهر تلقائيا</string>
     <string name="enter_pattern">أدخل النمط</string>
     <string name="call_screen_background">خلفية شاشة الاتصال</string>
     <string name="contact_photo">صورة جهة الاتصال</string>
@@ -178,52 +129,12 @@
     <string name="swipe_width">عرض التمرير</string>
     <string name="auto_scroll">التمرير التلقائي</string>
     <string name="hide_icons_in_menu">إخفاء الرموز في القائمة</string>
-    <string name="purchase_simple_thank_you_g">شراء تطبيق (Goodwy Thank You)</string>
-    <string name="copyright_g">v %1$s\nحقوق النشر © Goodwy %2$d</string>
-    <string name="update_thank_you_g">يرجى تحديث تطبيق (Goodwy Thank You) إلى أحدث إصدار</string>
-    <string name="faq_2_text_commons_g">
-        <![CDATA[
-        نعم طبعاً. يمكنك نشر الكلمة عن التطبيقات أو تقديم تعليقات وتقييمات جيدة. يمكنك أيضاً المساعدة من خلال ترجمة التطبيقات بلغة جديدة ، أو تحديث بعض الترجمات الموجودة فقط.يمكنك العثور على الدليل على https://github.com/Goodwy/Discussion ، أو فقط أرسل رسالة على <a href="mailto:goodwy.dev@gmail.com">goodwy.dev@gmail.com</a> إذا كنت بحاجة إلى مساعدة.
-        ]]>
-    </string>
-    <string name="faq_6_text_commons_g">تنشأ هذه المشكلة عندما لا يدعم المشغل تخصيص الرمز بشكل كامل. حاول تشغيل التطبيق من خلال Google Play أو عنصر واجهة مستخدم ، إذا كان يمكن الوصول إليه.         بعد التشغيل ، قم باستعادة لون رمز التطبيق الافتراضي. في الحالات القصوى ، قد تكون إعادة تثبيت التطبيق ضرورية.</string>
-    <string name="faq_8_text_commons_g">نظراً لأن إصدار التطبيق الخاص بك لم يعد محدثاً ، فلن يتم إصلاح الأخطاء التي إكتشافها. كما لن تتم إضافة وظائف جديدة . يمكنك شراء الإصدار الـ Pro على Google Play مقابل مبلغ صغير من المال. إنها دفعة لمرة واحدة،مما يعني أنه بمجرد شرائه ، لن تضطر إلى الدفع مرة أخرى. ليس حتى بعد الحصول على جهاز جديد. إذا كنت لا تحب إصدار Pro ، يمكنك إلغاء تثبيته في غضون ساعات قليلة وستحصل على أموالك تلقائياً.إذا كنت تريد إسترداد الأموال في أي وقت لاحق ، فأتصل بنا على goodwy.dev@gmail.com وستحصل عليه.</string>
     <string name="faq_100_title_commons_g">ما هو الاتصال الخاص؟</string>
     <string name="faq_100_text_commons_g">يتم إنشاء جهة اتصال شخصية داخل التطبيق. لن تكون هذه الجهة مرئية للتطبيقات الأخرى (باستثناء تطبيقاتنا التي تم تفعيل إعدادات خاصة لها).\n\nإذا حذفت التطبيق، فسيتم حذف جميع جهات الاتصال الشخصية معه، لذا يُرجى عمل نسخة احتياطية من جهات اتصالك قبل حذف التطبيق.</string>
     <string name="faq_101_title_commons_g">How to create a private contact?</string>
     <string name="faq_101_text_commons_g">When you create a contact, you must select the source of the contact: %s</string>
-    <string name="contributors_label_g"><![CDATA[
-تضم هذه القائمة كل من ساهم بشكل ملحوظ في أيٍّ من تطبيقاتنا. تتم عمليات الترجمة بواسطة متطوعين،
-أخبرنا إذا كنت ترغب في المساعدة أيضًا. دليل الترجمة موجود على <a href="https://github.com/Goodwy/Discussion">هذا الموقع</a>، أو تواصل معنا على <a href="mailto:goodwy.dev@gmail.com">goodwy.dev@gmail.com</a> إذا كانت لديك أي أسئلة.
-شكرًا لجميع المساهمين والداعمين الآخرين!
-]]></string>
-    <string name="deprecated_app_g">لم يعد يجري العمل عليه: لم يعد هذا الإصدار من التطبيق يجري العمل عليه، قم بالحصول على الإصدار الـ Pro على https://play.google.com/store/apps/details?id=com.goodwy.xxx.pro</string>
-    <string name="pro_app_refund_g">لا تنسى أنه إذا قمت بإلغاء تثبيت أي تطبيق مدفوع في غضون ساعتين ، فسيتم إسترداد أموالك تلقائياً. إذا كنت تريد إسترداد الأموال في أي وقت لاحق ، فأتصل بنا على goodwy.dev@gmail.com وستحصل عليه. هذا يجعل من السهل تجربته :)</string>
 
     <!-- Contacts -->
-    <string name="notification_of_new_application"><![CDATA[
-
-<b><big>أخبار هامة وبداية جديدة 🚀</big></b><br><br>
-
-نظراً للقيود المستمرة على الدفع، اضطررنا إلى الانتقال إلى حساب مطور جديد وإصدار نسخة جديدة لضمان استمرارية التطبيق.<br><br>
-
-لماذا الترقية إلى النسخة الجديدة؟<br>
-
-✨ اختيار ألوان قابل للتخصيص بالكامل - اختر أي لون تريده!<br>
-
-🎨 أيقونات عصرية وجديدة<br>
-
-❤️ فرصة لدعم المشروع - وهو أمر ضروري الآن لتطويره.<br><br>
-
-سيستمر تطبيقك الحالي في العمل وتلقي التحديثات.<br><br>
-
-<b>نشكركم على ثقتكم ودعمكم.</b><br><br>
-
-<small><i>لداعمينا الأوائل:<br>
-
-إذا كنت قد اشتريت هذا التطبيق أو تبرعت سابقاً، فشكراً لك! أرسل تأكيدك إلى help@goodwy.dev، وسنبذل قصارى جهدنا لتزويدك برمز ترويجي للإصدار الجديد (حتى نفاد الكمية).</i></small>
-
-]]></string>
     <string name="add_number">إضافة رقم</string>
     <string name="add_email">إضافة بريد إلكتروني</string>
     <string name="add_address">إضافة عنوان</string>
@@ -370,10 +281,6 @@
     <string name="relation_sister_in_law_g">Sister-in-law</string>
 
     <!-- RuStore -->
-    <string name="billing_purchase_confirm_in_progress">Confirming the purchase…</string>
-    <string name="billing_purchase_delete_in_progress">Deleting the purchase…</string>
-    <string name="billing_product_confirmed">Product confirmed/substantiated</string>
-    <string name="billing_product_deleted">Purchase canceled</string>
     <string name="billing_subscriptions">الاشتراكات</string>
     <string name="billing_error_application_signature_not_correct">للدفع عبر RuStore، تحتاج إلى تثبيت إصدار التطبيق من RuStore</string>
     <string name="date">تاريخ</string>
@@ -388,7 +295,6 @@
     <string name="disagree">أنا أعترض</string>
     <string name="height">ارتفاع</string>
     <string name="select_color">اختر اللون</string>
-    <string name="more_apps_from_us_g">المزيد من تطبيقاتنا</string>
     <string name="text_alignment">محاذاة النص</string>
     <string name="use_persian_calendar">استخدم التقويم الفارسي</string>
     <string name="blocking_type">نوع الحظر</string>

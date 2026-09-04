@@ -17,66 +17,14 @@
     <string name="end">Akhir</string>
 
     <!-- Support project -->
-    <string name="rate_g">Nilai</string>
-    <string name="action_support_project">Dukungan proyek</string>
-    <string name="pref_pay_summary">Get the paid app to support future developments and extra features</string>
-    <string name="support_project_summary">Get one of our paid apps to support future development and unlock extra features</string>
     <string name="learn_more">Belajarlah lagi</string>
     <string name="themes">Tema</string>
     <string name="themes_summary">Tema aplikasi yang dipilih dengan cermat, pengubah tema otomatis, dan dukungan tema sistem untuk Android 12+</string>
     <string name="color_title">Warna</string>
     <string name="color_summary">Penyesuaian warna primer, aksen, latar belakang, teks, dan bilah navigasi secara manual</string>
-    <string name="plus_title">Dukung kami</string>
-    <string name="plus_summary">Dengan bantuan Anda, kami dapat mengimplementasikan lebih banyak fitur dan membuat aplikasi menjadi lebih baik</string>
-    <string name="attention">Perhatian</string>
-    <string name="attention_summary">Jika Anda melakukan pembelian di versi lama kami atau mendukung proyek ini di platform lain, mohon kirimkan konfirmasi melalui email dan kami akan mencoba mengirimkan kode promo kepada Anda.</string>
-    <string name="attention_dialog_summary">Untuk menerima kode promo, Anda harus mengirimkan bukti dukungan untuk proyek ini (tangkapan layar dari Google Play atau platform lain sudah cukup). Jumlah kode promo terbatas. Kirim bukti?</string>
-    <string name="about_summary">
-        <![CDATA[
-            <i>
-            Kami menghargai waktu Anda dan ingin Anda menikmati aplikasi kami tanpa iklan. Jika hal ini memberi Anda kesenangan dan manfaat, pertimbangkan untuk berdonasi untuk pengembangannya.<br><br>
-            Hargai kerja keras kami dan bagikan kesan Anda, ini akan membantu kami mewujudkan ide-ide baru dan menawarkan fitur-fitur yang lebih menakjubkan kepada Anda.
-            </i>
-        ]]></string>
-    <string name="lifebuoy_title">Kami akan mendukung Anda</string>
-    <string name="lifebuoy_summary">Jika karena alasan tertentu Anda tidak mampu membeli aplikasi kami, tetapi benar-benar ingin menggunakan semua fiturnya, cukup kirimkan email kepada kami</string>
     <string name="participants_title">Participants</string>
-    <string name="participants_subtitle"><![CDATA[
-Orang-orang ini telah berkontribusi pada proyek Right sumber terbuka di GitHub,
-serta Fossify dan Simple Mobile Tools, yang menjadi dasar kami.<br><br>
-
-Terima kasih kepada semua kontributor kami, kami sangat menghargai bantuan Anda &#10084;&#65039;
-]]></string>
-    <string name="special_thanks_to">Special thanks to</string>
-    <string name="tip_kind">Dukungan yang baik</string>
-    <string name="tip_excellent">Dukungan yang sangat baik</string>
-    <string name="tip_incredible">Dukungan yang luar biasa</string>
-    <string name="tip_jar">Mendukung</string>
-    <string name="any_support_unlock_all">Pilih tingkat dukungan proyek yang tersedia untuk Anda (satu kali, bulanan, atau tahunan). Dukungan apa pun akan membuka kunci semua fungsi aplikasi</string>
-    <string name="one_time_purchase">Dukungan satu kali</string>
-    <string name="monthly">Dukungan bulanan</string>
-    <string name="yearly">Dukungan tahunan</string>
-    <string name="unlock">Unlock</string>
-    <string name="donate_text_g">
-        <![CDATA[
-            For those who do not use Google Play, it is possible to unlock all functions of the application. <br>
-            If you like our apps which are offline, non-intrusive and have no ads, please consider supporting us in some way. We would be very grateful.<br><br>
-            Thank you!
-        ]]>
-    </string>
 
     <!--Billing-->
-    <string name="donate_text_no_gp_g"><![CDATA[
-Karena beberapa masalah, untuk sementara kami tidak dapat melakukan pembayaran melalui Google Play.
-Oleh karena itu, untuk sementara waktu ini kami memberikan opsi kepada semua pengguna untuk membuka kunci semua fitur aplikasi secara manual. <br>
-Jika Anda menyukai aplikasi kami yang offline, tidak mengganggu, dan bebas iklan,
-mohon pertimbangkan untuk mendukung kami. Kami akan sangat berterima kasih.<br><br>
-Terima kasih!
-]]></string>
-    <string name="restored_previous_purchase_please_restart">Restored previous purchase. Please restart the app to make use of all features.</string>
-    <string name="no_purchase_found">No purchase found.</string>
-    <string name="restore_purchase">Restore purchase</string>
-    <string name="restoring_purchase">Restoring purchase…</string>
 
     <string name="no_connection">Tidak ada koneksi</string>
     <string name="per_month">%s/bulan</string>
@@ -121,7 +69,7 @@ Terima kasih!
     <string name="open_search_when_open_contacts">Buka pencarian saat membuka tab kontak</string>
     <string name="end_search_when_changing_tab">Mengakhiri pencarian saat mengganti tab</string>
     <string name="change_top_bar_colour_when_scrolling">Ubah warna bilah atas saat menggulir</string>
-    <string name="global_theme_success_g">Tema saat ini telah berhasil diterapkan ke semua Aplikasi Kanan. Setiap perubahan di masa mendatang pada tema ini akan disinkronkan secara otomatis</string>
+    <string name="global_theme_success_g">Tema saat ini telah berhasil diterapkan ke semua Aplikasi Chad. Setiap perubahan di masa mendatang pada tema ini akan disinkronkan secara otomatis</string>
     <string name="enter_pattern">Masukkan kunci pola</string>
     <string name="call_screen_background">Latar belakang layar panggilan</string>
     <string name="contact_photo">Foto kontak</string>
@@ -180,54 +128,12 @@ Terima kasih!
     <string name="swipe_width">Lebar geser</string>
     <string name="auto_scroll">Gulir Otomatis</string>
     <string name="hide_icons_in_menu">Sembunyikan ikon di menu</string>
-    <string name="purchase_simple_thank_you_g">Beli Goodwy Thank You</string>
-    <string name="copyright_g">v %1$s\nHak cipta © Goodwy %2$d</string>
-    <string name="update_thank_you_g">Silakan perbarui Goodwy Thank You ke versi terbaru</string>
-    <string name="faq_2_text_commons_g">
-        <![CDATA[
-        Tentu saja ada. Anda bisa membagikan aplikasi ini atau memberikan umpanbalik dan nilai yang baik. Anda juga bisa membantu menerjemahkan aplikasi ke dalam bahasa baru, atau cukup perbarui terjemahan yang sudah ada.
-        Anda bisa melihat panduannya di https://github.com/Goodwy/Discussion , atau email saya di goodwy.dev@gmail.com jika butuh bantuan.
-        ]]>
-    </string>
-    <string name="faq_6_text_commons_g">Masalah ini muncul saat peluncur Anda tidak sepenuhnya mendukung kustomisasi ikon. Coba luncurkan aplikasi melalui Google Play atau widget, jika tersedia.</string>
-    <string name="faq_8_text_commons_g">As your app version is no longer updated, the bugs you have maybe spotted will never be fixed. There will also be no new functions added. You can purchase the Pro version on Google Play for a small sum of money.
-        It is a one time payment, which means that once you purchase it, you will never have to pay again. Not even after getting a new device. If you won\'t like the Pro version, you can just uninstall it within a few hours and you will automatically get your money back.
-        If you want a refund anytime later, just contact us at goodwy.dev@gmail.com and you will get it.</string>
     <string name="faq_100_title_commons_g">Apa itu kontak pribadi?</string>
     <string name="faq_100_text_commons_g">Kontak pribadi dibuat di dalam aplikasi. Kontak ini tidak akan terlihat oleh aplikasi lain (kecuali aplikasi kami dengan pengaturan khusus yang diaktifkan).\nJika Anda menghapus aplikasi, semua kontak pribadi akan dihapus bersama dengan aplikasi, jadi cadangkan kontak Anda sebelum menghapus aplikasi.</string>
     <string name="faq_101_title_commons_g">How to create a private contact?</string>
     <string name="faq_101_text_commons_g">When you create a contact, you must select the source of the contact: %s</string>
-    <string name="contributors_label_g"><![CDATA[
-Daftar ini berisi semua orang yang telah membantu aplikasi kami. Penerjemahan ditangani oleh sukarelawan,
-beri tahu kami jika Anda ingin membantu juga. Panduan penerjemahan tersedia di <a href="https://github.com/Goodwy/Discussion">situs web ini</a>, atau hubungi kami di <a href="mailto:goodwy.dev@gmail.com">goodwy.dev@gmail.com</a> jika Anda memiliki pertanyaan.
-Terima kasih kepada semua kontributor dan pendukung lainnya!
-]]></string>
-    <string name="deprecated_app_g">TIDAK DIDUKUNG: Versi aplikasi ini tidak lagi dikembangkan, dapatkan versi Pro di https://play.google.com/store/apps/details?id=com.goodwy.xxx.pro</string>
-    <string name="pro_app_refund_g">Jangan lupa, jika anda untuk mencopot aplikasi berbayar manapun dalam waktu 2 jam, uang anda akan otomatis dikembalikan. Jika anda ingin pengembalian dilakukan lain waktu, cukup hubungi goodwy.dev@gmail.com dan anda akan mendapatkannya. Mempermudah anda untuk mencobanya terlebih dahulu. :)</string>
 
     <!-- Contacts -->
-    <string name="notification_of_new_application"><![CDATA[
-
-<b><big>Berita penting dan awal yang baru 🚀</big></b><br><br>
-
-Karena pembatasan pembayaran yang sedang berlangsung, kami harus beralih ke akun pengembang baru dan merilis versi baru untuk memastikan masa depan aplikasi ini.<br><br>
-
-Mengapa meningkatkan ke versi baru?<br>
-
-✨ Pilihan warna yang sepenuhnya dapat disesuaikan — pilih warna apa pun yang Anda suka!<br>
-
-🎨 Ikon yang segar dan modern<br>
-
-❤️ Kesempatan untuk mendukung proyek ini — sekarang sangat penting untuk pengembangannya.<br><br>
-
-Aplikasi Anda saat ini akan terus berfungsi dan menerima pembaruan.<br><br>
-
-<b>Terima kasih atas kepercayaan dan dukungan Anda.</b><br><br>
-
-<small><i>Untuk para pendukung awal kami:<br>
-
-Jika Anda sebelumnya telah membeli aplikasi ini atau memberikan donasi, terima kasih! Kirim konfirmasi Anda ke help@goodwy.dev, dan kami akan melakukan yang terbaik untuk memberikan kode promo untuk versi baru (selama persediaan masih ada).</i></small>
-]]></string>
     <string name="add_number">Tambahkan nomor</string>
     <string name="add_email">Tambahkan email</string>
     <string name="add_address">Tambahkan alamat</string>
@@ -374,10 +280,6 @@ Jika Anda sebelumnya telah membeli aplikasi ini atau memberikan donasi, terima k
     <string name="relation_sister_in_law_g">Sister-in-law</string>
 
     <!-- RuStore -->
-    <string name="billing_purchase_confirm_in_progress">Confirming the purchase…</string>
-    <string name="billing_purchase_delete_in_progress">Deleting the purchase…</string>
-    <string name="billing_product_confirmed">Product confirmed/substantiated</string>
-    <string name="billing_product_deleted">Purchase canceled</string>
     <string name="billing_subscriptions">Langganan</string>
     <string name="billing_error_application_signature_not_correct">Untuk membayar melalui RuStore Anda perlu menginstal versi aplikasi dari RuStore</string>
     <string name="date">Tanggal</string>
@@ -392,7 +294,6 @@ Jika Anda sebelumnya telah membeli aplikasi ini atau memberikan donasi, terima k
     <string name="disagree">Saya tidak setuju</string>
     <string name="height">Tinggi</string>
     <string name="select_color">Pilih warna</string>
-    <string name="more_apps_from_us_g">Lebih banyak aplikasi dari kami</string>
     <string name="text_alignment">Perataan teks</string>
     <string name="use_persian_calendar">Gunakan kalender Persia</string>
     <string name="blocking_type">Jenis pemblokiran</string>

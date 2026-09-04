@@ -35,66 +35,14 @@
     <string name="end">Sfârșitul</string>
 
     <!-- Support project -->
-    <string name="rate_g">Evaluează</string>
-    <string name="action_support_project">Suport de proiect</string>
-    <string name="pref_pay_summary">Achiziționați aplicația pentru a sprijini evoluțiile viitoare și pentru a obține mai multe funcții</string>
-    <string name="support_project_summary">Get one of our paid apps to support future development and unlock extra features</string>
     <string name="learn_more">Află mai multe</string>
     <string name="themes">Teme</string>
     <string name="themes_summary">Teme de aplicații atent selectate, schimbător automat de teme și suport pentru teme de sistem pentru Android 12+</string>
     <string name="color_title">Culori</string>
     <string name="color_summary">Ajustarea manuală a culorii primare, a accentului, a fundalului, a textului și a barei de navigare</string>
-    <string name="plus_title">Sustine-ne</string>
-    <string name="plus_summary">Cu ajutorul dvs. putem implementa mai multe funcții și putem îmbunătăți aplicația</string>
-    <string name="attention">Atenţie</string>
-    <string name="attention_summary">Dacă ați făcut achiziții în versiunea noastră veche sau ați susținut proiectul pe alte platforme, vă rugăm să ne trimiteți o confirmare prin e-mail și vom încerca să vă trimitem un cod promoțional.</string>
-    <string name="attention_dialog_summary">Pentru a primi un cod promoțional, trebuie să trimiteți dovada susținerii proiectului (o captură de ecran de pe Google Play sau de pe o altă platformă este suficientă). Numărul de coduri promoționale este limitat. Trimiteți dovada?</string>
-    <string name="about_summary">
-        <![CDATA[
-            <i>
-            Apreciem timpul dvs. și dorim să vă bucurați de aplicația noastră fără reclame. Dacă v-a adus plăcere și utilitate, luați în considerare donarea pentru dezvoltarea sa. <br><br>
-            Apreciați munca noastră grea și împărtășiți-vă impresiile, ne va ajuta să realizăm idei noi și să vă oferim caracteristici și mai uimitoare.
-            </i>
-        ]]></string>
-    <string name="lifebuoy_title">Vă vom sprijini</string>
-    <string name="lifebuoy_summary">Dacă, din anumite motive, nu vă puteți permite aplicația noastră, dar doriți cu adevărat să utilizați toate funcțiile, trebuie doar să ne trimiteți un e-mail</string>
     <string name="participants_title">Participants</string>
-    <string name="participants_subtitle"><![CDATA[
-Aceste persoane au contribuit la proiectul open-source Right de pe GitHub,
-precum și la Fossify și Simple Mobile Tools, pe care ne bazăm.<br><br>
-
-Mulțumim tuturor contribuitorilor noștri, apreciem foarte mult ajutorul vostru &#10084;&#65039;
-]]></string>
-    <string name="special_thanks_to">Special thanks to</string>
-    <string name="tip_kind">Suport bun</string>
-    <string name="tip_excellent">Suport excelent</string>
-    <string name="tip_incredible">Suport minunat</string>
-    <string name="tip_jar">Sprijini</string>
-    <string name="any_support_unlock_all">Alegeți nivelul de asistență pentru proiect disponibil (o singură dată, lunar sau anual). Orice suport deblochează toate caracteristicile aplicației</string>
-    <string name="one_time_purchase">Asistență unică</string>
-    <string name="monthly">Asistență lunară</string>
-    <string name="yearly">Asistență anuală</string>
-    <string name="unlock">Unlock</string>
-    <string name="donate_text_g">
-        <![CDATA[
-            For those who do not use Google Play, it is possible to unlock all functions of the application. <br>
-            If you like our apps which are offline, non-intrusive and have no ads, please consider supporting us in some way. We would be very grateful.<br><br>
-            Thank you!
-        ]]>
-    </string>
 
     <!--Billing-->
-    <string name="donate_text_no_gp_g"><![CDATA[
-            Din cauza unor probleme, temporar nu putem efectua plăți prin Google Play,
-            deci, pentru această perioadă, oferim tuturor utilizatorilor opțiunea de a debloca manual toate funcțiile aplicației. <br>
-            Dacă vă plac aplicațiile noastre care sunt offline, non-intruzive și nu au reclame,
-            vă rugăm să luați în considerare să ne susțineți într-un fel. V-am fi foarte recunoscători.<br><br>
-            Multumesc!
-        ]]></string>
-    <string name="restored_previous_purchase_please_restart">Restored previous purchase. Please restart the app to make use of all features.</string>
-    <string name="no_purchase_found">No purchase found.</string>
-    <string name="restore_purchase">Restore purchase</string>
-    <string name="restoring_purchase">Restoring purchase…</string>
 
     <string name="no_connection">Nici o conexiune</string>
     <string name="per_month">%s/lună</string>
@@ -138,7 +86,7 @@ Mulțumim tuturor contribuitorilor noștri, apreciem foarte mult ajutorul vostru
     <string name="open_search_when_open_contacts">Deschideți Căutarea atunci când deschideți fila Persoane de contact</string>
     <string name="end_search_when_changing_tab">Încheierea unei căutări la schimbarea filelor</string>
     <string name="change_top_bar_colour_when_scrolling">Schimbați culoarea barei superioare la derulare</string>
-    <string name="global_theme_success_g">Tema curentă a fost aplicată cu succes tuturor aplicațiilor potrivite. Orice modificări viitoare ale acestei teme vor fi sincronizate automat</string>
+    <string name="global_theme_success_g">Tema curentă a fost aplicată cu succes tuturor aplicațiilor Chad. Orice modificări viitoare ale acestei teme vor fi sincronizate automat</string>
     <string name="enter_pattern">Introduceți modelul</string>
     <string name="call_screen_background">Fundalul ecranului de apeluri</string>
     <string name="contact_photo">Imaginea contactului</string>
@@ -182,49 +130,12 @@ Mulțumim tuturor contribuitorilor noștri, apreciem foarte mult ajutorul vostru
     <string name="swipe_width">Lățimea glisării</string>
     <string name="auto_scroll">Derulare automată</string>
     <string name="hide_icons_in_menu">Ascundeți pictogramele din meniu</string>
-    <string name="purchase_simple_thank_you_g">Purchase Goodwy Thank You</string>
-    <string name="copyright_g">v %1$s\nCopyright © Goodwy %2$d</string>
-    <string name="update_thank_you_g">Please update Goodwy Thank You to the latest version</string>
-    <string name="faq_2_text_commons_g">
-        <![CDATA[
-            Yes, of course. You can spread the word about the apps or give good feedback and ratings. You can also help by translating the apps in a new language, or just update some existing translations.
-        You can find the guide at https://github.com/Goodwy/Discussion , or just shoot me a message at goodwy.dev@gmail.com if you need help.
-        ]]>
-    </string>
-    <string name="faq_6_text_commons_g">Această problemă apare atunci când lansatorul nu acceptă pe deplin personalizarea pictogramelor. Încercați să lansați aplicația prin Google Play sau printr-un widget, dacă este accesibil.         După lansare, restabiliți culoarea implicită a pictogramei aplicației. În cazuri extreme, poate fi necesară reinstalarea aplicației.</string>
-    <string name="faq_8_text_commons_g">As your app version is no longer updated, the bugs you have maybe spotted will never be fixed. There will also be no new functions added. You can purchase the Pro version on Google Play for a small sum of money.
-        It is a one time payment, which means that once you purchase it, you will never have to pay again. Not even after getting a new device. If you won\'t like the Pro version, you can just uninstall it within a few hours and you will automatically get your money back.
-        If you want a refund anytime later, just contact us at goodwy.dev@gmail.com and you will get it.</string>
     <string name="faq_100_title_commons_g">Ce este un contact privat?</string>
     <string name="faq_100_text_commons_g">Un contact personal este creat în cadrul aplicației. Acest contact nu va fi vizibil pentru alte aplicații (cu excepția aplicațiilor noastre care au o setare specială activată).\n\nDacă ștergeți aplicația, toate contactele personale vor fi șterse împreună cu aplicația, așa că faceți o copie de rezervă a contactelor înainte de a șterge aplicația.</string>
     <string name="faq_101_title_commons_g">How to create a private contact?</string>
     <string name="faq_101_text_commons_g">When you create a contact, you must select the source of the contact: %s</string>
-    <string name="contributors_label_g"><![CDATA[
-Această listă conține pe toți cei care au ajutat în mod semnificativ la oricare dintre aplicațiile noastre. Traducerile sunt gestionate de voluntari,
-spuneți-ne dacă doriți și dumneavoastră să ajutați. Ghidul de traducere se află pe <a href="https://github.com/Goodwy/Discussion">acest site web</a> sau contactați-ne la <a href="mailto:goodwy.dev@gmail.com">goodwy.dev@gmail.com</a> dacă aveți întrebări.
-Mulțumim tuturor contribuitorilor și celorlalți susținători!
-]]></string>
-    <string name="deprecated_app_g">DEPRECATED: This version of the app is no longer maintained, get the Pro version at https://play.google.com/store/apps/details?id=com.goodwy.xxx.pro</string>
-    <string name="pro_app_refund_g">Don\'t forget that if you uninstall any paid app within 2 hours, you will automatically be refunded. If you want a refund anytime later, just contact us at goodwy.dev@gmail.com and you will get it. That makes it easy to try it out :)</string>
 
     <!-- Contacts -->
-    <string name="notification_of_new_application"><![CDATA[
-<b><big>Vești importante și un nou început 🚀</big></b><br><br>
-
-Din cauza restricțiilor de plată continue, a trebuit să trecem la un nou cont de dezvoltator și să lansăm o nouă versiune pentru a asigura viitorul aplicației.<br><br>
-
-De ce să faceți upgrade la noua versiune?<br>
-✨ Selecție de culori complet personalizabilă — alegeți orice culoare doriți!<br>
-🎨 Pictograme proaspete și moderne<br>
-❤️ Oportunitatea de a susține proiectul — acum esențială pentru dezvoltarea acestuia.<br><br>
-
-Aplicația dvs. actuală va continua să funcționeze și să primească actualizări.<br><br>
-
-<b>Vă mulțumim pentru încrederea și sprijinul acordat.</b><br><br>
-
-<small><i>Pentru primii noștri susținători:<br>
-Dacă ați achiziționat anterior această aplicație sau ați făcut o donație, vă mulțumim! Trimiteți confirmarea la help@goodwy.dev și vom face tot posibilul să vă oferim un cod promoțional pentru noua versiune (în limita stocului disponibil).</i></small>
-]]></string>
     <string name="add_number">Adaugați un număr</string>
     <string name="add_email">Adaugă un email</string>
     <string name="add_address">Adaugă adresa</string>
@@ -371,10 +282,6 @@ Dacă ați achiziționat anterior această aplicație sau ați făcut o donație
     <string name="relation_sister_in_law_g">Sister-in-law</string>
 
     <!-- RuStore -->
-    <string name="billing_purchase_confirm_in_progress">Confirming the purchase…</string>
-    <string name="billing_purchase_delete_in_progress">Deleting the purchase…</string>
-    <string name="billing_product_confirmed">Product confirmed/substantiated</string>
-    <string name="billing_product_deleted">Purchase canceled</string>
     <string name="billing_subscriptions">Abonamente</string>
     <string name="billing_error_application_signature_not_correct">Pentru a plăti prin RuStore, trebuie să instalați versiunea aplicației din RuStore</string>
     <string name="date">Dată</string>
@@ -389,7 +296,6 @@ Dacă ați achiziționat anterior această aplicație sau ați făcut o donație
     <string name="disagree">Nu sunt de acord</string>
     <string name="height">Înălţime</string>
     <string name="select_color">Selectați culoarea</string>
-    <string name="more_apps_from_us_g">Alte aplicații de la noi</string>
     <string name="text_alignment">Alinierea textului</string>
     <string name="use_persian_calendar">Folosește calendarul persan</string>
     <string name="blocking_type">Tip de blocare</string>

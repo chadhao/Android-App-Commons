@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="website">Weboldal</string>
     <string name="cancel">Mégse</string>
     <string name="close">Bezárás</string>
     <string name="back">Vissza</string>
@@ -88,7 +89,6 @@
     <string name="no_phone_number_found">Nem található ilyen telefonszám</string>
     <string name="change_view_type">Nézettípus módosítása</string>
     <string name="grid">Rács</string>
-    <string name="grid_pro">Rács (Pro)</string>
     <string name="uneven_grid">Egyenetlen rács</string>
     <string name="list">Lista</string>
     <string name="increase_column_count">Oszlopszám növelése</string>
@@ -156,7 +156,6 @@
     <string name="search_conversations">Beszélgetések keresése</string>
     <string name="search_recordings">Felvételek keresése</string>
     <string name="filter">Szűrő</string>
-    <string name="filter_pro">Szűrő (Pro)</string>
     <string name="no_items_found">Nem található elem.</string>
     <string name="change_filter">Szűrő módosítása</string>
     <string name="no_storage_permissions">Tároló engedély szükséges</string>
@@ -335,7 +334,6 @@
     <string name="undo_changes_confirmation">Biztos, hogy visszavonja a módosításait\?</string>
     <string name="cannot_be_undone">Ez a művelet nem vonható vissza.</string>
     <string name="save_before_closing">Nem mentette a változtatásokat. Menti a kilépés előtt?</string>
-    <string name="global_theme_success">A színek sikeresen frissültek. Hozzáadott egy új, „Közös” nevű témát, a jövőben ezt használja az összes alkalmazás színének frissítéséhez.</string>
     <string name="light_theme">Világos</string>
     <string name="dark_theme">Sötét</string>
     <string name="auto_theme">Automatikus</string>
@@ -368,10 +366,8 @@
     <string name="undo">Visszavonás</string>
     <string name="redo">Mégis</string>
     <string name="print">Nyomtatás</string>
-    <string name="print_pro">Nyomtatás (Pro)</string>
     <string name="shortcut">Parancsikon</string>
     <string name="create_shortcut">Parancsikon létrehozása</string>
-    <string name="create_shortcut_pro">Parancsikon létrehozása (Pro)</string>
     <string name="add_number_to_contact">Szám hozzáadása névjegyhez</string>
     <string name="view_contact_details">Névjegy részleteinek megtekintése</string>
     <string name="call_from_sim_1">Hívás az 1. SIM-ről</string>
@@ -453,7 +449,6 @@
     <string name="protection_setup_successfully">A jelszó beállítása sikeres. Ha elfelejti, akkor újra kell telepítenie az alkalmazást.</string>
     <string name="fingerprint_setup_successfully">A védelem beállítása sikeres. A visszaállítással kapcsolatos problémák esetén telepítse újra az alkalmazást.</string>
     <string name="lock_folder">Mappa zárolása</string>
-    <string name="lock_folder_pro">Mappa zárolása (Pro)</string>
     <string name="unlock_folder">Mappa zárolásának feloldása</string>
     <string name="lock_folder_notice">Ez a védelem csak ezen az alkalmazáson belül működik, nem célja egy valódi rendszerszintű mappatitkosítás helyettesítése.</string>
     <string name="empty_password_new">Adjon meg egy jelszót</string>
@@ -770,56 +765,14 @@
     <string name="friday_short">Pén</string>
     <string name="saturday_short">Szo</string>
     <string name="sunday_short">Vas</string>
-    <string name="upgrade_to_pro_long">Az Ön alkalmazásverziója már nem lesz frissítve. Frissítsen a Pro verzióra, hogy új javításokat és más fejlesztéseket kapjon.</string>
-    <string name="upgrade_to_pro_long_click">Az Ön alkalmazásverziója már nem lesz frissítve. Frissítsen a Pro verzióra az ide kattintással, hogy új javításokat és más fejlesztéseket kapjon.</string>
     <string name="it_is_free">Eddig ingyenes: %s. Ha eddig letölti, akkor örökre ingyen használhatja.</string>
     <string name="more_info">További információk</string>
-    <string name="upgrade">Frissítés</string>
     <string name="upgrade_calendar">A helyben tárolt eseményeket kézzel kell átköltöztetni egy .ics fájl exportálásával, majd importálásával. Az exportálás/importálás gomb a főképernyő menüjében található.</string>
-    <string name="upgraded_from_free_gallery">Helló,
-\n
-\núgy tűnik, hogy most frissítettél az ingyenes verzióról. Ha elégedett vagy ezzel, és esetleg átvitted a beállításaidat és a kedvenceidet, akkor a régi ingyenes verziót eltávolíthatod, hogy elkerüld a véletlen elindítását, mivel már nem lesz rá szükséged, ez megakadályozza azt is, hogy ez a párbeszédpanel megjelenjen.
-\n
-\nKöszönöm!</string>
-    <string name="upgraded_to_pro_gallery">Helló,
-\n
-\núgy tűnik, hogy már rendelkezel az alkalmazás Pro verziójával. Ha elégedett vagy ezzel, és esetleg átvitted a beállításaidat és a kedvenceidet, akkor a régi ingyenes verziót eltávolíthatod, hogy elkerüld a véletlen elindítását, mivel már nem lesz rá szükséged.
-\n
-\nKöszönöm!</string>
-    <string name="upgraded_from_free">Helló,
-\n
-\núgy tűnik, hogy most frissítettél az ingyenes verzióról. Ha elégedett vagy ezzel, és esetleg átmigráltad az adataidat, eltávolíthatod a régi ingyenes verziót, hogy elkerüld a véletlen elindítását, mivel már nem lesz rá szükséged, ez megakadályozza, hogy ez a párbeszédpanel megjelenjen.
-\n
-\nKöszönöm!</string>
-    <string name="upgraded_to_pro">Üdv,
-\n
-\nÚgy néz ki, hogy már rendelkezik a Pro verzióval. Ha elégedett vele, és átköltöztette az adatait, akkor eltávolíthatja a régi, ingyenes verziót, hogy nehogy azt indítsa el véletlenül, ha már nincs rá szüksége.
-\n
-\nKöszönöm!</string>
-    <string name="upgraded_from_free_calendar">Helló,
-\n
-\núgy tűnik, hogy most frissítettél az ingyenes verzióról. Ha át akarod vinni a helyben tárolt eseményeidet, akkor azt manuálisan kell megtenned úgy, hogy az ingyenes alkalmazás verzióban .ics fájlba exportálod őket, és a felső menüben importálod ide.
-\n
-\nHa elégedett a Pro verzió beállításaival, akkor eltávolíthatja a régi, ingyenes verziót, mert már nem lesz rá szüksége.
-\n
-\nKöszönöm!</string>
-    <string name="upgraded_from_free_contacts">Helló, \n \núgy tűnik, hogy most frissítettél az ingyenes verzióról. Ha voltak névjegyeid a(z) „%s” alatt, akkor azokat manuálisan kell átköltöztetned az ingyenes verzióból .vcf fájlba történő exportálással és a felső menüben történő importálással. \n \nHa elégedett vagy a Pro verzió beállításaival, eltávolíthatod a régi ingyenes verziót, mivel arra már nem lesz szükséged, ez megakadályozza ezt a párbeszédpanel megjelenését is. \n \nKöszönöm!</string>
-    <string name="upgraded_from_free_notes">Helló,
-\n
-\núgy tűnik, hogy most frissítettél az ingyenes verzióról. Ha át akarod vinni a jegyzeteidet, akkor azt manuálisan kell megtenned, úgy, hogy az ingyenes verzióban egy fájlba exportálod őket, és a felső menüben importálod ide.
-\n
-\nHa elégedett vagy a Pro verzió beállításaival, eltávolíthatod a régi ingyenes verziót, mivel arra már nem lesz szükséged, ez megakadályozza ezt a párbeszédpanel megjelenését is.
-\n
-\nKöszönöm!</string>
     <string name="about">Névjegy</string>
-    <string name="website">Weboldal</string>
-    <string name="website_label">A forráskódok megtekintéséhez</string>
     <string name="email_label">Ide küldje a visszajelzését vagy a javaslatait</string>
-    <string name="upgrade_to_pro">Frissítés Pro verzióra</string>
     <string name="invite_friends">Barátok meghívása</string>
     <string name="share_text">Nézze meg ezt: %1$s – %2$s</string>
     <string name="invite_via">Meghívás</string>
-    <string name="donate">Támogatás</string>
     <string name="follow_us">Kövessen minket</string>
     <string name="support">Támogatás</string>
     <string name="help_us">Segítsen nekünk</string>
@@ -835,12 +788,8 @@
     <string name="purchase">Vásárlás</string>
     <string name="before_asking_question_read_faq">Mielőtt kérdezne, ellenőrizze az alkalmazás beállításait, és először olvassa el a Gyakran Ismételt Kérdéseket. Talán ott van a megoldás.</string>
     <string name="make_sure_latest">Arról is győződjön meg, hogy a legfrissebb verziót használja.</string>
-    <string name="make_sure_upgrade">Vegye figyelembe, hogy ez az alkalmazásverziót már nem fejlesztjük, szerezze be a Pro változatot a számos fejlesztésért.</string>
     <string name="read_it">Elolvasás</string>
     <string name="read_faq">GYIK elolvasása</string>
-    <string name="thank_you">Köszönjük</string>
-    <string name="widget_locked_pro">A modul zárolva van.
-\nFrissítsen a Pro verzióra a feloldásához.</string>
     <string name="new_app"><![CDATA[
             Üdv!<br><br>
             Csak tájékoztatni szeretnénk, hogy megjelent néhány új alkalmazás:<br><br>
@@ -866,7 +815,6 @@
     <string name="music_player_short">Zenelejátszó</string>
     <string name="notes_short">Jegyzetek</string>
     <string name="sms_messenger_short">SMS üzenetküldő</string>
-    <string name="thank_you_short">Köszönöm</string>
     <string name="voice_recorder_short">Hangrögzítő</string>
     <string name="sideloaded_app"><![CDATA[
             Úgy tűnik, hogy az alkalmazásverziója megsérült. Töltse le az eredeti verziót <a href="%s">innen</a>.
@@ -875,7 +823,6 @@
     <string name="before_asking_question">Mielőtt feltenne egy kérdést, először olvassa el ezt:</string>
     <string name="faq_1_title_commons">Miért nem látom az alkalmazás modulját a modulok között\?</string>
     <string name="faq_1_text_commons">Valószínűleg azért, mert áthelyezte az alkalmazást egy SD-kártyára. Van egy androidos rendszerkorlátozás, amely ebben az esetben elrejti az adott alkalmazás moduljait. Az egyetlen megoldás az alkalmazás visszahelyezése a belső tárolóra az eszköz beállításaiban.</string>
-    <string name="faq_2_title_commons">Szeretném támogatni, de nem tudok pénzt adományozni. Van még valami, amit tehetek\?</string>
     <string name="faq_3_title_commons">Tévedésből töröltem néhány fájlt, hogyan tudom helyreállítani\?</string>
     <string name="faq_3_text_commons">Sajnos nem lehet. A fájlok azonnal törlődnek a megerősítő párbeszédablak után, ott nem érhető el Lomtár.</string>
     <string name="faq_4_title_commons">Nem tetszik a modul színe, meg tudom változtatni őket\?</string>
@@ -885,8 +832,6 @@
     <string name="faq_6_title_commons">Az alkalmazásindító ikon eltűnt. Mit tehetek?</string>
     <string name="faq_7_title_commons">A pénzt levonták a bankszámlámról, de mégsem tudom letölteni az alkalmazást. Mit tehetek\?</string>
     <string name="faq_7_text_commons">A fizetéseket teljesen a Google kezeli, és néha problémák vannak a rendszerükkel. Csak törölje a Google Play alkalmazása gyorsítótárát és indítsa újra az eszközé, majd próbálja újra letölteni.</string>
-    <string name="faq_8_title_commons">Miért érdemes frissítenem a Pro verzióra\?</string>
-    <string name="faq_8_text_commons">Mivel ezt az alkalmazásverziót már nem frissítjük, az esetleges hibák sosem lesznek kijavítva, ahogy új funkciókat sem fog kapni az alkalmazás. A Pro verziót egy egyszeri kis összegért megvásárolhatja a Google Play áruházban. Az egyszeri fizetés azt jelenti, hogy ha egyszer megvette, soha többé nem kell fizetnie, még egy új eszközön sem. Ha nem tetszik a Pro verzió, a vásárlás után pár órán belül eltávolítva automatikusan visszakapja az árát. Ha később szeretne visszatérítést, csak írjon nekünk a hello@fossify.org címre, és meg fogja kapni.</string>
     <string name="faq_9_title_commons">Hogyan tudok egyszerre több elemet kiválasztani\?</string>
     <string name="faq_9_text_commons">Több mód is van rá. Megnyomhatja hosszan az első elemet, majd röviden megérintheti a továbbiakat. Lehet az egérrel ellátott számítógépekhez hasonlóan egy elemet hosszan megnyomva megkezdeni a kijelölést, majd – az ujjat közben nem felengedve – húzással kijelölni a többit. Egy harmadik lehetőség hosszan megnyomni az első elemet, majd szintén hosszan megnyomni az utolsót: ez a kettő közötti összes elemet kijelöli. Ha minden elemet egyszerre ki akar jelölni, nyomja meg hosszan bármelyik elemet, majd érintse meg a bal felső sarokban lévő számlálót, ez minden elemet kijelöl, vagy minden elem kijelölését törli.</string>
     <string name="faq_10_title_commons">Megvásároltam az alkalmazást, de nem tudom letölteni egy másik eszközön.</string>
@@ -935,11 +880,6 @@
     <string name="translation_chinese_hk">Kínai (Hongkong)</string>
     <string name="translation_chinese_cn">Kínai (egyszerűsített)</string>
     <string name="translation_chinese_tw">Kínai (hagyományos)</string>
-    <string name="why_upgrade">Szerezze be a Pro verziót most!</string>
-    <string name="why_upgrade_basic_version">Alap</string>
-    <string name="why_upgrade_no_ads">Reklámmentes</string>
-    <string name="why_upgrade_no_internet_access">Internet-hozzáférés nem szükséges</string>
-    <string name="why_upgrade_footer">100% pénzvisszatérítési garancia</string>
     <string name="why_upgrade_footer_one_time_payment">Egyszeri fizetés</string>
     <string name="why_upgrade_improved_design">Továbbfejlesztett megjelenés</string>
     <string name="why_upgrade_many_other_improvements">Sok más fejlesztés</string>
@@ -1018,33 +958,16 @@
         <item quantity="one">A próbaverzió %d nap múlva lejár.</item>
         <item quantity="other">A próbaverzió %d nap múlva lejár.</item>
     </plurals>
-    <string name="deprecated_app">ELAVULT: Az alkalmazás ezen verziója már nem fog frissülni, töltse le a Pro verziót a https://play.google.com/store/apps/details\?id=org.fossify..xxx.pro címről</string>
-    <string name="pro_app_refund">Ne felejtse el, hogy ha 2 órán belül eltávolítja a fizetős alkalmazásunkat, akkor automatikusan visszatérítjük az árát. Ha később bármikor mégis visszatérítést szeretne, lépjen kapcsolatba velünk a hello@fossify.org címen, és visszakapja. Ez is megkönnyíti a kipróbálást :)</string>
     <string name="developer_description">Egyszerű, nyílt forráskódú androidos alkalmazásgyűjtemény testreszabható modulokkal, hirdetések és felesleges engedélykérések nélkül.</string>
     <string name="album">Album</string>
     <string name="genre">Műfaj</string>
     <string name="exif">EXIF</string>
     <string name="ok">Rendben</string>
     <string name="audio">Hang</string>
-    <string name="apply_to_all_apps">Színek alkalmazása az összes Fossify alkalmazásra</string>
+    <string name="apply_to_all_apps">Színek alkalmazása az összes Chad alkalmazásra</string>
     <string name="deletion_confirmation_short">Törli: %s?</string>
-    <string name="purchase_simple_thank_you">Fossify Köszönet megvásárlása</string>
     <string name="notification_sound">Értesítési hang</string>
-    <string name="donate_new">Üdv!&lt;br&gt;&lt;br&gt; Remélem élvezi az alkalmazást. Nem tartalmaz reklámokat és adatokat sem gyűjtünk, így arra kérjük, támogassa a fejlesztést a &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Köszönet&lt;/a&gt; alkalmazás megvásárlásával. Ez feloldja az összes alkalmazásfunkciót is, köztük a színek testreszabását.&lt;br&gt;&lt;br&gt; Köszönjük!</string>
-    <string name="contributors_label"><![CDATA[
-            A lista mindenkit tartalmaz, aki észrevehető mértékben segített a Fossify csomag bármelyik alkalmazásában, nem csak ebben. A fordításokat önkéntesek kezelik,
-            tudassa velünk, ha Ön is segítene. A fordítási útmutató <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">ezen a webhelyen</a> található, de ha kérdése van, akkor a <a href="mailto:hello@fossify.org">hello@fossify.org</a> címen is felteheti.
-            Köszönjük az összes közreműködőnknek és támogatónknak!
-        ]]></string>
-    <string name="faq_2_text_commons"><![CDATA[
-            Igen, természetesen. Népszerűsítheti az alkalmazásokat, adhat visszajelzést róluk és értékelheti őket. Le is fordíthatja az alkalmazásokat a saját nyelvére, vagy frissítheti a meglévő fordításokat.
-            A fordítási útmutató megtalálható <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">ezen a webhelyen</a>, vagy ha kérdése van, akkor írjon nekünk a <a href="mailto:hello@fossify.org">hello@fossify.org</a> címre.
-        ]]></string>
     <string name="app_icon_color_warning">Figyelem: egyes indítók lehet, hogy nem helyesen kezelik az ikonok testreszábását. Ha az ikon eltűnik, próbálja a Google Playen vagy egy modulon keresztül elindítani, ha elérhető. Indítás után állítsa vissza az alapértelmezett zöld (#106D1F) ikonszínt. Extrém esetekben az alkalmazás újratelepítése is szükséges lehet.</string>
-    <string name="shared_theme_note">Vegye figyelembe, hogy bár a Pro alkalmazásverziót használja, műszaki okokból továbbra is szükséges lesz a Fossify Köszönet alkalmazásra. Az végzi a színek szinkronizálását.</string>
-    <string name="purchase_thank_you"><![CDATA[
-            Vásárolja meg a <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Köszönet</a> alkalmazást a funkció feloldásához, és a fejlesztés támogatásához. Köszönjük!
-        ]]></string>
     <string name="system_default">Rendszer alapértelmezése</string>
     <string name="enter_password">Adja meg a jelszót</string>
     <string name="password">Jelszó</string>
@@ -1053,34 +976,20 @@
     <string name="usb">USB</string>
     <string name="november">november</string>
     <string name="december">december</string>
-    <string name="copyright">v %1$s
-\nCopyright © Fossify %2$d</string>
-    <string name="donate_please"><![CDATA[
-            Üdv!<br><br>
-            Reméljük élvezi az alkalmazást. Nem tartalmaz reklámokat, így arra kérjük, támogassa a fejlesztést a <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Köszönet</a> alkalmazás megvásárlásával, ekkor ezt a párbeszédablakot sem fogja többet látni.<br><br>
-            Köszönjük!
-        ]]></string>
-    <string name="donate_short">Támogasson minket a &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Köszönet&lt;/a&gt; alkalmazás megvásárlásával, ez feloldja az összes alkalmazásfunkciót is, köztük a színek testreszabását.</string>
-    <string name="update_thank_you">Frissítse a Fossify Köszönet alkalmazást a legfrissebb verzióra</string>
-    <string name="features_locked">Ez a funkció zárolva van, vásárolja meg a &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Köszönet&lt;/a&gt; alkalmazást a teljes verzió feloldásához.&lt;br&gt;&lt;br&gt;Ez egy egyszeri fizetés, és ha nem elégedett, akkor visszafizetjük az árát.</string>
     <string name="translation_breton">Breton</string>
     <string name="translation_bulgarian">Bolgár</string>
     <string name="translation_english">Angol</string>
     <string name="translation_hindi">Hindi</string>
     <string name="translation_tamil">Tamil</string>
-    <string name="why_upgrade_pro_version">Pro</string>
-    <string name="faq_6_text_commons">Ez a probléma akkor merül fel, ha az indító nem teljesen támogatja az ikonok testreszabását. Próbálja a Google Playen vagy egy modulon keresztül elindítani, ha az elérhető. Indítás után állítsa vissza az alapértelmezett zöld (#106D1F) ikonszínt. Extrém esetekben az alkalmazás újratelepítése lehet szükséges.</string>
     <string name="translation_esperanto">Eszperantó</string>
     <string name="translation_chuvash">Csuvas</string>
     <string name="theme_and_colors">Téma és színek</string>
-    <string name="all_fossify_apps">Az összes Fossify alkalmazás</string>
     <string name="cryptocurrency">Kriptovaluta</string>
     <string name="translation_belarusian">Fehérorosz</string>
     <string name="translation_central_kurdish">Közép-kurd</string>
     <string name="translation_gujarati">Gudzsaráti</string>
     <string name="platforms">Platformok</string>
     <string name="format_phone_numbers">Telefonszámok formázása</string>
-    <string name="donate_to_fossify">Adományozzon a Fossify-nak</string>
     <string name="little_to_no_fee">Keveset vagy díjmentes</string>
     <string name="fee_up_to_pct">Legfeljebb %1$d%% díj</string>
     <string name="known_issues">Ismert problémák</string>
@@ -1090,9 +999,6 @@
     <string name="confirm_storage_access_restricted_text_not_found">Nem található rendszerfájl-kezelő alkalmazás.</string>
     <string name="number_of_items">Darabszám</string>
     <string name="reorder_items_by_dragging">Elemek átrendezése húzással</string>
-    <string name="requires_fossify_thank_you">Fossify Köszönet szükséges hozzá</string>
-    <string name="more_fossify_apps">Még több Fossify alkalmazás</string>
-    <string name="rate_this_app">Értékeld az alkalmazást</string>
     <string name="evalex_title">EvalEx (matematikai kifejezés értékelése)</string>
     <string name="edit_contact">Névjegy módosítása</string>
     <string name="on_contact_click">Névjegyre kattintásra</string>

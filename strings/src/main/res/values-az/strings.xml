@@ -17,66 +17,14 @@
     <string name="end">Son</string>
 
     <!-- Support project -->
-    <string name="rate_g">Qiymətləndirmə</string>
-    <string name="action_support_project">Layihə dəstəyi</string>
-    <string name="pref_pay_summary">Get the paid app to support future developments and extra features</string>
-    <string name="support_project_summary">Get one of our paid apps to support future development and unlock extra features</string>
     <string name="learn_more">Daha ətraflı</string>
     <string name="themes">Mövzular</string>
     <string name="themes_summary">Diqqətlə seçilmiş proqram mövzuları, avtomatik mövzu dəyişdiricisi və Android 12+ üçün sistem mövzusu dəstəyi</string>
     <string name="color_title">Rənglər</string>
     <string name="color_summary">Əsas rəng, vurğu, fon, mətn və naviqasiya panelinin əl ilə tənzimlənməsi</string>
-    <string name="plus_title">Bizi dəstəkləyin</string>
-    <string name="plus_summary">Sizin köməyinizlə biz daha çox funksiya tətbiq edə və tətbiqi daha da yaxşılaşdıra bilərik</string>
-    <string name="attention">Diqqət</string>
-    <string name="attention_summary">Köhnə versiyamızda alış-veriş etmisinizsə və ya layihəni digər platformalarda dəstəkləmisinizsə, zəhmət olmasa, bizə e-poçtla təsdiq göndərin və biz sizə promo kod göndərməyə çalışacağıq.</string>
-    <string name="attention_dialog_summary">Promo kod almaq üçün layihəni dəstəklədiyinizi təsdiqləyən sənəd göndərməlisiniz (Google Play və ya başqa platformadan ekran görüntüsü kifayətdir). Promo kodlarının sayı məhduddur. Sübut göndərilsin?</string>
-    <string name="about_summary">
-        <![CDATA[
-            <i>
-            Vaxtınızı qiymətləndiririk və tətbiqimizdən reklamsız istifadə etməyinizi istəyirik. Əgər o sizə zövq və faydalılıq gətirdisə, onun inkişafına ianə etməyi düşünün.<br><br>
-            Zəhmətimizi qiymətləndirin və təəssüratlarınızı bölüşün, bu, bizə yeni ideyaları həyata keçirməyə kömək edəcək və sizə daha gözəl xüsusiyyətlər təqdim edəcək.
-            </i>
-        ]]></string>
-    <string name="lifebuoy_title">Biz sizə dəstək olacağıq</string>
-    <string name="lifebuoy_summary">Əgər nədənsə bizim tətbiqimizi ödəyə bilmirsinizsə, lakin həqiqətən bütün funksiyalardan istifadə etmək istəyirsinizsə, bizə e-poçt göndərin</string>
     <string name="participants_title">Participants</string>
-    <string name="participants_subtitle"><![CDATA[
-Bu insanlar GitHub-da açıq mənbəli Right layihəsinə töhfə verdilər,
-eləcə də əsaslandığımız Fossify və Simple Mobile Tools üçün.<br><br>
-
-Bütün ianəçilərimizə təşəkkür edirik, köməyinizi çox qiymətləndiririk &#10084;&#65039;
-]]></string>
-    <string name="special_thanks_to">Special thanks to</string>
-    <string name="tip_kind">yaxşı dəstək</string>
-    <string name="tip_excellent">Əla dəstək</string>
-    <string name="tip_incredible">İnanılmaz dəstək</string>
-    <string name="tip_jar">Dəstək</string>
-    <string name="any_support_unlock_all">Sizin üçün mövcud olan layihə dəstəyi səviyyəsini seçin (birdəfəlik, aylıq və ya illik). İstənilən dəstək proqramın bütün funksiyalarını açacaq</string>
-    <string name="one_time_purchase">Birdəfəlik dəstək</string>
-    <string name="monthly">Aylıq dəstək</string>
-    <string name="yearly">İllik dəstək</string>
-    <string name="unlock">Unlock</string>
-    <string name="donate_text_g">
-        <![CDATA[
-            For those who do not use Google Play, it is possible to unlock all functions of the application. <br>
-            If you like our apps which are offline, non-intrusive and have no ads, please consider supporting us in some way. We would be very grateful.<br><br>
-            Thank you!
-        ]]>
-    </string>
 
     <!--Billing-->
-    <string name="donate_text_no_gp_g"><![CDATA[
-            Problemlərə görə biz müvəqqəti olaraq Google Play vasitəsilə ödəniş edə bilmirik,
-            bu müddət ərzində biz bütün istifadəçilərə tətbiqin bütün xüsusiyyətlərini əl ilə açmaq imkanı veririk. <br>
-            Oflayn, müdaxilə etməyən və heç bir reklamı olmayan tətbiqlərimizi bəyənirsinizsə,
-            zəhmət olmasa bizə bir şəkildə dəstək olun. Biz çox minnətdar olardıq.<br><br>
-            Təşəkkür edirəm!
-        ]]></string>
-    <string name="restored_previous_purchase_please_restart">Restored previous purchase. Please restart the app to make use of all features.</string>
-    <string name="no_purchase_found">No purchase found.</string>
-    <string name="restore_purchase">Restore purchase</string>
-    <string name="restoring_purchase">Restoring purchase…</string>
 
     <string name="no_connection">Əlaqə yoxdur</string>
     <string name="per_month">%s/ay</string>
@@ -122,7 +70,7 @@ Bütün ianəçilərimizə təşəkkür edirik, köməyinizi çox qiymətləndir
     <string name="open_search_when_open_contacts">Kontaktlar sekmesini açarkən axtarışı açın</string>
     <string name="end_search_when_changing_tab">Nişanları dəyişdirərkən axtarışın dayandırılması</string>
     <string name="change_top_bar_colour_when_scrolling">Üst çubuğun rəngini dəyişdirin və sürüşdürün</string>
-    <string name="global_theme_success_g">Cari mövzu bütün Doğru Tətbiqlərə uğurla tətbiq edildi. Bu mövzuya gələcək dəyişikliklər avtomatik olaraq sinxronlaşdırılacaq</string>
+    <string name="global_theme_success_g">Cari mövzu bütün Chad Tətbiqlərə uğurla tətbiq edildi. Bu mövzuya gələcək dəyişikliklər avtomatik olaraq sinxronlaşdırılacaq</string>
     <string name="enter_pattern">Nümunə düyməsini daxil edin</string>
     <string name="call_screen_background">Zəng ekranı fonu</string>
     <string name="contact_photo">Əlaqə şəkli</string>
@@ -181,49 +129,12 @@ Bütün ianəçilərimizə təşəkkür edirik, köməyinizi çox qiymətləndir
     <string name="swipe_width">Sürüşdürmə eni</string>
     <string name="auto_scroll">Avtomatik Sürüşdürmə</string>
     <string name="hide_icons_in_menu">Menyuda nişanları gizlədin</string>
-    <string name="purchase_simple_thank_you_g">Sadə Təşəkkür\'ü Alın</string>
-    <string name="copyright_g">v %1$s\nMüəllif Hüquqları © Goodwy %2$d</string>
-    <string name="update_thank_you_g">Xahiş olunur Sadə Təşəkkür tətbiqini ən son versiyaya yeniləyin</string>
-    <string name="faq_2_text_commons_g">
-        <![CDATA[
-            Yes, of course. You can spread the word about the apps or give good feedback and ratings. You can also help by translating the apps in a new language, or just update some existing translations.
-        You can find the guide at <a href="https://github.com/Goodwy/Discussion">this website</a>, or just shoot me a message at <a href="mailto:goodwy.dev@gmail.com">goodwy.dev@gmail.com</a> if you need help.
-        ]]>
-    </string>
-    <string name="faq_6_text_commons_g">Başlatıcınız ikona fərdiləşdirməsini tam dəstəkləmədikdə bu problem yaranır. Əgər əlçatandırsa, proqramı Google Play və ya vidcet vasitəsilə işə salmağa çalışın.</string>
-    <string name="faq_8_text_commons_g">As your app version is no longer updated, the bugs you have maybe spotted will never be fixed. There will also be no new functions added. You can purchase the Pro version on Google Play for a small sum of money.
-        It is a one time payment, which means that once you purchase it, you will never have to pay again. Not even after getting a new device. If you won\'t like the Pro version, you can just uninstall it within a few hours and you will automatically get your money back.
-        If you want a refund anytime later, just contact us at goodwy.dev@gmail.com and you will get it.</string>
     <string name="faq_100_title_commons_g">Şəxsi əlaqə nədir?</string>
     <string name="faq_100_text_commons_g">Tətbiq daxilində şəxsi əlaqə yaradılır. Bu əlaqə digər tətbiqlər tərəfindən görünməyəcək (xüsusi ayar aktiv olan tətbiqlərimiz istisna olmaqla).\nTətbiqi silsəniz, bütün şəxsi əlaqələr tətbiqlə birlikdə silinəcək, ona görə də tətbiqi silməzdən əvvəl əlaqələrinizin ehtiyat nüsxəsini çıxarın.</string>
     <string name="faq_101_title_commons_g">How to create a private contact?</string>
     <string name="faq_101_text_commons_g">When you create a contact, you must select the source of the contact: %s</string>
-    <string name="contributors_label_g"><![CDATA[
-            Bu siyahıda tətbiqlərimizdən hər hansı birinə nəzərəçarpacaq dərəcədə kömək edən hər kəs var. Tərcümələr könüllülər tərəfindən həyata keçirilir,
-            siz də kömək etmək istəyirsinizsə bizə bildirin. Tərcümə üçün bələdçi <a href="https://github.com/Goodwy/Discussion">bu vebsaytda</a> və ya hər hansı sualınız varsa, sadəcə olaraq <a href="mailto:goodwy.dev@gmail.com">goodwy.dev@gmail.com</a> ünvanında bizimlə əlaqə saxlayın.
-            Bütün əməyi keçənlərə və digər dəstək verənlərə təşəkkür edirik!
-        ]]></string>
-    <string name="deprecated_app_g">DEPRECATED: This version of the app is no longer maintained, get the Pro version at https://play.google.com/store/apps/details?id=com.goodwy.xxx.pro</string>
-    <string name="pro_app_refund_g">Don\'t forget that if you uninstall any paid app within 2 hours, you will automatically be refunded. If you want a refund anytime later, just contact us at goodwy.dev@gmail.com and you will get it. That makes it easy to try it out :)</string>
 
     <!-- Contacts -->
-    <string name="notification_of_new_application"><![CDATA[
-<b><big>Vacib xəbərlər və yeni bir başlanğıc 🚀</big></b><br><br>
-
-Davam edən ödəniş məhdudiyyətləri səbəbindən, tətbiqin gələcəyini təmin etmək üçün yeni bir geliştirici hesabına keçməli və yeni bir versiya buraxmalı olduq.<br><br>
-
-Niyə yeni versiyaya yüksəltməlisiniz?<br>
-✨ Tamamilə fərdiləşdirilə bilən rəng seçimi — istədiyiniz hər hansı bir rəngi seçin!<br>
-🎨 Təzə, müasir ikonlar<br>
-❤️ Layihəni dəstəkləmək imkanı — indi onun inkişafı üçün vacibdir.<br><br>
-
-Hazırkı tətbiqiniz işləməyə davam edəcək və yeniləmələr alacaq.<br><br>
-
-<b>Etibarınız və dəstəyiniz üçün təşəkkür edirik.</b><br><br>
-
-<small><i>İlk dəstəkçilərimiz üçün:<br>
-Əgər əvvəllər bu tətbiqi satın almış və ya ianə etmisinizsə, təşəkkür edirik! Təsdiqinizi help@goodwy.dev ünvanına göndərin və biz yeni versiya üçün promo kod təqdim etmək üçün əlimizdən gələni edəcəyik (təchizat bitənə qədər).</i></small>
-]]></string>
     <string name="add_number">Nömrə əlavə edin</string>
     <string name="add_email">E-poçt əlavə edin</string>
     <string name="add_address">Ünvan əlavə edin</string>
@@ -370,10 +281,6 @@ Hazırkı tətbiqiniz işləməyə davam edəcək və yeniləmələr alacaq.<br>
     <string name="relation_sister_in_law_g">Sister-in-law</string>
 
     <!-- RuStore -->
-    <string name="billing_purchase_confirm_in_progress">Confirming the purchase…</string>
-    <string name="billing_purchase_delete_in_progress">Deleting the purchase…</string>
-    <string name="billing_product_confirmed">Product confirmed/substantiated</string>
-    <string name="billing_product_deleted">Purchase canceled</string>
     <string name="billing_subscriptions">Abunəliklər</string>
     <string name="billing_error_application_signature_not_correct">RuStore vasitəsilə ödəniş etmək üçün siz RuStore-dan proqram versiyasını quraşdırmalısınız</string>
     <string name="date">Tarix</string>
@@ -389,7 +296,6 @@ Hazırkı tətbiqiniz işləməyə davam edəcək və yeniləmələr alacaq.<br>
     <string name="disagree">Mən razı deyiləm</string>
     <string name="height">Boy</string>
     <string name="select_color">Rəng seçin</string>
-    <string name="more_apps_from_us_g">Bizdən daha çox proqram</string>
     <string name="use_persian_calendar">Fars təqvimindən istifadə edin</string>
     <string name="blocking_type">Bloklama növü</string>
     <string name="blocking_type_do_not_reject">Rədd etməyin</string>

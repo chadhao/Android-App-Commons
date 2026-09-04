@@ -40,73 +40,17 @@
     <string name="disagree">Ní aontaím</string>
     <string name="height">Airde</string>
     <string name="select_color">Roghnaigh dath</string>
-    <string name="more_apps_from_us_g">Tuilleadh aipeanna uainn</string>
 <!--    <string name="rate_us">Rate us</string>-->
-    <string name="rate_g">Ráta</string>
 
     <!-- Support project -->
-    <string name="action_support_project">Project support</string>
-    <string name="pref_pay_summary">Get the paid app to support future developments and extra features</string>
-    <string name="support_project_summary">Get one of our paid apps to support future development and unlock extra features</string>
     <string name="learn_more">Learn more</string>
     <string name="themes">Themes</string>
     <string name="themes_summary">Carefully selected application themes, automatic theme changer and system theme support for Android 12+</string>
     <string name="color_title">Colors</string>
     <string name="color_summary">Manual adjustment of the primary color, accent, background, text and navigation bar</string>
-    <string name="plus_title">Support us</string>
-    <string name="plus_summary">With your help we can implement more features and make the application even better</string>
-    <string name="attention">Aird</string>
-    <string name="attention_summary">Má rinne tú ceannacháin inár seanleagan nó má thacaigh tú leis an tionscadal ar ardáin eile, seol chugainn dearbhú trí ríomhphost agus déanfaimid iarracht cód promo a sheoladh chugat.</string>
-    <string name="attention_dialog_summary">Chun cód promóisin a fháil, ní mór duit cruthúnas tacaíochta don tionscadal a sheoladh (is leor pictiúr scáileáin ó Google Play nó ardán eile). Tá líon na gcód promóisin teoranta. An bhfuil tú ag iarraidh cruthúnas a sheoladh?</string>
-    <string name="about_summary">
-        <![CDATA[
-            <i>
-            We value your time and want you to enjoy our app without ads. If it has brought you pleasure and usefulness, consider donating to its development.<br><br>
-            Appreciate our hard work and share your impressions, it will help us to realize new ideas and offer you even more amazing features.
-            </i>
-        ]]></string>
-    <string name="lifebuoy_title">We will support you</string>
-    <string name="lifebuoy_summary">If for some reason you can\'t afford our app, but really want to use all the features, just email us</string>
     <string name="participants_title">Participants</string>
-    <string name="participants_subtitle"><![CDATA[
-Tá na daoine seo tar éis cur leis an tionscadal foinse oscailte Right ar GitHub,
-chomh maith le Fossify agus Simple Mobile Tools, ar a bhfuilimid bunaithe.<br><br>
-
-Go raibh maith agaibh go léir a chuireann lenár rannchuiditheoirí, táimid an-bhuíoch as bhur gcabhair &#10084;&#65039;
-]]></string>
-    <string name="special_thanks_to">Special thanks to</string>
-    <string name="tip_kind">Kind tip of</string>
-    <string name="tip_excellent">Excellent tip of</string>
-    <string name="tip_incredible">Incredible tip of</string>
-    <string name="tip_jar">Tip Jar</string>
-    <string name="any_support_unlock_all">Choose the level of project support available to you (one-time, monthly or yearly). Any support unlocks all features of the application. You can cancel your subscription at any time.</string>
-    <string name="one_time_purchase">One-time support</string>
-    <string name="monthly">Monthly support</string>
-    <string name="yearly">Yearly support</string>
-    <string name="unlock">Unlock</string>
-    <string name="donate_text_g">
-        <![CDATA[
-            For those who do not use Google Play, it is possible to unlock all functions of the application. <br>
-            If you like our apps which are offline, non-intrusive and have no ads,
-            please consider supporting us in some way. We would be very grateful.<br><br>
-            Thank you!
-        ]]>
-    </string>
-    <string name="donate_text_no_gp_g">
-        <![CDATA[
-            Due to issues we are temporarily unable to make payments through Google Play,
-            so for this period we are giving all users the option to manually unlock all features of the app. <br>
-            If you like our apps which are offline, non-intrusive and have no ads,
-            please consider supporting us in some way. We would be very grateful.<br><br>
-            Thank you!
-        ]]>
-    </string>
 
     <!--Billing-->
-    <string name="restored_previous_purchase_please_restart">Restored previous purchase. Please restart the app to make use of all features.</string>
-    <string name="no_purchase_found">No purchase found.</string>
-    <string name="restore_purchase">Restore purchase</string>
-    <string name="restoring_purchase">Restoring purchase…</string>
 
     <string name="no_connection">No connection</string>
     <string name="per_month">%s/month</string>
@@ -151,7 +95,7 @@ Go raibh maith agaibh go léir a chuireann lenár rannchuiditheoirí, táimid an
     <string name="open_search_when_open_contacts">Open a search when you open the contacts tab</string>
     <string name="end_search_when_changing_tab">End search when changing tab</string>
     <string name="change_top_bar_colour_when_scrolling">Change top bar colour when scrolling</string>
-    <string name="global_theme_success_g">The current theme has been successfully applied to all Right apps. Any future changes to this theme will be synced automatically.</string>
+    <string name="global_theme_success_g">The current theme has been successfully applied to all Chad apps. Any future changes to this theme will be synced automatically.</string>
     <string name="enter_pattern">Enter your pattern</string>
     <string name="call_screen_background">Call screen background</string>
     <string name="contact_photo">Contact photo</string>
@@ -196,50 +140,12 @@ Go raibh maith agaibh go léir a chuireann lenár rannchuiditheoirí, táimid an
     <string name="swipe_width">Leithead svaidhpeála</string>
     <string name="auto_scroll">Scrollaigh Uathoibríoch</string>
     <string name="hide_icons_in_menu">Folaigh deilbhíní sa roghchlár</string>
-    <string name="purchase_simple_thank_you_g">Purchase Goodwy Thank You</string>
-    <string name="copyright_g">v %1$s\nCopyright © Goodwy %2$d</string>
-    <string name="update_thank_you_g">Please update Goodwy Thank You to the latest version</string>
-    <string name="faq_2_text_commons_g">
-        <![CDATA[
-            Yes, of course. You can spread the word about the apps or give good feedback and ratings. You can also help by translating the apps in a new language, or just update some existing translations.
-        You can find the guide at <a href="https://github.com/Goodwy/Discussion">this website</a>, or just shoot me a message at <a href="mailto:goodwy.dev@gmail.com">goodwy.dev@gmail.com</a> if you need help.
-        ]]>
-    </string>
-    <string name="faq_6_text_commons_g">This issue arises when your launcher does not fully support icon customization. Attempt launching the app through Google Play or a widget, if accessible.
-        After launching, restore the default app icon color. In extreme cases, reinstalling the app may be necessary.</string>
-    <string name="faq_8_text_commons_g">As your app version is no longer updated, the bugs you have maybe spotted will never be fixed. There will also be no new functions added. You can purchase the Pro version on Google Play for a small sum of money.
-        It is a one time payment, which means that once you purchase it, you will never have to pay again. Not even after getting a new device. If you won\'t like the Pro version, you can just uninstall it within a few hours and you will automatically get your money back.
-        If you want a refund anytime later, just contact us at goodwy.dev@gmail.com and you will get it.</string>
     <string name="faq_100_title_commons_g">Cad is teagmháil phríobháideach ann?</string>
     <string name="faq_100_text_commons_g">Cruthaítear teagmhálaí pearsanta laistigh den aip. Ní bheidh an teagmhálaí seo le feiceáil ag aipeanna eile (seachas ár n-aipeanna a bhfuil socruithe speisialta cumasaithe acu).\nMá scriosann tú an aip, scriosfar na teagmhálaithe pearsanta go léir mar aon leis an aip, mar sin déan cúltaca de do theagmhálaithe sula scriosann tú an aip.</string>
     <string name="faq_101_title_commons_g">How to create a private contact?</string>
     <string name="faq_101_text_commons_g">When you create a contact, you must select the source of the contact: %s</string>
-    <string name="contributors_label_g"><![CDATA[
-Tá gach duine a chuidigh go suntasach le haon cheann dár bhfeidhmchláir ar an liosta seo. Déanann oibrithe deonacha na haistriúcháin a láimhseáil,
-cuir in iúl dúinn más mian leat cabhrú freisin. Tá an treoir maidir le haistriúcháin ar fáil ar <a href="https://github.com/Goodwy/Discussion">an suíomh Gréasáin seo</a>, nó déan teagmháil linn ag <a href="mailto:goodwy.dev@gmail.com">goodwy.dev@gmail.com</a> má tá aon cheist agat.
-Buíochas le gach rannpháirtí agus lucht tacaíochta eile!
-]]></string>
-    <string name="deprecated_app_g">DEPRECATED: This version of the app is no longer maintained, get the Pro version at https://play.google.com/store/apps/details?id=com.goodwy.xxx.pro</string>
-    <string name="pro_app_refund_g">Don\'t forget that if you uninstall any paid app within 2 hours, you will automatically be refunded. If you want a refund anytime later, just contact us at goodwy.dev@gmail.com and you will get it. That makes it easy to try it out :)</string>
 
     <!-- Contacts -->
-    <string name="notification_of_new_application"><![CDATA[
-<b><big>Nuacht thábhachtach agus tús nua 🚀</big></b><br><br>
-
-Mar gheall ar shrianta íocaíochta leanúnacha, b\'éigean dúinn aistriú chuig cuntas forbróra nua agus leagan nua a scaoileadh chun todhchaí na haipe a chinntiú.<br><br>
-
-Cén fáth uasghrádú a dhéanamh chuig an leagan nua?<br>
-✨ Rogha dathanna atá inoiriúnaithe go hiomlán — roghnaigh aon dath is mian leat!<br>
-🎨 Deilbhíní úra, nua-aimseartha<br>
-❤️ Deis chun tacú leis an tionscadal — riachtanach anois dá fhorbairt.<br><br>
-
-Leanfaidh d\'aip reatha ag feidhmiú agus gheobhaidh sí nuashonruithe.<br><br>
-
-<b>Go raibh maith agat as do mhuinín agus do thacaíocht.</b><br><br>
-
-<small><i>Donár luath-thacadóirí:<br>
-Má cheannaigh tú an aip seo roimhe seo nó má rinne tú síntiús, go raibh maith agat! Seol do dheimhniú chuig help@goodwy.dev, agus déanfaimid ár ndícheall cód promo a sholáthar don leagan nua (fad a mhaireann na soláthairtí).</i></small>
-]]></string>
     <string name="add_number">Add number</string>
     <string name="add_email">Add email</string>
     <string name="add_address">Add address</string>
@@ -386,10 +292,6 @@ Má cheannaigh tú an aip seo roimhe seo nó má rinne tú síntiús, go raibh m
     <string name="relation_sister_in_law_g">Sister-in-law</string>
 
     <!-- RuStore -->
-    <string name="billing_purchase_confirm_in_progress">Confirming the purchase…</string>
-    <string name="billing_purchase_delete_in_progress">Deleting the purchase…</string>
-    <string name="billing_product_confirmed">Product confirmed/substantiated</string>
-    <string name="billing_product_deleted">Purchase canceled</string>
     <string name="billing_subscriptions">Síntiúis</string>
     <string name="billing_error_application_signature_not_correct">Chun íoc trí RuStore ní mór duit an leagan app a shuiteáil ó RuStore</string>
 

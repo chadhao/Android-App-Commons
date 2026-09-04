@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="website">Spletna stran</string>
     <string name="cancel">Prekliči</string>
     <string name="close">Zapri</string>
     <string name="back">Nazaj</string>
@@ -84,7 +85,6 @@
     <string name="no_phone_number_found">Nobena telefonska številka ni bila najdena</string>
     <string name="change_view_type">Spremeni tip pogleda</string>
     <string name="grid">Mreža</string>
-    <string name="grid_pro">Mreža (Pro)</string>
     <string name="uneven_grid">Neenakomerna mreža</string>
     <string name="list">Seznam</string>
     <string name="increase_column_count">Povečaj število stolpcev</string>
@@ -140,7 +140,6 @@
     <string name="search_text">Išči besedilo</string>
     <string name="search_conversations">Poišči pogovore</string>
     <string name="search_recordings">Poišči posnetke</string>
-    <string name="filter_pro">Filtriranje (Pro)</string>
     <string name="no_items_found">Ni najdenih elementov.</string>
     <string name="change_filter">Spremeni filter</string>
     <string name="no_storage_permissions">Potrebno je dovoljenje za shranjevanje</string>
@@ -315,7 +314,6 @@
     <string name="undo_changes_confirmation">Res želite razveljaviti spremembe?</string>
     <string name="cannot_be_undone">To dejanje ni mogoče razveljaviti.</string>
     <string name="save_before_closing">Imate neshranjene spremembe. Jih želite shraniti pred izhodom?</string>
-    <string name="global_theme_success">Barve so bile uspešno posodobljene. Nova tema \'Deljeno\' je bila dodana. V prihodnje za spreminjanje barv uporabljajte to.</string>
     <string name="light_theme">Svetlo</string>
     <string name="dark_theme">Temno</string>
     <string name="auto_theme">Samodejno</string>
@@ -348,10 +346,8 @@
     <string name="undo">Razveljavi</string>
     <string name="redo">Ponovno uveljavi</string>
     <string name="print">Natisni</string>
-    <string name="print_pro">Natisni (Pro)</string>
     <string name="shortcut">Bližnjice</string>
     <string name="create_shortcut">Ustvari bližnjico</string>
-    <string name="create_shortcut_pro">Ustvari bližnjico (Pro)</string>
     <string name="add_number_to_contact">Dodaj številko k stiku</string>
     <string name="view_contact_details">Prikaži podrobnosti stika</string>
     <string name="call_from_sim_1">Klic iz SIM 1</string>
@@ -426,7 +422,6 @@
     <string name="protection_setup_successfully">Geslo uspešno nastavljeno. Če ga pozabite, izbrišite in ponovno naložite aplikacijo.</string>
     <string name="fingerprint_setup_successfully">Zaščita uspešno nastavljena. Če pride do težav s ponastavitvijo, izbrišite in ponovno naložite aplikacijo.</string>
     <string name="lock_folder">Zakleni mapo</string>
-    <string name="lock_folder_pro">Zakleni mapo (Pro)</string>
     <string name="unlock_folder">Odkleni mapo</string>
     <string name="lock_folder_notice">Ta zaščita deluje samo v tej aplikaciji in ni mišljena kot nadomestek pravega sistemskega šifriranja map.</string>
     <string name="yesterday">Včeraj</string>
@@ -784,62 +779,14 @@
     <string name="friday_short">Pet</string>
     <string name="saturday_short">Sob</string>
     <string name="sunday_short">Ned</string>
-    <string name="upgrade_to_pro_long">Vaša različica aplikacije ne bo več posodobljena. Prosimo, nadgradite na Pro verzijo, da prejmete nove popravke in druge izboljšave.</string>
-    <string name="upgrade_to_pro_long_click">Vaša različica aplikacije ne bo več posodobljena. Prosimo, nadgradite na Pro verzijo, da prejmete nove popravke in druge izboljšave.</string>
     <string name="it_is_free">Še vedno je zastonj do: %s. Če jo naložite do takrat, jo boste lahko zastonj uporabljali za vedno.</string>
     <string name="more_info">Več informacij</string>
-    <string name="upgrade">Nadgradi</string>
     <string name="upgrade_calendar">Lokalno shranjene dogodke lahko migrirate ročno preko izvoza v .ics datoteko, katero kasneje uvozite nazaj. Ukaze za uvoz/izvoz najdete v meniju na glavnem zaslonu.</string>
-    <string name="upgraded_from_free_gallery">Pozdravljeni,
-\n
-\nkaže, da ste pravkar nadgradili iz brezplačne verzije. Ko boste s to novo zadovoljni in boste morda prenesli nastavitve in priljubljene, lahko staro brezplačno verzijo odstranite. Tako se izognete, da bi jo pomotoma zagnali, saj je ne potrebujete več, prav tako bo preprečilo prikaz tega pogovornega okna.
-\n
-\nHvala!</string>
-    <string name="upgraded_to_pro_gallery">Pozdravljeni,
-\n
-\nkaže, da že imate Pro verzijo. Ko boste z novo zadovoljni in boste morda prenesli nastavitve in priljubljene, lahko to staro brezplačno verzijo odstranite. Tako se izognete, da bi jo pomotoma zagnali, saj je ne potrebujete več.
-\n
-\nHvala!</string>
-    <string name="upgraded_from_free">Pozdravljeni,
-\n
-\nkaže, da ste pravkar nadgradili iz brezplačne verzije. Ko boste s to novo zadovoljni in boste morda prenesli podatke, lahko staro brezplačno verzijo odstranite. Tako se izognete, da bi jo pomotoma zagnali, saj je ne potrebujete več, prav tako bo preprečilo prikaz tega pogovornega okna.
-\n
-\nHvala!</string>
-    <string name="upgraded_to_pro">Pozdravljeni,
-\n
-\nkaže, da že imate Pro verzijo. Ko boste z novo zadovoljni in boste morda prenesli podatke, lahko to staro brezplačno verzijo odstranite. Tako se izognete, da bi jo pomotoma zagnali, saj je ne potrebujete več.
-\n
-\nHvala!</string>
-    <string name="upgraded_from_free_calendar">Pozdravljeni,
-\n
-\nkaže, da ste pravkar nadgradili iz brezplačne verzije. Če želite migrirati lokalno shranjene dogodke, morate to storiti ročno. Izvozite jih v .ics datoteko v brezplačni verziji in jih uvozite tukaj v zgornjem meniju.
-\n
-\nKo boste zadovoljni z nastavitvami v Pro verziji, lahko staro brezplačno verzijo odstranite, saj je ne boste več potrebovali, prav tako bo preprečilo prikaz tega pogovornega okna.
-\n
-\nHvala!</string>
-    <string name="upgraded_from_free_contacts">Pozdravljeni,
-\n
-\nkaže, da ste pravkar nadgradili iz brezplačne verzije. Če ste imeli shranjene kakšne stike pod \"%s\", jih morate migrirati ročno. Izvozite jih v .vcf datoteko v brezplačni verziji in jih uvozite tukaj v zgornjem meniju.
-\n
-\nKo boste zadovoljni z nastavitvami v Pro verziji, lahko staro brezplačno verzijo odstranite, saj je ne boste več potrebovali, prav tako bo preprečilo prikaz tega pogovornega okna.
-\n
-\nHvala!</string>
-    <string name="upgraded_from_free_notes">Pozdravljeni,
-\n
-\nkaže, da ste pravkar nadgradili iz brezplačne verzije. Če želite migrirati lokalno shranjene beležke, morate to storiti ročno. Izvozite jih v datoteko v brezplačni verziji in jih uvozite tukaj v zgornjem meniju.
-\n
-\nKo boste zadovoljni z nastavitvami v Pro verziji, lahko staro brezplačno verzijo odstranite, saj je ne boste več potrebovali, prav tako bo preprečilo prikaz tega pogovornega okna.
-\n
-\nHvala!</string>
     <string name="about">O aplikaciji</string>
-    <string name="website">Spletna stran</string>
-    <string name="website_label">Za izvorno kodo obiščite</string>
     <string name="email_label">Svoje predloge in povratne informacije pošljite na</string>
-    <string name="upgrade_to_pro">Nadgradi na Pro</string>
     <string name="invite_friends">Povabi prijatelje</string>
     <string name="share_text">Oglejte si tudi %1$s na %2$s</string>
     <string name="invite_via">Povabite preko</string>
-    <string name="donate">Donirajte</string>
     <string name="follow_us">Sledite nam</string>
     <string name="privacy_policy">Politika zasebnosti</string>
     <string name="hello">Pozdravljeni :)</string>
@@ -847,22 +794,11 @@
     <string name="additional_info">Dodatne informacije</string>
     <string name="app_version">Različica aplikacije: %s</string>
     <string name="device_os">Operacijski sistem: %s</string>
-    <string name="donate_please">
-        <![CDATA[
-            Podzravljeni,<br><br>
-            upamo, da vam je aplikacija všeč. Ne vsebuje oglasov, zato vas prosimo, da podprete razvoj z nakupom aplikacije <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a>. S tem bo tudi to sporočilo izginilo.<br><br>
-            Hvala!
-        ]]>
-    </string>
     <string name="purchase">Kupi</string>
     <string name="before_asking_question_read_faq">Pred zastavljanjem vprašanje preverite nastavitve aplikacije in preberite pogosta vprašanja in odgovore. Morda je rešitev že tam.</string>
     <string name="make_sure_latest">Prepričajte se tudi, da uporabljate najnovejšo različico aplikacije.</string>
-    <string name="make_sure_upgrade">Upoštevajte tudi, da se ta različica aplikacije ne razvija več, zato si priskrbite Pro verzijo s številnimi izboljšavami.</string>
     <string name="read_it">Preberite</string>
     <string name="read_faq">Preberi pogosta vprašanja</string>
-    <string name="thank_you">Hvala</string>
-    <string name="widget_locked_pro">Pripomoček je zaklenjen.
-\nZa odklepanje nadgradite na različico Pro.</string>
     <string name="new_app">
         <![CDATA[
             Pozdravljeni,<br><br>
@@ -890,7 +826,6 @@
     <string name="music_player_short">Predvajalnik glasbe</string>
     <string name="notes_short">Beležke</string>
     <string name="sms_messenger_short">SMS sporočila</string>
-    <string name="thank_you_short">Hvala</string>
     <string name="voice_recorder_short">Snemalnik</string>
     <string name="sideloaded_app">
         <![CDATA[
@@ -901,7 +836,6 @@
     <string name="before_asking_question">Preden postavite vprašanje, preberite</string>
     <string name="faq_1_title_commons">Zakaj aplikacije ne vidim na seznamu pripomočkov?</string>
     <string name="faq_1_text_commons">Najverjetneje zato, ker ste aplikacijo premaknili na SD kartico. Zaradi omejite sistema Android se pripomočki takih aplikacij ne prikažejo. Edina rešitev je, da aplikacijo premaknete nazaj na notranjo shrambo.</string>
-    <string name="faq_2_title_commons">Želim vas podpirati, ampak ne morem donirati denarja. Lahko pomagam kako drugače?</string>
     <string name="faq_3_title_commons">Po pomoti sem izbrisal nekaj datotek. Jih lahko obnovim?</string>
     <string name="faq_3_text_commons">Na žalost, ne. Datoteke so izbrisane takoj po potrditvi in Koš ni na razpolago.</string>
     <string name="faq_4_title_commons">Barve pripomočkov mi niso všeč. Jih lahko spremenim?</string>
@@ -911,8 +845,6 @@
     <string name="faq_6_title_commons">Ikona v zaganjalniku je izginila. Kaj lahko naredim?</string>
     <string name="faq_7_title_commons">Denar je bil odtegnjen z mojega bančnega računa, vendar aplikacije ne morem prenesti. Kaj lahko storim\?</string>
     <string name="faq_7_text_commons">Plačila v celoti obdeluje Google, njihov sistem pa se občasno zaplete. Počistite predpomnilnik aplikacije Google Play in znova zaženite napravo, nato pa poskusite znova prenesti aplikacijo.</string>
-    <string name="faq_8_title_commons">Zakaj naj nadgradim na različico Pro\?</string>
-    <string name="faq_8_text_commons">Ker različica aplikacije ni več posodobljena, morebiti opažene napake ne bodo nikoli odpravljene. Prav tako ne bodo dodane nove funkcije. Za majhen znesek lahko Pro verzijo kupite v trgovini Google Play. Gre za enkratno plačilo, kar pomeni, da vam po nakupu ne bo treba nikoli več plačati. Tudi ko zamenjate napravo. Če vam Pro verzija ne bo všeč, jo lahko v nekaj urah preprosto odstranite in denar bo samodejno vrnjen. Če želite vračilo denarja kadar koli pozneje, nas preprosto kontaktirajte na hello@fossify.org in ga boste dobili.</string>
     <string name="faq_9_title_commons">Kako lahko izberem več elementov hkrati\?</string>
     <string name="faq_9_text_commons">To lahko storite na več načinov. Prvi je, da začnete izbiro z dolgim pritiskom na en element, nato pa s kratkim klikom na druge elemente, da jih izberete. Drugi način je podoben izbiranju elementov na osebnih računalnikih z miško: način izbiranja zaženete tako, da dolgo pritisnete en element, nato pa ga s prstom še vedno vlečete navzdol čez druge elemente, da jih izberete. Tretji način izbiranja več elementov je, da dolgo pritisnete en element, nato dolgo pritisnete drugega in vse, kar je vmes, bo izbrano. Če želite izbrati vse elemente, preprosto dolgo pritisnite en element, nato pa kliknite na števec izbranih elementov v zgornjem levem kotu. Tako boste izbrali ali preklicali izbor vseh elementov.</string>
     <string name="faq_10_title_commons">Aplikacijo sem kupil, vendar je ne morem prenesti v drugo napravo.</string>
@@ -921,11 +853,6 @@
     <string name="translation">Prevajanje</string>
     <string name="development">Razvoj</string>
     <string name="other_help">Druga pomoč</string>
-    <string name="why_upgrade">Takoj prenesi Pro različico!</string>
-    <string name="why_upgrade_basic_version">Osnovno</string>
-    <string name="why_upgrade_no_ads">Brez oglasov</string>
-    <string name="why_upgrade_no_internet_access">Brez dostopa do interneta</string>
-    <string name="why_upgrade_footer">100% jamstvo za vračilo denarja</string>
     <string name="why_upgrade_footer_one_time_payment">Enkratno plačilo</string>
     <string name="why_upgrade_improved_design">Izboljšan dizajn</string>
     <string name="why_upgrade_advanced_photo_editor">Napredni urejevalnik fotografij</string>
@@ -1004,8 +931,6 @@
         <item quantity="few">Vaše poskusno obdobje poteče čez %d dni.</item>
         <item quantity="other">Vaše poskusno obdobje poteče čez %d dni.</item>
     </plurals>
-    <string name="deprecated_app">ZASTARELO: Ta verzija aplikacije se ne vzdržuje več, pridobite si Pro verzijo na https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
-    <string name="pro_app_refund">Ne pozabite - če odstranite katerokoli plačljivo aplikacijo v dveh urah, dobite povrnjen avtomatično denar. Če želite povrnitev denarja po preteku tega časa, nas kontaktirajte na hello@fossify.org in poskrbeli bomo za to. Zaradi tega je preizkušanje aplikacije še bolj preprosto. :)</string>
     <string name="developer_description">Skupina preprostih odprtokodnih aplikacij za Android s prilagodljivimi pripomočki, brez oglasov in nepotrebnih dovoljenj.</string>
     <string name="edit_contact">Uredi stik</string>
     <string name="on_contact_click">Ob kliku na stik</string>

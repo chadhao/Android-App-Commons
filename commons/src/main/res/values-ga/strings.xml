@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="website">Suíomh Gréasáin</string>
     <string name="reminder_warning">Cinntigh go n-oibríonn na meabhrúcháin i gceart sula mbraitheann tú orthu. Seiceáil socruithe ceallraí agus fógra do ghléis, mura bhfuil aon rud ag cur bac ar na meabhrúcháin, nó ag marú an fheidhmchláir sa chúlra.</string>
     <string name="notifications_disabled">Tá fógraí an iarratais seo díchumasaithe. Téigh i socruithe do ghléis chun iad a chumasú.</string>
     <string name="dismiss">Ruaig</string>
@@ -11,7 +12,6 @@
     <string name="no_sound">Gan fuaim</string>
     <string name="during_day_at_hh_mm">I rith an lae ag hh:mm</string>
     <string name="settings">Socruithe</string>
-    <string name="purchase_simple_thank_you">Ceannaigh Fossify Go raibh maith agat</string>
     <string name="customize_colors">Saincheap an chuma</string>
     <string name="feature_locked">Faoi Ghlas</string>
     <string name="customize_widget_colors">Saincheap dathanna giuirléidí</string>
@@ -160,27 +160,13 @@
     <string name="tuesday_short">Máirt</string>
     <string name="wednesday_short">Céad</string>
     <string name="sunday_short">An Ghrian</string>
-    <string name="upgrade_to_pro_long">Ní dhéanfar leagan d\'fheidhmchláir a nuashonrú níos mó. Déan uasghrádú ar an leagan Pro chun ceartúcháin nua agus feabhsuithe eile a fháil.</string>
-    <string name="upgrade_to_pro_long_click">Ní dhéanfar leagan d\'fheidhmchláir a nuashonrú níos mó. Déan uasghrádú ar an leagan Pro chun ceartúcháin nua agus feabhsuithe eile a fháil trí chliceáil anseo.</string>
     <string name="it_is_free">Tá sé saor go dtí: %s. Má íoslódálann tú é go dtí sin, beidh tú in ann é a úsáid saor in aisce go deo.</string>
-    <string name="upgrade">Uasghrádú</string>
     <string name="upgrade_calendar">Caithfidh tú imeachtaí a stóráiltear go háitiúil a aistriú de láimh trí onnmhairiú i gcomhad .ics, ansin iompórtáil. Is féidir leat teacht ar an dá cnaipí onnmhairithe / allmhairiú ag an roghchlár scáileán is mó.</string>
-    <string name="upgraded_from_free_gallery">Dia duit\n\nis cosúil go ndearna tú uasghrádú díreach ón leagan saor in aisce. Nuair a bheidh tú sásta leis an gceann seo agus b\'fhéidir do shocruithe agus do cheanáin a aistriú, is féidir leat an seancheann saor in aisce a dhíshuiteáil chun é a sheachaint trí thimpiste mar ní bheidh sé de dhíth ort níos mó, cuirfidh sé cosc ar an dialóg seo a thaispeáint suas.\n\nGo raibh maith agat!</string>
-    <string name="upgraded_to_pro_gallery">Dia duit\n\nis cosúil go bhfuil an leagan Pro app agat cheana féin freisin. Nuair a bheidh tú sásta leis agus b\'fhéidir do shocruithe agus do cheanáin a aistriú, is féidir leat an ceann seo a dhíshuiteáil chun é a sheoladh trí thimpiste mar ní bheidh sé de dhíth ort níos mó.\n\nGo raibh maith agat!</string>
-    <string name="upgraded_from_free">Dia duit\n\nis cosúil go ndearna tú uasghrádú díreach ón leagan saor in aisce. Nuair a bheidh tú sásta leis an gceann seo agus b\'fhéidir do chuid sonraí a aistriú, is féidir leat an seancheann saor in aisce a dhíshuiteáil chun é a sheoladh trí thimpiste mar ní bheidh sé de dhíth ort níos mó, cuirfidh sé cosc ar an dialóg seo a thaispeáint suas.\n\nGo raibh maith agat!</string>
-    <string name="upgraded_to_pro">Dia duit\n\nis cosúil go bhfuil an leagan Pro app agat cheana féin freisin. Nuair a bheidh tú sásta leis agus b\'fhéidir do chuid sonraí a aistriú, is féidir leat an ceann seo a dhíshuiteáil chun é a sheoladh trí thimpiste mar ní bheidh sé de dhíth ort níos mó.\n\nGo raibh maith agat!</string>
-    <string name="upgraded_from_free_calendar">Dia duit\n\nis cosúil go ndearna tú uasghrádú díreach ón leagan saor in aisce. Más mian leat do chuid imeachtaí a stóráiltear go háitiúil a aistriú, caithfidh tú é a dhéanamh de láimh trí iad a onnmhairiú isteach i gcomhad .ics sa leagan app saor in aisce agus a allmhairiú anseo tríd an roghchlár barr. \n\nNuair a bheidh tú sásta le do thus sa leagan Pro, is féidir leat an seancheann saor in aisce a dhíshuiteáil mar ní bheidh sé de dhíth ort níos mó, cuirfidh sé cosc ar an dialóg seo a thaispeáint.\n\nGo raibh maith agat!</string>
-    <string name="upgraded_from_free_contacts">Dia duit\n\nis cosúil go ndearna tú uasghrádú díreach ón leagan saor in aisce. Má bhí aon teagmhálacha stóráilte agat faoi \"%s\", caithfidh tú iad a aistriú de láimh trí chomhad .vcf a easpórtáil ón leagan feidhmchláir saor in aisce agus iad a iompórtáil anseo tríd an roghchlár barr.\n\nNuair a bheidh tú sásta le do thus sa leagan Pro, is féidir leat an seancheann saor in aisce a dhíshuiteáil mar ní bheidh sé de dhíth ort níos mó, cuirfidh sé cosc ar an dialóg seo a thaispeáint.\n\nGo raibh maith agat!</string>
     <string name="about">Maidir</string>
-    <string name="website">Suíomh Gréasáin</string>
-    <string name="upgraded_from_free_notes">Dia duit\n\nis cosúil go ndearna tú uasghrádú díreach ón leagan saor in aisce. Más mian leat do chuid nótaí a aistriú, caithfidh tú é a dhéanamh de láimh trí iad a onnmhairiú isteach i gcomhad sa leagan app saor in aisce agus a allmhairiú anseo tríd an roghchlár barr. \n\nNuair a bheidh tú sásta le do thus sa leagan Pro, is féidir leat an seancheann saor in aisce a dhíshuiteáil mar ní bheidh sé de dhíth ort níos mó, cuirfidh sé cosc ar an dialóg seo a thaispeáint.\n\nGo raibh maith agat!</string>
-    <string name="website_label">Chun na cóid foinse tabhair cuairt ar</string>
-    <string name="upgrade_to_pro">Uasghrádú go Pro</string>
     <string name="email_label">Seol d\'aiseolas nó do mholtaí chuig</string>
     <string name="known_issues">Saincheisteanna aitheanta</string>
     <string name="invite_friends">Tabhair cuireadh do chairde</string>
     <string name="share_text">Hey, tar seiceáil amach %1$s ag%2$s</string>
-    <string name="donate">Deonaigh</string>
     <string name="follow_us">Lean sinn</string>
     <string name="support">Tacaíocht</string>
     <string name="help_us">Cabhraigh linn</string>
@@ -190,12 +176,8 @@
     <string name="app_version">Leagan feidhmchláir: %s</string>
     <string name="device_os">Gléas OS: %s</string>
     <string name="before_asking_question_read_faq">Sula gcuireann tú ceist, seiceáil socruithe na haipe agus léigh na Ceisteanna Coitianta ar dtús. B\'fhéidir go bhfuil an réiteach ann.</string>
-    <string name="update_thank_you">Nuashonraigh Fossify Go raibh maith agat leis an leagan is déanaí</string>
     <string name="make_sure_latest">Déan cinnte freisin go bhfuil an leagan is déanaí den aip á úsáid agat.</string>
     <string name="read_faq">Léigh Ceisteanna Coitianta</string>
-    <string name="widget_locked_pro">Tá an ghiuirléid faoi ghlas.\nDéan uasghrádú ar an leagan Pro chun é a dhíghlasáil.</string>
-    <string name="all_fossify_apps">Gach feidhmchlár Fossify</string>
-    <string name="make_sure_upgrade">Tabhair faoi deara freisin nach bhfuil an leagan app seo á fhorbairt a thuilleadh, faigh an ceann Pro le haghaidh go leor feabhsuithe.</string>
     <string name="app_launcher_short">Tosaitheoir Feidhmchláir</string>
     <string name="calculator_short">Áireamhán</string>
     <string name="calendar_short">Féilire</string>
@@ -211,9 +193,7 @@
     <string name="launcher_short">Tosaitheoir</string>
     <string name="notes_short">Nótaí</string>
     <string name="music_player_short">Seinnteoir Ceoil</string>
-    <string name="thank_you_short">Go raibh maith agat</string>
     <string name="voice_recorder_short">Taifeadán Gutha</string>
-    <string name="donate_to_fossify">Deonaigh do Fossify</string>
     <string name="platforms">Ardáin</string>
     <string name="little_to_no_fee">Beagán gan aon táille</string>
     <string name="fee_up_to_pct">Suas le táille %1$d%%</string>
@@ -221,18 +201,14 @@
     <string name="before_asking_question">Sula gcuireann tú ceist, léigh an</string>
     <string name="faq_1_title_commons">Conas nach bhfeicim an ghiuirléid feidhmchláir seo ar liosta na ngiuirléidí?</string>
     <string name="faq_1_text_commons">Is dóichí gur bhog tú an aip ar chárta SD. Tá teorannú córais Android ann a cheileann na giuirléidí app a thugtar sa chás sin. Is é an t-aon réiteach ná an aip a bhogadh ar ais chuig an Stóráil Inmheánach trí shocruithe do ghléis.</string>
-    <string name="faq_2_title_commons">Ba mhaith liom tacaíocht a thabhairt duit, ach ní féidir liom airgead a bhronnadh. An bhfuil aon rud eile is féidir liom a dhéanamh?</string>
     <string name="faq_3_text_commons">Faraor, ní féidir leat. Scriostar comhaid láithreach tar éis na dialóige deimhnithe, níl aon bhruscar ar fáil.</string>
     <string name="faq_4_title_commons">Ní maith liom na dathanna giuirléidí, an féidir liom iad a athrú?</string>
     <string name="faq_4_text_commons">Yep, agus tú ag tarraingt giuirléid ar do scáileán baile feictear scáileán cumraíochta giuirléidí. Feicfidh tú cearnóga daite ag bun an chúinne ar chlé, ach brúigh iad chun dath nua a roghnú. Is féidir leat an sleamhnán a úsáid chun an t-alfa a choigeartú freisin.</string>
     <string name="faq_5_title_commons">An féidir liom comhaid scriosta a aischur ar bhealach éigin?</string>
     <string name="faq_5_text_commons">Mura scriosadh iad i ndáiríre, ní féidir leat iad a aisghabháil. Mar sin féin, bíonn an bosca athchúrsála cumasaithe de réir réamhshocraithe agus bogann sé comhaid isteach sa bhosca seachas iad a scriosadh láithreach.</string>
     <string name="faq_6_title_commons">D\'imigh deilbhín tosaitheoir an fheidhmchláir. Céard is féidir liom a dhéanamh?</string>
-    <string name="faq_6_text_commons">Tagann an cheist seo chun cinn nuair nach dtacaíonn do thosaitheoir go hiomlán le saincheaptha deilbhíní. Déan iarracht an aip a sheoladh trí Google Play nó giuirléid, más inrochtana. Tar éis seoladh, athchóirigh an #106D1F réamhshocraithe dath deilbhín glas. I gcásanna tromchúiseacha, d\'fhéadfadh sé go mbeadh gá leis an aip a athshuiteáil.</string>
     <string name="faq_7_title_commons">Baineadh an t-airgead as mo chuntas bainc, ach ní féidir liom an aip a íoslódáil. Céard is féidir liom a dhéanamh?</string>
-    <string name="faq_8_title_commons">Cén fáth ar chóir dom uasghrádú a dhéanamh ar an leagan Pro?</string>
     <string name="faq_7_text_commons">Láimhseálann Google íocaíochtaí go hiomlán, glitches a gcóras ó am go ham. Glan do thaisce app Google Play agus atosaigh do ghléas, ansin déan iarracht é a íoslódáil.</string>
-    <string name="faq_8_text_commons">Ós rud é nach ndéantar do leagan feidhmchláir a nuashonrú a thuilleadh, ní shocrófar na fabhtanna a chonaic tú b\'fhéidir. Ní chuirfear aon fheidhmeanna nua leis ach an oiread. Is féidir leat an leagan Pro a cheannach ar Google Play ar shuim bheag airgid. Is íocaíocht aon uaire í, rud a chiallaíonn nach mbeidh ort íoc arís nuair a cheannaíonn tú é. Ní fiú tar éis gléas nua a fháil. Mura dtaitneoidh an leagan Pro leat, is féidir leat é a dhíshuiteáil laistigh de chúpla uair an chloig agus gheobhaidh tú do chuid airgid ar ais go huathoibríoch. Más mian leat aisíocaíocht ag am ar bith ina dhiaidh sin, déan teagmháil linn ag hello@fossify.org agus gheobhaidh tú é.</string>
     <string name="faq_9_title_commons">Conas is féidir liom míreanna éagsúla a roghnú ag an am céanna?</string>
     <string name="value">Luach</string>
     <string name="value_cannot_be_empty">Ní féidir luach a bheith folamh</string>
@@ -291,7 +267,6 @@
     <string name="duration">Fad ama</string>
     <string name="accent_color_black_and_white">Dath accent an téama Dubh &amp; Bán</string>
     <string name="undo_changes_confirmation">An bhfuil tú cinnte go bhfuil fonn ort do chuid athruithe a chealú?</string>
-    <string name="global_theme_success">Cuireadh an téama reatha i bhfeidhm go rathúil ar gach feidhmchlár Fossify. Déanfar aon athruithe ar an téama seo amach anseo a shioncronú go huathoibríoch.</string>
     <string name="dark_theme">Dorcha</string>
     <string name="auto_theme">Carr</string>
     <string name="auto_light_dark_theme">Solas uathoibríoch / dorcha</string>
@@ -521,7 +496,6 @@
     <string name="additional_info">Eolas breise</string>
     <string name="purchase">Ceannach</string>
     <string name="read_it">Léigh é</string>
-    <string name="thank_you">Go raibh maith agat</string>
     <string name="faq_3_title_commons">Scrios mé roinnt comhad trí dhearmad, conas is féidir liom iad a ghnóthú?</string>
     <string name="contributors">Rannpháirtithe</string>
     <string name="translation">Aistriúchán</string>
@@ -545,8 +519,6 @@
     <string name="translation_serbian">Seirbis</string>
     <string name="translation_swedish">Sualainnis</string>
     <string name="translation_tamil">Tamailis</string>
-    <string name="why_upgrade_no_internet_access">Gan rochtain idirlín</string>
-    <string name="why_upgrade_footer">Ráthaíocht Ar Ais Airgid 100%</string>
     <string name="why_upgrade_footer_one_time_payment">Íocaíocht aonuaire</string>
     <string name="why_upgrade_many_other_improvements">Go leor feabhsuithe eile</string>
     <string name="why_upgrade_advanced_photo_video_editor">Ard-eagarthóir grianghraf &amp; físe</string>
@@ -638,7 +610,6 @@
     <string name="no_phone_number_found">Níor aimsíodh aon uimhir theileafóin</string>
     <string name="change_view_type">Athraigh cineál an amhairc</string>
     <string name="grid">Greille</string>
-    <string name="grid_pro">Greille (Pro)</string>
     <string name="uneven_grid">Greille Míchothrom</string>
     <string name="list">Liosta</string>
     <string name="reduce_column_count">Laghdaigh líon na gcolún</string>
@@ -697,7 +668,6 @@
     <string name="search_text">Cuardaigh téacs</string>
     <string name="search_conversations">Cuardaigh comhráite</string>
     <string name="filter">Scagaire</string>
-    <string name="filter_pro">Scagaire (Pro)</string>
     <string name="search_recordings">Cuardaigh taifeadtaí</string>
     <string name="no_items_found">Níor aimsíodh aon mhír.</string>
     <string name="no_storage_permissions">Tá cead stórála ag teastáil</string>
@@ -842,10 +812,9 @@
     <string name="undo_changes">Cealaigh athruithe</string>
     <string name="cannot_be_undone">Ní féidir an gníomh seo a chealú.</string>
     <string name="save_before_closing">Tá athruithe gan sábháil agat. Sábháil roimh scor?</string>
-    <string name="apply_to_all_apps">Cuir an téama i bhfeidhm ar gach Aip Fossify</string>
+    <string name="apply_to_all_apps">Cuir an téama i bhfeidhm ar gach Aip Chad</string>
     <string name="app_icon_color_warning">Rabhadh: Ní fhéadfaidh lainseálaithe áirithe saincheaptha deilbhín feidhmchláir a láimhseáil i gceart. Má imíonn an deilbhín, déan iarracht an aip a sheoladh trí Google Play nó giuirléid, más inrochtana. Tar éis seoladh, athchóirigh an #106D1F réamhshocraithe dath deilbhín glas. I gcásanna tromchúiseacha, d\'fhéadfadh sé go mbeadh gá leis an aip a athshuiteáil.</string>
     <string name="white">Bán</string>
-    <string name="shared_theme_note">Tabhair faoi deara, cé go bhfuil an leagan Pro app á úsáid agat, ní mór duit fós Fossify Thank You ar chúiseanna teicniúla. Tugann sé aire don sioncrónú datha.</string>
     <string name="light_theme">Solas</string>
     <string name="solarized">Grianaithe</string>
     <string name="dark_red">Dearg dorcha</string>
@@ -872,10 +841,8 @@
     <string name="undo">Cealaigh</string>
     <string name="redo">Athdhéan</string>
     <string name="print">Priontáil</string>
-    <string name="print_pro">Priontáil (Pro)</string>
     <string name="shortcut">Aicearra</string>
     <string name="create_shortcut">Cruthaigh aicearra</string>
-    <string name="create_shortcut_pro">Cruthaigh aicearra (Pro)</string>
     <string name="add_number_to_contact">Cuir uimhir leis an teagmhálaí</string>
     <string name="view_contact_details">Féach ar na sonraí teagmhála</string>
     <string name="call_from_sim_1">Glaoigh ó SIM 1</string>
@@ -939,7 +906,6 @@
     <string name="no_fingerprints_registered">Níl aon mhéarloirg cláraithe agat, cuir roinnt i Socruithe do ghléis le do thoil</string>
     <string name="fingerprint_setup_successfully">D\'éirigh leis an socrú cosanta. Athshuiteáil an aip i gcás fadhbanna lena athshocrú.</string>
     <string name="lock_folder">Cuir fillteán faoi ghlas</string>
-    <string name="lock_folder_pro">Cuir fillteán faoi ghlas (Pro)</string>
     <string name="unlock_folder">Díghlasáil fillteán</string>
     <string name="lock_folder_notice">Oibríonn an chosaint seo san aip seo amháin, níl sé ceaptha criptiú fillteán fíor ar fud an chórais a athsholáthar.</string>
     <string name="enter_password">Iontráil focal faire</string>
@@ -990,14 +956,6 @@
         <item quantity="many">Ag bogadh %d míreanna isteach sa bhosca athchúrsála</item>
         <item quantity="other">Ag bogadh %d míreanna isteach sa bhosca athchúrsála</item>
     </plurals>
-    <string name="donate_please"><![CDATA[
- Dia duit, <br><br>
- tá súil agam go bhfuil tú ag baint sult as an aip. Níl aon fhógraí ann, tacaigh lena fhorbairt tríd an aip <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Go raibh maith agat</a> a cheannach , cuirfidh sé cosc ar an dialóg seo a thaispeáint arís.<br><br>
- Go raibh maith agat!
- ]]></string>
-    <string name="donate_new">Dia duit,&lt;br&gt;&lt;br&gt;tá súil agam go bhfuil tú ag baint sult as an aip. Níl aon fhógraí ann agus níl do shonraí á mbailiú againn ach an oiread, tacaigh lena fhorbairt trí &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank Tú&lt;/a&gt;. Beidh gach gné aipe agat freisin, lena n-áirítear saincheapadh dathanna díghlasáilte.&lt;br&gt;&lt;br&gt;Go raibh maith agat!</string>
-    <string name="donate_short">Tacaigh linn trí &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Go raibh maith agat&lt;/a&gt; a cheannach le do thoil, díghlasálfaidh sé gnéithe uile na haipe freisin lena n-áirítear dath saincheaptha.</string>
-    <string name="features_locked">Tá an ghné seo faoi ghlas, le do thoil ceannach &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Go raibh maith agat&lt;/a&gt; as an aip iomlán a dhíghlasáil.&lt;br &lt;br&gt;Is íocaíocht aonuaire amháin é agus mura mbeidh tú sásta, is féidir linn aisíocaíocht a thabhairt duit.</string>
     <string name="new_app"><![CDATA[
  Hey, <br><br>
  ach tú a chur ar an eolas gur eisíodh roinnt aipeanna nua le déanaí:<br><br>
@@ -1009,15 +967,6 @@
  ]]></string>
     <string name="sideloaded_app"><![CDATA[
  Breathnaíonn sé go bhfuil do leagan app truaillithe. Íoslódáil an bunleagan <a href="%s">anseo</a> le do thoil.
- ]]></string>
-    <string name="faq_2_text_commons"><![CDATA[
- Sea, ar ndóigh. Is féidir leat an focal a scaipeadh faoi na haipeanna nó aiseolas agus rátálacha maith a thabhairt. Is féidir leat cabhrú freisin trí na haipeanna a aistriú go teanga nua, nó díreach roinnt aistriúcháin atá ann cheana a nuashonrú.
- Tá an treoirleabhar aistrithe ag <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">an suíomh Gréasáin seo</a> , nó déan teagmháil linn ag <a href="mailto:hello@fossify.org">hello@fossify.org</a> má tá aon cheist agat.
- ]]></string>
-    <string name="contributors_label"><![CDATA[
- Ar an liosta seo tá gach duine a chabhraigh go suntasach le haon aip laistigh den tsraith Fossify, ní amháin an ceann seo. Láimhseálann oibrithe deonacha aistriúcháin,
- cuir in iúl dúinn más mian leat cabhrú freisin. Tá an treoirleabhar aistrithe ag <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">an suíomh Gréasáin seo</a> , nó déan teagmháil linn ag <a href="mailto:hello@fossify.org">hello@fossify.org</a> má tá aon cheist agat.
- Buíochas le gach rannpháirtí agus lucht tacaíochta eile!
  ]]></string>
     <string name="august_short">Lún</string>
     <string name="during_day_at">Le linn an lae ag %1$02d:%2$02d</string>
@@ -1037,9 +986,6 @@
         <item quantity="many">%d míreanna á scriosadh</item>
         <item quantity="other">%d míreanna á scriosadh</item>
     </plurals>
-    <string name="purchase_thank_you"><![CDATA[
-            Ceannaigh <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Go raibh maith agat</a> le do thoil chun an ghné seo a úsáid agus tacú le forbairt. Go raibh maith agat!
-            ]]></string>
     <string name="faq_9_text_commons">Tá bealaí éagsúla ann chun é sin a dhéanamh. Tá an chéad cheann ag tosú ar an modh roghnúcháin trí mhír amháin a bhrú le fada, ansin cliceáil gearr ar dhaoine eile chun iad a roghnú. Tá an dara bealach cosúil le míreanna a roghnú ar ríomhairí pearsanta le luch, ach tús a chur leis an modh roghnúcháin trí mhír amháin a bhrú le fada, ansin le do mhéar fós síos tarraing é thar mhíreanna eile le roghnú. Is é an tríú bealach chun míreanna iolracha a roghnú ná mír amháin a bhrú le fada, ansin brú fada ar cheann eile agus roghnaítear gach rud idir eatarthu. Más mian leat gach mír a roghnú, brúigh mír amháin le fada, ansin cliceáil ar an gcuntar míre roghnaithe ag an gcúinne ag barr na láimhe clé. Roghnóidh sé sin gach rud nó díroghnaigh é.</string>
     <string name="faq_10_title_commons">Cheannaigh mé an aip, ach ní féidir liom é a íoslódáil ar ghléas eile.</string>
     <string name="faq_10_text_commons">Bain triail as do thaisce app Google Play a ghlanadh agus do ghléas a atosú. Tá sé roinnt glitch Google Play, nach bhfuil baint i ndáiríre leis an app féin.</string>
@@ -1075,10 +1021,6 @@
     <string name="translation_chinese_hk">Sínis (Hong Cong)</string>
     <string name="translation_chinese_cn">Sínis (Simplithe)</string>
     <string name="translation_chinese_tw">Sínis (Traidisiúnta)</string>
-    <string name="why_upgrade_basic_version">Bunúsach</string>
-    <string name="why_upgrade">Faigh an leagan Pro anois!</string>
-    <string name="why_upgrade_pro_version">Le haghaidh</string>
-    <string name="why_upgrade_no_ads">Gan fógraí</string>
     <string name="why_upgrade_improved_design">Dearadh feabhsaithe</string>
     <string name="why_upgrade_advanced_photo_editor">Ard-eagarthóir grianghraf</string>
     <string name="why_upgrade_heic_support">Tacaíocht comhad HEIC / HEIF</string>
@@ -1140,10 +1082,7 @@
     <string name="start_free_trial">Tosaigh triail saor in aisce</string>
     <string name="trial_expires_soon">Rachaidh do thriail in éag go luath.</string>
     <string name="welcome_to_app_name">Fáilte go %s!</string>
-    <string name="pro_app_refund">Ná déan dearmad go n-aisíocfar thú go huathoibríoch má dhíshuiteálann tú aon fheidhmchlár íoctha laistigh de 2 uair an chloig. Más mian leat aisíocaíocht ag am ar bith ina dhiaidh sin, déan teagmháil linn ag hello@fossify.org agus gheobhaidh tú é. Fágann sin go bhfuil sé éasca triail a bhaint as :)</string>
     <string name="trial_end_description">Déan uasghrádú ar an leagan Pro chun taitneamh a bhaint as an aip go hiomlán.\n\nNí mór duit ach íoc as uair amháin ar feadh an tsaoil agus mura mbeidh tú sásta, is féidir leat é a dhíshuiteáil agus aisíocaíocht a fháil.\n\nFéach tú ann :)</string>
-    <string name="deprecated_app">DEPRECATED: Ní choinnítear an leagan seo den aip a thuilleadh, faigh an leagan Pro ag https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
-    <string name="copyright">in aghaidh %1$s\nCóipcheart © Fossify %2$d</string>
     <string name="sms_messenger_short">Teachtaireachtaí SMS</string>
     <string name="cryptocurrency">Criptea-airgeadra</string>
     <string name="translation_kabyle">Kabyle</string>
@@ -1153,9 +1092,6 @@
     <string name="confirm_storage_access_restricted_text_not_found">Níorbh fhéidir aip bainisteora comhad córais a aimsiú.</string>
     <string name="confirm_storage_access_restricted_text">De bharr srianta córais, níl an fillteán seo ar fáil.</string>
     <string name="confirm_storage_access_restricted_text_open_system">Oscail san aip córais</string>
-    <string name="more_fossify_apps">Tuilleadh aipeanna Fossify</string>
-    <string name="rate_this_app">Rátáil an aip seo</string>
-    <string name="requires_fossify_thank_you">Éilíonn Fossify Go raibh maith agat</string>
     <string name="evalex_title">EvalEx (meastóireacht ar shloinnt mhatamaitice)</string>
     <string name="enables_more_customization">Cumasaíonn sé níos mó saincheaptha</string>
     <string name="translation_latvian">Laitvis</string>

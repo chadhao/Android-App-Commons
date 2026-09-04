@@ -15,7 +15,7 @@ import com.goodwy.commons.models.Release
 
 fun ComponentActivity.appLaunchedCompose(
     appId: String,
-    showRateUsDialog: () -> Unit
+    showRateUsDialog: () -> Unit = {}
 ) {
     baseConfig.internalStoragePath = getInternalStoragePath()
     updateSDCardPath()

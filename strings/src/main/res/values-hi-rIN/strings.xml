@@ -17,66 +17,14 @@
     <string name='end'>समाप्त</string>
 
     <!-- Support project -->
-    <string name="rate_g">रेट</string>
-    <string name="action_support_project">परियोजना का समर्थन</string>
-    <string name="pref_pay_summary">भविष्य के विकास और अतिरिक्त सुविधाओं का समर्थन करने के लिए सशुल्क ऐप प्राप्त करें</string>
-    <string name="support_project_summary">भविष्य के विकास में सहायता करने और अतिरिक्त सुविधाओं को अनलॉक करने के लिए हमारा एक सशुल्क ऐप प्राप्त करें</string>
     <string name="learn_more">और जानो</string>
     <string name="themes">विषयों</string>
     <string name="themes_summary">"एंड्रॉइड 12+ के लिए सावधानीपूर्वक चयनित एप्लिकेशन थीम, स्वचालित थीम चेंजर और सिस्टम थीम समर्थन "</string>
     <string name="color_title">रंग</string>
     <string name="color_summary">प्राथमिक रंग, उच्चारण, पृष्ठभूमि, पाठ और नेविगेशन बार का मैन्युअल समायोजन</string>
-    <string name="plus_title">हमारा समर्थन करें</string>
-    <string name="plus_summary">आपकी मदद से हम अधिक सुविधाओं को लागू कर सकते हैं और एप्लिकेशन को और भी बेहतर बना सकते हैं।</string>
-    <string name="attention">ध्यान</string>
-    <string name="attention_summary">यदि आपने हमारे पुराने संस्करण में खरीदारी की है या अन्य प्लेटफार्मों पर परियोजना का समर्थन किया है, तो कृपया हमें ईमेल द्वारा कुछ पुष्टि भेजें और हम आपको एक प्रोमो कोड भेजने का प्रयास करेंगे।</string>
-    <string name="attention_dialog_summary">प्रोमो कोड प्राप्त करने के लिए, आपको प्रोजेक्ट के लिए समर्थन का प्रमाण भेजना होगा (Google Play या किसी अन्य प्लेटफ़ॉर्म का स्क्रीनशॉट पर्याप्त है)। प्रोमो कोड की संख्या सीमित है। क्या आप प्रमाण भेज सकते हैं?</string>
-    <string name="about_summary">
-        <![CDATA[
-            <i>
-            हम आपके समय को महत्व देते हैं और चाहते हैं कि आप विज्ञापनों के बिना हमारे ऐप का आनंद लें। यदि यह आपको खुशी और उपयोगिता लाया है, तो इसके विकास के लिए दान करने पर विचार करें। <br><br>
-            हमारी कड़ी मेहनत की सराहना करें और अपने इंप्रेशन साझा करें, यह हमें नए विचारों का एहसास करने और आपको और भी अद्भुत सुविधाओं की पेशकश करने में मदद करेगा।
-            </i>
-        ]]></string>
-    <string name="lifebuoy_title">हम आपका समर्थन करेंगे</string>
-    <string name="lifebuoy_summary">यदि किसी कारण से आप हमारे ऐप को बर्दाश्त नहीं कर सकते हैं, लेकिन वास्तव में सभी सुविधाओं का उपयोग करना चाहते हैं, तो बस हमें ईमेल करें</string>
     <string name="participants_title">प्रतिभागियों</string>
-    <string name="participants_subtitle"><![CDATA[
-इन लोगों ने GitHub पर ओपन-सोर्स राइट प्रोजेक्ट में योगदान दिया है,
-साथ ही Fossify और Simple Mobile Tools में भी, जिन पर हम आधारित हैं।<br><br>
-
-हमारे सभी योगदानकर्ताओं का धन्यवाद, हम आपकी मदद के लिए बहुत आभारी हैं &#10084;&#65039;
-]]></string>
-    <string name="special_thanks_to">को विशेष धन्यवाद</string>
-    <string name="tip_kind">अच्छा समर्थन</string>
-    <string name="tip_excellent">उत्कृष्ट समर्थन</string>
-    <string name="tip_incredible">बहुत बढ़िया समर्थन</string>
-    <string name="tip_jar">जीविका</string>
-    <string name="any_support_unlock_all">आपके लिए उपलब्ध परियोजना सहायता का स्तर चुनें (एक बार, मासिक या वार्षिक)। कोई भी समर्थन ऐप की सभी विशेषताओं को अनलॉक करता है</string>
-    <string name="one_time_purchase">एक बार का समर्थन</string>
-    <string name="monthly">मासिक समर्थन</string>
-    <string name="yearly">वार्षिक समर्थन</string>
-    <string name="unlock">अनलॉक</string>
-    <string name="donate_text_g">
-        <![CDATA[
-            जो लोग Google Play का उपयोग नहीं करते हैं, उनके लिए एप्लिकेशन के सभी कार्यों को अनलॉक करना संभव है। <br>
-            यदि आपको हमारे ऐप्स पसंद हैं जो ऑफ़लाइन, गैर-दखल देने वाले और कोई विज्ञापन नहीं हैं, तो कृपया किसी तरह से हमें समर्थन देने पर विचार करें। हम बहुत आभारी होंगे.<br><br>
-            धन्यवाद!
-        ]]>
-    </string>
-    <string name="donate_text_no_gp_g">
-        <![CDATA[
-            समस्याओं के कारण हम अस्थायी रूप से Google Play के माध्यम से भुगतान करने में असमर्थ हैं, इसलिए इस अवधि के लिए हम सभी उपयोगकर्ताओं को ऐप की सभी सुविधाओं को मैन्युअल रूप से अनलॉक करने का विकल्प दे रहे हैं। <br>
-अगर आपको हमारे ऐसे ऐप पसंद हैं जो ऑफ़लाइन हैं, गैर-दखल देने वाले हैं और जिनमें कोई विज्ञापन नहीं है, तो कृपया किसी तरह से हमारा समर्थन करने पर विचार करें। हम बहुत आभारी होंगे।<br><br>
-धन्यवाद!
-        ]]>
-    </string>
 
     <!--Billing-->
-    <string name="restored_previous_purchase_please_restart">पिछली खरीदारी बहाल की गई. कृपया सभी सुविधाओं का उपयोग करने के लिए ऐप को पुनः आरंभ करें।</string>
-    <string name="no_purchase_found">कोई खरीदारी नहीं मिली.</string>
-    <string name="restore_purchase">पुनःस्थापन क्रय</string>
-    <string name="restoring_purchase">खरीदारी बहाल की जा रही है…</string>
 
     <string name="no_connection">कोई कनेक्शन नहीं</string>
     <string name="per_month">%s/माह</string>
@@ -121,7 +69,7 @@
     <string name="open_search_when_open_contacts">संपर्क टैब खोलने पर खोजें</string>
     <string name="end_search_when_changing_tab">टैब परिवर्तित करते समय खोज समाप्त करें</string>
     <string name="change_top_bar_colour_when_scrolling">स्क्रॉल करते समय शीर्ष पट्टी का रंग परिवर्तित करना</string>
-    <string name="global_theme_success_g">वर्तमान विषय सफलतापूर्वक सभी सही Apps के लिए लागू किया गया है. इस विषय में भविष्य में कोई भी परिवर्तन स्वचालित रूप से समन्वयित किया जाएगा</string>
+    <string name="global_theme_success_g">वर्तमान विषय सफलतापूर्वक सभी Chad Apps के लिए लागू किया गया है. इस विषय में भविष्य में कोई भी परिवर्तन स्वचालित रूप से समन्वयित किया जाएगा</string>
     <string name="enter_pattern">पैटर्न दर्ज करें</string>
     <string name="call_screen_background">कॉल स्क्रीन बैकग्राउंड</string>
     <string name="contact_photo">संपर्क फोटो</string>
@@ -180,54 +128,12 @@
     <string name="swipe_width">स्वाइप की चौड़ाई</string>
     <string name="auto_scroll">स्वतः स्क्रॉल</string>
     <string name="hide_icons_in_menu">मेनू में आइकन छिपाएँ</string>
-    <string name="purchase_simple_thank_you_g">Purchase Goodwy Thank You</string>
-    <string name="copyright_g">सं %1$s\nकॉपीराइट © Goodwy %2$d</string>
-    <string name="update_thank_you_g">Please update Goodwy Thank You to the latest version</string>
-    <string name="faq_2_text_commons_g">
-        <![CDATA[
-        Yes, of course. You can spread the word about the apps or give good feedback and ratings. You can also help by translating the apps in a new language, or just update some existing translations.
-        You can find the guide at https://github.com/Goodwy/Discussion , or just shoot me a message at goodwy.dev@gmail.com if you need help.
-        ]]>
-    </string>
-    <string name="faq_6_text_commons_g">यह समस्या तब उत्पन्न होती है जब आपका लॉन्चर आइकन अनुकूलन का पूरी तरह से समर्थन नहीं करता है। यदि सुलभ हो, तो Google Play या विजेट के माध्यम से ऐप लॉन्च करने का प्रयास करें।         लॉन्च करने के बाद, डिफ़ॉल्ट ऐप आइकन रंग को पुनर्स्थापित करें। चरम मामलों में, ऐप को फिर से इंस्टॉल करना आवश्यक हो सकता है।</string>
-    <string name="faq_8_text_commons_g">As your app version is no longer updated, the bugs you have maybe spotted will never be fixed. There will also be no new functions added. You can purchase the Pro version on Google Play for a small sum of money.
-        It is a one time payment, which means that once you purchase it, you will never have to pay again. Not even after getting a new device. If you won\'t like the Pro version, you can just uninstall it within a few hours and you will automatically get your money back.
-        If you want a refund anytime later, just contact us at goodwy.dev@gmail.com and you will get it.</string>
     <string name="faq_100_title_commons_g">प्राइवेट कॉन्टैक्ट क्या होता है?</string>
     <string name="faq_100_text_commons_g">ऐप के अंदर एक व्यक्तिगत संपर्क बनाया जाता है। यह संपर्क अन्य ऐप्स को दिखाई नहीं देगा (केवल हमारे उन ऐप्स को छोड़कर जिनमें एक विशेष सेटिंग सक्षम है)।\nयदि आप ऐप को हटाते हैं, तो सभी व्यक्तिगत संपर्क ऐप के साथ ही हटा दिए जाएंगे, इसलिए ऐप को हटाने से पहले अपने संपर्कों का बैकअप ले लें।</string>
     <string name="faq_101_title_commons_g">How to create a private contact?</string>
     <string name="faq_101_text_commons_g">When you create a contact, you must select the source of the contact: %s</string>
-    <string name="contributors_label_g"><![CDATA[
-इस सूची में वे सभी लोग शामिल हैं जिन्होंने हमारे किसी भी एप्लिकेशन में उल्लेखनीय रूप से मदद की है। अनुवाद स्वयंसेवकों द्वारा किया जाता है,
-अगर आप भी मदद करना चाहते हैं तो हमें बताएँ। अनुवाद संबंधी मार्गदर्शिका <a href="https://github.com/Goodwy/Discussion">इस वेबसाइट</a> पर उपलब्ध है, या यदि आपके कोई प्रश्न हैं, तो बस <a href="mailto:goodwy.dev@gmail.com">goodwy.dev@gmail.com</a> पर हमसे संपर्क करें।
-सभी योगदानकर्ताओं और अन्य समर्थकों का धन्यवाद!
-]]></string>
-    <string name="deprecated_app_g">DEPRECATED: This version of the app is no longer maintained, get the Pro version at https://play.google.com/store/apps/details?id=com.goodwy.xxx.pro</string>
-    <string name="pro_app_refund_g">Don\'t forget that if you uninstall any paid app within 2 hours, you will automatically be refunded. If you want a refund anytime later, just contact us at goodwy.dev@gmail.com and you will get it. That makes it easy to try it out :)</string>
 
     <!-- Contacts -->
-    <string name="notification_of_new_application"><![CDATA[
-<b><big>महत्वपूर्ण समाचार और एक नई शुरुआत 🚀</big></b><br><br>
-
-भुगतान संबंधी मौजूदा प्रतिबंधों के कारण, हमें ऐप के भविष्य को सुनिश्चित करने के लिए एक नए डेवलपर खाते पर स्विच करना पड़ा और एक नया संस्करण जारी करना पड़ा।<br><br>
-
-नए संस्करण में अपग्रेड क्यों करें?<br>
-
-✨ रंगों का पूर्ण अनुकूलन - अपनी पसंद का कोई भी रंग चुनें!<br>
-
-🎨 नए, आधुनिक आइकन<br>
-
-❤️ प्रोजेक्ट को समर्थन देने का अवसर - अब इसके विकास के लिए आवश्यक है।<br><br>
-
-आपका वर्तमान ऐप काम करता रहेगा और अपडेट प्राप्त करता रहेगा।<br><br>
-
-<b>आपके विश्वास और समर्थन के लिए धन्यवाद।</b><br><br>
-
-<small><i>हमारे शुरुआती समर्थकों के लिए:<br>
-
-यदि आपने पहले यह ऐप खरीदा है या दान किया है, तो धन्यवाद! अपनी पुष्टि help@goodwy.dev पर भेजें, और हम नए संस्करण के लिए प्रोमो कोड उपलब्ध कराने की पूरी कोशिश करेंगे (जब तक स्टॉक उपलब्ध है)।
-]]>
-</string>
     <string name="add_number">नंबर जोड़ें</string>
     <string name="add_email">ईमेल जोड़ें</string>
     <string name="add_address">पता जोड़ें</string>
@@ -374,10 +280,6 @@
     <string name="relation_sister_in_law_g">Sister-in-law</string>
 
     <!-- RuStore -->
-    <string name="billing_purchase_confirm_in_progress">Confirming the purchase…</string>
-    <string name="billing_purchase_delete_in_progress">Deleting the purchase…</string>
-    <string name="billing_product_confirmed">Product confirmed/substantiated</string>
-    <string name="billing_product_deleted">Purchase canceled</string>
     <string name="billing_subscriptions">सदस्यता</string>
     <string name="billing_error_application_signature_not_correct">RuStore के माध्यम से भुगतान करने के लिए आपको RuStore से ऐप संस्करण इंस्टॉल करना होगा</string>
     <string name="date">खजूर</string>
@@ -392,7 +294,6 @@
     <string name="disagree">मैं असहमत हूं</string>
     <string name="height">ऊंचाई</string>
     <string name="select_color">रंग चुनो</string>
-    <string name="more_apps_from_us_g">हमारी ओर से और भी ऐप्स</string>
     <string name="text_alignment">पाठ संरेखण</string>
     <string name="use_persian_calendar">फ़ारसी कैलेंडर का उपयोग करें</string>
     <string name="blocking_type">अवरोधन प्रकार</string>

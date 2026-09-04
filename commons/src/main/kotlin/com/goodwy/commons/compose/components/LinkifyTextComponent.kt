@@ -8,11 +8,9 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.platform.LocalContext
-import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.viewinterop.AndroidView
-import com.goodwy.commons.R
 import com.goodwy.commons.compose.extensions.MyDevices
 import com.goodwy.commons.compose.theme.AppThemeSurface
 import com.goodwy.commons.compose.theme.SimpleTheme
@@ -52,7 +50,7 @@ fun LinkifyTextComponent(
 @Composable
 @MyDevices
 private fun LinkifyTextComponentPreview() = AppThemeSurface {
-    val source = stringResource(id = R.string.contributors_label)
+    val source = "Contributors"
     LinkifyTextComponent {
         source.fromHtml()
     }

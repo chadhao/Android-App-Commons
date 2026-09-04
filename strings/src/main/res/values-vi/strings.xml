@@ -17,66 +17,14 @@
     <string name="end">Kết thúc</string>
 
     <!-- Support project -->
-    <string name="rate_g">Đánh giá</string>
-    <string name="action_support_project">Hỗ trợ dự án</string>
-    <string name="pref_pay_summary">Get the paid app to support future developments and extra features</string>
-    <string name="support_project_summary">Get one of our paid apps to support future development and unlock extra features</string>
     <string name="learn_more">Tìm hiểu thêm</string>
     <string name="themes">Chủ đề</string>
     <string name="themes_summary">Các chủ đề ứng dụng được lựa chọn cẩn thận, trình thay đổi chủ đề tự động và hỗ trợ chủ đề hệ thống cho Android 12+</string>
     <string name="color_title">Màu sắc</string>
     <string name="color_summary">Điều chỉnh thủ công màu chính, dấu, nền, văn bản và thanh điều hướng</string>
-    <string name="plus_title">Hỗ trợ chúng tôi</string>
-    <string name="plus_summary">Với sự giúp đỡ của bạn, chúng tôi có thể triển khai nhiều tính năng hơn và làm cho ứng dụng tốt hơn nữa</string>
-    <string name="attention">Chú ý</string>
-    <string name="attention_summary">Nếu bạn đã mua hàng trong phiên bản cũ của chúng tôi hoặc ủng hộ dự án trên các nền tảng khác, vui lòng gửi cho chúng tôi xác nhận qua email và chúng tôi sẽ cố gắng gửi cho bạn mã khuyến mãi.</string>
-    <string name="attention_dialog_summary">Để nhận mã khuyến mãi, bạn phải gửi bằng chứng ủng hộ dự án (ảnh chụp màn hình từ Google Play hoặc nền tảng khác là đủ). Số lượng mã khuyến mãi có hạn. Gửi bằng chứng nhé?</string>
-    <string name="about_summary">
-        <![CDATA[
-            <i>
-            Chúng tôi coi trọng thời gian của bạn và muốn bạn tận hưởng ứng dụng của chúng tôi mà không có quảng cáo. Nếu nó đã mang lại cho bạn niềm vui và sự hữu ích, hãy xem xét quyên góp cho sự phát triển của nó. <br><br>
-            Đánh giá cao công việc khó khăn của chúng tôi và chia sẻ ấn tượng của bạn, nó sẽ giúp chúng tôi hiện thực hóa những ý tưởng mới và cung cấp cho bạn nhiều tính năng tuyệt vời hơn nữa.
-            </i>
-        ]]></string>
-    <string name="lifebuoy_title">Chúng tôi sẽ hỗ trợ bạn</string>
-    <string name="lifebuoy_summary">Nếu vì lý do nào đó bạn không đủ khả năng mua ứng dụng của chúng tôi, nhưng thực sự muốn sử dụng tất cả các tính năng, chỉ cần gửi email cho chúng tôi</string>
     <string name="participants_title">Participants</string>
-    <string name="participants_subtitle"><![CDATA[
-Những người này đã đóng góp cho dự án Right mã nguồn mở trên GitHub,
-cũng như cho Fossify và Simple Mobile Tools, những nền tảng mà chúng tôi dựa vào.<br><br>
-
-Xin cảm ơn tất cả những người đóng góp, chúng tôi vô cùng trân trọng sự giúp đỡ của các bạn
-]]></string>
-    <string name="special_thanks_to">Special thanks to</string>
-    <string name="tip_kind">Hỗ trợ tốt</string>
-    <string name="tip_excellent">Hỗ trợ tuyệt vời</string>
-    <string name="tip_incredible">Hỗ trợ hoàn hảo</string>
-    <string name="tip_jar">Hỗ trợ</string>
-    <string name="any_support_unlock_all">Chọn mức hỗ trợ dự án có sẵn cho bạn (một lần, hàng tháng hoặc hàng năm). Mọi hỗ trợ đều mở khóa tất cả các tính năng của ứng dụng</string>
-    <string name="one_time_purchase">Hỗ trợ một lần</string>
-    <string name="monthly">Hỗ trợ hàng tháng</string>
-    <string name="yearly">Hỗ trợ hàng năm</string>
-    <string name="unlock">Unlock</string>
-    <string name="donate_text_g">
-        <![CDATA[
-            For those who do not use Google Play, it is possible to unlock all functions of the application. <br>
-            If you like our apps which are offline, non-intrusive and have no ads, please consider supporting us in some way. We would be very grateful.<br><br>
-            Thank you!
-        ]]>
-    </string>
 
     <!--Billing-->
-    <string name="donate_text_no_gp_g"><![CDATA[
-Do một số vấn đề, chúng tôi tạm thời không thể thanh toán qua Google Play,
-vì vậy, trong thời gian này, chúng tôi cung cấp cho tất cả người dùng tùy chọn mở khóa thủ công tất cả các tính năng của ứng dụng. <br>
-Nếu bạn thích các ứng dụng ngoại tuyến, không gây khó chịu và không có quảng cáo của chúng tôi,
-vui lòng cân nhắc hỗ trợ chúng tôi theo cách nào đó. Chúng tôi sẽ rất biết ơn.<br><br>
-Cảm ơn bạn!
-]]></string>
-    <string name="restored_previous_purchase_please_restart">Restored previous purchase. Please restart the app to make use of all features.</string>
-    <string name="no_purchase_found">No purchase found.</string>
-    <string name="restore_purchase">Restore purchase</string>
-    <string name="restoring_purchase">Restoring purchase…</string>
 
     <string name="no_connection">Không có kết nối</string>
     <string name="per_month">%s/tháng</string>
@@ -121,7 +69,7 @@ Cảm ơn bạn!
     <string name="open_search_when_open_contacts">Mở Tìm kiếm khi bạn mở tab Danh bạ</string>
     <string name="end_search_when_changing_tab">Kết thúc tìm kiếm khi thay đổi tab</string>
     <string name="change_top_bar_colour_when_scrolling">Thay đổi màu thanh trên cùng khi cuộn</string>
-    <string name="global_theme_success_g">Chủ đề hiện tại đã được áp dụng thành công cho tất cả các Ứng dụng phù hợp. Mọi thay đổi trong tương lai đối với chủ đề này sẽ được đồng bộ hóa tự động</string>
+    <string name="global_theme_success_g">Chủ đề hiện tại đã được áp dụng thành công cho tất cả các Ứng dụng Chad. Mọi thay đổi trong tương lai đối với chủ đề này sẽ được đồng bộ hóa tự động</string>
     <string name="enter_pattern">Nhập mẫu</string>
     <string name="call_screen_background">Nền màn hình cuộc gọi</string>
     <string name="contact_photo">Ảnh liên hệ</string>
@@ -180,55 +128,12 @@ Cảm ơn bạn!
     <string name="swipe_width">Vuốt chiều rộng</string>
     <string name="auto_scroll">Tự động cuộn</string>
     <string name="hide_icons_in_menu">Ẩn các biểu tượng trong menu</string>
-    <string name="purchase_simple_thank_you_g">Cảm ơn vì đã mua hàng Goodwy</string>
-    <string name="copyright_g">v %1$s\nCopyright © Goodwy %2$d</string>
-    <string name="update_thank_you_g">Vui lòng cập nhật Goodwy Thank You lên phiên bản mới nhất</string>
-    <string name="faq_2_text_commons_g">
-        <![CDATA[
-        Phải, tất nhiên. Bạn có thể truyền bá về các ứng dụng hoặc đưa ra phản hồi và xếp hạng tốt. Bạn cũng có thể giúp đỡ bằng cách dịch các ứng dụng bằng ngôn ngữ mới hoặc chỉ cập nhật một số bản dịch hiện có.
-         Bạn có thể tìm thấy hướng dẫn tại https://github.com/Goodwy/Discussion hoặc chỉ cần gửi tin nhắn cho tôi tại goodwy.dev@gmail.com nếu bạn cần trợ giúp.
-        ]]>
-    </string>
-    <string name="faq_6_text_commons_g">Sự cố này phát sinh khi trình khởi chạy của bạn không hỗ trợ đầy đủ tùy chỉnh biểu tượng. Thử khởi chạy ứng dụng thông qua Google Play hoặc tiện ích, nếu có thể truy cập.         Sau khi khởi chạy, khôi phục màu biểu tượng ứng dụng mặc định. Trong trường hợp cực đoan, việc cài đặt lại ứng dụng có thể là cần thiết.</string>
-    <string name="faq_8_text_commons_g">Vì phiên bản ứng dụng của bạn không còn được cập nhật, các lỗi bạn có thể phát hiện sẽ không bao giờ được sửa. Cũng sẽ không có chức năng mới được thêm vào. Bạn có thể mua phiên bản Pro trên Google Play với một khoản tiền nhỏ.
-         Đó là thanh toán một lần, có nghĩa là một khi bạn mua nó, bạn sẽ không bao giờ phải mua lại. Ngay cả sau khi nhận được một thiết bị mới. Nếu bạn không thích phiên bản Pro, bạn có thể gỡ cài đặt trong vòng vài giờ và bạn sẽ tự động lấy lại tiền.
-         Nếu bạn muốn hoàn lại tiền bất cứ lúc nào sau đó, chỉ cần liên hệ với chúng tôi tại goodwy.dev@gmail.com và bạn sẽ nhận được nó.</string>
     <string name="faq_100_title_commons_g">Liên hệ riêng tư là gì?</string>
     <string name="faq_100_text_commons_g">Một liên hệ cá nhân được tạo trong ứng dụng. Liên hệ này sẽ không hiển thị cho các ứng dụng khác (ngoại trừ các ứng dụng của chúng tôi có thiết lập đặc biệt được bật).\n\nNếu bạn xóa ứng dụng, tất cả các liên hệ cá nhân sẽ bị xóa cùng với ứng dụng, vì vậy hãy sao lưu danh bạ của bạn trước khi xóa ứng dụng.</string>
     <string name="faq_101_title_commons_g">How to create a private contact?</string>
     <string name="faq_101_text_commons_g">When you create a contact, you must select the source of the contact: %s</string>
-    <string name="contributors_label_g"><![CDATA[
-Danh sách này bao gồm tất cả những người đã đóng góp đáng kể cho bất kỳ ứng dụng nào của chúng tôi. Việc dịch thuật được thực hiện bởi các tình nguyện viên,
-hãy cho chúng tôi biết nếu bạn cũng muốn giúp đỡ. Hướng dẫn dịch thuật có tại <a href="https://github.com/Goodwy/Discussion">trang web này</a>, hoặc chỉ cần liên hệ với chúng tôi tại <a href="mailto:goodwy.dev@gmail.com">goodwy.dev@gmail.com</a> nếu bạn có bất kỳ câu hỏi nào.
-Xin cảm ơn tất cả những người đóng góp và những người ủng hộ khác!
-]]></string>
-    <string name="deprecated_app_g">THÔNG BÁO: Phiên bản của ứng dụng này không còn được duy trì, hãy tải phiên bản Pro tại https://play.google.com/store/apps/details?id=com.goodwy.xxx.pro</string>
-    <string name="pro_app_refund_g">Đừng quên rằng nếu bạn gỡ cài đặt bất kỳ ứng dụng phải trả tiền nào trong vòng 2 giờ, bạn sẽ tự động được hoàn lại tiền. Nếu bạn muốn hoàn lại tiền bất cứ lúc nào sau đó, chỉ cần liên hệ với chúng tôi tại goodwy.dev@gmail.com và bạn sẽ nhận được nó.Thật dễ dàng đúng không :)</string>
 
     <!-- Contacts -->
-    <string name="notification_of_new_application"><![CDATA[
-
-<b><big>Tin tức quan trọng và một khởi đầu mới 🚀</big></b><br><br>
-
-Do những hạn chế về thanh toán hiện tại, chúng tôi buộc phải chuyển sang tài khoản nhà phát triển mới và phát hành phiên bản mới để đảm bảo tương lai của ứng dụng.<br><br>
-
-Tại sao nên nâng cấp lên phiên bản mới?<br>
-
-✨ Lựa chọn màu sắc hoàn toàn tùy chỉnh — chọn bất kỳ màu nào bạn thích!<br>
-
-🎨 Biểu tượng hiện đại, mới mẻ<br>
-
-❤️ Cơ hội hỗ trợ dự án — điều này hiện rất cần thiết cho sự phát triển của dự án.<br><br>
-
-Ứng dụng hiện tại của bạn sẽ tiếp tục hoạt động và nhận được các bản cập nhật.<br><br>
-
-<b>Cảm ơn sự tin tưởng và hỗ trợ của bạn.</b><br><br>
-
-<small><i>Dành cho những người ủng hộ sớm của chúng tôi:<br>
-
-Nếu trước đây bạn đã mua ứng dụng này hoặc quyên góp, xin cảm ơn! Vui lòng gửi xác nhận của bạn đến help@goodwy.dev, và chúng tôi sẽ cố gắng hết sức để cung cấp mã khuyến mãi cho phiên bản mới (cho đến khi hết hàng).
-
-]]></string>
     <string name="add_number">Thêm số</string>
     <string name="add_email">Thêm email</string>
     <string name="add_address">Thêm địa chỉ</string>
@@ -375,10 +280,6 @@ Nếu trước đây bạn đã mua ứng dụng này hoặc quyên góp, xin c�
     <string name="relation_sister_in_law_g">Sister-in-law</string>
 
     <!-- RuStore -->
-    <string name="billing_purchase_confirm_in_progress">Confirming the purchase…</string>
-    <string name="billing_purchase_delete_in_progress">Deleting the purchase…</string>
-    <string name="billing_product_confirmed">Product confirmed/substantiated</string>
-    <string name="billing_product_deleted">Purchase canceled</string>
     <string name="billing_subscriptions">Đăng ký</string>
     <string name="billing_error_application_signature_not_correct">Để thanh toán qua RuStore, bạn cần cài đặt phiên bản ứng dụng từ RuStore</string>
     <string name="date">Ngày</string>
@@ -393,7 +294,6 @@ Nếu trước đây bạn đã mua ứng dụng này hoặc quyên góp, xin c�
     <string name="disagree">Tôi không đồng ý</string>
     <string name="height">Chiều cao</string>
     <string name="select_color">Chọn màu</string>
-    <string name="more_apps_from_us_g">Các app khác</string>
     <string name="text_alignment">Căn chỉnh văn bản</string>
     <string name="use_persian_calendar">Sử dụng lịch Ba Tư</string>
     <string name="blocking_type">Loại chặn</string>

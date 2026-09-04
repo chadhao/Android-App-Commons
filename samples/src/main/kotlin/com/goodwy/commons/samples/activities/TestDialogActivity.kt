@@ -22,7 +22,6 @@ import com.goodwy.commons.compose.alert_dialog.rememberAlertDialogState
 import com.goodwy.commons.compose.bottom_sheet.BottomSheetDialogState
 import com.goodwy.commons.compose.bottom_sheet.rememberBottomSheetDialogState
 import com.goodwy.commons.compose.extensions.config
-import com.goodwy.commons.compose.extensions.rateStarsRedirectAndThankYou
 import com.goodwy.commons.compose.theme.AppThemeSurface
 import com.goodwy.commons.dialogs.*
 import com.goodwy.commons.extensions.*
@@ -53,7 +52,6 @@ class TestDialogActivity : ComponentActivity() {
                     ShowButton(getColorPickerAlertDialogState(), text = "Color picker")
                     ShowButton(getCallConfirmationAlertDialogState(), text = "Call confirmation")
                     ShowButton(getChangeDateTimeFormatAlertDialogState(), text = "Change date time")
-                    ShowButton(getRateStarsAlertDialogState(), text = "Rate us")
                     ShowButton(getRadioGroupDialogAlertDialogState(), text = "Radio group")
                     ShowButton(getWhatsNewAlertDialogState(), text = "What's new")
                     ShowButton(getChangeViewTypeAlertDialogState(), text = "Change view type")
@@ -202,14 +200,6 @@ class TestDialogActivity : ComponentActivity() {
             }
         }
     }
-
-    @Composable
-    private fun getRateStarsAlertDialogState() = rememberAlertDialogState().apply {
-        DialogMember {
-            RateStarsAlertDialog(alertDialogState = this, onRating = ::rateStarsRedirectAndThankYou)
-        }
-    }
-
 
     @Composable
     private fun getChangeDateTimeFormatAlertDialogState() = rememberAlertDialogState().apply {

@@ -156,7 +156,6 @@ class CustomizationActivity : BaseSimpleActivity() {
         updateApplyToAllColors()
         updateHoldersColor()
 
-        setupPurchaseThankYou()
         updateAutoThemeFields()
         setupTopAppBarColorIcon()
         setupTopAppBarColorTitle()
@@ -1145,11 +1144,6 @@ class CustomizationActivity : BaseSimpleActivity() {
         updateApplyToAllColors()
     }
 
-    private fun setupPurchaseThankYou() {
-        binding.settingsPurchaseThankYouHolder.beGoneIf(isProVersion())
-        binding.settingsPurchaseThankYouHolder.onClick = { launchPurchase() }
-    }
-
     private fun launchPurchase() {
         startPurchaseActivity(
             stringsR.string.app_name_g,
@@ -1163,9 +1157,8 @@ class CustomizationActivity : BaseSimpleActivity() {
     }
 
     private fun shakePurchase() {
-        RxAnimation.from(binding.settingsPurchaseThankYouHolder)
-            .shake()
-            .subscribe()
+        // The purchase banner was removed for this build (foss-only, pro features unlocked),
+        // keep the no-op so existing "locked feature" call sites stay valid.
     }
 
     private fun setupTopAppBarColorIcon() {

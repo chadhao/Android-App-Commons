@@ -17,66 +17,14 @@
     <string name="end">End</string>
 
     <!-- Support project -->
-    <string name="rate_g">Arvostele</string>
-    <string name="action_support_project">Projektien tuki</string>
-    <string name="pref_pay_summary">Get the paid app to support future developments and extra features</string>
-    <string name="support_project_summary">Get one of our paid apps to support future development and unlock extra features</string>
     <string name="learn_more">Opi lisää</string>
     <string name="themes">Teemoja</string>
     <string name="themes_summary">"Huolellisesti valitut sovellusteemat, automaattinen teemanvaihtaja ja järjestelmäteeman tuki Android 12: lle "</string>
     <string name="color_title">Värit</string>
     <string name="color_summary">Päävärin, korostuksen, taustan, tekstin ja siirtymispalkin manuaalinen säätö</string>
-    <string name="plus_title">Tue meitä</string>
-    <string name="plus_summary">Avullasi voimme toteuttaa lisää ominaisuuksia ja tehdä sovelluksesta entistä paremman</string>
-    <string name="attention">Huomio</string>
-    <string name="attention_summary">Jos teit ostoksia vanhassa versiossamme tai tuit projektia muilla alustoilla, lähetä meille vahvistus sähköpostitse, niin yritämme lähettää sinulle tarjouskoodin.</string>
-    <string name="attention_dialog_summary">Saadaksesi kampanjakoodin sinun on lähetettävä todiste tuestasi projektille (kuvakaappaus Google Playsta tai muulta alustalta riittää). Kampanjakoodien määrä on rajoitettu. Lähetetäänkö todiste?</string>
-    <string name="about_summary">
-        <![CDATA[
-            <i>
-            Arvostamme aikaasi ja haluamme sinun nauttivan sovelluksestamme ilman mainoksia. Jos se on tuonut sinulle iloa ja hyötyä, harkitse lahjoittamista sen kehittämiseen. <br><br>
-            Arvosta kovaa työtämme ja jaa vaikutelmasi, se auttaa meitä toteuttamaan uusia ideoita ja tarjoamaan sinulle entistä upeampia ominaisuuksia.
-            </i>
-        ]]></string>
-    <string name="lifebuoy_title">Tuemme sinua</string>
-    <string name="lifebuoy_summary">Jos jostain syystä sinulla ei ole varaa sovellukseemme, mutta haluat todella käyttää kaikkia ominaisuuksia, lähetä meille sähköpostia</string>
     <string name="participants_title">Participants</string>
-    <string name="participants_subtitle"><![CDATA[
-Nämä ihmiset ovat osallistuneet avoimen lähdekoodin Right-projektiin GitHubissa,
-sekä Fossifyyn ja Simple Mobile Toolsiin, joihin pohjaudumme.<br><br>
-
-Kiitos kaikille avustajillemme, arvostamme suuresti apuanne &10084;&#65039;
-]]></string>
-    <string name="special_thanks_to">Special thanks to</string>
-    <string name="tip_kind">Hyvä tuki</string>
-    <string name="tip_excellent">Erinomainen tuki</string>
-    <string name="tip_incredible">Mahtava tuki</string>
-    <string name="tip_jar">Tuki</string>
-    <string name="any_support_unlock_all">Valitse käytettävissäsi olevan projektituen taso (kertaluonteinen, kuukausittainen tai vuosittainen). Mikä tahansa tuki avaa kaikki sovelluksen ominaisuudet</string>
-    <string name="one_time_purchase">Ühekordne tugi</string>
-    <string name="monthly">Kuukausittainen tuki</string>
-    <string name="yearly">Vuosittainen tuki</string>
-    <string name="unlock">Unlock</string>
-    <string name="donate_text_g">
-        <![CDATA[
-            For those who do not use Google Play, it is possible to unlock all functions of the application. <br>
-            If you like our apps which are offline, non-intrusive and have no ads, please consider supporting us in some way. We would be very grateful.<br><br>
-            Thank you!
-        ]]>
-    </string>
 
     <!--Billing-->
-    <string name="donate_text_no_gp_g"><![CDATA[
-            Ongelmien vuoksi emme voi tilapäisesti suorittaa maksuja Google Playn kautta,
-            joten tällä ajanjaksolla annamme kaikille käyttäjille mahdollisuuden avata manuaalisesti kaikki sovelluksen ominaisuudet. <br>
-            Jos pidät sovelluksistamme, jotka ovat offline-tilassa, ei-tunkeilevia ja joissa ei ole mainoksia,
-            Harkitse meidän tukemista jollain tavalla. Olisimme hyvin kiitollisia.<br><br>
-            Kiitos!
-        ]]></string>
-    <string name="restored_previous_purchase_please_restart">Restored previous purchase. Please restart the app to make use of all features.</string>
-    <string name="no_purchase_found">No purchase found.</string>
-    <string name="restore_purchase">Restore purchase</string>
-    <string name="restoring_purchase">Restoring purchase…</string>
 
     <string name="no_connection">Ei yhteyttä</string>
     <string name="per_month">%s/kuukausi</string>
@@ -121,7 +69,7 @@ Kiitos kaikille avustajillemme, arvostamme suuresti apuanne &10084;&#65039;
     <string name="open_search_when_open_contacts">Avaa haku, kun avaat Yhteystiedot-välilehden</string>
     <string name="end_search_when_changing_tab">Haun lopettaminen välilehtiä vaihdettaessa</string>
     <string name="change_top_bar_colour_when_scrolling">Yläpalkin värin muuttaminen vieritettäessä</string>
-    <string name="global_theme_success_g">Nykyistä teemaa on sovellettu onnistuneesti kaikkiin oikeisiin sovelluksiin. Kaikki tulevat muutokset tähän teemaan synkronoidaan automaattisesti</string>
+    <string name="global_theme_success_g">Nykyistä teemaa on sovellettu onnistuneesti kaikkiin Chad-sovelluksiin. Kaikki tulevat muutokset tähän teemaan synkronoidaan automaattisesti</string>
     <string name="enter_pattern">Syötä kuvio</string>
     <string name="call_screen_background">Puhelunäytön tausta</string>
     <string name="contact_photo">Kontaktin kuva</string>
@@ -180,50 +128,12 @@ Kiitos kaikille avustajillemme, arvostamme suuresti apuanne &10084;&#65039;
     <string name="swipe_width">Pyyhkäisyn leveys</string>
     <string name="auto_scroll">Automaattinen vieritys</string>
     <string name="hide_icons_in_menu">Piilota kuvakkeet valikossa</string>
-    <string name="purchase_simple_thank_you_g">Osta Goodwy Thank You</string>
-    <string name="copyright_g">v %1$s\nCopyright © Goodwy %2$d</string>
-    <string name="update_thank_you_g">Päivitä Goodwy Thank You viimeisimpään versioon</string>
-    <string name="faq_2_text_commons_g">
-         <![CDATA[
-        Tottakai. Voit kertoa ystävillesi sovelluksista ja antaa hyviä arvosteluja ja palautetta. Voit myös auttaa kääntämällä sovelluksen uudelle kielelle tai korjata käännösvirheitä.
-        Ohjeet löydät täältä https://github.com/Goodwy/Discussion , tai lähettämällä viestiä osoitteeseen goodwy.dev@gmail.com jos Sinulla on kysyttävää.
-        ]]>
-    </string>
-    <string name="faq_6_text_commons_g">Tämä ongelma ilmenee, kun käynnistysohjelma ei täysin tue kuvakkeiden mukauttamista. Yritä käynnistää sovellus Google Playn tai widgetin kautta, jos se on käytettävissä.         Palauta käynnistämisen jälkeen sovelluksen oletuskuvakkeen väri. Äärimmäisissä tapauksissa sovellus voi olla tarpeen asentaa uudelleen.</string>
-    <string name="faq_8_text_commons_g">Koska sovellusversiotasi ei enää päivitetä, et saa korjauksia mahdollisiin bugeihin etkä uusia ominaisuuksia. Voit ostaa Pro-version Google Playsta edullisesti.
-        Kyseessä on kertamaksu, joka tarkoittaa sitä, että oston jälkeen sinun ei koskaan enää tarvitse maksaa siitä. Ei edes uuden laitteen hankinnan jälkeen. Jos et pidä Pro-versiosta, voit poistaa sen muutaman tunnin kuluessa ja saat automaattisesti rahasi takaisin.
-        Jos haluat palauttaa myöhemmin. ota yhteyttä goodwy.dev@gmail.com ja maksusi palautetaan.</string>
     <string name="faq_100_title_commons_g">Mikä on yksityinen yhteydenotto?</string>
     <string name="faq_100_text_commons_g">Sovellukseen luodaan henkilökohtainen yhteystieto. Tämä yhteystieto ei näy muille sovelluksille (paitsi sovelluksillemme, joissa on käytössä erityisasetus).\n\nJos poistat sovelluksen, kaikki henkilökohtaiset yhteystiedot poistetaan sovelluksen mukana, joten varmuuskopioi yhteystietosi ennen sovelluksen poistamista.</string>
     <string name="faq_101_title_commons_g">How to create a private contact?</string>
     <string name="faq_101_text_commons_g">When you create a contact, you must select the source of the contact: %s</string>
-    <string name="contributors_label_g"><![CDATA[
-Tämä lista sisältää kaikki, jotka ovat merkittävästi auttaneet sovellustemme kehittämisessä. Käännökset hoitavat vapaaehtoiset,
-kerro meille, jos haluat sinäkin auttaa. Käännösopas löytyy <a href="https://github.com/Goodwy/Discussion">täältä verkkosivustolta</a> tai ota meihin yhteyttä osoitteessa <a href="mailto:goodwy.dev@gmail.com">goodwy.dev@gmail.com</a>, jos sinulla on kysyttävää.
-
-Kiitos kaikille avustajille ja muille tukijoille!
-]]></string>
-    <string name="deprecated_app_g">VANHENTUNUT:: Tätä sovellusversiota ei enää ylläpidetä, hanki Pro-versio osoitteesta https://play.google.com/store/apps/details?id=com.goodwy.xxx.pro</string>
-    <string name="pro_app_refund_g">Muista, että saat rahasi automaattisesti takaisin, jos poistat minkä tahansa maksullisista sovelluksistamme kahden tunnin sisällä asentamisesta. Jos haluat rahasi milloin vain myöhemmin takaisin, ota yhteyttä sähköpostitse goodwy.dev@gmail.com ja saat rahat takaisin. Tämä tekee kokeilun helpoksi :)</string>
 
     <!-- Contacts -->
-    <string name="notification_of_new_application"><![CDATA[
-<b><big>Tärkeitä uutisia ja uusi alku 🚀</big></b><br><br>
-
-Jatkuvien maksurajoitusten vuoksi meidän piti vaihtaa uudelle kehittäjätilille ja julkaista uusi versio varmistaaksemme sovelluksen tulevaisuuden.<br><br>
-
-Miksi päivittää uuteen versioon?<br>
-✨ Täysin muokattavissa oleva värivalinta – valitse mikä tahansa väri!<br>
-🎨 Raikkaat, modernit kuvakkeet<br>
-❤️ Mahdollisuus tukea projektia – nyt välttämätöntä sen kehitykselle.<br><br>
-
-Nykyinen sovelluksesi toimii edelleen ja saa päivityksiä.<br><br>
-
-<b>Kiitos luottamuksestasi ja tuestasi.</b><br><br>
-
-<small><i>Varhaisille tukijoillemme:<br>
-Jos olet aiemmin ostanut tämän sovelluksen tai tehnyt lahjoituksen, kiitos! Lähetä vahvistuksesi osoitteeseen help@goodwy.dev, niin teemme parhaamme tarjotaksemme sinulle uuden version alennuskoodin (niin kauan kuin tavaraa riittää).</i></small>
-]]></string>
     <string name="add_number">Lisää numero</string>
     <string name="add_email">Lisää sähköpostiosoite</string>
     <string name="add_address">Lisää osoite</string>
@@ -370,10 +280,6 @@ Jos olet aiemmin ostanut tämän sovelluksen tai tehnyt lahjoituksen, kiitos! L�
     <string name="relation_sister_in_law_g">Sister-in-law</string>
 
     <!-- RuStore -->
-    <string name="billing_purchase_confirm_in_progress">Confirming the purchase…</string>
-    <string name="billing_purchase_delete_in_progress">Deleting the purchase…</string>
-    <string name="billing_product_confirmed">Product confirmed/substantiated</string>
-    <string name="billing_product_deleted">Purchase canceled</string>
     <string name="billing_subscriptions">Tilaukset</string>
     <string name="billing_error_application_signature_not_correct">Maksaaksesi RuStoren kautta sinun on asennettava sovellusversio RuStoresta</string>
     <string name="date">Päivämäärä</string>
@@ -388,7 +294,6 @@ Jos olet aiemmin ostanut tämän sovelluksen tai tehnyt lahjoituksen, kiitos! L�
     <string name="disagree">Olen eri mieltä</string>
     <string name="height">Korkeus</string>
     <string name="select_color">Valitse väri</string>
-    <string name="more_apps_from_us_g">Lisää sovelluksia meiltä</string>
     <string name="text_alignment">Tekstin tasaus</string>
     <string name="use_persian_calendar">Käytä persialaista kalenteria</string>
     <string name="blocking_type">Estotyyppi</string>

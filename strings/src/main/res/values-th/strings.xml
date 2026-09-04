@@ -35,66 +35,14 @@
     <string name="end">สิ้นสุด</string>
 
     <!-- Support project -->
-    <string name="rate_g">ประเมิน</string>
-    <string name="action_support_project">การสนับสนุนโครงการ</string>
-    <string name="pref_pay_summary">Get the paid app to support future developments and extra features</string>
-    <string name="support_project_summary">Get one of our paid apps to support future development and unlock extra features</string>
     <string name="learn_more">ศึกษาเพิ่มเติม</string>
     <string name="themes">ธีม</string>
     <string name="themes_summary">ธีมแอปพลิเคชันที่เลือกอย่างระมัดระวังตัวเปลี่ยนธีมอัตโนมัติและการสนับสนุนธีมระบบสําหรับ Android 12+</string>
     <string name="color_title">ธง</string>
     <string name="color_summary">การปรับสีหลัก การเน้นเสียง พื้นหลัง ข้อความ และแถบนําทางด้วยตนเอง</string>
-    <string name="plus_title">สนับสนุนเรา</string>
-    <string name="plus_summary">ด้วยความช่วยเหลือของคุณเราสามารถใช้คุณสมบัติเพิ่มเติมและทําให้แอปพลิเคชันดียิ่งขึ้น</string>
-    <string name="attention">ความสนใจ</string>
-    <string name="attention_summary">หากคุณเคยซื้อสินค้าในเวอร์ชันเก่าของเรา หรือสนับสนุนโครงการผ่านแพลตฟอร์มอื่น โปรดส่งอีเมลยืนยันมาให้เรา และเราจะพยายามส่งรหัสโปรโมชั่นให้คุณ</string>
-    <string name="attention_dialog_summary">หากต้องการรับรหัสโปรโมชั่น คุณต้องส่งหลักฐานการสนับสนุนโครงการ (ภาพหน้าจอจาก Google Play หรือแพลตฟอร์มอื่นก็เพียงพอแล้ว) จำนวนรหัสโปรโมชั่นมีจำกัด ส่งหลักฐานแล้วหรือยัง?</string>
-    <string name="about_summary">
-        <![CDATA[
-            <i>
-            เราให้ความสําคัญกับเวลาของคุณและต้องการให้คุณเพลิดเพลินกับแอพของเราโดยไม่มีโฆษณา หากมันทําให้คุณมีความสุขและมีประโยชน์ให้พิจารณาบริจาคเพื่อการพัฒนา <br><br>
-            ชื่นชมการทํางานหนักของเราและแบ่งปันความประทับใจของคุณมันจะช่วยให้เราตระหนักถึงแนวคิดใหม่ ๆ และนําเสนอคุณสมบัติที่น่าทึ่งยิ่งขึ้น
-            </i>
-        ]]></string>
-    <string name="lifebuoy_title">เราจะสนับสนุนคุณ</string>
-    <string name="lifebuoy_summary">หากด้วยเหตุผลบางอย่างที่คุณไม่สามารถซื้อแอพของเรา ได้ แต่ต้องการใช้คุณสมบัติทั้งหมดเพียงส่งอีเมลถึงเรา</string>
     <string name="participants_title">Participants</string>
-    <string name="participants_subtitle"><![CDATA[
-บุคคลเหล่านี้มีส่วนร่วมในโครงการโอเพนซอร์ส Right บน GitHub
-รวมถึง Fossify และ Simple Mobile Tools ซึ่งเป็นฐานการดำเนินงานของเรา<br><br>
-
-ขอขอบคุณผู้ร่วมสนับสนุนทุกท่าน เราซาบซึ้งในความช่วยเหลือของคุณอย่างยิ่ง &#10084;&#65039;
-]]></string>
-    <string name="special_thanks_to">Special thanks to</string>
-    <string name="tip_kind">การสนับสนุนที่ดี</string>
-    <string name="tip_excellent">การสนับสนุนที่ยอดเยี่ยม</string>
-    <string name="tip_incredible">การสนับสนุนที่ยอดเยี่ยม</string>
-    <string name="tip_jar">สนับสนุน</string>
-    <string name="any_support_unlock_all">เลือกระดับการสนับสนุนโครงการที่มีให้คุณ (ครั้งเดียว รายเดือน หรือรายปี) การสนับสนุนใด ๆ จะปลดล็อกคุณสมบัติทั้งหมดของแอพ</string>
-    <string name="one_time_purchase">การสนับสนุนครั้งเดียว</string>
-    <string name="monthly">การสนับสนุนรายเดือน</string>
-    <string name="yearly">การสนับสนุนประจําปี</string>
-    <string name="unlock">Unlock</string>
-    <string name="donate_text_g">
-        <![CDATA[
-            For those who do not use Google Play, it is possible to unlock all functions of the application. <br>
-            If you like our apps which are offline, non-intrusive and have no ads, please consider supporting us in some way. We would be very grateful.<br><br>
-            Thank you!
-        ]]>
-    </string>
 
     <!--Billing-->
-    <string name="donate_text_no_gp_g"><![CDATA[
-เนื่องจากปัญหาต่างๆ เราจึงไม่สามารถชำระเงินผ่าน Google Play ได้ชั่วคราว
-ดังนั้นในช่วงเวลานี้ เราจึงให้ผู้ใช้ทุกคนสามารถปลดล็อกฟีเจอร์ทั้งหมดของแอปได้ด้วยตนเอง<br>
-หากคุณชื่นชอบแอปของเราที่ใช้งานได้แบบออฟไลน์ ไม่รบกวนการใช้งาน และไม่มีโฆษณา
-โปรดพิจารณาสนับสนุนเราในรูปแบบใดรูปแบบหนึ่ง เราจะรู้สึกขอบคุณเป็นอย่างยิ่ง<br><br>
-ขอบคุณ!
-]]></string>
-    <string name="restored_previous_purchase_please_restart">Restored previous purchase. Please restart the app to make use of all features.</string>
-    <string name="no_purchase_found">No purchase found.</string>
-    <string name="restore_purchase">Restore purchase</string>
-    <string name="restoring_purchase">Restoring purchase…</string>
 
     <string name="no_connection">ไม่มีการเชื่อมต่อ</string>
     <string name="per_month">%s/เดือน</string>
@@ -138,7 +86,7 @@
     <string name="open_search_when_open_contacts">เปิดการค้นหาเมื่อคุณเปิดแท็บที่ติดต่อ</string>
     <string name="end_search_when_changing_tab">สิ้นสุดการค้นหาเมื่อเปลี่ยนแท็บ</string>
     <string name="change_top_bar_colour_when_scrolling">เปลี่ยนสีแถบด้านบนเมื่อเลื่อน</string>
-    <string name="global_theme_success_g">ธีมปัจจุบันถูกนําไปใช้กับแอพที่ถูกต้องทั้งหมดเรียบร้อยแล้ว การเปลี่ยนแปลงในอนาคตของธีมนี้จะถูกซิงค์โดยอัตโนมัติ</string>
+    <string name="global_theme_success_g">ธีมปัจจุบันถูกนําไปใช้กับแอพ Chadทั้งหมดเรียบร้อยแล้ว การเปลี่ยนแปลงในอนาคตของธีมนี้จะถูกซิงค์โดยอัตโนมัติ</string>
     <string name="enter_pattern">ป้อนรูปแบบ</string>
     <string name="call_screen_background">พื้นหลังหน้าจอการโทร</string>
     <string name="contact_photo">รูปภาพติดต่อ</string>
@@ -182,54 +130,12 @@
     <string name="swipe_width">ความกว้างของการปัด</string>
     <string name="auto_scroll">เลื่อนอัตโนมัติ</string>
     <string name="hide_icons_in_menu">ซ่อนไอคอนในเมนู</string>
-    <string name="purchase_simple_thank_you_g">Purchase Goodwy Thank You</string>
-    <string name="copyright_g">v %1$s\nCopyright © Goodwy %2$d</string>
-    <string name="update_thank_you_g">Please update Goodwy Thank You to the latest version</string>
-    <string name="faq_2_text_commons_g">
-        <![CDATA[
-            Yes, of course. You can spread the word about the apps or give good feedback and ratings. You can also help by translating the apps in a new language, or just update some existing translations.
-        You can find the guide at <a href="https://github.com/Goodwy/Discussion">this website</a>, or just shoot me a message at <a href="mailto:goodwy.dev@gmail.com">goodwy.dev@gmail.com</a> if you need help.
-        ]]>
-    </string>
-    <string name="faq_6_text_commons_g">ปัญหานี้เกิดขึ้นเมื่อตัวเรียกใช้งานของคุณไม่รองรับการปรับแต่งไอคอนอย่างเต็มที่ ลองเปิดแอปผ่าน Google Play หรือวิดเจ็ต หากสามารถเข้าถึงได้         หลังจากเปิดใช้งาน ให้คืนค่าสีไอคอนแอปเริ่มต้น ในกรณีที่รุนแรง อาจจําเป็นต้องติดตั้งแอปใหม่</string>
-    <string name="faq_8_text_commons_g">As your app version is no longer updated, the bugs you have maybe spotted will never be fixed. There will also be no new functions added. You can purchase the Pro version on Google Play for a small sum of money.
-        It is a one time payment, which means that once you purchase it, you will never have to pay again. Not even after getting a new device. If you won\'t like the Pro version, you can just uninstall it within a few hours and you will automatically get your money back.
-        If you want a refund anytime later, just contact us at goodwy.dev@gmail.com and you will get it.</string>
     <string name="faq_100_title_commons_g">การติดต่อส่วนตัวคืออะไร?</string>
     <string name="faq_100_text_commons_g">แอปจะสร้างรายชื่อติดต่อส่วนตัวขึ้นมา รายชื่อติดต่อนี้จะไม่ปรากฏให้เห็นในแอปอื่นๆ (ยกเว้นแอปของเราที่มีการตั้งค่าพิเศษเปิดใช้งานอยู่)\nหากคุณลบแอป รายชื่อติดต่อส่วนตัวทั้งหมดจะถูกลบไปพร้อมกับแอป ดังนั้นโปรดสำรองข้อมูลรายชื่อติดต่อของคุณก่อนลบแอป</string>
     <string name="faq_101_title_commons_g">How to create a private contact?</string>
     <string name="faq_101_text_commons_g">When you create a contact, you must select the source of the contact: %s</string>
-    <string name="contributors_label_g"><![CDATA[
-รายการนี้ประกอบด้วยทุกคนที่ให้ความช่วยเหลือแอปพลิเคชันของเราอย่างเห็นได้ชัด การแปลดำเนินการโดยอาสาสมัคร
-โปรดแจ้งให้เราทราบหากคุณต้องการความช่วยเหลือเช่นกัน คู่มือการแปลอยู่ที่ <a href="https://github.com/Goodwy/Discussion">เว็บไซต์นี้</a> หรือติดต่อเราได้ที่ <a href="mailto:goodwy.dev@gmail.com">goodwy.dev@gmail.com</a> หากคุณมีคำถามใดๆ
-ขอขอบคุณผู้ร่วมให้ข้อมูลและผู้สนับสนุนทุกท่าน!
-]]></string>
-    <string name="deprecated_app_g">DEPRECATED: This version of the app is no longer maintained, get the Pro version at https://play.google.com/store/apps/details?id=com.goodwy.xxx.pro</string>
-    <string name="pro_app_refund_g">Don\'t forget that if you uninstall any paid app within 2 hours, you will automatically be refunded. If you want a refund anytime later, just contact us at goodwy.dev@gmail.com and you will get it. That makes it easy to try it out :)</string>
 
     <!-- Contacts -->
-    <string name="notification_of_new_application"><![CDATA[
-
-<b><big>ข่าวสำคัญและการเริ่มต้นใหม่ 🚀</big></b><br><br>
-
-เนื่องจากข้อจำกัดด้านการชำระเงินที่ยังคงมีอยู่ เราจึงต้องเปลี่ยนไปใช้บัญชีนักพัฒนาใหม่และปล่อยเวอร์ชันใหม่เพื่อให้มั่นใจถึงอนาคตของแอป<br><br>
-
-ทำไมต้องอัปเกรดเป็นเวอร์ชันใหม่?<br>
-
-✨ เลือกสีได้ตามใจชอบ!<br>
-
-🎨 ไอคอนใหม่ ทันสมัย<br>
-
-❤️ โอกาสในการสนับสนุนโครงการ — ซึ่งตอนนี้มีความสำคัญต่อการพัฒนา<br><br>
-
-แอปปัจจุบันของคุณจะยังคงใช้งานได้และได้รับการอัปเดตต่อไป<br><br>
-
-<b>ขอขอบคุณสำหรับความไว้วางใจและการสนับสนุนของคุณ</b><br><br>
-
-<small><i>สำหรับผู้สนับสนุนในช่วงแรก:<br>
-หากคุณเคยซื้อแอปนี้หรือบริจาคเงิน ขอขอบคุณ! ส่งอีเมลยืนยันของคุณไปที่ help@goodwy.dev แล้วเราจะพยายามอย่างเต็มที่เพื่อมอบรหัสโปรโมชั่นสำหรับเวอร์ชันใหม่ให้คุณ (จนกว่าสินค้าจะหมด)
-
-]]></string>
     <string name="add_number">เพิ่มหมายเลข</string>
     <string name="add_email">เพิ่มอีเมล</string>
     <string name="add_address">เพิ่มที่อยู่</string>
@@ -376,10 +282,6 @@
     <string name="relation_sister_in_law_g">Sister-in-law</string>
 
     <!-- RuStore -->
-    <string name="billing_purchase_confirm_in_progress">Confirming the purchase…</string>
-    <string name="billing_purchase_delete_in_progress">Deleting the purchase…</string>
-    <string name="billing_product_confirmed">Product confirmed/substantiated</string>
-    <string name="billing_product_deleted">Purchase canceled</string>
     <string name="billing_subscriptions">การสมัครสมาชิก</string>
     <string name="billing_error_application_signature_not_correct">หากต้องการชำระเงินผ่าน RuStore คุณต้องติดตั้งแอปเวอร์ชันจาก RuStore</string>
     <string name="date">วันที่</string>
@@ -395,7 +297,6 @@
     <string name="disagree">ฉันไม่เห็นด้วย</string>
     <string name="height">ความสูง</string>
     <string name="select_color">เลือกสี</string>
-    <string name="more_apps_from_us_g">แอปเพิ่มเติมจากเรา</string>
     <string name="use_persian_calendar">ใช้ปฏิทินเปอร์เซีย</string>
     <string name="blocking_type">ประเภทการบล็อค</string>
     <string name="blocking_type_do_not_reject">อย่าปฏิเสธ</string>

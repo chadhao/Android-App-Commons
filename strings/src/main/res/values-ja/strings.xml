@@ -17,65 +17,14 @@
     <string name="end">終了</string>
 
     <!-- Support project -->
-    <string name="rate_g">評価する</string>
-    <string name="action_support_project">プロジェクト支援</string>
-    <string name="pref_pay_summary">Get the paid app to support future developments and extra features</string>
-    <string name="support_project_summary">Get one of our paid apps to support future development and unlock extra features</string>
     <string name="learn_more">詳細情報</string>
     <string name="themes">テーマ</string>
     <string name="themes_summary">厳選されたアプリケーションテーマ、自動テーマチェンジャー、Android 12+のシステムテーマのサポート</string>
     <string name="color_title">色</string>
     <string name="color_summary">原色、アクセント、背景、テキスト、ナビゲーションバーの手動調整</string>
-    <string name="plus_title">私たちをサポートしてください</string>
-    <string name="plus_summary">あなたの助けを借りて、私たちはより多くの機能を実装し、アプリケーションをさらに良くすることができます</string>
-    <string name="attention">注意</string>
-    <string name="attention_summary">以前のバージョンでご購入いただいた場合、または他のプラットフォームでプロジェクトをサポートしていた場合は、メールで確認をお送りください。プロモーション コードをお送りします。</string>
-    <string name="attention_dialog_summary">プロモーションコードを受け取るには、プロジェクトへの支援を証明する書類（Google Playまたは他のプラットフォームのスクリーンショットで結構です）をお送りいただく必要があります。プロモーションコードの数には限りがございますので、証明書を送信しますか？</string>
-    <string name="about_summary">
-        <![CDATA[
-            <i>
-            私たちはあなたの時間を大切にし、あなたが広告なしで私たちのアプリを楽しむことを望んでいます。それがあなたに喜びと有用性をもたらしたならば、その開発に寄付することを検討してください。<br><br>
-            私たちの努力に感謝し、あなたの印象を共有してください、それは私たちが新しいアイデアを実現し、あなたにさらに素晴らしい機能を提供するのに役立ちます。
-            </i>
-        ]]></string>
-    <string name="lifebuoy_title">私たちはあなたをサポートします</string>
-    <string name="lifebuoy_summary">何らかの理由で私たちのアプリを買う余裕がないが、本当にすべての機能を使用したい場合は、メールでお問い合わせください</string>
     <string name="participants_title">Participants</string>
-    <string name="participants_subtitle"><![CDATA[
-これらの方々は、GitHub 上のオープンソースプロジェクト Right に加え、私たちの基盤となっている Fossify と Simple Mobile Tools にも貢献してくださっています。<br><br>
-
-貢献していただいた皆様に深く感謝申し上げます。皆様のご支援に深く感謝いたします &#10084;&#65039;
-]]></string>
-    <string name="special_thanks_to">Special thanks to</string>
-    <string name="tip_kind">良いサポート</string>
-    <string name="tip_excellent">優れたサポート</string>
-    <string name="tip_incredible">素晴らしいサポート</string>
-    <string name="tip_jar">支える</string>
-    <string name="any_support_unlock_all">利用可能なプロジェクトサポートのレベル(1回限り、月間、または年間)を選択します。任意のサポートは、アプリのすべての機能のロックを解除します</string>
-    <string name="one_time_purchase">1回限りのサポート</string>
-    <string name="monthly">月次サポート</string>
-    <string name="yearly">年間サポート</string>
-    <string name="unlock">Unlock</string>
-    <string name="donate_text_g">
-        <![CDATA[
-            For those who do not use Google Play, it is possible to unlock all functions of the application. <br>
-            If you like our apps which are offline, non-intrusive and have no ads, please consider supporting us in some way. We would be very grateful.<br><br>
-            Thank you!
-        ]]>
-    </string>
 
     <!--Billing-->
-    <string name="donate_text_no_gp_g"><![CDATA[
-現在、問題が発生しているため、Google Play でのお支払いが一時的にご利用いただけません。
-そのため、この期間中はすべてのユーザーにアプリの全機能を手動でロック解除するオプションを提供しています。<br>
-オフラインで邪魔にならず、広告も表示されない当社のアプリを気に入っていただけましたら、
-ぜひ何らかの形でサポートをご検討ください。大変ありがたく存じます。<br><br>
-ありがとうございます！
-]]></string>
-    <string name="restored_previous_purchase_please_restart">Restored previous purchase. Please restart the app to make use of all features.</string>
-    <string name="no_purchase_found">No purchase found.</string>
-    <string name="restore_purchase">Restore purchase</string>
-    <string name="restoring_purchase">Restoring purchase…</string>
 
     <string name="no_connection">接続なし</string>
     <string name="per_month">%s/月</string>
@@ -120,7 +69,7 @@
     <string name="open_search_when_open_contacts">[連絡先] タブを開くと検索を開く</string>
     <string name="end_search_when_changing_tab">タブの変更時に検索を終了する</string>
     <string name="change_top_bar_colour_when_scrolling">スクロール時のトップバーの色の変更</string>
-    <string name="global_theme_success_g">現在のテーマは、すべてのRight Appsに正常に適用されています。このテーマに対する今後の変更は、自動的に同期されます</string>
+    <string name="global_theme_success_g">現在のテーマは、すべてのChad Appsに正常に適用されています。このテーマに対する今後の変更は、自動的に同期されます</string>
     <string name="enter_pattern">パターンを入力してください</string>
     <string name="call_screen_background">通話画面の背景</string>
     <string name="contact_photo">連絡先写真</string>
@@ -179,50 +128,12 @@
     <string name="swipe_width">スワイプ幅</string>
     <string name="auto_scroll">自動スクロール</string>
     <string name="hide_icons_in_menu">メニューのアイコンを非表示にする</string>
-    <string name="purchase_simple_thank_you_g">Goodwy Thank Youを購入</string>
-    <string name="copyright_g">v %1$s\nCopyright © Goodwy %2$d</string>
-    <string name="update_thank_you_g">\"Goodwy Thank You\" アプリを最新版に更新してください</string>
-    <string name="faq_2_text_commons_g">
-        <![CDATA[
-        もちろんです。アプリについての良い口コミや、良いフィードバックや評価も支援になります。翻訳や、翻訳のチェックも支援になります。
-        こちらのWEBアドレスからガイドをご覧ください。https://github.com/Goodwy/Discussion もしくは、こちらのメールアドレスにお問い合わせください。goodwy.dev@gmail.com　
-        ]]>
-    </string>
-    <string name="faq_6_text_commons_g">この問題は、ランチャーがアイコンのカスタマイズを完全にサポートしていない場合に発生します。Google Play またはウィジェット(アクセス可能な場合)からアプリの起動を試みます。        起動後、デフォルトのアプリアイコンの色に戻します。極端な場合、アプリの再インストールが必要になる場合があります。</string>
-    <string name="faq_8_text_commons_g">アプリのバージョンが更新されないので、アプリのバグが発見されても修復されません。新しい機能も追加されません。Pro版はGoogle Playで少額で販売されています。
-        1回のみのお支払いとなりますので、一度購入されるとその後はお支払いいただく必要がなくなります。機種の変更を行った場合も同じです。Pro版がお好みでなかったら、購入して数時間以内にアンインストールすれば自動的に返金されます。
-        それよりもあとに払い戻しが必要な場合はこちらにご連絡ください。goodwy.dev@gmail.com</string>
     <string name="faq_100_title_commons_g">プライベートコンタクトとは何ですか？</string>
     <string name="faq_100_text_commons_g">アプリ内に個人連絡先が作成されます。この連絡先は他のアプリには表示されません（特別な設定が有効になっている弊社アプリを除く）。\nアプリを削除すると、アプリと共にすべての個人連絡先も削除されますので、アプリを削除する前に連絡先をバックアップしてください。</string>
     <string name="faq_101_title_commons_g">How to create a private contact?</string>
     <string name="faq_101_text_commons_g">When you create a contact, you must select the source of the contact: %s</string>
-    <string name="contributors_label_g"><![CDATA[
-このリストには、私たちのアプリケーションに多大な貢献をしてくださった皆様が含まれています。翻訳はボランティアによって行われています。
-あなたも協力したい場合はお知らせください。翻訳ガイドは<a href="https://github.com/Goodwy/Discussion">こちらのウェブサイト</a>に掲載されています。ご質問がある場合は、<a href="mailto:goodwy.dev@gmail.com">goodwy.dev@gmail.com</a>までお問い合わせください。
-貢献者の皆様と支援者の皆様に感謝申し上げます。
-]]></string>
-    <string name="deprecated_app_g">非推奨: このバージョンのアプリはメンテナンスが行われなくなります。こちらのURLからPro版を入手してください。https://play.google.com/store/apps/details?id=com.goodwy.xxx.pro</string>
-    <string name="pro_app_refund_g">どのアプリでも、購入後２時間以内にアンインストールすると自動的に払い戻しされることを覚えていてください。それ以降に払い戻しが必要な場合は、こちらにお問い合わせください。goodwy.dev@gmail.com
-お試ししやすいかと思います :)</string>
 
     <!-- Contacts -->
-    <string name="notification_of_new_application"><![CDATA[
-<b><big>重要なお知らせと新たなスタート 🚀</big></b><br><br>
-
-現在も支払い制限が続いているため、アプリの将来を確実にするため、新しい開発者アカウントに切り替え、新バージョンをリリースする必要がありました。<br><br>
-
-新バージョンにアップグレードする理由<br>
-✨ 色を完全にカスタマイズ可能 — お好きな色をお選びください！<br>
-🎨 新鮮でモダンなアイコン<br>
-❤️ プロジェクトを支援する機会 — 今や開発に不可欠です。<br><br>
-
-現在のアプリは引き続き機能し、アップデートを受け取ることができます。<br><br>
-
-<b>皆様のご信頼とご支援に感謝いたします。</b><br><br>
-
-<small><i>早期支援者の皆様へ:<br>
-以前このアプリをご購入いただいた方、または寄付をいただいた方、ありがとうございます！確認のご連絡を help@goodwy.dev までお送りください。新バージョンのプロモーションコードをできる限りご提供いたします（在庫がなくなり次第終了）。</i></small>
-]]></string>
     <string name="add_number">番号を追加する</string>
     <string name="add_email">電子メールを追加する</string>
     <string name="add_address">住所を追加する</string>
@@ -369,10 +280,6 @@
     <string name="relation_sister_in_law_g">Sister-in-law</string>
 
     <!-- RuStore -->
-    <string name="billing_purchase_confirm_in_progress">Confirming the purchase…</string>
-    <string name="billing_purchase_delete_in_progress">Deleting the purchase…</string>
-    <string name="billing_product_confirmed">Product confirmed/substantiated</string>
-    <string name="billing_product_deleted">Purchase canceled</string>
     <string name="billing_subscriptions">購読</string>
     <string name="billing_error_application_signature_not_correct">RuStoreで支払うには、RuStoreのアプリバージョンをインストールする必要があります。</string>
     <string name="date">日付</string>
@@ -387,7 +294,6 @@
     <string name="disagree">私は同意しません</string>
     <string name="height">身長</string>
     <string name="select_color">色を選択</string>
-    <string name="more_apps_from_us_g">当社の他のアプリ</string>
     <string name="text_alignment">テキストの配置</string>
     <string name="use_persian_calendar">ペルシャ暦を使用する</string>
     <string name="blocking_type">ブロッキングタイプ</string>
