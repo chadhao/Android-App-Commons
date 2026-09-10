@@ -72,9 +72,9 @@ jobs:
           if ! ./gradlew :commons:assembleFossRelease :strings:assembleRelease \
             --no-daemon 2>&1 | tee /tmp/gradle-build.log; then
             echo "::error::gradle build failed; error context:"
-            grep -m1 -A6 -E "FAILURE|What went wrong|Caused by|error:|Exception|> Task .* FAILED" /tmp/gradle-build.log | while IFS= read -r L; do [ -n "$L" ] && echo "::error::$L"; done
+            grep -nE "^e: |error:|Unresolved|unresolved|> Task .* FAILED|Compilation error" /tmp/gradle-build.log | head -25 | while IFS= read -r L; do [ -n "$L" ] && echo "::error::$L"; done
             echo "::error::tail of log:"
-            tail -n 60 /tmp/gradle-build.log | while IFS= read -r L; do [ -n "$L" ] && echo "::error::$L"; done
+            tail -n 30 /tmp/gradle-build.log | while IFS= read -r L; do [ -n "$L" ] && echo "::error::$L"; done
             exit 1
           fi
 
