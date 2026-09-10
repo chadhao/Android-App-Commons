@@ -1,0 +1,130 @@
+# Publish Commons AARs — 依赖发布链路改造（方案A·自建发布）
+#
+# 目标:
+#   1) fork（chadhao/Android-App-Commons 自主仓）新提交推 main 后自动构建
+#      :commons:assembleFossRelease 与 :strings:assembleRelease,产出 AAR;
+#   2) 以 commit SHA 命名资产,发布 GitHub Release（tag=commons-aar-<短SHA>）;
+#   3) Phone 仓下载 AAR 放入 app/libs/ 即完成入库,替代失效的 JITPack chadhao 坐标。
+#
+# 产物命名（P1-2,一一对应可追溯）:
+#   commons-foss-<短SHA>.aar / strings-<短SHA>.aar / checksums-<短SHA>.sha256
+#
+# 权限: 本 workflow 需 contents: write（public repo 默认可用）。
+#       若仓库 Settings -> Actions -> General -> Workflow permissions 不是
+#       "Read and write",Release 创建将失败;此时 workflow 显式报错(不静默),
+#       且 AAR 已上传为 workflow artifact 可人工取件。
+#
+# 注意: jitpack.yml 保留(不再被 chadhao 坐标消费,不删除,避免破坏 fork 语义);
+#       本 workflow 不 push 任何 maven 仓库、不依赖 JITPack。
+
+name: Publish Commons AARs
+
+on:
+  push:
+    branches: [main]          # fork 新提交 -> 自动发布
+  workflow_dispatch:          # P1-1: 手工指定 ref（默认 main HEAD）
+    inputs:
+      ref:
+        description: 'Commit SHA / branch to build (default: main HEAD)'
+        required: false
+        default: ''
+
+permissions:
+  contents: write             # public repo 默认即可建 Release;若受限见上方说明
+
+jobs:
+  publish:
+    name: Build & publish commons-foss + strings AARs
+    runs-on: ubuntu-latest
+    steps:
+      - name: Resolve ref
+        id: ref
+        run: |
+          REF="${{ github.event.inputs.ref }}"
+          [ -z "$REF" ] && REF="$GITHUB_SHA"
+          echo "ref=$REF" >> "$GITHUB_OUTPUT"
+
+      - name: Checkout
+        uses: actions/checkout@v7
+        with:
+          ref: ${{ steps.ref.outputs.ref }}
+          fetch-depth: 0
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v6
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Set up Gradle
+        uses: gradle/actions/setup-gradle@v4
+
+      - name: Prepare Android SDK (licenses + platform 37)
+        run: |
+          yes | sdkmanager --licenses >/dev/null 2>&1 || true
+          sdkmanager "platforms;android-37" >/dev/null 2>&1 || true
+
+      # shell 为 bash -e,显式 pipefail 防止 gradle 失败被 tee 吞掉(曾致全线假绿)。
+      - name: Build AARs (commons-foss + strings)
+        id: build
+        run: |
+          set -o pipefail
+          ./gradlew :commons:assembleFossRelease :strings:assembleRelease \
+            --no-daemon 2>&1 | tee /tmp/gradle-build.log
+
+      - name: Collect & rename (commit-SHA naming) + checksum
+        id: collect
+        run: |
+          SHA="$(git rev-parse --short=8 "${{ steps.ref.outputs.ref }}")"
+          echo "sha=$SHA" >> "$GITHUB_OUTPUT"
+          mkdir -p dist
+          cp commons/build/outputs/aar/commons-foss-release.aar "dist/commons-foss-${SHA}.aar"
+          cp strings/build/outputs/aar/strings-release.aar     "dist/strings-${SHA}.aar"
+          (cd dist && sha256sum *.aar > "checksums-${SHA}.sha256")
+          ls -la dist
+
+      - name: Verify AAR inputs (exist / non-empty / naming / zip magic)
+        run: |
+          bash .github/scripts/verify-aar-inputs.sh "${{ steps.collect.outputs.sha }}" dist
+
+      - name: Upload AARs artifact (保险;Release 失败时也可取件)
+        uses: actions/upload-artifact@v4
+        with:
+          name: commons-aars-${{ steps.collect.outputs.sha }}
+          path: dist/*
+          if-no-files-found: error
+
+      - name: Publish GitHub Release (idempotent create-or-edit)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          SHA="${{ steps.collect.outputs.sha }}"
+          TAG="commons-aar-${SHA}"
+          NOTES="Auto build of ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/commit/${SHA}"
+          cd dist
+          if gh release view "$TAG" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            gh release edit "$TAG" --repo "$GITHUB_REPOSITORY" \
+              --title "Commons AAR $SHA" --notes "$NOTES" \
+              "commons-foss-${SHA}.aar" "strings-${SHA}.aar" "checksums-${SHA}.sha256"
+          else
+            gh release create "$TAG" "commons-foss-${SHA}.aar" "strings-${SHA}.aar" \
+              "checksums-${SHA}.sha256" --repo "$GITHUB_REPOSITORY" \
+              --title "Commons AAR $SHA" --notes "$NOTES"
+          fi
+
+      # Release 创建失败时的显式失败 + 降级提示（P1-3 / 开放问题 2,避免静默）
+      - name: Release-failure fallback (explicit)
+        if: failure() && steps.collect.outcome == 'success'
+        run: |
+          echo "::error::GitHub Release 创建失败(常见原因: 仓库 Actions 权限非 Read and write)。"
+          echo "::error::AAR 已上传为 workflow artifact: commons-aars-${{ steps.collect.outputs.sha }}"
+          echo "::error::修复: repo Settings -> Actions -> General -> Workflow permissions -> Read and write 后重跑。"
+          exit 1
+
+      - name: Upload gradle log on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: gradle-build-log
+          path: /tmp/gradle-*.log
+          if-no-files-found: ignore
